@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>windows on  LeeHorizon </title>
+    <link>http://example.org/tags/windows/</link>
+    <description>Recent content in windows on  LeeHorizon </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Sep 2019 00:05:01 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>常用软件公司官网及常用下载网站分享</title>
+      <link>http://example.org/posts/%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E5%85%AC%E5%8F%B8%E5%AE%98%E7%BD%91%E5%8F%8A%E5%B8%B8%E7%94%A8%E4%B8%8B%E8%BD%BD%E7%BD%91%E7%AB%99/</link>
+      <pubDate>Sun, 15 Sep 2019 00:05:01 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E5%85%AC%E5%8F%B8%E5%AE%98%E7%BD%91%E5%8F%8A%E5%B8%B8%E7%94%A8%E4%B8%8B%E8%BD%BD%E7%BD%91%E7%AB%99/</guid>
+      <description>&lt;p&gt;在搜索引擎搜索软件是，一不小心会被带伪装效果的广告链接所骗，下载到不安全带有木马的程序，对电脑伤极大，本文提供一个找软件公司官方的便捷导航及一些我用着还不错的相对而言还不错的下载网站。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>使Windows支持HFS&#43;APFS格式的硬盘</title>
+      <link>http://example.org/posts/hfs-for-windows/</link>
+      <pubDate>Wed, 10 Apr 2019 00:30:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/hfs-for-windows/</guid>
+      <description>&lt;p&gt;在电脑同时安装了macOS和Windows这两个系统的时候，我们会遇到在其中一个系统中不能有效访问、读取、写入另一个系统硬盘文件的情况，下面通过这两个工具实现在Windows系统中读写Apfs以及HFS+这两种格式的硬盘。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何隐藏文件资源管理器中的快速启动？</title>
+      <link>http://example.org/posts/%E5%A6%82%E4%BD%95%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E7%9A%84%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E5%A6%82%E4%BD%95%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E7%9A%84%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8/</guid>
+      <description>&lt;p&gt;Windows10给用户的文件资源管理器中带来了一些文件夹的快速启动，但有些人觉得这并没有带来什么便利，反而喜欢以前简洁的感觉，下面来看看应该如何操作吧将其隐藏。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Adobe CC 2019&amp;2018 安装镜像官方下载</title>
+      <link>http://example.org/posts/creative-cloud-20192018-apps/</link>
+      <pubDate>Wed, 27 Mar 2019 00:05:01 +0000</pubDate>
+      
+      <guid>http://example.org/posts/creative-cloud-20192018-apps/</guid>
+      <description>&lt;p&gt;在安装Adobe的时候，由于国内的网络原因，下载速度慢且极不稳定，会报各种错，所以列出AdobeCC 2019以及2018官方安装镜像，以上都是官方提供的下载链接，无毒无害。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>AutoCAD 2009-2016 安装镜像官方下载</title>
+      <link>http://example.org/posts/%E5%8E%86%E5%B9%B4%E6%9D%A5autocad%E5%AE%89%E8%A3%85%E9%95%9C%E5%83%8F%E5%AE%98%E6%96%B9%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/</link>
+      <pubDate>Tue, 26 Mar 2019 00:05:01 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E5%8E%86%E5%B9%B4%E6%9D%A5autocad%E5%AE%89%E8%A3%85%E9%95%9C%E5%83%8F%E5%AE%98%E6%96%B9%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/</guid>
+      <description>&lt;p&gt;由于国内下载软件的环境对新手小白并不友好，经常容易受到误导下载到绑定了各种恶意软件的安装包，一不小心就容易对电脑造成危害，所以列出Autodesk官方提供的历年来AutoCAD安装镜像下载链接，供大家下载。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>简易Windows系统安装教程</title>
+      <link>http://example.org/posts/%E7%AE%80%E6%98%93windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Thu, 07 Mar 2019 00:05:01 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E7%AE%80%E6%98%93windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</guid>
+      <description>&lt;p&gt;当小白在遇到各种各样无法解决的问题时，最直接也最高效的解决方法就是重装操作系统，这几乎是使用电脑必备的能力，如果你还没掌握，就一起来学习一下吧。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
