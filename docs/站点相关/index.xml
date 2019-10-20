@@ -9,27 +9,5 @@
 	<atom:link href="https://leejiawang.github.io/docs/%E7%AB%99%E7%82%B9%E7%9B%B8%E5%85%B3/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>关于本站</title>
-      <link>https://leejiawang.github.io/docs/%E7%AB%99%E7%82%B9%E7%9B%B8%E5%85%B3/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://leejiawang.github.io/docs/%E7%AB%99%E7%82%B9%E7%9B%B8%E5%85%B3/about/</guid>
-      <description>  简述 Contact 联系方式 Contact 个人邮箱 leejiawang@live.com   个人微信   群聊讨论   公众号 (开通中...)     更多内容和资源请扫码与我取得联系、参与讨论。
-  Github github.com/leejiawang 博客 leeyjiawang.github.io 视频 space.bilibili.com/404306443 微信 Jarwom LeeyinChina  版权声明 Copyright 本站基于HUGO博客框架搭建，在Alex Shpak的Hugo-Book主题上进行二次开发，托管于GitHub Pages。   
-&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp  Copyright © 2019 世佳  </description>
-    </item>
-    
-    <item>
-      <title>样式模板代码</title>
-      <link>https://leejiawang.github.io/docs/%E7%AB%99%E7%82%B9%E7%9B%B8%E5%85%B3/example/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://leejiawang.github.io/docs/%E7%AB%99%E7%82%B9%E7%9B%B8%E5%85%B3/example/</guid>
-      <description>按钮（Buttons） Buttons are styled links that can lead to local page or external link.
-{{&amp;lt; button relref=&amp;quot;/&amp;quot; [class=&amp;quot;...&amp;quot;] &amp;gt;}}Get Home{{&amp;lt; /button &amp;gt;}} {{&amp;lt; button href=&amp;quot;https://github.com/alex-shpak/hugo-book&amp;quot; &amp;gt;}}Contribute{{&amp;lt; /button &amp;gt;}}   预览   Get Home  Contribute  列（Columns） Columns help organize shorter pieces of content horizontally for readability.
-{{&amp;lt; columns &amp;gt;}} &amp;lt;!-- begin columns block --&amp;gt; # Left Content Lorem markdownum insigne... &amp;lt;---&amp;gt; &amp;lt;!-- magic sparator, between columns --&amp;gt; # Mid Content Lorem markdownum insigne.</description>
-    </item>
-    
   </channel>
 </rss>

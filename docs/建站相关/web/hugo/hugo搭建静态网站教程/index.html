@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="Hugo建站教程" />
+<meta property="og:description" content="HUGO搭建静态网站教程 第1步 安装HUGO框架  首先根据自己的系统参照下述方法安装hugo博客框架。
+ macOS   macOS操作系统下直接使用Homebrew安装，在终端中输入如下代码：
+brew install hugo  注意
+执行此操作前请确保macOS安装有Homebrew。    Windows   在Hugo Releases下载对应操作系统的Hugo安装文件，执行安装。     安装完Hugo后，在终端中输入如下代码验证安装：
+ hugo version  第2步 生成网站  在终端中输入如下代码生成网页。
+ hugo new site test  提示
+代码中test是所创建的网站文件夹名称，由用户自定义，以下网站名均由test代指。  第3步 网站配置(套用主题)  进入网站根目录
+ cd test   安装Git（用于下载主题）
+ git init   在主题商店中选择自己喜欢的主题，查看其Github仓库地址，使用如下代克隆主题至本地。 Hugo官方主题商店地址：themes.gohugo.io
+ git clone https://github.com/XXXXX/XXXX themes/XXXX  提示" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://leejiawang.github.io/docs/%E5%BB%BA%E7%AB%99%E7%9B%B8%E5%85%B3/web/hugo/hugo%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E6%95%99%E7%A8%8B/" />
+
+<title>Hugo建站教程 | ⭕️ HorizonPrinciple</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.1b994bd28c6ce2255f069b6bf6837b4d396307637fc48d61dcb2a6caac26e031.css" integrity="sha256-G5lL0oxs4iVfBptr9oN7TTljB2N/xI1h3LKmyqwm4DE=">
+
+
+<script defer src="/search.min.3990518daa3bf36b0de842b9d2e83faffc90b07634800feeb7c6072dd0a8aaef.js" integrity="sha256-OZBRjao782sN6EK50ug/r/yQsHY0gA/ut8YHLdCoqu8="></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav>
+<h2 class="book-brand">
+  <a href="https://leejiawang.github.io/"><span>⭕️ HorizonPrinciple</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" placeholder="Search" id="book-search-input" maxlength="64" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+    
+
+  
+  
+
+
+
+
+
+ 
+  
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        
+
+  <li  class="book-section-flat" >
+    
+      
+
+  <a href="/docs/copyright/" >
+      版权声明
+  </a>
+
+
+    
+
+    
+
+
+
+
+  
+  <ul>
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li  class="book-section-flat" >
+    
+      <span>站点相关</span>
+    
+
+    
+
+
+
+
+  
+  <ul>
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li  class="book-section-flat" >
+    
+      <span>建站相关</span>
+    
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        
+
+  <li >
+    
+      
+
+  <a href="/docs/%E5%BB%BA%E7%AB%99%E7%9B%B8%E5%85%B3/web/hugo/" >
+      Hugo
+  </a>
+
+
+    
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  <a href="/docs/%E5%BB%BA%E7%AB%99%E7%9B%B8%E5%85%B3/web/hugo/hugo%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E6%95%99%E7%A8%8B/"  class="active">
+      Hugo建站教程
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/docs/%E5%BB%BA%E7%AB%99%E7%9B%B8%E5%85%B3/web/hugo/hugo-book%E4%B8%BB%E9%A2%98/" >
+      Hugo-Book主题
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/docs/%E5%BB%BA%E7%AB%99%E7%9B%B8%E5%85%B3/web/hugo/example/" >
+      样式模板代码
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/docs/%E5%BB%BA%E7%AB%99%E7%9B%B8%E5%85%B3/web/hugo/hugo%E7%9B%B8%E5%85%B3%E9%93%BE%E6%8E%A5/" >
+      Hugo相关链接
+  </a>
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li >
+    
+      
+
+  <a href="/docs/%E5%BB%BA%E7%AB%99%E7%9B%B8%E5%85%B3/web/hexo/" >
+      Hexo
+  </a>
+
+
+    
+
+    
+
+
+
+
+
+
+  </li>
+
+
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li  class="book-section-flat" >
+    
+      
+
+  <a href="/docs/about/" >
+      关于本站
+  </a>
+
+
+    
+
+    
+
+
+
+
+  
+  <ul>
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+  </ul>
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+<script>
+(function() {
+  var menu = document.querySelector("aside.book-menu nav");
+  addEventListener("beforeunload", function(event) {
+    localStorage.setItem("menu.scrollTop", menu.scrollTop);
+  });
+  menu.scrollTop = localStorage.getItem("menu.scrollTop");
+})();
+</script>
+
+    </aside>
+
+    <div class="book-page">
+      <header class="flex align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" alt="Menu" />
+  </label>
+  <strong>Hugo建站教程</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="hugo搭建静态网站教程"><strong>HUGO搭建静态网站教程</strong></h1>
+
+<h2 id="第1步-安装hugo框架"><strong>第1步 安装HUGO框架</strong></h2>
+
+<blockquote>
+<p>首先根据自己的系统参照下述方法安装hugo博客框架。</p>
+</blockquote>
+
+
+
+
+
+<div class="book-tabs">
+
+  <input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-0" checked="checked" />
+  <label for="tabs-uniqueid-0">
+    macOS
+  </label>
+  <div class="book-tabs-content markdown-inner">
+    <ul>
+<li><p>macOS操作系统下直接使用<code>Homebrew</code>安装，在终端中输入如下代码：</p>
+
+<pre><code>brew install hugo
+</code></pre>
+
+<blockquote class="book-hint warning">
+<strong>注意</strong><br />
+执行此操作前请确保macOS安装有<a href="https://brew.sh">Homebrew</a>。
+</blockquote></li>
+</ul>
+
+  </div>
+
+  <input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-1"  />
+  <label for="tabs-uniqueid-1">
+    Windows
+  </label>
+  <div class="book-tabs-content markdown-inner">
+    <ul>
+<li>在<a href="https://github.com/gohugoio/hugo/releases">Hugo Releases</a>下载对应操作系统的Hugo安装文件，执行安装。</li>
+</ul>
+  </div>
+
+</div>
+
+
+<blockquote>
+<p>安装完Hugo后，在终端中输入如下代码验证安装：</p>
+</blockquote>
+
+<pre><code>hugo version
+</code></pre>
+
+<h2 id="第2步-生成网站"><strong>第2步 生成网站</strong></h2>
+
+<blockquote>
+<p>在终端中输入如下代码生成网页。</p>
+</blockquote>
+
+<pre><code>hugo new site test
+</code></pre>
+
+<blockquote class="book-hint info">
+  <strong>提示</strong><br />
+代码中<code>test</code>是所创建的网站文件夹名称，由用户自定义，以下网站名均由<code>test</code>代指。
+</blockquote>
+
+
+<h2 id="第3步-网站配置-套用主题"><strong>第3步 网站配置(套用主题)</strong></h2>
+
+<blockquote>
+<p>进入网站根目录</p>
+</blockquote>
+
+<pre><code>cd test
+</code></pre>
+
+<blockquote>
+<p>安装<code>Git</code>（用于下载主题）</p>
+</blockquote>
+
+<pre><code>git init
+</code></pre>
+
+<blockquote>
+<p>在<code>主题商店</code>中选择自己喜欢的主题，查看其Github仓库地址，使用如下代克隆主题至本地。
+ Hugo官方主题商店地址：<a href="https://themes.gohugo.io/"><code>themes.gohugo.io</code></a></p>
+</blockquote>
+
+<pre><code>git clone https://github.com/XXXXX/XXXX themes/XXXX
+</code></pre>
+
+<blockquote class="book-hint info">
+  <strong>提示</strong><br />
+代码中网址为主题Github仓库地址，<code>XXXX</code>为主题文件夹名称。
+</blockquote>
+
+
+<blockquote>
+<p>编辑网站根目录中<code>config.toml</code>文件，添加代码<code>theme = &quot;XXXX&quot;</code>以确认所使用的主题。</p>
+</blockquote>
+
+<ul>
+<li><p><code>config.toml</code>默认格式如下</p>
+
+<pre><code>baseURL = &quot;https://example.org/&quot;
+languageCode = &quot;en-us&quot;
+title = &quot;test&quot;
+theme = &quot;XXXX&quot;
+</code></pre></li>
+</ul>
+
+<h2 id="第4步-添加页面"><strong>第4步 添加页面</strong></h2>
+
+<blockquote>
+<p>添加新页面，页面内容采用<code>Markdown</code>格式。</p>
+</blockquote>
+
+<pre><code>hugo new posts/my-first-post.md
+</code></pre>
+
+<ul>
+<li><p>页面默认格式如下</p>
+
+<pre><code>---
+title: &quot;My First Post&quot;
+date: 2019-10-20T00:00:00+01:00
+draft: true
+---
+</code></pre></li>
+</ul>
+
+<blockquote class="book-hint info">
+  <strong>提示</strong><br />
+代码中<code>my-first-post</code>为Markdown页面文件名，<code>title: &quot;My First Post&quot;</code>所写内容才是网站显示的标题，页面格式根据主题不同略有不同，详见主题描述。
+</blockquote>
+
+
+<h2 id="第5步-运行网站"><strong>第5步 运行网站</strong></h2>
+
+<blockquote>
+<p>完成上述操作后，可在终端中输入如下代码运行网站。</p>
+</blockquote>
+
+<pre><code>hugo server -D
+</code></pre>
+
+<ul>
+<li>浏览器访问<a href="http://localhost:1313/"><code>http://localhost:1313/</code></a>预览效果。你可在预览的同时对网站进行编辑，网页将会实时展示修改后的效果，如果出现刷新问题可通过<code>Ctrl+R</code>进行强制刷新。</li>
+</ul>
+
+<h2 id="第6步-生成静态网页"><strong>第6步 生成静态网页</strong></h2>
+
+<blockquote>
+<p>在终端中输入如下代码生成静态网页。</p>
+</blockquote>
+
+<pre><code>hugo
+</code></pre>
+
+<blockquote class="book-hint info">
+  <strong>提示</strong><br />
+以上命令并不会生成草稿页面，需要生成的页面请去掉页面头部的 draft: true。
+</blockquote>
+
+
+<ul>
+<li>默认情况下生成的文件会输出到<code>test/public/</code>目录下，你可将改文件夹部署到服务器以实现远程访问，也可使用本文第7步所说的方法。</li>
+</ul>
+
+<h2 id="第7步-部署-github-pages"><strong>第7步 部署 Github Pages</strong></h2>
+
+<p>本文所使用的Github Pages并非部署网页的唯一提供商，你也可以使用<code>Coding</code>、<code>Gitee</code>等。
+<blockquote class="book-hint warning">
+  <strong>注意</strong><br />
+执行此操作前请确保拥有Github账号，并创建一个以<code>XXX.github.io</code>命名的空仓库。(其中<code>XXX</code>为你的Github用户名)
+</blockquote>
+</p>
+
+<blockquote>
+<p>在终端中输入如下代码生成最终页面。</p>
+</blockquote>
+
+<pre><code>hugo --theme=XXXX --baseUrl=&quot;http://XXX.github.io/&quot;
+</code></pre>
+
+<blockquote>
+<p>在终端中输入下列代码将最终页面部署到Github Pages。</p>
+</blockquote>
+
+<pre><code>cd public
+git init
+git remote add origin https://github.com/XXX/XXX.github.io.git
+git add -A
+git commit -m &quot;first commit&quot;
+git push -u origin master
+</code></pre>
+
+<ul>
+<li>浏览器输入<code>http://XXX.github.io/</code>实现远程访问。</li>
+</ul>
+
+<div>&nbsp&nbsp&nbsp&nbsp</div>
+
+<div align="center">  
+<h5>MIT Licensed | Copyright © 2019 <strong>世佳</strong></h5>
+</div>
+</article>
+
+      
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc level-3 fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#hugo搭建静态网站教程"><strong>HUGO搭建静态网站教程</strong></a>
+<ul>
+<li><a href="#第1步-安装hugo框架"><strong>第1步 安装HUGO框架</strong></a></li>
+<li><a href="#第2步-生成网站"><strong>第2步 生成网站</strong></a></li>
+<li><a href="#第3步-网站配置-套用主题"><strong>第3步 网站配置(套用主题)</strong></a></li>
+<li><a href="#第4步-添加页面"><strong>第4步 添加页面</strong></a></li>
+<li><a href="#第5步-运行网站"><strong>第5步 运行网站</strong></a></li>
+<li><a href="#第6步-生成静态网页"><strong>第6步 生成静态网页</strong></a></li>
+<li><a href="#第7步-部署-github-pages"><strong>第7步 部署 Github Pages</strong></a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+
+  
+</body>
+
+</html>

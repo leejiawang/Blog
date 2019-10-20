@@ -3,31 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://leejiawang.github.io/docs/example/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/example/table-of-contents/with-toc/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/%E7%AB%99%E7%82%B9%E7%9B%B8%E5%85%B3/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/%E7%AB%99%E7%82%B9%E7%9B%B8%E5%85%B3/example/</loc>
-  </url>
-  
-  <url>
     <loc>https://leejiawang.github.io/docs/copyright/</loc>
   </url>
   
   <url>
-    <loc>https://leejiawang.github.io/docs/example/table-of-contents/without-toc/</loc>
+    <loc>https://leejiawang.github.io/docs/%E7%AB%99%E7%82%B9%E7%9B%B8%E5%85%B3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://leejiawang.github.io/docs/%E5%BB%BA%E7%AB%99%E7%9B%B8%E5%85%B3/web/hugo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://leejiawang.github.io/docs/%E5%BB%BA%E7%AB%99%E7%9B%B8%E5%85%B3/web/hugo/hugo%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E6%95%99%E7%A8%8B/</loc>
+  </url>
+  
+  <url>
+    <loc>https://leejiawang.github.io/docs/%E5%BB%BA%E7%AB%99%E7%9B%B8%E5%85%B3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://leejiawang.github.io/docs/%E5%BB%BA%E7%AB%99%E7%9B%B8%E5%85%B3/web/hexo/</loc>
   </url>
   
   <url>
@@ -38,6 +34,22 @@
   <url>
     <loc>https://leejiawang.github.io/posts/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leejiawang.github.io/docs/%E5%BB%BA%E7%AB%99%E7%9B%B8%E5%85%B3/web/hugo/hugo-book%E4%B8%BB%E9%A2%98/</loc>
+  </url>
+  
+  <url>
+    <loc>https://leejiawang.github.io/docs/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://leejiawang.github.io/docs/%E5%BB%BA%E7%AB%99%E7%9B%B8%E5%85%B3/web/hugo/example/</loc>
+  </url>
+  
+  <url>
+    <loc>https://leejiawang.github.io/docs/%E5%BB%BA%E7%AB%99%E7%9B%B8%E5%85%B3/web/hugo/hugo%E7%9B%B8%E5%85%B3%E9%93%BE%E6%8E%A5/</loc>
   </url>
   
   <url>
@@ -56,30 +68,8 @@
   </url>
   
   <url>
-    <loc>https://leejiawang.github.io/docs/example/hidden/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/example/table-of-contents/3rd/4th/5th/</loc>
+    <loc>https://leejiawang.github.io/docs/%E5%BB%BA%E7%AB%99%E7%9B%B8%E5%85%B3/web/hexo/hexo%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/example/table-of-contents/3rd/4th/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/example/table-of-contents/3rd/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/example/table-of-contents/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/%E7%AB%99%E7%82%B9%E7%9B%B8%E5%85%B3/</loc>
   </url>
   
   <url>
