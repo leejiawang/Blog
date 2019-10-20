@@ -3,110 +3,87 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/docs/example/</loc>
+    <loc>https://leejiawang.github.io/docs/example/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/docs/example/table-of-contents/with-toc/</loc>
+    <loc>https://leejiawang.github.io/docs/example/table-of-contents/with-toc/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/docs/about/</loc>
+    <loc>https://leejiawang.github.io/docs/about/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/docs/example/table-of-contents/without-toc/</loc>
+    <loc>https://leejiawang.github.io/docs/%E7%AB%99%E7%82%B9%E7%9B%B8%E5%85%B3/about/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/posts/</loc>
+    <loc>https://leejiawang.github.io/docs/%E7%AB%99%E7%82%B9%E7%9B%B8%E5%85%B3/example/</loc>
+  </url>
+  
+  <url>
+    <loc>https://leejiawang.github.io/docs/copyright/</loc>
+  </url>
+  
+  <url>
+    <loc>https://leejiawang.github.io/docs/example/table-of-contents/without-toc/</loc>
+  </url>
+  
+  <url>
+    <loc>https://leejiawang.github.io/posts/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/migrate-from-jekyll/</loc>
+    <loc>https://leejiawang.github.io/posts/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/goisforlovers/</loc>
+    <loc>https://leejiawang.github.io/posts/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/hugoisforlovers/</loc>
+    <loc>https://leejiawang.github.io/posts/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://leejiawang.github.io/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/docs/example/hidden/</loc>
+    <loc>https://leejiawang.github.io/docs/example/hidden/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/docs/example/table-of-contents/3rd/4th/5th/</loc>
+    <loc>https://leejiawang.github.io/docs/example/table-of-contents/3rd/4th/5th/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/docs/example/table-of-contents/3rd/4th/</loc>
+    <loc>https://leejiawang.github.io/docs/example/table-of-contents/3rd/4th/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/docs/example/table-of-contents/3rd/</loc>
+    <loc>https://leejiawang.github.io/docs/example/table-of-contents/3rd/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/docs/example/table-of-contents/</loc>
+    <loc>https://leejiawang.github.io/docs/example/table-of-contents/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/docs/shortcodes/</loc>
+    <loc>https://leejiawang.github.io/docs/%E7%AB%99%E7%82%B9%E7%9B%B8%E5%85%B3/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/docs/shortcodes/buttons/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/docs/shortcodes/columns/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/docs/shortcodes/expand/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/docs/shortcodes/hints/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/docs/shortcodes/katex/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/docs/shortcodes/mermaid/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/docs/shortcodes/tabs/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/docs/</loc>
+    <loc>https://leejiawang.github.io/docs/</loc>
   </url>
   
 </urlset>
