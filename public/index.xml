@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on ⭕️ HorizonPrinciple</title>
+    <link>https://leejiawang.github.io/</link>
+    <description>Recent content in Introduction on ⭕️ HorizonPrinciple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://leejiawang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo建站教程</title>
+      <link>https://leejiawang.github.io/docs/web/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leejiawang.github.io/docs/web/hugo/</guid>
+      <description>Hugo搭建静态网站简易教程 Hugo是由Go语言实现的静态网站生成器，简单、易用、高效、易扩展、快速部署。
+Hugo官网 Hugo主题 Hugo中文 Hugo仓库
+    本站即为Hugo博客框架搭建，使用了Hugo-Book主题。  第1步 安装Hugo框架  首先根据自己的系统参照下述方法安装hugo博客框架。
+ macOS 🔥   macOS操作系统下直接使用Homebrew安装，在终端中输入如下代码：
+brew install hugo  ⚠️ 注意
+执行此操作前请确保macOS安装有Homebrew。    Windows   在Hugo Releases下载最新发布对应操作系统的ZIP，将所有内容提取到C:\Hugo\bin目录中，包含可执行文件hugo.exe、LICENSE和README.md。
+ 然后将Hugo添加到Windows的PATH设置中。
+ 右键单击开始按钮 单击系统 单击左侧的高级系统设置 单击底部的环境变量...按钮 在用户变量部分中找到以PATH开头的行（PATH全部大写） 双击PATH 单击新建…按钮 键入C:\Hugo\bin，完成输入后按Enter 在每个窗口中单击确定退出    Linux   Linux操作系统下直接使用Homebrew安装，在终端中输入如下代码:
+brew install hugo  ⚠️ 注意
+执行此操作前请确保linux安装有Homebrew。    OpenBSD   OpenBSD通过pkg_add添加Hugo的软件包：</description>
+    </item>
+    
+    <item>
+      <title>资源分享</title>
+      <link>https://leejiawang.github.io/docs/navigation/download/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leejiawang.github.io/docs/navigation/download/</guid>
+      <description>写在前面🙋🏻‍♂️ 由于国内下载软件的环境对新手小白并不友好，经常容易受到误导下载到绑定了各种恶意软件的安装包，一不小心就容易对电脑造成危害，所以列出部分常用软件下载链接，供大家下载。
+⚠️ 声明
+本页面提供下载链接均来自其发布官网，仅供学习和研究使用，不得用于任何商业用途 ，如本站不慎侵犯你的版权请联系我们，本站将及时处理，并撤下相关内容！  📦 Autodesk AutoCAD  💿含2009-2016下载链接 🇨🇳🇺🇸支持语言
+    软件版本 安装镜像 序列号 密钥     AutoCAD 2016 Win32 Win64 666-69696969 001H1   AutoCAD 2015 Win32 Win64 666-69696969 001G1   AutoCAD 2014 Win32 Win64 666-69696969 001F1   AutoCAD 2013 Win32 Win64 666-69696969 001E1   AutoCAD 2012 Win32 Win64 359-23589418 001D1   AutoCAD 2011 Win32 Win64 356-72378422 001C1   AutoCAD 2010 Win32 Win64 356-72378422 001B1   AutoCAD 2009 Win32 Win64 666-69696969 ‌无     ▫️ 上表链接均来自产品官网 www.</description>
+    </item>
+    
+    <item>
+      <title>小技巧</title>
+      <link>https://leejiawang.github.io/docs/navigation/tutorial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leejiawang.github.io/docs/navigation/tutorial/</guid>
+      <description> 写在前面🙋🏻‍♂️ 由于国内下载软件的环境对新手小白并不友好，经常容易受到误导下载到绑定了各种恶意软件的安装包，一不小心就容易对电脑造成危害，所以列出部分常用软件下载链接，供大家下载。
+⚠️ 声明
+本页面提供下载链接均来自其发布官网，仅供学习和研究使用，不得用于任何商业用途 ，如本站不慎侵犯你的版权请联系我们，本站将及时处理，并撤下相关内容！  资源分享 📦 Autodesk AutoCAD  💿含2009-2016下载链接 🇨🇳🇺🇸支持语言
+    软件版本 安装镜像 序列号 密钥     AutoCAD 2016 Win32 Win64 666-69696969 001H1     ▫️ 上表链接均来自产品官网 www.autodesk.com &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp 👨🏻‍💻 持续更新中...  &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp MIT Licensed | Copyright © 2019 世佳  </description>
+    </item>
+    
+    <item>
+      <title>页面推荐</title>
+      <link>https://leejiawang.github.io/docs/navigation/recommend/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leejiawang.github.io/docs/navigation/recommend/</guid>
+      <description>写在前面🙋🏻‍♂️ 在搜索引擎搜索软件是，一不小心会被带伪装效果的广告链接所骗，下载到不安全带有木马的程序，对电脑伤极大，本文提供一个找软件公司官方的便捷导航及一些我用着还不错的相对而言还不错的下载网站。
+⚠️ 声明
+本页面提供的网址均为官方发布的网站，其网站内容与本站无关。  💡 部分著名软件企业官网  官网
+    组织名称 代表产品 主营领域 公司主页     Adobe Photoshop, After Effects 创意 adobe.com   Autodesk AutoCAD, 3ds Max, Maya 工程 autodesk.com   Microsoft Windwos, Office 效率 microsoft.com   Corel CorelDraw, 会声会影 创意 corel.com   WinRAR WinRAR 压缩 winrar.com   vmware Workstation Pro 虚拟机 vmware.com   WinRAR WinRAR 压缩 winrar.</description>
+    </item>
+    
+    <item>
+      <title>Migrate to Hugo from Jekyll</title>
+      <link>https://leejiawang.github.io/docs/posts/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://leejiawang.github.io/docs/posts/migrate-from-jekyll/</guid>
+      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>主题样式模板</title>
+      <link>https://leejiawang.github.io/docs/web/hugo-book/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leejiawang.github.io/docs/web/hugo-book/</guid>
+      <description>主题样式代码模板 ⚠️ 注意
+本页面展示效果为 Hugo-Book主题，由Alex Shpak开发，配置请详见主题仓库README。  按钮（Buttons） Buttons are styled links that can lead to local page or external link.
+{{&amp;lt; button relref=&amp;quot;/&amp;quot; [class=&amp;quot;...&amp;quot;] &amp;gt;}}Get Home{{&amp;lt; /button &amp;gt;}} {{&amp;lt; button href=&amp;quot;https://github.com/alex-shpak/hugo-book&amp;quot; &amp;gt;}}Contribute{{&amp;lt; /button &amp;gt;}}   预览   Get Home  Contribute  分列（Columns） Columns help organize shorter pieces of content horizontally for readability.
+{{&amp;lt; columns &amp;gt;}} &amp;lt;!-- begin columns block --&amp;gt; # Left Content Lorem markdownum insigne.</description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>https://leejiawang.github.io/docs/posts/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://leejiawang.github.io/docs/posts/goisforlovers/</guid>
+      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
+This document is a brief primer on using Go templates.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://leejiawang.github.io/docs/posts/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://leejiawang.github.io/docs/posts/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+    </item>
+    
+  </channel>
+</rss>

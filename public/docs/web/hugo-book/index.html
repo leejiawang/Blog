@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="主题样式模板" />
+<meta property="og:description" content="主题样式代码模板 ⚠️ 注意
+本页面展示效果为 Hugo-Book主题，由Alex Shpak开发，配置请详见主题仓库README。  按钮（Buttons） Buttons are styled links that can lead to local page or external link.
+{{&lt; button relref=&quot;/&quot; [class=&quot;...&quot;] &gt;}}Get Home{{&lt; /button &gt;}} {{&lt; button href=&quot;https://github.com/alex-shpak/hugo-book&quot; &gt;}}Contribute{{&lt; /button &gt;}}   预览   Get Home  Contribute  分列（Columns） Columns help organize shorter pieces of content horizontally for readability.
+{{&lt; columns &gt;}} &lt;!-- begin columns block --&gt; # Left Content Lorem markdownum insigne." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://leejiawang.github.io/docs/web/hugo-book/" />
+
+<title>主题样式模板 | ⭕️ HorizonPrinciple</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.1b994bd28c6ce2255f069b6bf6837b4d396307637fc48d61dcb2a6caac26e031.css" integrity="sha256-G5lL0oxs4iVfBptr9oN7TTljB2N/xI1h3LKmyqwm4DE=">
+
+
+<script defer src="/search.min.3a2967d6df1a05ad1be5ac0a00c37cac01e3889b5edce955c2eb1cd912dbaca0.js" integrity="sha256-Oiln1t8aBa0b5awKAMN8rAHjiJte3OlVwusc2RLbrKA="></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav>
+<h2 class="book-brand">
+  <a href="https://leejiawang.github.io/"><span>⭕️ HorizonPrinciple</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" placeholder="Search" id="book-search-input" maxlength="64" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+    
+
+  
+  
+
+
+
+
+
+ 
+  
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        
+
+  <li  class="book-section-flat" >
+    
+      
+
+  <a href="/docs/navigation/" >
+      导航
+  </a>
+
+
+    
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  <a href="/docs/navigation/download/" >
+      资源分享
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/docs/navigation/tutorial/" >
+      小技巧
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/docs/navigation/recommend/" >
+      页面推荐
+  </a>
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li  class="book-section-flat" >
+    
+      <span>Web</span>
+    
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  <a href="/docs/web/hugo/" >
+      Hugo建站教程
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/docs/web/hugo-book/"  class="active">
+      主题样式模板
+  </a>
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li >
+    
+      
+
+  <a href="/docs/posts/" >
+      Creating a New Theme
+  </a>
+
+
+    
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  <a href="/docs/posts/migrate-from-jekyll/" >
+      Migrate to Hugo from Jekyll
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/docs/posts/goisforlovers/" >
+      (Hu)go Template Primer
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/docs/posts/hugoisforlovers/" >
+      Getting Started with Hugo
+  </a>
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li  class="book-section-flat" >
+    
+      
+
+  <a href="/docs/about/" >
+      关于本站
+  </a>
+
+
+    
+
+    
+
+
+
+
+  
+  <ul>
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+  </ul>
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+<script>
+(function() {
+  var menu = document.querySelector("aside.book-menu nav");
+  addEventListener("beforeunload", function(event) {
+    localStorage.setItem("menu.scrollTop", menu.scrollTop);
+  });
+  menu.scrollTop = localStorage.getItem("menu.scrollTop");
+})();
+</script>
+
+    </aside>
+
+    <div class="book-page">
+      <header class="flex align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" alt="Menu" />
+  </label>
+  <strong>主题样式模板</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="主题样式代码模板"><strong>主题样式代码模板</strong></h1>
+
+<blockquote class="book-hint warning">
+  <strong>⚠️ 注意</strong><br />
+本页面展示效果为 <a href="https://github.com/alex-shpak/hugo-book"><code>Hugo-Book</code></a>主题，由<a href="https://github.com/alex-shpa"><code>Alex Shpak</code></a>开发，配置请详见主题仓库<code>README</code>。
+</blockquote>
+
+
+<h2 id="按钮-buttons"><strong>按钮</strong>（Buttons）</h2>
+
+<p>Buttons are styled links that can lead to local page or external link.</p>
+
+<pre><code class="language-tpl">{{&lt; button relref=&quot;/&quot; [class=&quot;...&quot;] &gt;}}Get Home{{&lt; /button &gt;}}
+{{&lt; button href=&quot;https://github.com/alex-shpak/hugo-book&quot; &gt;}}Contribute{{&lt; /button &gt;}}
+</code></pre>
+
+<ul>
+<li>预览</li>
+</ul>
+
+<p>
+
+
+
+  
+
+<a  href="/"   class="book-btn">
+  Get Home
+</a>
+
+
+
+
+  
+  
+
+
+<a  href="https://github.com/alex-shpak/hugo-book"   target="_blank"  class="book-btn">
+  Contribute
+</a>
+</p>
+
+<h2 id="分列-columns"><strong>分列</strong>（Columns）</h2>
+
+<p>Columns help organize shorter pieces of content horizontally for readability.</p>
+
+<pre><code class="language-html">{{&lt; columns &gt;}} &lt;!-- begin columns block --&gt;
+# Left Content
+Lorem markdownum insigne...
+
+&lt;---&gt; &lt;!-- magic sparator, between columns --&gt;
+
+# Mid Content
+Lorem markdownum insigne...
+
+&lt;---&gt; &lt;!-- magic sparator, between columns --&gt;
+
+# Right Content
+Lorem markdownum insigne...
+{{&lt; /columns &gt;}}
+</code></pre>
+
+<ul>
+<li>预览</li>
+</ul>
+
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <h3 id="left-content">Left Content</h3>
+
+<p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui <em>quid</em>, ignes.
+Miseratus fonte Ditis conubia.
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <h3 id="mid-content">Mid Content</h3>
+
+<p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter!
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <h3 id="right-content">Right Content</h3>
+
+<p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui <em>quid</em>, ignes.
+Miseratus fonte Ditis conubia.
+  </div>
+  
+</div>
+
+
+<h2 id="隐藏内容-expand"><strong>隐藏内容</strong>（Expand）</h2>
+
+<p>Expand shortcode can help to decrease clutter on screen by hiding part of text. Expand content by clicking on it.</p>
+
+<ul>
+<li><p>预览1</p>
+
+<pre><code class="language-tpl">{{&lt; expand &gt;}}
+## Markdown content
+Lorem markdownum insigne...
+{{&lt; /expand &gt;}}
+</code></pre></li>
+</ul>
+
+<div class="book-expand">
+  <label>
+    <div class="book-expand-head flex justify-between">
+      <span>Expand</span>
+      <span>↕</span>
+    </div>
+    <input type="checkbox" class="hidden" />
+    <div class="book-expand-content markdown-inner">
+      <h2 id="markdown-content">Markdown content</h2>
+
+<p>Lorem markdownum insigne&hellip;
+    </div>
+  </label>
+</div>
+
+
+<ul>
+<li><p>预览2</p>
+
+<pre><code class="language-tpl">{{&lt; expand &quot;Custom Label&quot; &quot;...&quot; &gt;}}
+## Markdown content
+Lorem markdownum insigne...
+{{&lt; /expand &gt;}}
+</code></pre></li>
+</ul>
+
+<div class="book-expand">
+  <label>
+    <div class="book-expand-head flex justify-between">
+      <span>Custom Label</span>
+      <span>...</span>
+    </div>
+    <input type="checkbox" class="hidden" />
+    <div class="book-expand-content markdown-inner">
+      <h2 id="markdown-content">Markdown content</h2>
+
+<p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui <em>quid</em>, ignes.
+Miseratus fonte Ditis conubia.
+    </div>
+  </label>
+</div>
+
+
+<h2 id="高亮显示-hints"><strong>高亮显示</strong>（Hints）</h2>
+
+<p>Hint shortcode can be used as hint/alerts/notification block.<br />
+There are 3 colors to choose: <code>info</code>, <code>warning</code> and <code>danger</code>.</p>
+
+<pre><code class="language-tpl">{{&lt; hint [info|warning|danger] &gt;}}
+**Markdown content**  
+Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+{{&lt; /hint &gt;}}
+</code></pre>
+
+<ul>
+<li>预览</li>
+</ul>
+
+<blockquote class="book-hint info">
+  <strong>Markdown content</strong><br />
+Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+</blockquote>
+
+
+<blockquote class="book-hint warning">
+  <strong>Markdown content</strong><br />
+Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+</blockquote>
+
+
+<blockquote class="book-hint danger">
+  <strong>Markdown content</strong><br />
+Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+</blockquote>
+
+
+<h2 id="数学公式-katex"><strong>数学公式</strong>（KaTeX）</h2>
+
+<p>KaTeX shortcode let you render math typesetting in markdown document. See <a href="https://katex.org/">KaTeX</a></p>
+
+<ul>
+<li>预览</li>
+</ul>
+
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <pre><code class="language-latex">{{&lt; katex [class=&quot;text-center&quot;] &gt;}}
+x = \begin{cases}
+   a &amp;\text{if } b \\
+   c &amp;\text{if } d
+\end{cases}
+{{&lt; /katex &gt;}}
+</code></pre>
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <p><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/katex.min.css" integrity="sha384-BdGj8xC2eZkQaxoQ8nSLefg4AV4/AwB3Fj+8SUSo7pnKP6Eoy18liIKTPn9oBYNG" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/katex.min.js" integrity="sha384-JiKN5O8x9Hhs/UE5cT5AAJqieYlOZbGT3CHws/y97o3ty4R7/O5poG9F3JoiOYw1" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script></p>
+
+<p class="katex">
+  $$ 
+x = \begin{cases}
+   a &\text{if } b \\
+   c &\text{if } d
+\end{cases}
+ $$
+</p>
+
+  </div>
+  
+</div>
+
+
+<h2 id="示意图-mermaid-chart"><strong>示意图</strong>（Mermaid Chart）</h2>
+
+<p><a href="https://mermaidjs.github.io/">Mermaid</a> is library for generating svg charts and diagrams from text.</p>
+
+<ul>
+<li>预览</li>
+</ul>
+
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <pre><code class="language-tpl">{{&lt; mermaid [class=&quot;text-center&quot;]&gt;}}
+sequenceDiagram
+    Alice-&gt;&gt;Bob: Hello Bob, how are you?
+    alt is sick
+        Bob-&gt;&gt;Alice: Not so good :(
+    else is well
+        Bob-&gt;&gt;Alice: Feeling fresh like a daisy
+    end
+    opt Extra response
+        Bob-&gt;&gt;Alice: Thanks for asking
+    end
+{{&lt; /mermaid &gt;}}
+</code></pre>
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <script src="/mermaid.min.js"></script>
+
+<p class="mermaid">
+  
+sequenceDiagram
+    Alice->>Bob: Hello Bob, how are you?
+    alt is sick
+        Bob->>Alice: Not so good :(
+    else is well
+        Bob->>Alice: Feeling fresh like a daisy
+    end
+    opt Extra response
+        Bob->>Alice: Thanks for asking
+    end
+  </div>
+  
+</div>
+
+
+<h2 id="标签-tabs"><strong>标签</strong>（Tabs）</h2>
+
+<p>Tabs let you organize content by context, for example installation instructions for each supported platform.</p>
+
+<pre><code class="language-tpl">{{&lt; tabs &quot;uniqueid&quot; &gt;}}
+{{&lt; tab &quot;MacOS&quot; &gt;}} # MacOS Content {{&lt; /tab &gt;}}
+{{&lt; tab &quot;Linux&quot; &gt;}} # Linux Content {{&lt; /tab &gt;}}
+{{&lt; tab &quot;Windows&quot; &gt;}} # Windows Content {{&lt; /tab &gt;}}
+{{&lt; /tabs &gt;}}
+</code></pre>
+
+<ul>
+<li>预览</li>
+</ul>
+
+
+
+
+
+<div class="book-tabs">
+
+  <input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-0" checked="checked" />
+  <label for="tabs-uniqueid-0">
+    MacOS
+  </label>
+  <div class="book-tabs-content markdown-inner">
+    <h1 id="macos">MacOS</h1>
+
+<p>This is tab <strong>MacOS</strong> content.</p>
+
+<p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui <em>quid</em>, ignes.
+Miseratus fonte Ditis conubia.</p>
+
+  </div>
+
+  <input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-1"  />
+  <label for="tabs-uniqueid-1">
+    Linux
+  </label>
+  <div class="book-tabs-content markdown-inner">
+    <h1 id="linux">Linux</h1>
+
+<p>This is tab <strong>Linux</strong> content.</p>
+
+<p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui <em>quid</em>, ignes.
+Miseratus fonte Ditis conubia.</p>
+
+  </div>
+
+  <input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-2"  />
+  <label for="tabs-uniqueid-2">
+    Windows
+  </label>
+  <div class="book-tabs-content markdown-inner">
+    <h1 id="windows">Windows</h1>
+
+<p>This is tab <strong>Windows</strong> content.</p>
+
+<p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui <em>quid</em>, ignes.
+Miseratus fonte Ditis conubia.</p>
+
+  </div>
+
+</div>
+
+
+<div>&nbsp&nbsp&nbsp&nbsp</div>
+
+<div align="center">  
+<h5>MIT Licensed | Copyright © 2019 <strong>世佳</strong></h5>
+</div>
+</article>
+
+      
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc level-3 fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#主题样式代码模板"><strong>主题样式代码模板</strong></a>
+<ul>
+<li><a href="#按钮-buttons"><strong>按钮</strong>（Buttons）</a></li>
+<li><a href="#分列-columns"><strong>分列</strong>（Columns）</a></li>
+<li><a href="#隐藏内容-expand"><strong>隐藏内容</strong>（Expand）</a></li>
+<li><a href="#高亮显示-hints"><strong>高亮显示</strong>（Hints）</a></li>
+<li><a href="#数学公式-katex"><strong>数学公式</strong>（KaTeX）</a></li>
+<li><a href="#示意图-mermaid-chart"><strong>示意图</strong>（Mermaid Chart）</a></li>
+<li><a href="#标签-tabs"><strong>标签</strong>（Tabs）</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+
+  
+</body>
+
+</html>
