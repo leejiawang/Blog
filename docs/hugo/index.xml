@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introduction on ⭕️ HorizonPrinciple</title>
-    <link>https://leejiawang.github.io/</link>
-    <description>Recent content in Introduction on ⭕️ HorizonPrinciple</description>
+    <title>⭕️ HorizonPrinciple</title>
+    <link>https://leejiawang.github.io/docs/hugo/</link>
+    <description>Recent content on ⭕️ HorizonPrinciple</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://leejiawang.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://leejiawang.github.io/docs/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -26,17 +25,6 @@ brew install hugo  ⚠️ 注意
  右键单击开始按钮 单击系统 单击左侧的高级系统设置 单击底部的环境变量...按钮 在用户变量部分中找到以PATH开头的行（PATH全部大写） 双击PATH 单击新建…按钮 键入C:\Hugo\bin，完成输入后按Enter 在每个窗口中单击确定退出    Linux   Linux操作系统下直接使用Homebrew安装，在终端中输入如下代码:
 brew install hugo  ⚠️ 注意
 执行此操作前请确保linux安装有Homebrew。    OpenBSD   OpenBSD通过pkg_add添加Hugo的软件包：</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://leejiawang.github.io/posts/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://leejiawang.github.io/posts/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
     </item>
     
     <item>
@@ -69,30 +57,6 @@ Locus fuit caecis Nefas discordemque domino montes numen tum humili nexilibusque
       
       <guid>https://leejiawang.github.io/docs/hugo/hugo%E7%9B%B8%E5%85%B3%E9%93%BE%E6%8E%A5/</guid>
       <description> Hugo相关链接 reality(burnDocking(apache_nanometer), pad.property_data_programming.sectorBrowserPpga(dataMask, 37, recycleRup)); intellectualVaporwareUser += -5 * 4; traceroute_key_upnp /= lag_optical(android.smb(thyristorTftp)); surge_host_golden = mca_compact_device(dual_dpi_opengl, 33, commerce_add_ppc); if (lun_ipv) { verticalExtranet(1, thumbnail_ttl, 3); bar_graphics_jpeg(chipset - sector_xmp_beta); }  </description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://leejiawang.github.io/posts/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://leejiawang.github.io/posts/goisforlovers/</guid>
-      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
-This document is a brief primer on using Go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://leejiawang.github.io/posts/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://leejiawang.github.io/posts/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at Install Hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
     </item>
     
   </channel>
