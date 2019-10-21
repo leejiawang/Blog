@@ -3,23 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://leejiawang.github.io/docs/copyright/</loc>
+    <loc>https://leejiawang.github.io/docs/navigation/</loc>
   </url>
   
   <url>
-    <loc>https://leejiawang.github.io/docs/%E7%AB%99%E7%82%B9%E7%9B%B8%E5%85%B3/</loc>
+    <loc>https://leejiawang.github.io/docs/web/hugo/</loc>
   </url>
   
   <url>
-    <loc>https://leejiawang.github.io/docs/hugo/hugo%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E6%95%99%E7%A8%8B/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/hugo/</loc>
+    <loc>https://leejiawang.github.io/docs/navigation/download/</loc>
   </url>
   
   <url>
     <loc>https://leejiawang.github.io/docs/web/</loc>
+  </url>
+  
+  <url>
+    <loc>https://leejiawang.github.io/docs/navigation/tutorial/</loc>
   </url>
   
   <url>
@@ -33,19 +33,11 @@
   </url>
   
   <url>
-    <loc>https://leejiawang.github.io/docs/hugo/hugobook%E4%B8%BB%E9%A2%98/</loc>
+    <loc>https://leejiawang.github.io/docs/web/hugo-book/</loc>
   </url>
   
   <url>
     <loc>https://leejiawang.github.io/docs/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/hugo/example/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/hugo/hugo%E7%9B%B8%E5%85%B3%E9%93%BE%E6%8E%A5/</loc>
   </url>
   
   <url>
