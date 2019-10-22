@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>⭕️ HorizonPrinciple</title>
-    <link>https://leejiawang.github.io/docs/web/</link>
+    <link>https://leeyiner.com/docs/web/</link>
     <description>Recent content on ⭕️ HorizonPrinciple</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://leejiawang.github.io/docs/web/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://leeyiner.com/docs/web/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo建站教程</title>
-      <link>https://leejiawang.github.io/docs/web/hugo/</link>
+      <link>https://leeyiner.com/docs/web/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://leejiawang.github.io/docs/web/hugo/</guid>
+      <guid>https://leeyiner.com/docs/web/hugo/</guid>
       <description>Hugo搭建静态网站简易教程 Hugo是由Go语言实现的静态网站生成器，简单、易用、高效、易扩展、快速部署。
 Hugo官网 Hugo主题 Hugo中文 Hugo仓库
     本站即为Hugo博客框架搭建，使用了Hugo-Book主题。  第1步 安装Hugo框架  首先根据自己的系统参照下述方法安装hugo博客框架。
@@ -29,10 +29,10 @@ brew install hugo  ⚠️ 注意
     
     <item>
       <title>主题样式模板</title>
-      <link>https://leejiawang.github.io/docs/web/hugo-book/</link>
+      <link>https://leeyiner.com/docs/web/hugo-book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://leejiawang.github.io/docs/web/hugo-book/</guid>
+      <guid>https://leeyiner.com/docs/web/hugo-book/</guid>
       <description>主题样式代码模板 ⚠️ 注意
 本页面展示效果为 Hugo-Book主题，由Alex Shpak开发，配置请详见主题仓库README。  按钮（Buttons） Buttons are styled links that can lead to local page or external link.
 {{&amp;lt; button relref=&amp;quot;/&amp;quot; [class=&amp;quot;...&amp;quot;] &amp;gt;}}Get Home{{&amp;lt; /button &amp;gt;}} {{&amp;lt; button href=&amp;quot;https://github.com/alex-shpak/hugo-book&amp;quot; &amp;gt;}}Contribute{{&amp;lt; /button &amp;gt;}}   预览   Get Home  Contribute  分列（Columns） Columns help organize shorter pieces of content horizontally for readability.
