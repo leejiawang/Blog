@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>⭕️ HorizonPrinciple</title>
+    <link>https://leeyiner.com/docs/hackintosh/</link>
+    <description>Recent content on ⭕️ HorizonPrinciple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://leeyiner.com/docs/hackintosh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>安装指导</title>
+      <link>https://leeyiner.com/docs/hackintosh/install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leeyiner.com/docs/hackintosh/install/</guid>
+      <description> &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp 👨🏻‍💻 持续更新中...  &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp MIT Licensed | Copyright © 2019 世佳  </description>
+    </item>
+    
+    <item>
+      <title>工具下载</title>
+      <link>https://leeyiner.com/docs/hackintosh/file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leeyiner.com/docs/hackintosh/file/</guid>
+      <description>部分用于安装黑苹果的工具 VMware Workstation Pro Workstation Pro是由VMware 提供的虚拟机工具，用于在PC上搭建macOS系统环境。
+VMware 官网下载 
+    UniBeast UniBeast是由tonymacx86 提供的苹果安装U盘制作工具，一键式制作，方便易用。
+UniBeast 官网下载 
+    ⚠️ 注意
+使用UniBeast需要你具备macOS操作环境，且系统语言切换成English才能运行。  Clover EFI bootloader Clover EFI bootloader为UEFI系统引导安装工具，是最为核心的工具之一。
+Clover EFI 下载 
+    Clover Configurator MultiBeast是由mackie100projects 提供的用于编辑Clover EFI配置文件的工具，利用图形界面大大降低了配置Clover EFI的门槛。
+Clover Configurator 下载 
+    ⚠️ 注意
+使用Clover Configurator需要你具备macOS操作环境。  MultiBeast MultiBeast是由tonymacx86 提供的苹果驱动安装工具，方便易用。
+MultiBeast 官网下载 
+    Hackintool Hackintool是由headkaze 提供的苹果系统VRAM修补程序。</description>
+    </item>
+    
+  </channel>
+</rss>
