@@ -1,3 +1,5 @@
+![LeeyinHorizon](https://github.com/leejiawang/leejiawang.github.io/blob/master/favicon.png?raw=true)
+
 # 利隐视界 LeeyinHorizon
 
 [![Hugo](https://img.shields.io/badge/hugo-0.55-blue.svg)](https://gohugo.io)
