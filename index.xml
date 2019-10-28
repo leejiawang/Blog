@@ -5,6 +5,7 @@
     <link>https://leeyiner.com/</link>
     <description>Recent content in HOME on 視界</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leeyiner.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -70,14 +71,26 @@ MultiBeast 官网下载
     </item>
     
     <item>
+      <title>免费字体</title>
+      <link>https://leeyiner.com/docs/design/fonts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leeyiner.com/docs/design/fonts/</guid>
+      <description> 写在前面 在版权意识日益增长的今天，侵犯版权的成本也大大增加，尤其是在商业领域，一旦侵权可能就会面临“律师函警告”，随之而来的将是巨大的经济损失，故在创作过程中避免侵权尤为重要。在字体方面，使用一些免费商用的字体是个较好的规避上述问题的办法。
+💡 本页面提供下载链接均来自其发布官网，如本站不慎侵犯你的版权请联系我们，本站将及时处理，并撤下相关内容！  优秀并且支持免费商用的字体作品 提到免费可商用字体，就不得不提大名鼎鼎的思源黑体和思源宋体， 她们是Google和Adobe为了响应统一设计的需求合作开发，在Adobe Type 发布的泛 CJK 字体，服务于东亚 15 亿人口。支持四种不同的东亚语言（简体中文、繁体中文、日语和朝鲜语），7 种粗细类型中的每一种都有 65,535 个字形，可共同呈现一致的视觉美感。该字体还包含多个西方字形，支持拉丁语、希腊语和西里尔文脚本。
+另外在这个领域，国内公司也发布了众多优秀作品，例如站酷的一系列免费字体以及最近阿里巴巴新发布的阿里巴巴普惠体。都能在相关领域给设计师提供便利。
+部分可免费商用的字体  💿含下载链接 🇨🇳🇺🇸支持语言
+    字体名称 提供组织 支持语言 获取字体     思源黑体 Google,Adobe CN/EN/TWHK/JP/KR 官网  下载   思源宋体 Google,Adobe CN/EN/TWHK/JP/KR 官网  下载   阿里巴巴普惠体 阿里巴巴 CN/EN 官网  下载   站酷庆科黄油体 ZCOOL CN/EN 官网  下载   站酷文艺体 ZCOOL CN/EN 官网  下载   站酷小薇logo体 ZCOOL CN/EN 官网  下载   站酷酷黑体 ZCOOL CN/EN 官网  下载   站酷意大利体 ZCOOL EN 官网  下载   站酷快乐体 ZCOOL CN/EN 官网  下载   站酷高端黑体 ZCOOL CN/EN 官网  下载     ▫️ 以上提供的页面及下载地址均为官方性质，请放心访问下载。 </description>
+    </item>
+    
+    <item>
       <title>小技巧</title>
       <link>https://leeyiner.com/docs/navigation/tutorial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://leeyiner.com/docs/navigation/tutorial/</guid>
-      <description>&lt;h1&gt;写在前面&lt;/h1&gt;
-
-&lt;p&gt;微软推出的Windows10操作系统自带了Windows Defender防病毒程序，给予了电脑一定的反病毒攻击的能力，与此同时也给用户带来了一些困扰。一些用户希望能够关闭这个功能，看看应该如何操作吧。&lt;/p&gt;</description>
+      <description>写在前面 技巧正在路上...
+&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp 👨🏻‍💻 持续更新中...  </description>
     </item>
     
     <item>
@@ -94,10 +107,10 @@ MultiBeast 官网下载
     
     <item>
       <title>临时素材...</title>
-      <link>https://leeyiner.com/docs/navigation/ziyuan/</link>
+      <link>https://leeyiner.com/docs/design/ziyuan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://leeyiner.com/docs/navigation/ziyuan/</guid>
+      <guid>https://leeyiner.com/docs/design/ziyuan/</guid>
       <description>
 
 
@@ -117,6 +130,33 @@ MultiBeast 官网下载
 本页面展示效果为 Hugo-Book主题，由Alex Shpak开发，配置请详见主题仓库README。  按钮（Buttons） Buttons are styled links that can lead to local page or external link.
 {{&amp;lt; button relref=&amp;quot;/&amp;quot; [class=&amp;quot;...&amp;quot;] &amp;gt;}}Get Home{{&amp;lt; /button &amp;gt;}} {{&amp;lt; button href=&amp;quot;https://github.com/alex-shpak/hugo-book&amp;quot; &amp;gt;}}Contribute{{&amp;lt; /button &amp;gt;}}   预览   Get Home  Contribute  分列（Columns） Columns help organize shorter pieces of content horizontally for readability.
 {{&amp;lt; columns &amp;gt;}} &amp;lt;!-- begin columns block --&amp;gt; # Left Content Lorem markdownum insigne.</description>
+    </item>
+    
+    <item>
+      <title>如何隐藏文件资源管理器中的快速启动？</title>
+      <link>https://leeyiner.com/posts/%E5%A6%82%E4%BD%95%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E7%9A%84%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://leeyiner.com/posts/%E5%A6%82%E4%BD%95%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E7%9A%84%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8/</guid>
+      <description>&lt;p&gt;Windows10给用户的文件资源管理器中带来了一些文件夹的快速启动，但有些人觉得这并没有带来什么便利，反而喜欢以前简洁的感觉，下面来看看应该如何操作吧将其隐藏。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Win10系统如何关闭自动更新？</title>
+      <link>https://leeyiner.com/posts/win10%E7%B3%BB%E7%BB%9F%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</link>
+      <pubDate>Mon, 01 Apr 2019 00:30:00 +0000</pubDate>
+      
+      <guid>https://leeyiner.com/posts/win10%E7%B3%BB%E7%BB%9F%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</guid>
+      <description>&lt;p&gt;微软推出的Windows10操作系统自带了Windows Defender防病毒程序，给予了电脑一定的反病毒攻击的能力，与此同时也给用户带来了一些困扰。一些用户希望能够关闭这个功能，看看应该如何操作吧。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何禁用Windows Defender Service？</title>
+      <link>https://leeyiner.com/posts/%E5%A6%82%E4%BD%95%E7%A6%81%E7%94%A8windows-defender-service/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://leeyiner.com/posts/%E5%A6%82%E4%BD%95%E7%A6%81%E7%94%A8windows-defender-service/</guid>
+      <description>&lt;p&gt;微软推出的Windows10操作系统自带了Windows Defender防病毒程序，给予了电脑一定的反病毒攻击的能力，与此同时也给用户带来了一些困扰。一些用户希望能够关闭这个功能，看看应该如何操作吧。&lt;/p&gt;</description>
     </item>
     
   </channel>

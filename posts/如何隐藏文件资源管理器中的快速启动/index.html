@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="如何隐藏文件资源管理器中的快速启动？" />
+<meta property="og:description" content="Windows10给用户的文件资源管理器中带来了一些文件夹的快速启动，但有些人觉得这并没有带来什么便利，反而喜欢以前简洁的感觉，下面来看看应该如何操作吧将其隐藏。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://leeyiner.com/posts/%E5%A6%82%E4%BD%95%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E7%9A%84%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8/" />
+<meta property="article:published_time" content="2019-04-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-04-02T00:00:00+00:00" />
+<title> 視界 | 如何隐藏文件资源管理器中的快速启动？ </title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.9f1bb66a0763d6f9ed3b008e1ef38a01b166c563d8410ba62f1637d4d59a6c07.css" integrity="sha256-nxu2agdj1vntOwCOHvOKAbFmxWPYQQumLxY31NWabAc=">
+
+
+<script defer src="/search.min.eb15b48ef4ffe7c9d9fbb0bf41c9a842a31bcb74dd80f993ecb21309810d4dc0.js" integrity="sha256-6xW0jvT/58nZ&#43;7C/QcmoQqMby3TdgPmT7LITCYENTcA="></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav>
+
+<div>&nbsp</div>
+
+<a href="/">
+<img src="/svg/eyecusio.svg"  height=45 /></a>
+
+
+<div class="book-search">
+  <input type="text" placeholder="  站内搜索" id="book-search-input" maxlength="64" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+    
+
+  
+  
+
+
+
+
+
+ 
+  
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        
+
+  <li  class="book-section-flat" >
+    
+      <span>导航</span>
+    
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  <a href="/docs/navigation/download/" >
+      资源分享
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/docs/navigation/tutorial/" >
+      小技巧
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/docs/navigation/recommend/" >
+      站点推荐
+  </a>
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li  class="book-section-flat" >
+    
+      <span>Web</span>
+    
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  <a href="/docs/web/hugo/" >
+      Hugo建站
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/docs/web/hugo-book/" >
+      主题样式
+  </a>
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li  class="book-section-flat" >
+    
+      <span>Design</span>
+    
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  <a href="/docs/design/fonts/" >
+      免费字体
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/docs/design/ziyuan/" >
+      临时素材...
+  </a>
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li  class="book-section-flat" >
+    
+      <span>Hackintosh</span>
+    
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  <a href="/docs/hackintosh/install/" >
+      安装指导
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/docs/hackintosh/file/" >
+      工具下载
+  </a>
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li  class="book-section-flat" >
+    
+      
+
+  <a href="/docs/about/" >
+      关于本站
+  </a>
+
+
+    
+
+    
+
+
+
+
+  
+  <ul>
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+  </ul>
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+<script>
+(function() {
+  var menu = document.querySelector("aside.book-menu nav");
+  addEventListener("beforeunload", function(event) {
+    localStorage.setItem("menu.scrollTop", menu.scrollTop);
+  });
+  menu.scrollTop = localStorage.getItem("menu.scrollTop");
+})();
+</script>
+
+    </aside>
+
+    <div class="book-posts">
+      <header class="flex align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" alt="Menu" />
+  </label>
+  <strong>如何隐藏文件资源管理器中的快速启动？</strong>
+</header>
+
+      
+
+<header class="markdown">
+  <h1>如何隐藏文件资源管理器中的快速启动？</h1>
+  <h5>
+    <strong>Apr 2, 2019</strong>
+  </h5>
+</header>
+<article class="markdown"><p>Windows10给用户的文件资源管理器中带来了一些文件夹的快速启动，但有些人觉得这并没有带来什么便利，反而喜欢以前简洁的感觉，下面来看看应该如何操作吧将其隐藏。</p>
+
+<p><img src="https://cdn1.imggmi.com/uploads/2019/10/28/7998e6e8adccb60900135e7a64a8fcaa-full.png" alt="如何隐藏文件资源管理器中的快速启动" /></p>
+
+<h3 id="步骤速览">步骤速览</h3>
+
+<blockquote>
+<ol>
+<li>使用快捷键（WIN+R）调出运行工具，输入组策略命令REGEDIT，点击确定。</li>
+<li>打开注册表编辑器，在弹出的对话框中点击“是”</li>
+<li>打开注册表编辑器后，依次点击或在地址栏中输入如下路径：HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\</li>
+<li>备份完成之后将灰框中的六项右键删除掉，这六项就是对应的这台电脑中的六个文件夹。</li>
+<li>删除完后重启资源管理器。</li>
+</ol>
+</blockquote>
+
+<h3 id="详细图解">详细图解</h3>
+
+<h4 id="使用快捷键-win-r-调出运行工具-输入组策略命令regedit-点击确定">使用快捷键（WIN+R）调出运行工具，输入组策略命令REGEDIT，点击确定。 ####</h4>
+
+<p><img src="https://cdn1.imggmi.com/uploads/2019/10/28/f234276c565ecb97f2a37a394b2d6d3b-full.png" alt="如何隐藏文件资源管理器中的快速启动" />
+​​</p>
+
+<h4 id="打开注册表编辑器-在弹出的对话框中点击-是">打开注册表编辑器，在弹出的对话框中点击“是” ####</h4>
+
+<p><img src="https://cdn1.imggmi.com/uploads/2019/10/28/68905e350cfaf3f5ea9586dda4030e4b-full.png" alt="如何隐藏文件资源管理器中的快速启动" />
+​​</p>
+
+<h4 id="打开注册表编辑器后-依次点击或在地址栏中输入如下路径">打开注册表编辑器后，依次点击或在地址栏中输入如下路径：####</h4>
+
+<p>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace</p>
+
+<p><img src="https://cdn1.imggmi.com/uploads/2019/10/28/4aba1b12806f54515fb8af45d02d280c-full.png" alt="如何隐藏文件资源管理器中的快速启动" /></p>
+
+<blockquote>
+<p>注意：为保险起见，可以点击窗口左上角文件-导出，进行备份注册表。
+​​</p>
+
+<h4 id="备份完成之后将灰框中的六项右键删除掉">备份完成之后将灰框中的六项右键删除掉 ####</h4>
+
+<p>这六项就是对应的这台电脑中的六个文件夹。</p>
+</blockquote>
+
+<p><img src="https://cdn1.imggmi.com/uploads/2019/10/28/0f4eb88ee817b9a277f616c1be623cc8-full.png" alt="如何隐藏文件资源管理器中的快速启动" /></p>
+
+<blockquote>
+<p>注意：如果你的Windows版本中除此之外还有更多的文件夹，可视情况删除此路径下对应的项。
+​​</p>
+
+<h4 id="删除完后重启资源管理器">删除完后重启资源管理器。 ####</h4>
+
+<p><img src="https://cdn1.imggmi.com/uploads/2019/10/28/f628aeeb59e112c06015077ed796d634-full.png" alt="如何隐藏文件资源管理器中的快速启动" />
+​​</p>
+</blockquote></article>
+
+      <div>&nbsp&nbsp&nbsp&nbsp</div>
+<div align="center">  
+<h5>MIT Licensed | Copyright © 2019 <strong>世佳</strong></h5>
+</div>
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc level-3 fixed">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#步骤速览">步骤速览</a></li>
+<li><a href="#详细图解">详细图解</a>
+<ul>
+<li><a href="#使用快捷键-win-r-调出运行工具-输入组策略命令regedit-点击确定">使用快捷键（WIN+R）调出运行工具，输入组策略命令REGEDIT，点击确定。 ####</a></li>
+<li><a href="#打开注册表编辑器-在弹出的对话框中点击-是">打开注册表编辑器，在弹出的对话框中点击“是” ####</a></li>
+<li><a href="#打开注册表编辑器后-依次点击或在地址栏中输入如下路径">打开注册表编辑器后，依次点击或在地址栏中输入如下路径：####</a></li>
+<li><a href="#备份完成之后将灰框中的六项右键删除掉">备份完成之后将灰框中的六项右键删除掉 ####</a></li>
+<li><a href="#删除完后重启资源管理器">删除完后重启资源管理器。 ####</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+
+  
+</body>
+
+</html>
