@@ -4,7 +4,12 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="Win10系统如何关闭自动更新？" />
-<meta property="og:description" content="微软推出的Windows10操作系统自带了Windows Defender防病毒程序，给予了电脑一定的反病毒攻击的能力，与此同时也给用户带来了一些困扰。一些用户希望能够关闭这个功能，看看应该如何操作吧。" />
+<meta property="og:description" content=" 微软推出的Windows10操作系统自带了Windows Defender防病毒程序，给予了电脑一定的反病毒攻击的能力，与此同时也给用户带来了一些困扰。一些用户希望能够关闭这个功能，看看应该如何操作吧。
+⚠️ 注意
+由于方法涉及使用运用组策略，故Windows10家庭版可能不适用。  步骤速览  快捷键WIN&#43;R调出运行工具，输入组策略命令services.msc，点击确定; 在服务中找到Windows Update选项，双击; 在“启动类型”下选择“禁用”，并点击确定。  详细图解  快捷键WIN&#43;R调出运行工具，输入组策略命令services.msc，点击确定。
+  在服务中找到“Windows Update”选项，双击。
+  在“启动类型”下选择“禁用”，并点击确定。
+ " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://leeyiner.com/posts/win10%E7%B3%BB%E7%BB%9F%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/" />
 <meta property="article:published_time" content="2019-04-01T00:30:00+00:00" />
@@ -12,18 +17,13 @@
 <title> 視界 | Win10系统如何关闭自动更新？ </title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
+<link href="https://fonts.googleapis.com/css?family=Lexend+Deca|Noto+Sans+SC:300,500|ZCOOL+QingKe+HuangYou|Fira+Code&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/book.min.d530c6628b65ad4b3a7ada674fa72e98e4f5d574538269ba0cb36a1c456b8f96.css" integrity="sha256-1TDGYotlrUs6etpnT6cumOT11XRTgmm6DLNqHEVrj5Y=">
 
-<link rel="stylesheet" href="/book.min.f05a5faa2acf4e5c8237415bdef6b0a7ca1913c9e3eb8119a352b4a70909c4d1.css" integrity="sha256-8FpfqirPTlyCN0Fb3vawp8oZE8nj64EZo1K0pwkJxNE=">
 
+<script defer src="/search.min.20433533a3f84b7ea42a429f14bf3846e36575cda9e359bf28a7af5c97a446fe.js" integrity="sha256-IEM1M6P4S36kKkKfFL84RuNldc2p41m/KKevXJekRv4="></script>
 
-<script defer src="/search.min.eb15b48ef4ffe7c9d9fbb0bf41c9a842a31bcb74dd80f993ecb21309810d4dc0.js" integrity="sha256-6xW0jvT/58nZ&#43;7C/QcmoQqMby3TdgPmT7LITCYENTcA="></script>
-
-<!--
-Made with Book Theme
-https://github.com/alex-shpak/hugo-book
--->
-
-  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca|Noto+Sans+SC:300,400|Roboto+Condensed|Roboto:400|Gentium+Book+Basic&display=swap" rel="stylesheet">
+  
 </head>
 
 <body>
@@ -98,7 +98,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
 
   <a href="/docs/navigation/tutorial/" >
-      小技巧
+      文章清单
   </a>
 
 </li>
@@ -343,37 +343,46 @@ https://github.com/alex-shpak/hugo-book
     <strong>Apr 1, 2019</strong>
   </h5>
 </header>
-<article class="markdown"><p>微软推出的Windows10操作系统自带了Windows Defender防病毒程序，给予了电脑一定的反病毒攻击的能力，与此同时也给用户带来了一些困扰。一些用户希望能够关闭这个功能，看看应该如何操作吧。</p>
+<article class="markdown">
 
-<h3 id="提示">提示</h3>
+<p><code>微软推出的Windows10操作系统自带了Windows Defender防病毒程序，给予了电脑一定的反病毒攻击的能力，与此同时也给用户带来了一些困扰。一些用户希望能够关闭这个功能，看看应该如何操作吧。</code></p>
 
-<p><em>由于本教程涉及运用组策略，故Windows10家庭版可能不适用。</em></p>
-
-<h3 id="步骤速览">步骤速览</h3>
-
-<blockquote>
-<ol>
-<li>使用快捷键（WIN+R）调出运行工具，输入组策略命令services.msc，点击确定。
-​​2. 在服务中找到“Windows Update”选项，双击。</li>
-<li>在“启动类型”下选择“禁用”，并点击确定。</li>
-</ol>
+<blockquote class="book-hint warning">
+  <strong>⚠️ 注意</strong><br />
+由于方法涉及使用运用组策略，故<code>Windows10家庭版</code>可能不适用。
 </blockquote>
+
+
+<h2 id="步骤速览">步骤速览</h2>
+
+<ul>
+<li>快捷键<code>WIN+R</code>调出运行工具，输入组策略命令<code>services.msc</code>，点击确定;</li>
+<li>在服务中找到<code>Windows Update</code>选项，双击;</li>
+<li>在“启动类型”下选择“禁用”，并点击确定。</li>
+</ul>
 
 <p><img src="https://cdn1.imggmi.com/uploads/2019/10/28/6e4dcc45dcb2f287e066a5325f15e461-full.png" alt="Win10系统如何关闭自动更新" /></p>
 
-<h3 id="详细图解">详细图解</h3>
+<h2 id="详细图解">详细图解</h2>
 
-<h4 id="使用快捷键-win-r-调出运行工具-输入组策略命令services-msc-点击确定">使用快捷键（WIN+R）调出运行工具，输入组策略命令services.msc，点击确定。</h4>
+<blockquote>
+<p>快捷键<code>WIN+R</code>调出运行工具，输入组策略命令<code>services.msc</code>，点击确定。</p>
+</blockquote>
 
 <p><img src="https://cdn1.imggmi.com/uploads/2019/10/28/cdcbef069bd24b2758ee96d786a618b3-full.png" alt="Win10系统如何关闭自动更新" /></p>
 
-<h4 id="在服务中找到-windows-update-选项-双击">在服务中找到“Windows Update”选项，双击。</h4>
+<blockquote>
+<p>在服务中找到“Windows Update”选项，双击。</p>
+</blockquote>
 
 <p><img src="https://cdn1.imggmi.com/uploads/2019/10/28/dbde41f7118e1a2279c2bdfa089abf1e-full.png" alt="Win10系统如何关闭自动更新" /></p>
 
-<h4 id="在-启动类型-下选择-禁用-并点击确定">在“启动类型”下选择“禁用”，并点击确定。</h4>
+<blockquote>
+<p>在“启动类型”下选择“禁用”，并点击确定。</p>
+</blockquote>
 
-<p><img src="https://cdn1.imggmi.com/uploads/2019/10/28/e2476d9175b7712724db7f961971fdf1-full.png" alt="Win10系统如何关闭自动更新" /></p></article>
+<p><img src="https://cdn1.imggmi.com/uploads/2019/10/28/e2476d9175b7712724db7f961971fdf1-full.png" alt="Win10系统如何关闭自动更新" /></p>
+</article>
 
       <div>&nbsp&nbsp&nbsp&nbsp</div>
 <div align="center">  
@@ -390,17 +399,8 @@ https://github.com/alex-shpak/hugo-book
 <ul>
 <li>
 <ul>
-<li>
-<ul>
-<li><a href="#提示">提示</a></li>
 <li><a href="#步骤速览">步骤速览</a></li>
-<li><a href="#详细图解">详细图解</a>
-<ul>
-<li><a href="#使用快捷键-win-r-调出运行工具-输入组策略命令services-msc-点击确定">使用快捷键（WIN+R）调出运行工具，输入组策略命令services.msc，点击确定。</a></li>
-<li><a href="#在服务中找到-windows-update-选项-双击">在服务中找到“Windows Update”选项，双击。</a></li>
-<li><a href="#在-启动类型-下选择-禁用-并点击确定">在“启动类型”下选择“禁用”，并点击确定。</a></li>
-</ul></li>
-</ul></li>
+<li><a href="#详细图解">详细图解</a></li>
 </ul></li>
 </ul>
 </nav>
