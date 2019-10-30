@@ -10,6 +10,40 @@
     
     
     <item>
+      <title>HTML5</title>
+      <link>https://leeyiner.com/docs/web/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leeyiner.com/docs/web/html/</guid>
+      <description> HTML5 学习笔记 HTML称为超文本标记语言，是一种标识性的语言。它包括一系列标签，通过这些标签可以将网络上的文档格式统一，使分散的Internet资源连接为一个逻辑整体。
+💡 一些我学习过程中的实用小笔记，大佬勿喷。  简单介绍  首先根据自己的系统参照下述方法进行安装。
+ macOS 🔥   macOS操作系统下直接使用Homebrew安装，在终端中输入如下代码：
+brew install hugo  ⚠️ 注意
+执行此操作前请确保macOS安装有Homebrew。    Windows   在Hugo Releases下载最新发布对应操作系统的ZIP，将所有内容提取到C:\Hugo\bin目录中，包含可执行文件hugo.exe、LICENSE和README.md。
+ 然后将Hugo添加到Windows的PATH设置中。
+ 右键单击开始按钮 单击系统 单击左侧的高级系统设置 单击底部的环境变量...按钮 在用户变量部分中找到以PATH开头的行（PATH全部大写） 双击PATH 单击新建…按钮 键入C:\Hugo\bin，完成输入后按Enter 在每个窗口中单击确定退出    Linux   Linux操作系统下直接使用Homebrew安装，在终端中输入如下代码:
+brew install hugo  ⚠️ 注意
+执行此操作前请确保linux安装有Homebrew。     </description>
+    </item>
+    
+    <item>
+      <title>css</title>
+      <link>https://leeyiner.com/docs/web/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leeyiner.com/docs/web/css/</guid>
+      <description> CSS 学习笔记 层叠样式表(Cascading Style Sheets)是一种用来表现HTML或XML等文件样式的计算机语言。CSS不仅可以静态地修饰网页，还可以配合各种脚本语言动态地对网页各元素进行格式化。
+💡 一些我学习过程中的实用小笔记，大佬勿喷。  简单介绍  首先根据自己的系统参照下述方法进行安装。
+ macOS 🔥   macOS操作系统下直接使用Homebrew安装，在终端中输入如下代码：
+brew install hugo  ⚠️ 注意
+执行此操作前请确保macOS安装有Homebrew。    Windows   在Hugo Releases下载最新发布对应操作系统的ZIP，将所有内容提取到C:\Hugo\bin目录中，包含可执行文件hugo.exe、LICENSE和README.md。
+ 然后将Hugo添加到Windows的PATH设置中。
+ 右键单击开始按钮 单击系统 单击左侧的高级系统设置 单击底部的环境变量...按钮 在用户变量部分中找到以PATH开头的行（PATH全部大写） 双击PATH 单击新建…按钮 键入C:\Hugo\bin，完成输入后按Enter 在每个窗口中单击确定退出    Linux   Linux操作系统下直接使用Homebrew安装，在终端中输入如下代码:
+brew install hugo  ⚠️ 注意
+执行此操作前请确保linux安装有Homebrew。     </description>
+    </item>
+    
+    <item>
       <title>Hugo建站</title>
       <link>https://leeyiner.com/docs/web/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

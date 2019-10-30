@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="css" />
+<meta property="og:description" content=" CSS 学习笔记 层叠样式表(Cascading Style Sheets)是一种用来表现HTML或XML等文件样式的计算机语言。CSS不仅可以静态地修饰网页，还可以配合各种脚本语言动态地对网页各元素进行格式化。
+💡 一些我学习过程中的实用小笔记，大佬勿喷。  简单介绍  首先根据自己的系统参照下述方法进行安装。
+ macOS 🔥   macOS操作系统下直接使用Homebrew安装，在终端中输入如下代码：
+brew install hugo  ⚠️ 注意
+执行此操作前请确保macOS安装有Homebrew。    Windows   在Hugo Releases下载最新发布对应操作系统的ZIP，将所有内容提取到C:\Hugo\bin目录中，包含可执行文件hugo.exe、LICENSE和README.md。
+ 然后将Hugo添加到Windows的PATH设置中。
+ 右键单击开始按钮 单击系统 单击左侧的高级系统设置 单击底部的环境变量...按钮 在用户变量部分中找到以PATH开头的行（PATH全部大写） 双击PATH 单击新建…按钮 键入C:\Hugo\bin，完成输入后按Enter 在每个窗口中单击确定退出    Linux   Linux操作系统下直接使用Homebrew安装，在终端中输入如下代码:
+brew install hugo  ⚠️ 注意
+执行此操作前请确保linux安装有Homebrew。     " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://leeyiner.com/docs/web/css/" />
+
+<title> 視界 | css </title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+<link href="https://fonts.googleapis.com/css?family=Lexend+Deca|Noto+Sans+SC:300,500|ZCOOL+QingKe+HuangYou|Fira+Code&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/book.min.d530c6628b65ad4b3a7ada674fa72e98e4f5d574538269ba0cb36a1c456b8f96.css" integrity="sha256-1TDGYotlrUs6etpnT6cumOT11XRTgmm6DLNqHEVrj5Y=">
+
+
+<script defer src="/search.min.fba4849abc66debab6f33da4f1b147ad69b65f86bcbeb524fe15d8deeb623bd8.js" integrity="sha256-&#43;6SEmrxm3rq28z2k8bFHrWm2X4a8vrUk/hXY3utiO9g="></script>
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav>
+
+<div>&nbsp</div>
+
+<a href="/">
+<img src="/svg/eyecusio.svg"  height=45 /></a>
+
+
+<div class="book-search">
+  <input type="text" placeholder="  站内搜索" id="book-search-input" maxlength="64" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+    
+
+  
+  
+
+
+
+
+
+ 
+  
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        
+
+  <li  class="book-section-flat" >
+    
+      <span>导航</span>
+    
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  <a href="/docs/navigation/download/" >
+      资源分享
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/docs/navigation/tutorial/" >
+      文章清单
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/docs/navigation/recommend/" >
+      站点推荐
+  </a>
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li  class="book-section-flat" >
+    
+      <span>Web</span>
+    
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  <a href="/docs/web/html/" >
+      HTML5
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/docs/web/css/"  class="active">
+      css
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/docs/web/hugo/" >
+      Hugo建站
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/docs/web/hugo-book/" >
+      主题样式
+  </a>
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li  class="book-section-flat" >
+    
+      <span>Design</span>
+    
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  <a href="/docs/design/fonts/" >
+      免费字体
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/docs/design/ziyuan/" >
+      临时素材...
+  </a>
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li  class="book-section-flat" >
+    
+      <span>Hackintosh</span>
+    
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  <a href="/docs/hackintosh/install/" >
+      安装指导
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
+  <a href="/docs/hackintosh/file/" >
+      工具下载
+  </a>
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li  class="book-section-flat" >
+    
+      
+
+  <a href="/docs/about/" >
+      关于本站
+  </a>
+
+
+    
+
+    
+
+
+
+
+  
+  <ul>
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+  </ul>
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+<script>
+(function() {
+  var menu = document.querySelector("aside.book-menu nav");
+  addEventListener("beforeunload", function(event) {
+    localStorage.setItem("menu.scrollTop", menu.scrollTop);
+  });
+  menu.scrollTop = localStorage.getItem("menu.scrollTop");
+})();
+</script>
+
+    </aside>
+
+    <div class="book-page">
+      <header class="flex align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" alt="Menu" />
+  </label>
+  <strong>css</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="css-学习笔记"><strong>CSS 学习笔记</strong></h1>
+
+<p><code>层叠样式表(Cascading Style Sheets)是一种用来表现HTML或XML等文件样式的计算机语言。CSS不仅可以静态地修饰网页，还可以配合各种脚本语言动态地对网页各元素进行格式化。</code></p>
+
+<blockquote class="book-hint info">
+  💡 一些我学习过程中的实用小笔记，大佬勿喷。
+</blockquote>
+
+
+<h2 id="简单介绍"><strong>简单介绍</strong></h2>
+
+<blockquote>
+<p>首先根据自己的系统参照下述方法进行安装。</p>
+</blockquote>
+
+
+
+
+
+<div class="book-tabs">
+
+  <input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-0" checked="checked" />
+  <label for="tabs-uniqueid-0">
+    macOS 🔥
+  </label>
+  <div class="book-tabs-content markdown-inner">
+    <ul>
+<li><p>macOS操作系统下直接使用<code>Homebrew</code>安装，在终端中输入如下代码：</p>
+
+<pre><code>brew install hugo
+</code></pre>
+
+<blockquote class="book-hint warning">
+<strong>⚠️ 注意</strong><br />
+执行此操作前请确保macOS安装有<a href="https://brew.sh">Homebrew</a>。
+</blockquote></li>
+</ul>
+
+  </div>
+
+  <input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-1"  />
+  <label for="tabs-uniqueid-1">
+    Windows
+  </label>
+  <div class="book-tabs-content markdown-inner">
+    <ul>
+<li><p>在<a href="https://github.com/gohugoio/hugo/releases">Hugo Releases</a>下载最新发布对应操作系统的<code>ZIP</code>，将所有内容提取到<code>C:\Hugo\bin</code>目录中，包含可执行文件<code>hugo.exe</code>、<code>LICENSE</code>和<code>README.md</code>。</p></li>
+
+<li><p>然后将Hugo添加到Windows的<code>PATH</code>设置中。</p>
+
+<ul>
+<li>右键单击<code>开始</code>按钮</li>
+<li>单击<code>系统</code></li>
+<li>单击左侧的<code>高级系统设置</code></li>
+<li>单击底部的<code>环境变量...</code>按钮</li>
+<li>在<code>用户变量</code>部分中找到以PATH开头的行（PATH全部大写）</li>
+<li>双击<code>PATH</code></li>
+<li>单击<code>新建…</code>按钮</li>
+<li>键入<code>C:\Hugo\bin</code>，完成输入后按<code>Enter</code></li>
+<li>在每个窗口中单击<code>确定</code>退出</li>
+</ul></li>
+</ul>
+
+  </div>
+
+  <input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-2"  />
+  <label for="tabs-uniqueid-2">
+    Linux
+  </label>
+  <div class="book-tabs-content markdown-inner">
+    <ul>
+<li><p>Linux操作系统下直接使用<code>Homebrew</code>安装，在终端中输入如下代码:</p>
+
+<pre><code>brew install hugo
+</code></pre>
+
+<blockquote class="book-hint warning">
+<strong>⚠️ 注意</strong><br />
+执行此操作前请确保linux安装有<a href="https://docs.brew.sh/Homebrew-on-Linux">Homebrew</a>。
+</blockquote></li>
+</ul>
+
+  </div>
+
+</div>
+
+</article>
+
+      <div>&nbsp&nbsp&nbsp&nbsp</div>
+<div align="center">  
+<h5>MIT Licensed | Copyright © 2019 <strong>世佳</strong></h5>
+</div>
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc level-3 fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#css-学习笔记"><strong>CSS 学习笔记</strong></a>
+<ul>
+<li><a href="#简单介绍"><strong>简单介绍</strong></a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+
+  
+</body>
+
+</html>

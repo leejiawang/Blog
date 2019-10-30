@@ -11,10 +11,6 @@
   </url>
   
   <url>
-    <loc>https://leeyiner.com/docs/web/hugo/</loc>
-  </url>
-  
-  <url>
     <loc>https://leeyiner.com/docs/hackintosh/file/</loc>
   </url>
   
@@ -24,6 +20,10 @@
   
   <url>
     <loc>https://leeyiner.com/docs/web/</loc>
+  </url>
+  
+  <url>
+    <loc>https://leeyiner.com/docs/web/html/</loc>
   </url>
   
   <url>
@@ -43,7 +43,15 @@
   </url>
   
   <url>
+    <loc>https://leeyiner.com/docs/web/css/</loc>
+  </url>
+  
+  <url>
     <loc>https://leeyiner.com/docs/design/ziyuan/</loc>
+  </url>
+  
+  <url>
+    <loc>https://leeyiner.com/docs/web/hugo/</loc>
   </url>
   
   <url>
