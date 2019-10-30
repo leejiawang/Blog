@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 視界</title>
-    <link>https://leeyiner.com/posts/</link>
-    <description>Recent content in Posts on 視界</description>
+    <title>Posts on eyecus</title>
+    <link>https://leejiawang.github.io/posts/</link>
+    <description>Recent content in Posts on eyecus</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://leeyiner.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://leejiawang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>如何隐藏文件资源管理器中的快速启动？</title>
-      <link>https://leeyiner.com/posts/%E5%A6%82%E4%BD%95%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E7%9A%84%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8/</link>
+      <link>https://leejiawang.github.io/posts/%E5%A6%82%E4%BD%95%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E7%9A%84%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8/</link>
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://leeyiner.com/posts/%E5%A6%82%E4%BD%95%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E7%9A%84%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8/</guid>
+      <guid>https://leejiawang.github.io/posts/%E5%A6%82%E4%BD%95%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E7%9A%84%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8/</guid>
       <description>&lt;p&gt;&lt;code&gt;Windows10给用户的文件资源管理器中带来了一些文件夹的快速启动，但有些人觉得这并没有带来什么便利，反而喜欢以前简洁的感觉，下面来看看应该如何操作吧将其隐藏。&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Win10系统如何关闭自动更新？</title>
-      <link>https://leeyiner.com/posts/win10%E7%B3%BB%E7%BB%9F%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</link>
+      <link>https://leejiawang.github.io/posts/win10%E7%B3%BB%E7%BB%9F%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</link>
       <pubDate>Mon, 01 Apr 2019 00:30:00 +0000</pubDate>
       
-      <guid>https://leeyiner.com/posts/win10%E7%B3%BB%E7%BB%9F%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</guid>
+      <guid>https://leejiawang.github.io/posts/win10%E7%B3%BB%E7%BB%9F%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</guid>
       <description> 微软推出的Windows10操作系统自带了Windows Defender防病毒程序，给予了电脑一定的反病毒攻击的能力，与此同时也给用户带来了一些困扰。一些用户希望能够关闭这个功能，看看应该如何操作吧。
 ⚠️ 注意
 由于方法涉及使用运用组策略，故Windows10家庭版可能不适用。  步骤速览  快捷键WIN+R调出运行工具，输入组策略命令services.msc，点击确定; 在服务中找到Windows Update选项，双击; 在“启动类型”下选择“禁用”，并点击确定。  详细图解  快捷键WIN+R调出运行工具，输入组策略命令services.msc，点击确定。
@@ -35,10 +35,10 @@
     
     <item>
       <title>如何禁用Windows Defender Service？</title>
-      <link>https://leeyiner.com/posts/%E5%A6%82%E4%BD%95%E7%A6%81%E7%94%A8windows-defender-service/</link>
+      <link>https://leejiawang.github.io/posts/%E5%A6%82%E4%BD%95%E7%A6%81%E7%94%A8windows-defender-service/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://leeyiner.com/posts/%E5%A6%82%E4%BD%95%E7%A6%81%E7%94%A8windows-defender-service/</guid>
+      <guid>https://leejiawang.github.io/posts/%E5%A6%82%E4%BD%95%E7%A6%81%E7%94%A8windows-defender-service/</guid>
       <description> 微软推出的Windows10操作系统自带了Windows Defender防病毒程序，给予了电脑一定的反病毒攻击的能力，与此同时也给用户带来了一些困扰。一些用户希望能够关闭这个功能，看看应该如何操作吧。
 💡 提示 点击了解什么是Windows Defender Service？  步骤速览  使用快捷键WIN+R调出运行工具，输入组策略命令gpedit.msc，点击确定。 进入组策略后按照如下路径找到对应项： 计算机配置/管理模板/Windows组件/Windows Defender防病毒程序/关闭Windows Defender防病毒程序。 双击关闭Windows Defender防病毒程序，在弹出的窗口中选择已启用，点击确定，退出组策略编辑器。 在任务栏空白处点击鼠标右键，打开任务管理器，点击启动选项卡，右键单击Windows Defender将其禁用。 完成上述操作后重启计算机。  详细图解  使用快捷键WIN+R调出运行工具，输入组策略命令gpedit.msc，点击确定。
   进入组策略后按照如下路径找到关闭Windows Defender防病毒程序：

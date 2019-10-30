@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>視界</title>
-    <link>https://leeyiner.com/docs/design/</link>
-    <description>Recent content on 視界</description>
+    <title>eyecus</title>
+    <link>https://leejiawang.github.io/docs/design/</link>
+    <description>Recent content on eyecus</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://leeyiner.com/docs/design/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://leejiawang.github.io/docs/design/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>免费字体</title>
-      <link>https://leeyiner.com/docs/design/fonts/</link>
+      <link>https://leejiawang.github.io/docs/design/fonts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://leeyiner.com/docs/design/fonts/</guid>
+      <guid>https://leejiawang.github.io/docs/design/fonts/</guid>
       <description> 写在前面 在版权意识日益增长的今天，侵犯版权的成本也大大增加，尤其是在商业领域，一旦侵权可能就会面临“律师函警告”，随之而来的将是巨大的经济损失，故在创作过程中避免侵权尤为重要。在字体方面，使用一些免费商用的字体是个较好的规避上述问题的办法。
 💡 本页面提供下载链接均来自其发布官网，如本站不慎侵犯你的版权请联系我们，本站将及时处理，并撤下相关内容！  优秀并且支持免费商用的字体作品 提到免费可商用字体，就不得不提大名鼎鼎的思源黑体和思源宋体， 她们是Google和Adobe为了响应统一设计的需求合作开发，在Adobe Type 发布的泛 CJK 字体，服务于东亚 15 亿人口。支持四种不同的东亚语言（简体中文、繁体中文、日语和朝鲜语），7 种粗细类型中的每一种都有 65,535 个字形，可共同呈现一致的视觉美感。该字体还包含多个西方字形，支持拉丁语、希腊语和西里尔文脚本。
 另外在这个领域，国内公司也发布了众多优秀作品，例如站酷的一系列免费字体以及最近阿里巴巴新发布的阿里巴巴普惠体。都能在相关领域给设计师提供便利。
@@ -24,10 +24,10 @@
     
     <item>
       <title>临时素材...</title>
-      <link>https://leeyiner.com/docs/design/ziyuan/</link>
+      <link>https://leejiawang.github.io/docs/design/ziyuan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://leeyiner.com/docs/design/ziyuan/</guid>
+      <guid>https://leejiawang.github.io/docs/design/ziyuan/</guid>
       <description>
 
 

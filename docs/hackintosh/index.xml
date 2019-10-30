@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>視界</title>
-    <link>https://leeyiner.com/docs/hackintosh/</link>
-    <description>Recent content on 視界</description>
+    <title>eyecus</title>
+    <link>https://leejiawang.github.io/docs/hackintosh/</link>
+    <description>Recent content on eyecus</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://leeyiner.com/docs/hackintosh/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://leejiawang.github.io/docs/hackintosh/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>安装指导</title>
-      <link>https://leeyiner.com/docs/hackintosh/install/</link>
+      <link>https://leejiawang.github.io/docs/hackintosh/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://leeyiner.com/docs/hackintosh/install/</guid>
+      <guid>https://leejiawang.github.io/docs/hackintosh/install/</guid>
       <description> &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp 👨🏻‍💻 持续更新中...  </description>
     </item>
     
     <item>
       <title>工具下载</title>
-      <link>https://leeyiner.com/docs/hackintosh/file/</link>
+      <link>https://leejiawang.github.io/docs/hackintosh/file/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://leeyiner.com/docs/hackintosh/file/</guid>
+      <guid>https://leejiawang.github.io/docs/hackintosh/file/</guid>
       <description>部分用于安装黑苹果的工具 VMware Workstation Pro Workstation Pro是由VMware 提供的虚拟机工具，用于在PC上搭建macOS系统环境。
 VMware 官网下载 
     UniBeast UniBeast是由tonymacx86 提供的苹果安装U盘制作工具，一键式制作，方便易用。
