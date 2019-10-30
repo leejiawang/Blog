@@ -4,15 +4,11 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="css" />
-<meta property="og:description" content=" 💡 一些我学习过程中的实用小笔记，大佬勿喷。  CSS 学习笔记 层叠样式表(Cascading Style Sheets)是一种用来表现HTML或XML等文件样式的计算机语言。CSS不仅可以静态地修饰网页，还可以配合各种脚本语言动态地对网页各元素进行格式化。
-简单介绍  首先根据自己的系统参照下述方法进行安装。
- macOS 🔥   macOS操作系统下直接使用Homebrew安装，在终端中输入如下代码：
-brew install hugo  ⚠️ 注意
-执行此操作前请确保macOS安装有Homebrew。    Windows   在Hugo Releases下载最新发布对应操作系统的ZIP，将所有内容提取到C:\Hugo\bin目录中，包含可执行文件hugo.exe、LICENSE和README.md。
- 然后将Hugo添加到Windows的PATH设置中。
- 右键单击开始按钮 单击系统 单击左侧的高级系统设置 单击底部的环境变量...按钮 在用户变量部分中找到以PATH开头的行（PATH全部大写） 双击PATH 单击新建…按钮 键入C:\Hugo\bin，完成输入后按Enter 在每个窗口中单击确定退出    Linux   Linux操作系统下直接使用Homebrew安装，在终端中输入如下代码:
-brew install hugo  ⚠️ 注意
-执行此操作前请确保linux安装有Homebrew。     简单介绍 " />
+<meta property="og:description" content="💡 一些我学习过程中的实用小笔记，大佬勿喷。  CSS 学习笔记 层叠样式表(Cascading Style Sheets)是一种用来表现HTML或XML等文件样式的计算机语言。CSS不仅可以静态地修饰网页，还可以配合各种脚本语言动态地对网页各元素进行格式化。
+简单介绍  CSS的常用格式 p { color:red; text-align:center; }   p ：选择器是需要改变样式的元素
+color：属性是需要改变的样式属性
+red ：值是属性的描述值
+   基本属性 文本属性    属性 功能描述 值举例     color 颜色 #ffffff(颜色代码)   direction 文本方向 ltr(左到右) rtl(右到左)   letter-spacing 字间距 -3px(数值)   line-height 行高 200%(百分数)   text-align 对齐 center(居中) left(左对齐) right(右对齐)   text-decoration 文本修饰 overline wavy red(上划红色波浪线) line-through(删除线) underline(下划线)   text-indent 首行缩进 3px(数值)   text-shadow 文本阴影 2px 2px #ff0000(XY偏移值、颜色代码)   text-transform 字母大小写 uppercase(大写) capitalize(大小写) lowercase(小写)   vertical-align 垂直对齐 baseline(在父元素的基线上)sub(垂直对齐文本下标)super(垂直对齐文本上标)top( 顶端与行中最高元素顶端对齐)text-top( 顶端与父元素字体顶端对齐)middle(在父元素的中部)bottom(底端与行中最低的元素顶端对齐)text-bottom(底端与父元素字体底端对齐)-30%(使用line-height的值来排列此元素)inherit(从父元素继承属性)   white-space 空白区域处理 normal(忽略) pre(保留) nowrap(不换行直到&lt;/br&gt;) pre-wrap(保留并正常换行) pre-line(合并空白符) inherit(从父元素继承属性)   word-spacing 字间距 3px(数值)    背景属性    属性 功能描述 值举例     background-color 背景颜色 #ffffff(颜色代码)   background-image 背景图像 url(&#39;paper." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://leejiawang.github.io/docs/web/css/" />
 
@@ -23,7 +19,7 @@ brew install hugo  ⚠️ 注意
 <link rel="stylesheet" href="/book.min.387322de6a673b6e7bcb9d7f7149044fedfd6371205f4f2859449b601c647fe1.css" integrity="sha256-OHMi3mpnO257y51/cUkET&#43;39Y3EgX08oWUSbYBxkf&#43;E=">
 
 
-<script defer src="/search.min.d33f52502bae90cb4590f8d56c1f79a89cb72b2d8f127415088c07d850764f25.js" integrity="sha256-0z9SUCuukMtFkPjVbB95qJy3Ky2PEnQVCIwH2FB2TyU="></script>
+<script defer src="/search.min.e50d9358412b89537a4349af041f395b60b52c06ab11c2d7cd42f4eae68c4531.js" integrity="sha256-5Q2TWEEriVN6Q0mvBB85W2C1LAarEcLXzUL06uaMRTE="></script>
 
   
 </head>
@@ -372,82 +368,206 @@ brew install hugo  ⚠️ 注意
 <h2 id="简单介绍"><strong>简单介绍</strong></h2>
 
 <blockquote>
-<p>首先根据自己的系统参照下述方法进行安装。</p>
+<p><strong>CSS的常用格式</strong>
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <pre><code>p {
+   color:red;
+   text-align:center;
+}
+</code></pre>
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <p><code>p</code> <strong>：选择器</strong>是需要改变样式的元素</p>
+
+<p><code>color</code><strong>：属性</strong>是需要改变的样式属性</p>
+
+<p><code>red</code> <strong>：值</strong>是属性的描述值</p>
+
+  </div>
+  
+</div>
+</p>
 </blockquote>
 
+<h2 id="基本属性"><strong>基本属性</strong></h2>
 
+<h3 id="文本属性"><strong>文本属性</strong></h3>
 
+<table>
+<thead>
+<tr>
+<th align="left">属性</th>
+<th align="left">功能描述</th>
+<th align="left">值举例</th>
+</tr>
+</thead>
 
+<tbody>
+<tr>
+<td align="left">color</td>
+<td align="left">颜色</td>
+<td align="left"><code>#ffffff(颜色代码)</code></td>
+</tr>
 
-<div class="book-tabs">
+<tr>
+<td align="left">direction</td>
+<td align="left">文本方向</td>
+<td align="left"><code>ltr(左到右)</code> <code>rtl(右到左)</code></td>
+</tr>
 
-  <input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-0" checked="checked" />
-  <label for="tabs-uniqueid-0">
-    macOS 🔥
-  </label>
-  <div class="book-tabs-content markdown-inner">
-    <ul>
-<li><p>macOS操作系统下直接使用<code>Homebrew</code>安装，在终端中输入如下代码：</p>
+<tr>
+<td align="left">letter-spacing</td>
+<td align="left">字间距</td>
+<td align="left"><code>-3px(数值)</code></td>
+</tr>
 
-<pre><code>brew install hugo
+<tr>
+<td align="left">line-height</td>
+<td align="left">行高</td>
+<td align="left"><code>200%(百分数)</code></td>
+</tr>
+
+<tr>
+<td align="left">text-align</td>
+<td align="left">对齐</td>
+<td align="left"><code>center(居中)</code> </br><code>left(左对齐)</code> </br><code>right(右对齐)</code></td>
+</tr>
+
+<tr>
+<td align="left">text-decoration</td>
+<td align="left">文本修饰</td>
+<td align="left"><code>overline wavy red(上划红色波浪线)</code> </br><code>line-through(删除线)</code> </br><code>underline(下划线)</code></td>
+</tr>
+
+<tr>
+<td align="left">text-indent</td>
+<td align="left">首行缩进</td>
+<td align="left"><code>3px(数值)</code></td>
+</tr>
+
+<tr>
+<td align="left">text-shadow</td>
+<td align="left">文本阴影</td>
+<td align="left"><code>2px 2px #ff0000(XY偏移值、颜色代码)</code></td>
+</tr>
+
+<tr>
+<td align="left">text-transform</td>
+<td align="left">字母大小写</td>
+<td align="left"><code>uppercase(大写)</code> </br><code>capitalize(大小写)</code> </br><code>lowercase(小写)</code></td>
+</tr>
+
+<tr>
+<td align="left">vertical-align</td>
+<td align="left">垂直对齐</td>
+<td align="left"><code>baseline(在父元素的基线上)</code></br><code>sub(垂直对齐文本下标)</code></br><code>super(垂直对齐文本上标)</code></br><code>top( 顶端与行中最高元素顶端对齐)</code></br><code>text-top( 顶端与父元素字体顶端对齐)</code></br><code>middle(在父元素的中部)</code></br><code>bottom(底端与行中最低的元素顶端对齐)</code></br><code>text-bottom(底端与父元素字体底端对齐)</code></br><code>-30%(使用line-height的值来排列此元素)</code></br><code>inherit(从父元素继承属性)</code></td>
+</tr>
+
+<tr>
+<td align="left">white-space</td>
+<td align="left">空白区域处理</td>
+<td align="left"><code>normal(忽略)</code> </br><code>pre(保留)</code> </br><code>nowrap(不换行直到&lt;/br&gt;)</code> </br><code>pre-wrap(保留并正常换行)</code> </br><code>pre-line(合并空白符)</code> </br><code>inherit(从父元素继承属性)</code></td>
+</tr>
+
+<tr>
+<td align="left">word-spacing</td>
+<td align="left">字间距</td>
+<td align="left"><code>3px(数值)</code></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="背景属性"><strong>背景属性</strong></h3>
+
+<table>
+<thead>
+<tr>
+<th align="left">属性</th>
+<th align="left">功能描述</th>
+<th align="left">值举例</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">background-color</td>
+<td align="left">背景颜色</td>
+<td align="left"><code>#ffffff(颜色代码)</code></td>
+</tr>
+
+<tr>
+<td align="left">background-image</td>
+<td align="left">背景图像</td>
+<td align="left"><code>url('paper.gif')(图片URL)</code></td>
+</tr>
+
+<tr>
+<td align="left">background-repeat</td>
+<td align="left">背景图像排列</td>
+<td align="left"><code>repeat-x(水平平铺)</code> </br><code>repeat-y(垂直平铺)</code> </br><code>no-repeat(不平铺)</code></td>
+</tr>
+
+<tr>
+<td align="left">background-position</td>
+<td align="left">背景图像定位</td>
+<td align="left"><code>right top(左上角)</code></td>
+</tr>
+
+<tr>
+<td align="left">background-attachment</td>
+<td align="left">背景图像滚动</td>
+<td align="left"><code>flase(假)</code> <code>true(真)</code></td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+<p>背景属性简写为<code>background</code>，值得写法如下</p>
+
+<pre><code>body {background:#ffffff url('img_tree.png') no-repeat right top;}
 </code></pre>
+</blockquote>
 
-<blockquote class="book-hint warning">
-<strong>⚠️ 注意</strong><br />
-执行此操作前请确保macOS安装有<a href="https://brew.sh">Homebrew</a>。
-</blockquote></li>
-</ul>
+<h3 id="字体属性"><strong>字体属性</strong></h3>
 
-  </div>
+<table>
+<thead>
+<tr>
+<th align="left">属性</th>
+<th align="left">功能描述</th>
+<th align="left">值举例</th>
+</tr>
+</thead>
 
-  <input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-1"  />
-  <label for="tabs-uniqueid-1">
-    Windows
-  </label>
-  <div class="book-tabs-content markdown-inner">
-    <ul>
-<li><p>在<a href="https://github.com/gohugoio/hugo/releases">Hugo Releases</a>下载最新发布对应操作系统的<code>ZIP</code>，将所有内容提取到<code>C:\Hugo\bin</code>目录中，包含可执行文件<code>hugo.exe</code>、<code>LICENSE</code>和<code>README.md</code>。</p></li>
+<tbody>
+<tr>
+<td align="left">font-family</td>
+<td align="left">字体系列</td>
+<td align="left"><code>&quot;Times New Roman&quot;(字体名)</code> </br><code>sans-serif(无衬线字体)</code> </br> <code>serif(衬线字体)</code></td>
+</tr>
 
-<li><p>然后将Hugo添加到Windows的<code>PATH</code>设置中。</p>
+<tr>
+<td align="left">font-style</td>
+<td align="left">字体样式</td>
+<td align="left"><code>normal(正常)</code> </br><code>italic(斜体)</code></br> <code>oblique(倾斜)</code></td>
+</tr>
 
-<ul>
-<li>右键单击<code>开始</code>按钮</li>
-<li>单击<code>系统</code></li>
-<li>单击左侧的<code>高级系统设置</code></li>
-<li>单击底部的<code>环境变量...</code>按钮</li>
-<li>在<code>用户变量</code>部分中找到以PATH开头的行（PATH全部大写）</li>
-<li>双击<code>PATH</code></li>
-<li>单击<code>新建…</code>按钮</li>
-<li>键入<code>C:\Hugo\bin</code>，完成输入后按<code>Enter</code></li>
-<li>在每个窗口中单击<code>确定</code>退出</li>
-</ul></li>
-</ul>
+<tr>
+<td align="left">font-size</td>
+<td align="left">字体大小</td>
+<td align="left"><code>40px(数值)</code></br> <code>2.5em(数值,px/16=em)</code></br> <code>100%(百分数,body属性值*100%)</code></td>
+</tr>
 
-  </div>
-
-  <input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-2"  />
-  <label for="tabs-uniqueid-2">
-    Linux
-  </label>
-  <div class="book-tabs-content markdown-inner">
-    <ul>
-<li><p>Linux操作系统下直接使用<code>Homebrew</code>安装，在终端中输入如下代码:</p>
-
-<pre><code>brew install hugo
-</code></pre>
-
-<blockquote class="book-hint warning">
-<strong>⚠️ 注意</strong><br />
-执行此操作前请确保linux安装有<a href="https://docs.brew.sh/Homebrew-on-Linux">Homebrew</a>。
-</blockquote></li>
-</ul>
-
-  </div>
-
-</div>
-
-
-<h2 id="简单介绍-1"><strong>简单介绍</strong></h2>
+<tr>
+<td align="left">font-weight</td>
+<td align="left">字体粗细</td>
+<td align="left"><code>200(整百分数)</code></td>
+</tr>
+</tbody>
+</table>
 </article>
 
       <div>&nbsp&nbsp&nbsp&nbsp</div>
@@ -466,7 +586,12 @@ brew install hugo  ⚠️ 注意
 <li><a href="#css-学习笔记"><strong>CSS 学习笔记</strong></a>
 <ul>
 <li><a href="#简单介绍"><strong>简单介绍</strong></a></li>
-<li><a href="#简单介绍-1"><strong>简单介绍</strong></a></li>
+<li><a href="#基本属性"><strong>基本属性</strong></a>
+<ul>
+<li><a href="#文本属性"><strong>文本属性</strong></a></li>
+<li><a href="#背景属性"><strong>背景属性</strong></a></li>
+<li><a href="#字体属性"><strong>字体属性</strong></a></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
