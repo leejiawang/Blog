@@ -54,19 +54,6 @@ MultiBeast 官网下载
     </item>
     
     <item>
-      <title>HTML5</title>
-      <link>https://leejiawang.github.io/docs/web/html/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://leejiawang.github.io/docs/web/html/</guid>
-      <description>💡 一些我学习过程中的实用小笔记，大佬勿喷。  HTML5 学习笔记 HTML称为超文本标记语言，是一种标识性的语言。它包括一系列标签，通过这些标签可以将网络上的文档格式统一，使分散的Internet资源连接为一个逻辑整体。
-简单介绍  Html简单实例 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; &amp;lt;title&amp;gt;eyecus&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;hello world！&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;hello eyecus！&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;    hello world！ hello eyecus！
- &amp;lt;!DOCTYPE html&amp;gt; ：声明为html5文档 &amp;lt;html&amp;gt;：html页面的根元素 &amp;lt;head&amp;gt;：包含了文档的元(meta)数据 &amp;lt;title&amp;gt;：包含了页面标题 &amp;lt;body&amp;gt;：包含了可见的页面内容 &amp;lt;h1&amp;gt;：一级标题标签 &amp;lt;p&amp;gt;：段落标签
-  注意 对于中文网页需要使用 &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; 声明编码，否则会出现乱码。   基础 参考信息  常见属性
-   标签 描述     class 为html元素定义一个或多个类名   id 定义元素的唯一id   style 规定元素的行内样式   title 描述了元素的额外信息    文本格式化标签</description>
-    </item>
-    
-    <item>
       <title>免费字体</title>
       <link>https://leejiawang.github.io/docs/design/fonts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -77,6 +64,19 @@ MultiBeast 官网下载
 另外在这个领域，国内公司也发布了众多优秀作品，例如站酷的一系列免费字体以及最近阿里巴巴新发布的阿里巴巴普惠体。都能在相关领域给设计师提供便利。
 部分可免费商用的字体  💿含下载链接 🇨🇳🇺🇸支持语言
     字体名称 提供组织 支持语言 获取字体     思源黑体 Google,Adobe CN/EN/TWHK/JP/KR 官网  下载   思源宋体 Google,Adobe CN/EN/TWHK/JP/KR 官网  下载   阿里巴巴普惠体 阿里巴巴 CN/EN 官网  下载   站酷庆科黄油体 ZCOOL CN/EN 官网  下载   站酷文艺体 ZCOOL CN/EN 官网  下载   站酷小薇logo体 ZCOOL CN/EN 官网  下载   站酷酷黑体 ZCOOL CN/EN 官网  下载   站酷意大利体 ZCOOL EN 官网  下载   站酷快乐体 ZCOOL CN/EN 官网  下载   站酷高端黑体 ZCOOL CN/EN 官网  下载     ▫️ 以上提供的页面及下载地址均为官方性质，请放心访问下载。 </description>
+    </item>
+    
+    <item>
+      <title>前端基础</title>
+      <link>https://leejiawang.github.io/docs/web/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leejiawang.github.io/docs/web/html/</guid>
+      <description>💡 一些我学习过程中的实用小笔记，大佬勿喷。  📎 HTML5 笔记 HTML称为超文本标记语言，是一种标识性的语言。它包括一系列标签，通过这些标签可以将网络上的文档格式统一，使分散的Internet资源连接为一个逻辑整体。
+简单介绍  Html简单实例 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; &amp;lt;title&amp;gt;eyecus&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;hello world！&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;hello eyecus！&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;    hello world！ hello eyecus！
+ &amp;lt;!DOCTYPE html&amp;gt; ：声明为html5文档 &amp;lt;html&amp;gt;：html页面的根元素 &amp;lt;head&amp;gt;：包含了文档的元(meta)数据 &amp;lt;title&amp;gt;：包含了页面标题 &amp;lt;body&amp;gt;：包含了可见的页面内容 &amp;lt;h1&amp;gt;：一级标题标签 &amp;lt;p&amp;gt;：段落标签
+  注意 对于中文网页需要使用 &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; 声明编码，否则会出现乱码。   基本概念 参考信息  常见属性
+   标签 描述     class 为html元素定义一个或多个类名   id 定义元素的唯一id   style 规定元素的行内样式   title 描述了元素的额外信息    文本格式化标签</description>
     </item>
     
     <item>
@@ -96,21 +96,7 @@ MultiBeast 官网下载
       <guid>https://leejiawang.github.io/docs/navigation/recommend/</guid>
       <description>写在前面 在搜索引擎搜索软件是，一不小心会被带伪装效果的广告链接所骗，下载到不安全带有木马的程序，对电脑伤极大，本文提供一个找软件公司官方的便捷导航及一些我用着还不错的相对而言还不错的下载网站。
 ⚠️ 声明
-本页面提供的网址均为官方发布的网站，其网站内容与本站无关。  💡 部分著名软件企业官网  官网
-    组织名称 代表产品 主营领域 公司主页     Adobe Photoshop, After Effects 创意 adobe.com   Autodesk AutoCAD, 3ds Max, Maya 工程 autodesk.com   Microsoft Windwos, Office 效率 microsoft.com   Corel CorelDraw, 会声会影 创意 corel.com   WinRAR WinRAR 压缩 winrar.com   vmware Workstation Pro 虚拟机 vmware.com   TeamViewer TeamViewer 远程控制 teamviewer.</description>
-    </item>
-    
-    <item>
-      <title>css</title>
-      <link>https://leejiawang.github.io/docs/web/css/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://leejiawang.github.io/docs/web/css/</guid>
-      <description>💡 一些我学习过程中的实用小笔记，大佬勿喷。  CSS 学习笔记 层叠样式表(Cascading Style Sheets)是一种用来表现HTML或XML等文件样式的计算机语言。CSS不仅可以静态地修饰网页，还可以配合各种脚本语言动态地对网页各元素进行格式化。
-简单介绍  CSS的常用格式 p { color:red; text-align:center; }   p ：选择器是需要改变样式的元素
-color：属性是需要改变的样式属性
-red ：值是属性的描述值
-   基本属性 文本属性    属性 功能描述 值举例     color 颜色 #ffffff(颜色代码)   direction 文本方向 ltr(左到右) rtl(右到左)   letter-spacing 字间距 -3px(数值)   line-height 行高 200%(百分数)   text-align 对齐 center(居中) left(左对齐) right(右对齐)   text-decoration 文本修饰 overline wavy red(上划红色波浪线) line-through(删除线) underline(下划线)   text-indent 首行缩进 3px(数值)   text-shadow 文本阴影 2px 2px #ff0000(XY偏移值、颜色代码)   text-transform 字母大小写 uppercase(大写) capitalize(大小写) lowercase(小写)   vertical-align 垂直对齐 baseline(在父元素的基线上)sub(垂直对齐文本下标)super(垂直对齐文本上标)top( 顶端与行中最高元素顶端对齐)text-top( 顶端与父元素字体顶端对齐)middle(在父元素的中部)bottom(底端与行中最低的元素顶端对齐)text-bottom(底端与父元素字体底端对齐)-30%(使用line-height的值来排列此元素)inherit(从父元素继承属性)   white-space 空白区域处理 normal(忽略) pre(保留) nowrap(不换行直到&amp;lt;/br&amp;gt;) pre-wrap(保留并正常换行) pre-line(合并空白符) inherit(从父元素继承属性)   word-spacing 字间距 3px(数值)    背景属性    属性 功能描述 值举例     background-color 背景颜色 #ffffff(颜色代码)   background-image 背景图像 url(&#39;paper.</description>
+本页面提供的网址均为官方发布的网站，其网站内容与本站无关。  📎 部分著名软件企业官网    组织名称 代表产品 主营领域 公司主页     Adobe Photoshop, After Effects 创意 adobe.com   Autodesk AutoCAD, 3ds Max, Maya 工程 autodesk.com   Microsoft Windwos, Office 效率 microsoft.com   Corel CorelDraw, 会声会影 创意 corel.com   WinRAR WinRAR 压缩 winrar.com   vmware Workstation Pro 虚拟机 vmware.com   TeamViewer TeamViewer 远程控制 teamviewer.cn   金山软件 WPS 效率 wps.</description>
     </item>
     
     <item>
@@ -134,7 +120,7 @@ red ：值是属性的描述值
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://leejiawang.github.io/docs/web/hugo/</guid>
-      <description>💡本站即为Hugo博客框架搭建，使用了Hugo-Book主题。  HUGO搭建静态网站简易教程 Hugo是由Go语言实现的静态网站生成器，简单、易用、高效、易扩展、快速部署。
+      <description>💡本站即为Hugo博客框架搭建，使用了Hugo-Book主题。  📎 HUGO搭建网站简易教程 Hugo是由Go语言实现的静态网站生成器，简单、易用、高效、易扩展、快速部署。
 Hugo官网 Hugo主题 Hugo中文 Hugo仓库
     第1步 安装Hugo框架  首先根据自己的系统参照下述方法进行安装。 macOS 🔥   macOS操作系统下直接使用Homebrew安装，在终端中输入如下代码：
 brew install hugo  ⚠️ 注意
@@ -146,15 +132,24 @@ brew install hugo  ⚠️ 注意
     </item>
     
     <item>
-      <title>主题样式</title>
-      <link>https://leejiawang.github.io/docs/web/hugo-book/</link>
+      <title>Google Fonts</title>
+      <link>https://leejiawang.github.io/docs/web/webfonts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://leejiawang.github.io/docs/web/hugo-book/</guid>
-      <description>⚠️ 注意
-本页面展示效果为 Hugo-Book主题，由Alex Shpak开发，配置请详见主题仓库README。  主题样式代码模板 按钮（Buttons） Buttons are styled links that can lead to local page or external link.
-{{&amp;lt; button relref=&amp;quot;/&amp;quot; [class=&amp;quot;...&amp;quot;] &amp;gt;}}Get Home{{&amp;lt; /button &amp;gt;}} {{&amp;lt; button href=&amp;quot;https://github.com/alex-shpak/hugo-book&amp;quot; &amp;gt;}}Contribute{{&amp;lt; /button &amp;gt;}}   预览   Get Home  Contribute  分列（Columns） Columns help organize shorter pieces of content horizontally for readability.
-{{&amp;lt; columns &amp;gt;}} &amp;lt;!-- begin columns block --&amp;gt; # Left Content Lorem markdownum insigne.</description>
+      <guid>https://leejiawang.github.io/docs/web/webfonts/</guid>
+      <description> 💡 一些实用小笔记。  📎 Google Fonts 的使用   首先进入Google Fonts官网，然后在网页中选择自己需要一个或多个的字体，点击字体左上角的加号。
+&amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css?family=Noto+Sans+SC|Roboto&amp;amp;display=swap&amp;quot; rel=&amp;quot;stylesheet&amp;quot;&amp;gt;   点击网页右下角，在弹出框中有两处代码，将第一处代码放置在Html文件的&amp;lt;head&amp;gt;标签中，第二处代码用于CSS文件中定义字体。
+font-family: &#39;Roboto&#39;, sans-serif; font-family: &#39;Noto Sans SC&#39;, sans-serif;    </description>
+    </item>
+    
+    <item>
+      <title>绘文字表</title>
+      <link>https://leejiawang.github.io/docs/design/emoji/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leejiawang.github.io/docs/design/emoji/</guid>
+      <description>💡 本页面所提供得Emoji表情清单用于快速复制使用。  📎 Emoji 表情清单  绘文字（日语：絵文字/えもじ emoji）是日本在无线通信中所使用的视觉情感符号，绘指图画，文字指的则是字符，可用来代表多种表情，如笑脸表示笑、蛋糕表示食物等。在中国大陆，emoji通常叫做“小黄脸”，或者直称emoji。在NTTDoCoMo的i-mode系统电话系统中，绘文字的尺寸是12x12 像素，在传送时，一个图形有2个字节。Unicode编码为E63E到E757，而在Shift-JIS编码则是从F89F到F9FC。基本的绘文字共有176个符号，在C-HTML4.0的编程语言中，则另增添了76个情感符号。最早由栗田穰崇（Shigetaka Kurita）创作，并在日本网络及手机用户中流行。自苹果公司发布的iOS 5输入法中加入了emoji后，这种表情符号开始席卷全球，目前emoji已被大多数现代计算机系统所兼容的Unicode编码采纳，普遍应用于各种手机短信和社交网络中。本段摘自百度百科
+  面部表情 Smileys 😀 😁 😂 🤣 😃 😄 😅 😆 😉 😊 😋 😎 😍 😘 🥰 😗 😙 😚 ☺️ 🙂 🤗 🤩 🤔 🤨 😐 😑 😶 🙄 😏 😣 😥 😮 🤐 😯 😪 😫 😴 😌 😛 😜 😝 🤤 😒 😓 😔 😕 🙃 🤑 😲 ☹️ 🙁 😖 😞 😟 😤 😢 😭 😦 😧 😨 😩 🤯 😬 😰 😱 🥵 🥶 😳 🤪 😵 😡 😠 🤬 😷 🤒 🤕 🤢 🤮 🤧 😇 🤠 🤡 🥳 🥴 🥺 🤥 🤫 🤭 🧐 🤓 😈 👿 👹 👺 💀 👻 👽 🤖 💩 😺 😸 😹 😻 😼 😽 🙀 😿 😾</description>
     </item>
     
     <item>

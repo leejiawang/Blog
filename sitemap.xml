@@ -23,11 +23,11 @@
   </url>
   
   <url>
-    <loc>https://leejiawang.github.io/docs/web/html/</loc>
+    <loc>https://leejiawang.github.io/docs/design/fonts/</loc>
   </url>
   
   <url>
-    <loc>https://leejiawang.github.io/docs/design/fonts/</loc>
+    <loc>https://leejiawang.github.io/docs/web/html/</loc>
   </url>
   
   <url>
@@ -43,10 +43,6 @@
   </url>
   
   <url>
-    <loc>https://leejiawang.github.io/docs/web/css/</loc>
-  </url>
-  
-  <url>
     <loc>https://leejiawang.github.io/docs/design/ziyuan/</loc>
   </url>
   
@@ -59,7 +55,11 @@
   </url>
   
   <url>
-    <loc>https://leejiawang.github.io/docs/web/hugo-book/</loc>
+    <loc>https://leejiawang.github.io/docs/web/webfonts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://leejiawang.github.io/docs/design/emoji/</loc>
   </url>
   
   <url>
