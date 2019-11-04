@@ -30,7 +30,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://leejiawang.github.io/docs/web/hugo/</guid>
-      <description>本站即为Hugo博客框架搭建，使用了Hugo-Book主题。  📎 HUGO搭建网站简易教程 Hugo是由Go语言实现的静态网站生成器，简单、易用、高效、易扩展、快速部署。
+      <description>本站即为Hugo博客框架搭建，使用了Hugo-Book主题。   HUGO搭建网站简易教程 Hugo是由Go语言实现的静态网站生成器，简单、易用、高效、易扩展、快速部署。
 Hugo官网 Hugo主题 Hugo中文 Hugo仓库
     第1步 安装Hugo框架  首先根据自己的系统参照下述方法进行安装。 macOS 🔥   macOS操作系统下直接使用Homebrew安装，在终端中输入如下代码：
 brew install hugo   注意 执行此操作前请确保macOS安装有Homebrew。    Windows   在Hugo Releases下载最新发布对应操作系统的ZIP，将所有内容提取到C:\Hugo\bin目录中，包含可执行文件hugo.exe、LICENSE和README.md。
@@ -45,7 +45,7 @@ brew install hugo   注意 执行此操作前请确保linux安装有Homebrew。 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://leejiawang.github.io/docs/web/webfonts/</guid>
-      <description>  一些实用小笔记。  📎 Google Fonts 的使用   首先进入Google Fonts官网，然后在网页中选择自己需要一个或多个的字体，点击字体左上角的加号。
+      <description>  一些实用小笔记。   Google Fonts 的使用   首先进入Google Fonts官网，然后在网页中选择自己需要一个或多个的字体，点击字体左上角的加号。
 &amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css?family=Noto+Sans+SC|Roboto&amp;amp;display=swap&amp;quot; rel=&amp;quot;stylesheet&amp;quot;&amp;gt;   点击网页右下角，在弹出框中有两处代码，将第一处代码放置在Html文件的&amp;lt;head&amp;gt;标签中，第二处代码用于CSS文件中定义字体。
 font-family: &#39;Roboto&#39;, sans-serif; font-family: &#39;Noto Sans SC&#39;, sans-serif;    </description>
     </item>
