@@ -26,19 +26,17 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://leejiawang.github.io/docs/hackintosh/file/</guid>
-      <description>安装黑苹果的工具  VMware Workstation Pro Workstation Pro是由VMware 提供的虚拟机工具，用于在PC上搭建macOS系统环境。
+      <description>安装黑苹果的工具   VMware Workstation Pro Workstation Pro是由VMware  提供的虚拟机工具，用于在PC上搭建macOS系统环境。
 VMware 官网下载 
-     UniBeast UniBeast是由tonymacx86 提供的苹果安装U盘制作工具，一键式制作，方便易用。
+      UniBeast UniBeast是由tonymacx86 提供的苹果安装U盘制作工具，一键式制作，方便易用。
 UniBeast 官网下载 
      注意
 使用UniBeast需要你具备macOS操作环境，且系统语言切换成English才能运行。
-  Clover EFI bootloader Clover EFI bootloader为UEFI系统引导安装工具，是最为核心的工具之一。
+   Clover EFI bootloader Clover EFI bootloader为UEFI系统引导安装工具，是最为核心的工具之一。
 Clover EFI 下载 
-     Clover Configurator MultiBeast是由mackie100projects 提供的用于编辑Clover EFI配置文件的工具，利用图形界面大大降低了配置Clover EFI的门槛。
+      Clover Configurator MultiBeast是由mackie100projects  提供的用于编辑Clover EFI配置文件的工具，利用图形界面大大降低了配置Clover EFI的门槛。
 Clover Configurator 下载 
-     注意
-使用Clover Configurator需要你具备macOS操作环境。
-  MultiBeast MultiBeast是由tonymacx86 提供的苹果驱动安装工具，方便易用。</description>
+     注意</description>
     </item>
     
   </channel>
