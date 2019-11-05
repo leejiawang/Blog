@@ -1,90 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/hackintosh/install/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/navigation/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/hackintosh/file/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/navigation/resource/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/web/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/design/fonts/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/web/html/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/navigation/posts/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/design/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/web/hugo/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/hackintosh/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/web/webfonts/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/design/emoji/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/</loc>
-    <lastmod>2019-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/posts/</loc>
-    <lastmod>2019-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/posts/%E5%A6%82%E4%BD%95%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E7%9A%84%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8/</loc>
-    <lastmod>2019-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/posts/win10%E7%B3%BB%E7%BB%9F%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</loc>
-    <lastmod>2019-04-01T00:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/posts/%E5%A6%82%E4%BD%95%E7%A6%81%E7%94%A8windows-defender-service/</loc>
-    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://leejiawang.github.io/docs/</loc>
-  </url>
-  
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://blog.eyecus.com/</loc>
+  <lastmod>2019-11-05T06:39:05+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://blog.eyecus.com/docs/navigation/resource/</loc>
+  <lastmod>2019-11-05T06:39:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.eyecus.com/docs/navigation/posts/</loc>
+  <lastmod>2019-11-05T06:39:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.eyecus.com/docs/web/html/</loc>
+  <lastmod>2019-11-05T06:39:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.eyecus.com/docs/web/hugo/</loc>
+  <lastmod>2019-11-05T06:39:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.eyecus.com/docs/web/webfonts/</loc>
+  <lastmod>2019-11-05T06:39:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.eyecus.com/docs/design/fonts/</loc>
+  <lastmod>2019-11-05T06:39:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.eyecus.com/docs/design/emoji/</loc>
+  <lastmod>2019-11-05T06:39:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.eyecus.com/docs/hackintosh/install/</loc>
+  <lastmod>2019-11-05T06:39:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.eyecus.com/docs/hackintosh/file/</loc>
+  <lastmod>2019-11-05T06:39:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.eyecus.com/docs/about/</loc>
+  <lastmod>2019-11-05T06:39:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
