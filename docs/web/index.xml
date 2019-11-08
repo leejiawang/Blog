@@ -16,9 +16,7 @@
       
       <guid>https://leejiawang.github.io/docs/web/html/</guid>
       <description>HTML5 笔记 HTML称为超文本标记语言，是一种标识性的语言。它包括一系列标签，通过这些标签可以将网络上的文档格式统一，使分散的Internet资源连接为一个逻辑整体。
-简单介绍 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; &amp;lt;title&amp;gt;eyecus&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;hello world！&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;hello eyecus！&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;    hello world！ hello eyecus！
- &amp;lt;!DOCTYPE html&amp;gt; ：声明为html5文档 &amp;lt;html&amp;gt;：html页面的根元素 &amp;lt;head&amp;gt;：包含了文档的元(meta)数据 &amp;lt;title&amp;gt;：包含了页面标题 &amp;lt;body&amp;gt;：包含了可见的页面内容 &amp;lt;h1&amp;gt;：一级标题标签 &amp;lt;p&amp;gt;：段落标签
-   注意
+简单介绍 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; &amp;lt;title&amp;gt;eyecus&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;hello world！&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;hello eyecus！&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;    &amp;lt;!DOCTYPE html&amp;gt; ：声明为html5文档 &amp;lt;html&amp;gt;：html页面的根元素 &amp;lt;head&amp;gt;：包含了文档的元(meta)数据 &amp;lt;title&amp;gt;：包含了页面标题 &amp;lt;body&amp;gt;：包含了可见的页面内容 &amp;lt;h1&amp;gt;：一级标题标签 &amp;lt;p&amp;gt;：段落标签    注意
 对于中文网页需要使用 &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; 声明编码，否则会出现乱码。
  基本概念 参考信息  常见属性
    标签 描述     class 为html元素定义一个或多个类名   id 定义元素的唯一id   style 规定元素的行内样式   title 描述了元素的额外信息    文本格式化标签</description>
