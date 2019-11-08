@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>eyecus</title>
-    <link>https://leejiawang.github.io/docs/web/</link>
+    <link>https://blog.eyecus.com/docs/web/</link>
     <description>Recent content on eyecus</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://leejiawang.github.io/docs/web/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.eyecus.com/docs/web/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>前端基础</title>
-      <link>https://leejiawang.github.io/docs/web/html/</link>
+      <link>https://blog.eyecus.com/docs/web/html/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://leejiawang.github.io/docs/web/html/</guid>
+      <guid>https://blog.eyecus.com/docs/web/html/</guid>
       <description>HTML5 笔记 HTML称为超文本标记语言，是一种标识性的语言。它包括一系列标签，通过这些标签可以将网络上的文档格式统一，使分散的Internet资源连接为一个逻辑整体。
 简单介绍 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; &amp;lt;title&amp;gt;eyecus&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;hello world！&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;hello eyecus！&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;    &amp;lt;!DOCTYPE html&amp;gt; ：声明为html5文档 &amp;lt;html&amp;gt;：html页面的根元素 &amp;lt;head&amp;gt;：包含了文档的元(meta)数据 &amp;lt;title&amp;gt;：包含了页面标题 &amp;lt;body&amp;gt;：包含了可见的页面内容 &amp;lt;h1&amp;gt;：一级标题标签 &amp;lt;p&amp;gt;：段落标签    注意
 对于中文网页需要使用 &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; 声明编码，否则会出现乱码。
@@ -24,10 +24,10 @@
     
     <item>
       <title>Hugo建站</title>
-      <link>https://leejiawang.github.io/docs/web/hugo/</link>
+      <link>https://blog.eyecus.com/docs/web/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://leejiawang.github.io/docs/web/hugo/</guid>
+      <guid>https://blog.eyecus.com/docs/web/hugo/</guid>
       <description>HUGO搭建网站简易教程 Hugo是由Go语言实现的静态网站生成器，简单、易用、高效、易扩展、快速部署。
 Hugo官网 Hugo主题 Hugo中文 Hugo仓库
      本站即为Hugo博客框架搭建，使用了Hugo-Book主题。  第1步 安装Hugo框架  首先根据自己的系统参照下述方法进行安装。 macOS 🔥   macOS操作系统下直接使用Homebrew安装，在终端中输入如下代码：
@@ -39,10 +39,10 @@ brew install hugo   注意 执行此操作前请确保linux安装有Homebrew 。
     
     <item>
       <title>Google Fonts</title>
-      <link>https://leejiawang.github.io/docs/web/webfonts/</link>
+      <link>https://blog.eyecus.com/docs/web/webfonts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://leejiawang.github.io/docs/web/webfonts/</guid>
+      <guid>https://blog.eyecus.com/docs/web/webfonts/</guid>
       <description>  Google Fonts 的使用   首先进入Google Fonts 官网，然后在网页中选择自己需要一个或多个的字体，点击字体左上角的加号。
 &amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css?family=Noto+Sans+SC|Roboto&amp;amp;display=swap&amp;quot; rel=&amp;quot;stylesheet&amp;quot;&amp;gt;   点击网页右下角，在弹出框中有两处代码，将第一处代码放置在Html文件的&amp;lt;head&amp;gt;标签中，第二处代码用于CSS文件中定义字体。
 font-family: &#39;Roboto&#39;, sans-serif; font-family: &#39;Noto Sans SC&#39;, sans-serif;    </description>
