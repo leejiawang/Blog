@@ -4,9 +4,11 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="安装指导" />
-<meta property="og:description" content="  注意
-因电脑配置不同，安装过程可能出现各种问题，后续驱动需进行针对性安装。本教程仅供参考。
- Hackintosh 简易安装教程 第1步 制作macOS系统安装盘  首先根据自己的系统参照下述方法进系统安装U盘的制作。 UniBeast   通过AppStore下载macOS官方镜像文件 使用磁盘管理工具格式化U盘为GUID分区格式Mac OS Extended（日志式）  直接使用UniBeast开始制作   macOS 终端   使用终端制作系统安装U盘      &nbsp&nbsp&nbsp&nbsp 👨🏻‍💻 持续更新中...  " />
+<meta property="og:description" content="注意
+本教程需要 macOS 系统环境，如果没有 macOS 设备可使用PC安装macOS虚拟机操作。另外由于电脑配置不同，安装过程可能出现各种问题，后续驱动需进行针对性安装。本教程仅供参考。
+ Hackintosh 简易安装教程 第1步 制作系统安装盘  通过 AppStore 下载 macOS 官方镜像文件，或者从其他途径下载 Mojave.app 并拖入应用程序文件夹 使用磁盘管理工具格式化U盘为GUID分区格式Mac OS Extended（日志式），单击抹掉U盘  根据自己的系统参照下述方法进系统安装U盘的制作 UniBeast 👈   直接使用UniBeast开始制作，引导过程根据设备情况选择，默认选择如下图所示   macOS 终端   使用终端制作系统安装U盘，以安装 macOS Mojave 系统为例，输入如下代码并等待制作完成
+sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/Mojave --applicationpath /Applications/Install\ macOS\ Mojave.app --nointeraction   注意 根据自己实际情况修改代码内容，此代码适用于系统版本为 Mojave ，U盘名称为 Mojave。       第2步 安装原始系统引导  提示
+如果是通过 UniBeast 制作的系统安装U盘可跳过此步骤，因为它已经配置好了基本的系统引导。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.eyecus.com/docs/hackintosh/install/" />
 
@@ -19,7 +21,7 @@
 <link rel="stylesheet" href="/book.min.4ce533fe8eb38dca90de9b7c9efecf1de1d93160adbe9ebf4ca30363881d83cf.css" integrity="sha256-TOUz/o6zjcqQ3pt8nv7PHeHZMWCtvp6/TKMDY4gdg88=">
 
 
-<script defer src="/search.min.eb2241a382f8e95accf1138857afa5580c8f763fdc9e310638602e1dc2bc8d81.js" integrity="sha256-6yJBo4L46VrM8ROIV6&#43;lWAyPdj/cnjEGOGAuHcK8jYE="></script>
+<script defer src="/search.min.3ac64d08b3e841b9415ebaaaca561dc3607257a4026d4eb054ef6bbe9cae1176.js" integrity="sha256-OsZNCLPoQblBXrqqylYdw2ByV6QCbU6wVO9rvpyuEXY="></script>
 
 <script data-ad-client="ca-pub-5365332972271524" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
@@ -411,17 +413,24 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <blockquote class="book-hint warning">
   <p><strong><i class="fa fa-exclamation-triangle"></i> 注意</strong></p>
 
-<p>因电脑配置不同，安装过程可能出现各种问题，后续驱动需进行针对性安装。本教程仅供参考。</p>
+<p>本教程需要 macOS 系统环境，如果没有 macOS 设备可使用PC安装macOS虚拟机操作。另外由于电脑配置不同，安装过程可能出现各种问题，后续驱动需进行针对性安装。本教程仅供参考。</p>
 
 </blockquote>
 
 
 <h1 id="hackintosh-简易安装教程"><strong>Hackintosh 简易安装教程</strong></h1>
 
-<h2 id="第1步-制作macos系统安装盘">第1步 制作macOS系统安装盘</h2>
+<p><img src="https://www.tonymacx86.com/attachments/mojave-dark-png.354912/" alt="macOS" /></p>
+
+<h2 id="第1步-制作系统安装盘">第1步 制作系统安装盘</h2>
 
 <ul>
-<li>首先根据自己的系统参照下述方法进系统安装U盘的制作。
+<li>通过 AppStore 下载 macOS 官方镜像文件，或者从其他途径下载 <code>Mojave.app</code> 并拖入应用程序文件夹</li>
+
+<li><p>使用<code>磁盘管理工具</code>格式化U盘为GUID分区格式<code>Mac OS Extended（日志式）</code>，单击抹掉U盘
+<img src="https://cdn.img.wenhairu.com/images/2019/11/10/AaHWA.png" alt="磁盘管理" /></p></li>
+
+<li><p>根据自己的系统参照下述方法进系统安装U盘的制作
 
 
 
@@ -430,15 +439,14 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
   <input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-0" checked="checked" />
   <label for="tabs-uniqueid-0">
-    UniBeast
+    UniBeast 👈
   </label>
   <div class="book-tabs-content markdown-inner">
     <ul>
-<li>通过AppStore下载macOS官方镜像文件</li>
-<li>使用<code>磁盘管理工具</code>格式化U盘为GUID分区格式<code>Mac OS Extended（日志式）</code>
-<img src="https://www.tonymacx86.com/attachments/screen-shot-2016-09-12-at-9-37-44-am-png.210182/" alt="磁盘管理" /></li>
-<li>直接使用<a href="http://unibeast.com/"><code>UniBeast</code></a>开始制作</li>
+<li>直接使用<a href="http://unibeast.com/"><code>UniBeast</code></a>开始制作，引导过程根据设备情况选择，默认选择如下图所示</li>
 </ul>
+
+<p><img src="https://cdn.img.wenhairu.com/images/2019/11/10/AaQ7T.png" alt="UniBeast" />
   </div>
 
   <input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-1"  />
@@ -447,19 +455,146 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
   </label>
   <div class="book-tabs-content markdown-inner">
     <ul>
-<li>使用终端制作系统安装U盘</li>
+<li><p>使用终端制作系统安装U盘，以安装 macOS Mojave 系统为例，输入如下代码并等待制作完成</p>
+
+<pre><code>sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/Mojave --applicationpath /Applications/Install\ macOS\ Mojave.app --nointeraction
+</code></pre>
+
+<blockquote class="book-hint warning">
+<strong><i class="fa fa-exclamation-triangle"></i> 注意</strong> </br>根据自己实际情况修改代码内容，此代码适用于系统版本为 Mojave ，U盘名称为 Mojave。
+</blockquote></li>
 </ul>
+
+<p><img src="https://cdn.img.wenhairu.com/images/2019/11/10/AaRsG.png" alt="终端" /></p>
+
   </div>
 
 </div>
-</li>
+</p></li>
 </ul>
 
-<div>&nbsp&nbsp&nbsp&nbsp</div>
+<h2 id="第2步-安装原始系统引导">第2步 安装原始系统引导</h2>
+
+<blockquote class="book-hint info">
+  <p><strong><i class="fa fa-exclamation-circle"></i> 提示</strong></p>
+
+<p>如果是通过 <code>UniBeast</code> 制作的系统安装U盘可跳过此步骤，因为它已经配置好了基本的系统引导。</p>
+
+</blockquote>
+
+
+<ul>
+<li>使用macOS操作环境下载并安装<a href="https://sourceforge.net/projects/cloverefiboot/"> <strong>Clover EFI bootloader</strong> </a>程序，注意安装时选择安装到系统安装U盘</li>
+</ul>
+
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <img src="https://cdn.img.wenhairu.com/images/2019/11/10/AaoNv.png" alt="Clover" />
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <img src="https://cdn.img.wenhairu.com/images/2019/11/10/Aa7y0.png" alt="Clover" />
+  </div>
+  
+</div>
+
+
+<h2 id="第3步-安装系统">第3步 安装系统</h2>
+
+<ul>
+<li><p>将制作好的系统安装U盘插入待安装的设备，重启进入<code>BIOS</code>并调整下表中的选项（如果有）
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <blockquote class="book-hint info">
+  <p><strong><i class="fa fa-exclamation-circle"></i> 提示</strong></p>
+
+<p>进入BIOS台式机可使用按键<code>Del</code>,笔记本一般使用 <code>F2</code> <code>F12</code> <code>F11</code> <code>Esc</code>（具体可查寻设备说明）</p>
+
+</blockquote>
+
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <table>
+<thead>
+<tr>
+<th align="left">选项</th>
+<th align="center">开关</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">VT-d</td>
+<td align="center">Disable</td>
+</tr>
+
+<tr>
+<td align="left">CFG-Lock</td>
+<td align="center">Disable</td>
+</tr>
+
+<tr>
+<td align="left">Secure Boot Mode</td>
+<td align="center">Disable</td>
+</tr>
+
+<tr>
+<td align="left">IO Serial Port</td>
+<td align="center">Disable</td>
+</tr>
+
+<tr>
+<td align="left">XHCI Handoff</td>
+<td align="center">Enabled</td>
+</tr>
+</tbody>
+</table>
+  </div>
+  
+</div>
+</p></li>
+
+<li><p>选择<code>系统安装U盘</code>为启动<strong>首选项</strong>，按<code>F10</code>保存设置并重启设备，进入<code>clover</code>界面后，选择系统安装U盘</p></li>
+</ul>
+
+<p><img src="https://www.tonymacx86.com/images/guides/screenshot0.png" height="auto" width="400"></p>
+
+<ul>
+<li>系统安装完后进行简单地配置之后就能进入桌面了，建议首次安装配置过程中设备不要联网</li>
+</ul>
+
+<h2 id="第4步-详细配置系统引导">第4步 详细配置系统引导</h2>
+
+<ul>
+<li>可使用<a href="https://mackie100projects.altervista.org/download-clover-configurator/"><code>Clover Configurator</code></a> 配置自己的 Clover 配置文件</li>
+</ul>
+
+<h2 id="第5步-系统优化-安装驱动">第5步 系统优化 (安装驱动)</h2>
+
+<ul>
+<li>可使用<a href="http://www.multibeast.com/"><code>MultiBeast</code></a> 安装基本驱动，但这并不能保证能完全装好，需要根据出现的问题上网查询解决办法，这里推荐几个网站社区：<a href="https://www.tonymacx86.com/"><code>Tonymacx86</code></a>、<a href="http://heipingguowu.top/"><code>黑苹果屋</code> </a>、 <a href="https://blog.daliansky.net/"><code>黑果小兵的部落阁</code></a>、 <a href="https://imac.hk/"><code>黑苹果乐园</code></a></li>
+</ul>
+
+<p><img src="https://www.tonymacx86.com/attachments/multibeast-1-png.162675/" alt="Clover" /></p>
+
+<h2 id="第7步-优化系统设置-选做">第7步 优化系统设置 (选做)</h2>
 
 <div align="center">  
-<h3>👨🏻‍💻 持续更新中...</h3>
+<h3>待更新...</h3>
 </div>
+
+<h2 id="第8步-性能测试">第8步 性能测试</h2>
+
+<ul>
+<li>可使用<a href="https://www.videoproc.com/"><code>VideoProc</code></a> 检测显卡驱动是否正确安装，打开程序后点击右下角<code>设置</code>，在通用选项卡中点击硬件加速引擎后的 <code>选项</code></li>
+</ul>
+
+<p><img src="https://cdn.img.wenhairu.com/images/2019/11/10/AaSXU.png" alt="VideoProc" /></p>
+
+<div>&nbsp</div>
 </article>
 
       <div align="center">  
@@ -477,7 +612,13 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <ul>
 <li><a href="#hackintosh-简易安装教程"><strong>Hackintosh 简易安装教程</strong></a>
 <ul>
-<li><a href="#第1步-制作macos系统安装盘">第1步 制作macOS系统安装盘</a></li>
+<li><a href="#第1步-制作系统安装盘">第1步 制作系统安装盘</a></li>
+<li><a href="#第2步-安装原始系统引导">第2步 安装原始系统引导</a></li>
+<li><a href="#第3步-安装系统">第3步 安装系统</a></li>
+<li><a href="#第4步-详细配置系统引导">第4步 详细配置系统引导</a></li>
+<li><a href="#第5步-系统优化-安装驱动">第5步 系统优化 (安装驱动)</a></li>
+<li><a href="#第7步-优化系统设置-选做">第7步 优化系统设置 (选做)</a></li>
+<li><a href="#第8步-性能测试">第8步 性能测试</a></li>
 </ul></li>
 </ul>
 </nav>
