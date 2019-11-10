@@ -3,12 +3,22 @@
 
 <head>
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="友链" />
-<meta property="og:description" content="友情链接  页面旨在聚集志同道合的小伙伴，欢迎与我取得联系。     站名 站点描述     程序羊 CodeSheep 分享 务实、能看懂、读者可复现 的原创文章   心谭博客 专注于前端方向与可视化领域的博客   利隐客 leeyiner Find what you want      /** * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/ /* var disqus_config = function () { this." />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="色彩" />
+<meta property="og:description" content="  了解色彩 色彩的表示 Color code   颜色名称表示 最直观的表示方法就是用颜色的英文名直接表示，但能表示的颜色数量有限  格式形如：blue
+ RGB 十进制“函数”表示 光学三原色红绿蓝(RGB)，通过调整三种颜色的占比表示颜色，每种颜色从低到高用数字0至256表示 格式形如：rgba(0,0,255,0.5)
+ HLS 十进制“函数”表示 通过色相、亮度、饱和度 这三个参数也能表示颜色 格式形如：hls(204,62%,40%)
+ HEX 十六进制数字表示 将RGB十进制转换为十六进制代码，以#号开头，后面分别为R、G、B的16位进制数 格式形如：#0000ff
+  维基百科了解更多 
+  色彩空间 Color space  色彩空间（Color space）是对色彩的组织方式。借助色彩空间和针对物理设备的测试，可以得到色彩的固定模拟和数字表示。色彩空间可以只通过任意挑选一些颜色来定义，也可以是基于严谨的数学定义。 摘自维基百科 
+ Adobe RGB （网络上最常用）
+ sRGB （标准红绿蓝色彩空间）
+ CMYK （常用于彩色印刷）
+ Lab （常用来描述人眼可见的所有颜色）
+     SVG 中的 X11 颜色清单   推荐查色页面     站名 站点描述     aTool在线工具  在线颜色选择器、 RGB颜色查询转换   Color Picker 在线颜色选择器、RGB颜色查询转换   w3schools HTML 颜色选择器    " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.eyecus.com/docs/about/links/" />
+<meta property="og:url" content="https://blog.eyecus.com/docs/design/colors/" />
 
-<title> 視由 | 友链 </title>
+<title> 視由 | 色彩 </title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou|Oxygen+Mono|Noto+Sans+SC:400,500|Roboto:400|B612|Warnes&display=swap" rel="stylesheet">
@@ -246,7 +256,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
       
         <li>
 
-  <a href="/docs/design/colors/" >
+  <a href="/docs/design/colors/"  class="active">
       色彩
   </a>
 
@@ -354,7 +364,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
       
         <li>
 
-  <a href="/docs/about/links/"  class="active">
+  <a href="/docs/about/links/" >
       友链
   </a>
 
@@ -410,16 +420,67 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
   <label for="menu-control">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
   </label>
-  <strong>友链</strong>
+  <strong>色彩</strong>
 </header>
 
       
-<article class="markdown"><h1><b><i class="fa fa-hand-peace-o"></i> 友情链接</b></h1>
+<article class="markdown">
 
-<blockquote class="book-hint info">
-  <strong><i class="fa fa-exclamation-circle"></i></strong> 页面旨在聚集志同道合的小伙伴，欢迎与我取得<a href="mailto:leejiawang@live.com"><strong>联系</strong></a>。
-</blockquote>
+<h1 id="i-class-fa-fa-tags-i-了解色彩"><strong><i class="fa fa-tags"></i> 了解色彩</strong></h1>
 
+<h2 id="色彩的表示-color-code"><strong>色彩的表示 Color code</strong></h2>
+
+<hr>
+
+<ul>
+<li><p><strong>颜色名称表示</strong> </br>最直观的表示方法就是用颜色的英文名直接表示，但能表示的颜色数量有限 </br><i class="fa fa-file-code-o"></i> 格式形如：<code>blue</code></p></li>
+
+<li><p><strong>RGB 十进制“函数”表示</strong> </br>光学三原色红绿蓝(RGB)，通过调整三种颜色的占比表示颜色，每种颜色从低到高用数字0至256表示</br><i class="fa fa-file-code-o"></i> 格式形如：<code>rgba(0,0,255,0.5)</code></p></li>
+
+<li><p><strong>HLS 十进制“函数”表示</strong> </br>通过色相、亮度、饱和度 这三个参数也能表示颜色</br><i class="fa fa-file-code-o"></i> 格式形如：<code>hls(204,62%,40%)</code></p></li>
+
+<li><p><strong>HEX 十六进制数字表示</strong> </br>将RGB十进制转换为十六进制代码，以<code>#</code>号开头，后面分别为R、G、B的16位进制数</br><i class="fa fa-file-code-o"></i> 格式形如：<code>#0000ff</code></p></li>
+
+<li><p><a href="https://zh.wikipedia.org/wiki/%E7%BD%91%E9%A1%B5%E9%A2%9C%E8%89%B2"> <strong><i class="fa fa-wikipedia-w"></i> 维基百科了解更多</strong> </a></p></li>
+</ul>
+
+<h2 id="色彩空间-color-space"><strong>色彩空间 Color space</strong></h2>
+
+<hr>
+
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <p><strong>色彩空间</strong>（Color space）是对色彩的组织方式。借助色彩空间和针对物理设备的测试，可以得到色彩的固定模拟和数字表示。色彩空间可以只通过任意挑选一些颜色来定义，也可以是基于严谨的数学定义。</br><a href="https://zh.wikipedia.org/wiki/%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%96%93"> <strong><i class="fa fa-wikipedia-w"></i> 摘自维基百科</strong> </a></p>
+
+<ul>
+<li><p><strong>Adobe RGB</strong> （网络上最常用）</p></li>
+
+<li><p><strong>sRGB</strong> （标准红绿蓝色彩空间）</p></li>
+
+<li><p><strong>CMYK</strong> （常用于彩色印刷）</p></li>
+
+<li><p><strong>Lab</strong> （常用来描述人眼可见的所有颜色）</p></li>
+</ul>
+
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Colorspace.png" width="300">
+  </div>
+  
+</div>
+
+
+<h2 id="svg-中的-x11-颜色清单"><strong>SVG 中的 X11 颜色清单</strong></h2>
+
+<hr>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/SVG_Recognized_color_keyword_names.svg/1920px-SVG_Recognized_color_keyword_names.svg.png"></p>
+
+<h2 id="i-class-fa-fa-globe-i-推荐查色页面"><strong><i class="fa fa-globe"></i> 推荐查色页面</strong></h2>
+
+<hr>
 
 <table>
 <thead>
@@ -431,48 +492,21 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
 <tbody>
 <tr>
-<td align="left"><a href="https://www.codesheep.cn/">程序羊 CodeSheep</a></td>
-<td align="left">分享 务实、能看懂、读者可复现 的原创文章</td>
+<td align="left"><a href="http://www.atool9.com/colorpicker.php"> aTool在线工具 </a></td>
+<td align="left">在线颜色选择器、 RGB颜色查询转换</td>
 </tr>
 
 <tr>
-<td align="left"><a href="https://xin-tan.com/">心谭博客</a></td>
-<td align="left">专注于前端方向与可视化领域的博客</td>
+<td align="left"><a href="https://htmlcolorcodes.com">Color Picker</a></td>
+<td align="left">在线颜色选择器、RGB颜色查询转换</td>
 </tr>
 
 <tr>
-<td align="left"><a href="https://leeyiner.github.io/">利隐客 leeyiner</a></td>
-<td align="left">Find what you want</td>
+<td align="left"><a href="https://www.w3schools.com/colors/colors_picker.asp">w3schools</a></td>
+<td align="left">HTML 颜色选择器</td>
 </tr>
 </tbody>
 </table>
-
-<div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://eyecus.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-<div>&nbsp&nbsp&nbsp&nbsp</div>
-
-<div align="center">  
-<h3>👨🏻‍💻 期待您的加入...</h3>
-</div>
 </article>
 
       <div align="center">  
@@ -483,6 +517,21 @@ s.setAttribute('data-timestamp', +new Date());
 
     
   
+
+
+  <aside class="book-toc level-4 fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#i-class-fa-fa-tags-i-了解色彩"><strong><i class="fa fa-tags"></i> 了解色彩</strong></a>
+<ul>
+<li><a href="#色彩的表示-color-code"><strong>色彩的表示 Color code</strong></a></li>
+<li><a href="#色彩空间-color-space"><strong>色彩空间 Color space</strong></a></li>
+<li><a href="#svg-中的-x11-颜色清单"><strong>SVG 中的 X11 颜色清单</strong></a></li>
+<li><a href="#i-class-fa-fa-globe-i-推荐查色页面"><strong><i class="fa fa-globe"></i> 推荐查色页面</strong></a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
 
 
 

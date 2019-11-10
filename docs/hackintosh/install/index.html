@@ -6,9 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="安装指导" />
 <meta property="og:description" content="注意
 本教程需要 macOS 系统环境，如果没有 macOS 设备可使用PC安装macOS虚拟机操作。另外由于电脑配置不同，安装过程可能出现各种问题，后续驱动需进行针对性安装。本教程仅供参考。
- Hackintosh 简易安装教程 第1步 制作系统安装盘  通过 AppStore 下载 macOS 官方镜像文件，或者从其他途径下载 Mojave.app 并拖入应用程序文件夹 使用磁盘管理工具格式化U盘为GUID分区格式Mac OS Extended（日志式），单击抹掉U盘  根据自己的系统参照下述方法进系统安装U盘的制作 UniBeast 👈   直接使用UniBeast开始制作，引导过程根据设备情况选择，默认选择如下图所示   macOS 终端   使用终端制作系统安装U盘，以安装 macOS Mojave 系统为例，输入如下代码并等待制作完成
-sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/Mojave --applicationpath /Applications/Install\ macOS\ Mojave.app --nointeraction   注意 根据自己实际情况修改代码内容，此代码适用于系统版本为 Mojave ，U盘名称为 Mojave。       第2步 安装原始系统引导  提示
-如果是通过 UniBeast 制作的系统安装U盘可跳过此步骤，因为它已经配置好了基本的系统引导。" />
+ Hackintosh 简易安装教程 第1步 制作系统安装盘   通过AppStore下载 macOS 官方镜像文件，或者从其他途径下载 Mojave.app 并拖入应用程序文件夹 使用磁盘管理工具格式化U盘为GUID分区格式Mac OS Extended（日志式），单击抹掉U盘  根据自己的系统参照下述方法进系统安装U盘的制作 UniBeast 👈   直接使用 UniBeast 开始制作，引导过程根据设备情况选择，默认选择如下图所示   macOS 终端   使用终端制作系统安装U盘，以安装 macOS Mojave 系统为例，输入如下代码并等待制作完成
+sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/Mojave --applicationpath /Applications/Install\ macOS\ Mojave.app --nointeraction   注意 根据自己实际情况修改代码内容，此代码适用于系统版本为 Mojave ，U盘名称为 Mojave。       第2步 安装原始系统引导   提示" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.eyecus.com/docs/hackintosh/install/" />
 
@@ -21,7 +20,7 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 <link rel="stylesheet" href="/book.min.4ce533fe8eb38dca90de9b7c9efecf1de1d93160adbe9ebf4ca30363881d83cf.css" integrity="sha256-TOUz/o6zjcqQ3pt8nv7PHeHZMWCtvp6/TKMDY4gdg88=">
 
 
-<script defer src="/search.min.3ac64d08b3e841b9415ebaaaca561dc3607257a4026d4eb054ef6bbe9cae1176.js" integrity="sha256-OsZNCLPoQblBXrqqylYdw2ByV6QCbU6wVO9rvpyuEXY="></script>
+<script defer src="/search.min.8e989f80982ebaa1577fb34f0f653c3416f4291de6b8b0608ee88c34a7ec78d0.js" integrity="sha256-jpifgJguuqFXf7NPD2U8NBb0KR3muLBgjuiMNKfseNA="></script>
 
 <script data-ad-client="ca-pub-5365332972271524" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
@@ -250,8 +249,18 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
       
         <li>
 
+  <a href="/docs/design/colors/" >
+      色彩
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
   <a href="/docs/design/fonts/" >
-      免费字体
+      字体
   </a>
 
 </li>
@@ -424,8 +433,10 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
 <h2 id="第1步-制作系统安装盘">第1步 制作系统安装盘</h2>
 
+<hr>
+
 <ul>
-<li>通过 AppStore 下载 macOS 官方镜像文件，或者从其他途径下载 <code>Mojave.app</code> 并拖入应用程序文件夹</li>
+<li>通过<code>AppStore</code>下载 macOS 官方镜像文件，或者从其他途径下载 <code>Mojave.app</code> 并拖入应用程序文件夹</li>
 
 <li><p>使用<code>磁盘管理工具</code>格式化U盘为GUID分区格式<code>Mac OS Extended（日志式）</code>，单击抹掉U盘
 <img src="https://cdn.img.wenhairu.com/images/2019/11/10/AaHWA.png" alt="磁盘管理" /></p></li>
@@ -443,7 +454,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
   </label>
   <div class="book-tabs-content markdown-inner">
     <ul>
-<li>直接使用<a href="http://unibeast.com/"><code>UniBeast</code></a>开始制作，引导过程根据设备情况选择，默认选择如下图所示</li>
+<li>直接使用<a href="http://unibeast.com/"> <strong><i class="fa fa-download"></i> UniBeast</strong> </a>开始制作，引导过程根据设备情况选择，默认选择如下图所示</li>
 </ul>
 
 <p><img src="https://cdn.img.wenhairu.com/images/2019/11/10/AaQ7T.png" alt="UniBeast" />
@@ -475,6 +486,8 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
 <h2 id="第2步-安装原始系统引导">第2步 安装原始系统引导</h2>
 
+<hr>
+
 <blockquote class="book-hint info">
   <p><strong><i class="fa fa-exclamation-circle"></i> 提示</strong></p>
 
@@ -484,7 +497,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
 
 <ul>
-<li>使用macOS操作环境下载并安装<a href="https://sourceforge.net/projects/cloverefiboot/"> <strong>Clover EFI bootloader</strong> </a>程序，注意安装时选择安装到系统安装U盘</li>
+<li>使用macOS操作环境下载并安装<a href="https://sourceforge.net/projects/cloverefiboot/"> <strong><i class="fa fa-download"></i> Clover EFI bootloader</strong> </a>程序，注意安装时选择安装到系统安装U盘</li>
 </ul>
 
 <div class="book-columns flex flex-wrap">
@@ -501,6 +514,8 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
 
 <h2 id="第3步-安装系统">第3步 安装系统</h2>
+
+<hr>
 
 <ul>
 <li><p>将制作好的系统安装U盘插入待安装的设备，重启进入<code>BIOS</code>并调整下表中的选项（如果有）
@@ -568,25 +583,169 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
 <h2 id="第4步-详细配置系统引导">第4步 详细配置系统引导</h2>
 
+<hr>
+
 <ul>
-<li>可使用<a href="https://mackie100projects.altervista.org/download-clover-configurator/"><code>Clover Configurator</code></a> 配置自己的 Clover 配置文件</li>
+<li>可使用<a href="https://mackie100projects.altervista.org/download-clover-configurator/"> <strong><i class="fa fa-download"></i> Clover Configurator</strong> </a> 配置自己的 Clover 配置文件</li>
 </ul>
 
 <h2 id="第5步-系统优化-安装驱动">第5步 系统优化 (安装驱动)</h2>
 
+<hr>
+
 <ul>
-<li>可使用<a href="http://www.multibeast.com/"><code>MultiBeast</code></a> 安装基本驱动，但这并不能保证能完全装好，需要根据出现的问题上网查询解决办法，这里推荐几个网站社区：<a href="https://www.tonymacx86.com/"><code>Tonymacx86</code></a>、<a href="http://heipingguowu.top/"><code>黑苹果屋</code> </a>、 <a href="https://blog.daliansky.net/"><code>黑果小兵的部落阁</code></a>、 <a href="https://imac.hk/"><code>黑苹果乐园</code></a></li>
+<li><p>可使用<a href="http://www.multibeast.com/"><code>MultiBeast</code></a> 安装基本驱动，但这并不能保证能完全装好，需要根据出现的问题上网查询解决办法，这里推荐几个网站社区：<a href="https://www.tonymacx86.com/"><code>Tonymacx86</code></a>、<a href="http://heipingguowu.top/"><code>黑苹果屋</code> </a>、 <a href="https://blog.daliansky.net/"><code>黑果小兵的部落阁</code></a>、 <a href="https://imac.hk/"><code>黑苹果乐园</code></a></p></li>
+
+<li><p>英伟达<code>NVIDIA</code>显卡 <a href="https://www.tonymacx86.com/nvidia-drivers/"> <strong><i class="fa fa-download"></i> 驱动下载</strong> </a></p></li>
+
+<li><p>下表为部分用于优化macOS的驱动程序，根据需要选择下载</p></li>
 </ul>
 
-<p><img src="https://www.tonymacx86.com/attachments/multibeast-1-png.162675/" alt="Clover" /></p>
+<table>
+<thead>
+<tr>
+<th align="left">文件名</th>
+<th align="left">功能</th>
+<th align="left">描述</th>
+</tr>
+</thead>
 
-<h2 id="第7步-优化系统设置-选做">第7步 优化系统设置 (选做)</h2>
+<tbody>
+<tr>
+<td align="left"><a href="https://github.com/acidanthera/AirportBrcmFixup">AirportBrcmFixup</a></td>
+<td align="left">网卡驱动</td>
+<td align="left">博通无线网卡驱动</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/acidanthera/AppleALC">AppleALC</a></td>
+<td align="left">声卡驱动</td>
+<td align="left">启用原生macOS高清音频</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/chunnann/ATH9KFixup">ATH9KFixup</a></td>
+<td align="left">网卡驱动</td>
+<td align="left">Atheros网卡驱动</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/acidanthera/BT4LEContiunityFixup">BT4LEContiunityFixup</a></td>
+<td align="left">网卡驱动</td>
+<td align="left">开启接力，隔空投送等功能</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/fidele007/CX20752">CodecCommander</a></td>
+<td align="left">声卡驱动</td>
+<td align="left">用于耳机与内置扬声器切换</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/acidanthera/CPUFriend">CPUFriend</a></td>
+<td align="left">电源驱动</td>
+<td align="left">注入CPU动态电源数据的驱动</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://bitbucket.org/RehabMan/os-x-fake-pci-id">FakePCIID</a></td>
+<td align="left">硬件驱动</td>
+<td align="left">硬件ID仿冒驱动</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/Goldfish64/DiskArbitrationFixup">DiskArbitrationFixup</a></td>
+<td align="left">外设驱动</td>
+<td align="left">禁止“此电脑不能读取您插入的磁盘”提示</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/acidanthera/HibernationFixup">HibernationFixup</a></td>
+<td align="left">电源驱动</td>
+<td align="left">修复休眠问题</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/acidanthera/Lilu">Lilu</a></td>
+<td align="left">框架注入</td>
+<td align="left">一些驱动的依赖</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/0xFireWolf/NightShiftUnlocker">NightShiftUnlocker</a></td>
+<td align="left">显示驱动</td>
+<td align="left">开启夜览功能</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/al3xtjames/NoTouchID">NoTouchID</a></td>
+<td align="left">外设驱动</td>
+<td align="left">禁用触控ID支持</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/Mieze/RTL8111_driver_for_OS_X">RTL8111_Driver</a></td>
+<td align="left">网卡驱动</td>
+<td align="left">Realtek RTL8111/8168有线网卡驱动</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/RehabMan/hack-tools/tree/master/kexts/SATA-unsupported.kext">SATA_unsupported</a></td>
+<td align="left">外设驱动</td>
+<td align="left">SATA硬盘驱动</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/Goldfish64/SystemProfilerMemoryFixup">SystemProfilerMemoryFixup</a></td>
+<td align="left">仿冒驱动</td>
+<td align="left">显示关于本机的内存标签</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://bitbucket.org/RehabMan/os-x-usb-inject-all">USB_Inject</a></td>
+<td align="left">外设驱动</td>
+<td align="left">USB端口注入框架</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/alexandred/VoodooI2C">VoodooI2C</a></td>
+<td align="left">外设驱动</td>
+<td align="left">I2C触控板驱动</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/acidanthera/VoodooPS2">VoodooPS2Controller</a></td>
+<td align="left">外设驱动</td>
+<td align="left">PS2键盘和触控板驱动</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/acidanthera/VirtualSMC">VirtualSMC</a></td>
+<td align="left">仿冒驱动</td>
+<td align="left">SMC仿冒驱动，和FakeSMC二选一</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/acidanthera/WhateverGreen">WhateverGreen</a></td>
+<td align="left">仿冒驱动</td>
+<td align="left">显卡注入框架，集成了很多补丁</td>
+</tr>
+</tbody>
+</table>
+
+<h5> ▫️ 上表内容于Github上搜集而来 </h5>
+
+<h2 id="第6步-优化系统设置-选做">第6步 优化系统设置 (选做)</h2>
+
+<hr>
 
 <div align="center">  
 <h3>待更新...</h3>
 </div>
 
-<h2 id="第8步-性能测试">第8步 性能测试</h2>
+<h2 id="第7步-性能测试">第7步 性能测试</h2>
+
+<hr>
 
 <ul>
 <li>可使用<a href="https://www.videoproc.com/"><code>VideoProc</code></a> 检测显卡驱动是否正确安装，打开程序后点击右下角<code>设置</code>，在通用选项卡中点击硬件加速引擎后的 <code>选项</code></li>
@@ -617,8 +776,8 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <li><a href="#第3步-安装系统">第3步 安装系统</a></li>
 <li><a href="#第4步-详细配置系统引导">第4步 详细配置系统引导</a></li>
 <li><a href="#第5步-系统优化-安装驱动">第5步 系统优化 (安装驱动)</a></li>
-<li><a href="#第7步-优化系统设置-选做">第7步 优化系统设置 (选做)</a></li>
-<li><a href="#第8步-性能测试">第8步 性能测试</a></li>
+<li><a href="#第6步-优化系统设置-选做">第6步 优化系统设置 (选做)</a></li>
+<li><a href="#第7步-性能测试">第7步 性能测试</a></li>
 </ul></li>
 </ul>
 </nav>

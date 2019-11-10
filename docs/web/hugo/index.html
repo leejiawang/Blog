@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="Hugo建站" />
 <meta property="og:description" content="HUGO搭建网站简易教程 Hugo是由Go语言实现的静态网站生成器，简单、易用、高效、易扩展、快速部署。
 Hugo官网 Hugo主题 Hugo中文 Hugo仓库
-     本站即为Hugo博客框架搭建，使用了Hugo-Book主题。  第1步 安装Hugo框架  首先根据自己的系统参照下述方法进行安装。 macOS 🔥   macOS操作系统下直接使用Homebrew安装，在终端中输入如下代码：
+     本站即为Hugo博客框架搭建，使用了Hugo-Book主题。  第1步 安装Hugo框架   首先根据自己的系统参照下述方法进行安装。 macOS 🔥   macOS操作系统下直接使用Homebrew安装，在终端中输入如下代码：
 brew install hugo   注意 执行此操作前请确保macOS安装有Homebrew 。    Windows   在Hugo Releases 下载最新发布对应操作系统的ZIP，将所有内容提取到C:\Hugo\bin目录中，包含可执行文件hugo.exe、LICENSE和README.md。
  然后将Hugo添加到Windows的PATH设置中。
  右键单击开始按钮 单击系统 单击左侧的高级系统设置 单击底部的环境变量...按钮 在用户变量部分中找到以PATH开头的行（PATH全部大写） 双击PATH 单击新建…按钮 键入C:\Hugo\bin，完成输入后按Enter 在每个窗口中单击确定退出    Linux   Linux操作系统下直接使用Homebrew安装，在终端中输入如下代码:
@@ -23,7 +23,7 @@ brew install hugo   注意 执行此操作前请确保linux安装有Homebrew 。
 <link rel="stylesheet" href="/book.min.4ce533fe8eb38dca90de9b7c9efecf1de1d93160adbe9ebf4ca30363881d83cf.css" integrity="sha256-TOUz/o6zjcqQ3pt8nv7PHeHZMWCtvp6/TKMDY4gdg88=">
 
 
-<script defer src="/search.min.3ac64d08b3e841b9415ebaaaca561dc3607257a4026d4eb054ef6bbe9cae1176.js" integrity="sha256-OsZNCLPoQblBXrqqylYdw2ByV6QCbU6wVO9rvpyuEXY="></script>
+<script defer src="/search.min.8e989f80982ebaa1577fb34f0f653c3416f4291de6b8b0608ee88c34a7ec78d0.js" integrity="sha256-jpifgJguuqFXf7NPD2U8NBb0KR3muLBgjuiMNKfseNA="></script>
 
 <script data-ad-client="ca-pub-5365332972271524" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
@@ -252,8 +252,18 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
       
         <li>
 
+  <a href="/docs/design/colors/" >
+      色彩
+  </a>
+
+</li>
+      
+    
+      
+        <li>
+
   <a href="/docs/design/fonts/" >
-      免费字体
+      字体
   </a>
 
 </li>
@@ -439,6 +449,8 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
 <h2 id="第1步-安装hugo框架">第1步 安装Hugo框架</h2>
 
+<hr>
+
 <ul>
 <li><p>首先根据自己的系统参照下述方法进行安装。
 
@@ -556,6 +568,8 @@ go get -v github.com/spf13/hugo
 
 <h2 id="第2步-生成网站">第2步 生成网站</h2>
 
+<hr>
+
 <ul>
 <li><p>在终端中输入如下代码生成网页。</p>
 
@@ -572,6 +586,8 @@ go get -v github.com/spf13/hugo
 </ul>
 
 <h2 id="第3步-网站配置-套用主题">第3步 网站配置(套用主题)</h2>
+
+<hr>
 
 <ul>
 <li><p>进入网站根目录</p>
@@ -607,6 +623,8 @@ theme = &quot;XXXX&quot;
 
 <h2 id="第4步-添加页面">第4步 添加页面</h2>
 
+<hr>
+
 <ul>
 <li><p>添加新页面，页面内容采用<strong>Markdown</strong>格式。</p>
 
@@ -633,6 +651,8 @@ draft: true
 
 <h2 id="第5步-运行网站">第5步 运行网站</h2>
 
+<hr>
+
 <ul>
 <li><p>完成上述操作后，可在终端中输入如下代码运行网站。</p>
 
@@ -649,6 +669,8 @@ draft: true
 </ul>
 
 <h2 id="第6步-生成静态网页">第6步 生成静态网页</h2>
+
+<hr>
 
 <ul>
 <li><p>在终端中输入如下代码生成静态网页。</p>
@@ -670,6 +692,8 @@ draft: true
 </ul>
 
 <h2 id="第7步-部署-github-pages">第7步 部署 Github Pages</h2>
+
+<hr>
 
 <ul>
 <li>本文所使用的 Github Pages 并非部署网页的唯一提供商，你也可以使用 Coding 和 Gitee 等。
@@ -699,6 +723,10 @@ git push -u origin master
 <li><p>浏览器输入<code>http://XXX.github.io/</code>实现远程访问。</p></li>
 </ul>
 
+<hr>
+
+<hr>
+
 <h1 id="i-class-fa-fa-tags-i-主题样式代码模板"><strong><i class="fa fa-tags"></i> 主题样式代码模板</strong></h1>
 
 <blockquote class="book-hint warning">
@@ -710,6 +738,8 @@ git push -u origin master
 
 
 <h2 id="按钮-buttons">按钮（Buttons）</h2>
+
+<hr>
 
 <p>Buttons are styled links that can lead to local page or external link.</p>
 
@@ -744,6 +774,8 @@ git push -u origin master
 </p>
 
 <h2 id="分列-columns">分列（Columns）</h2>
+
+<hr>
 
 <p>Columns help organize shorter pieces of content horizontally for readability.</p>
 
@@ -798,6 +830,8 @@ Miseratus fonte Ditis conubia.
 
 
 <h2 id="隐藏内容-expand">隐藏内容（Expand）</h2>
+
+<hr>
 
 <p>Expand shortcode can help to decrease clutter on screen by hiding part of text. Expand content by clicking on it.</p>
 
@@ -858,6 +892,8 @@ Miseratus fonte Ditis conubia.
 
 <h2 id="高亮显示-hints">高亮显示（Hints）</h2>
 
+<hr>
+
 <p>Hint shortcode can be used as hint/alerts/notification block.<br />
 There are 3 colors to choose: <code>info</code>, <code>warning</code> and <code>danger</code>.</p>
 
@@ -894,6 +930,8 @@ stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
 
 
 <h2 id="数学公式-katex">数学公式（KaTeX）</h2>
+
+<hr>
 
 <p>KaTeX shortcode let you render math typesetting in markdown document. See <a href="https://katex.org/">KaTeX</a></p>
 
@@ -933,6 +971,8 @@ x = \begin{cases}
 
 
 <h2 id="示意图-mermaid-chart">示意图（Mermaid Chart）</h2>
+
+<hr>
 
 <p><a href="https://mermaidjs.github.io/">Mermaid</a> is library for generating svg charts and diagrams from text.</p>
 
@@ -979,6 +1019,8 @@ sequenceDiagram
 
 
 <h2 id="标签-tabs">标签（Tabs）</h2>
+
+<hr>
 
 <p>Tabs let you organize content by context, for example installation instructions for each supported platform.</p>
 

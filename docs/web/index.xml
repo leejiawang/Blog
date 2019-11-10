@@ -26,7 +26,7 @@
       <guid>https://blog.eyecus.com/docs/web/hugo/</guid>
       <description>HUGO搭建网站简易教程 Hugo是由Go语言实现的静态网站生成器，简单、易用、高效、易扩展、快速部署。
 Hugo官网 Hugo主题 Hugo中文 Hugo仓库
-     本站即为Hugo博客框架搭建，使用了Hugo-Book主题。  第1步 安装Hugo框架  首先根据自己的系统参照下述方法进行安装。 macOS 🔥   macOS操作系统下直接使用Homebrew安装，在终端中输入如下代码：
+     本站即为Hugo博客框架搭建，使用了Hugo-Book主题。  第1步 安装Hugo框架   首先根据自己的系统参照下述方法进行安装。 macOS 🔥   macOS操作系统下直接使用Homebrew安装，在终端中输入如下代码：
 brew install hugo   注意 执行此操作前请确保macOS安装有Homebrew 。    Windows   在Hugo Releases 下载最新发布对应操作系统的ZIP，将所有内容提取到C:\Hugo\bin目录中，包含可执行文件hugo.exe、LICENSE和README.md。
  然后将Hugo添加到Windows的PATH设置中。
  右键单击开始按钮 单击系统 单击左侧的高级系统设置 单击底部的环境变量...按钮 在用户变量部分中找到以PATH开头的行（PATH全部大写） 双击PATH 单击新建…按钮 键入C:\Hugo\bin，完成输入后按Enter 在每个窗口中单击确定退出    Linux   Linux操作系统下直接使用Homebrew安装，在终端中输入如下代码:

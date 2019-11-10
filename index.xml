@@ -18,9 +18,27 @@
       <guid>https://blog.eyecus.com/docs/hackintosh/install/</guid>
       <description>注意
 本教程需要 macOS 系统环境，如果没有 macOS 设备可使用PC安装macOS虚拟机操作。另外由于电脑配置不同，安装过程可能出现各种问题，后续驱动需进行针对性安装。本教程仅供参考。
- Hackintosh 简易安装教程 第1步 制作系统安装盘  通过 AppStore 下载 macOS 官方镜像文件，或者从其他途径下载 Mojave.app 并拖入应用程序文件夹 使用磁盘管理工具格式化U盘为GUID分区格式Mac OS Extended（日志式），单击抹掉U盘  根据自己的系统参照下述方法进系统安装U盘的制作 UniBeast 👈   直接使用UniBeast开始制作，引导过程根据设备情况选择，默认选择如下图所示   macOS 终端   使用终端制作系统安装U盘，以安装 macOS Mojave 系统为例，输入如下代码并等待制作完成
-sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/Mojave --applicationpath /Applications/Install\ macOS\ Mojave.app --nointeraction   注意 根据自己实际情况修改代码内容，此代码适用于系统版本为 Mojave ，U盘名称为 Mojave。       第2步 安装原始系统引导  提示
-如果是通过 UniBeast 制作的系统安装U盘可跳过此步骤，因为它已经配置好了基本的系统引导。</description>
+ Hackintosh 简易安装教程 第1步 制作系统安装盘   通过AppStore下载 macOS 官方镜像文件，或者从其他途径下载 Mojave.app 并拖入应用程序文件夹 使用磁盘管理工具格式化U盘为GUID分区格式Mac OS Extended（日志式），单击抹掉U盘  根据自己的系统参照下述方法进系统安装U盘的制作 UniBeast 👈   直接使用 UniBeast 开始制作，引导过程根据设备情况选择，默认选择如下图所示   macOS 终端   使用终端制作系统安装U盘，以安装 macOS Mojave 系统为例，输入如下代码并等待制作完成
+sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/Mojave --applicationpath /Applications/Install\ macOS\ Mojave.app --nointeraction   注意 根据自己实际情况修改代码内容，此代码适用于系统版本为 Mojave ，U盘名称为 Mojave。       第2步 安装原始系统引导   提示</description>
+    </item>
+    
+    <item>
+      <title>色彩</title>
+      <link>https://blog.eyecus.com/docs/design/colors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/docs/design/colors/</guid>
+      <description>  了解色彩 色彩的表示 Color code   颜色名称表示 最直观的表示方法就是用颜色的英文名直接表示，但能表示的颜色数量有限  格式形如：blue
+ RGB 十进制“函数”表示 光学三原色红绿蓝(RGB)，通过调整三种颜色的占比表示颜色，每种颜色从低到高用数字0至256表示 格式形如：rgba(0,0,255,0.5)
+ HLS 十进制“函数”表示 通过色相、亮度、饱和度 这三个参数也能表示颜色 格式形如：hls(204,62%,40%)
+ HEX 十六进制数字表示 将RGB十进制转换为十六进制代码，以#号开头，后面分别为R、G、B的16位进制数 格式形如：#0000ff
+  维基百科了解更多 
+  色彩空间 Color space  色彩空间（Color space）是对色彩的组织方式。借助色彩空间和针对物理设备的测试，可以得到色彩的固定模拟和数字表示。色彩空间可以只通过任意挑选一些颜色来定义，也可以是基于严谨的数学定义。 摘自维基百科 
+ Adobe RGB （网络上最常用）
+ sRGB （标准红绿蓝色彩空间）
+ CMYK （常用于彩色印刷）
+ Lab （常用来描述人眼可见的所有颜色）
+     SVG 中的 X11 颜色清单   推荐查色页面     站名 站点描述     aTool在线工具  在线颜色选择器、 RGB颜色查询转换   Color Picker 在线颜色选择器、RGB颜色查询转换   w3schools HTML 颜色选择器    </description>
     </item>
     
     <item>
@@ -53,26 +71,24 @@ Clover Configurator 下载
     </item>
     
     <item>
-      <title>免费字体</title>
-      <link>https://blog.eyecus.com/docs/design/fonts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/docs/design/fonts/</guid>
-      <description>  声明
-本页面提供下载链接均来自其发布官网，如本站不慎侵犯你的版权请联系我们，本站将及时处理，并撤下相关内容！
- 在版权意识日益增长的今天，侵犯版权的成本也大大增加，尤其是在商业领域，一旦侵权可能就会面临“律师函警告”，随之而来的将是巨大的经济损失，故在创作过程中避免侵权尤为重要。在字体方面，使用一些免费商用的字体是个较好的规避上述问题的办法。
- 部分可免费商用的字体 提到免费可商用字体，就不得不提大名鼎鼎的思源黑体和思源宋体， 她们是Google和Adobe为了响应统一设计的需求合作开发，在Adobe Type 发布的泛 CJK 字体，服务于东亚 15 亿人口。支持四种不同的东亚语言（简体中文、繁体中文、日语和朝鲜语），7 种粗细类型中的每一种都有 65,535 个字形，可共同呈现一致的视觉美感。该字体还包含多个西方字形，支持拉丁语、希腊语和西里尔文脚本。
-另外在这个领域，国内公司也发布了众多优秀作品，例如站酷的一系列免费字体以及最近阿里巴巴新发布的阿里巴巴普惠体。都能在相关领域给设计师提供便利。
-   字体名称 提供组织 支持语言 获取字体     思源黑体 Google,Adobe CN/EN/TWHK/JP/KR 官网  下载   思源宋体 Google,Adobe CN/EN/TWHK/JP/KR 官网  下载   阿里巴巴普惠体 阿里巴巴 CN/EN 官网  下载   站酷庆科黄油体 ZCOOL CN/EN 官网  下载   站酷文艺体 ZCOOL CN/EN 官网  下载   站酷小薇logo体 ZCOOL CN/EN 官网  下载   站酷酷黑体 ZCOOL CN/EN 官网  下载   站酷意大利体 ZCOOL EN 官网  下载   站酷快乐体 ZCOOL CN/EN 官网  下载   站酷高端黑体 ZCOOL CN/EN 官网  下载     ▫️ 以上提供的页面及下载地址均为官方性质，请放心访问下载。 </description>
-    </item>
-    
-    <item>
       <title>前端基础</title>
       <link>https://blog.eyecus.com/docs/web/html/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/docs/web/html/</guid>
       <description>HTML5 笔记  HTML称为超文本标记语言，是一种标识性的语言。它包括一系列标签，通过这些标签可以将网络上的文档格式统一，使分散的Internet资源连接为一个逻辑整体，下图为HTML基本框架示意图。默认文件名  index.html  graph LR Bootstrap-.-id2((CSS)); id2((CSS)) --- id1((HTML)) id3((JS)) --- id1((HTML)) id1((HTML)) -- head head -- title head -- meta id1((HTML)) -- body subgraph body -- h1,h2... body -- p,a p,a -- strong,em body -- ol,ul ol,ul -- li body -- tr tr -- th end  简单介绍  &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; &amp;lt;title&amp;gt;eyecus&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;hello world！&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;hello &amp;lt;a&amp;gt;eyecus&amp;lt;/a&amp;gt;！&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;1.</description>
+    </item>
+    
+    <item>
+      <title>字体</title>
+      <link>https://blog.eyecus.com/docs/design/fonts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/docs/design/fonts/</guid>
+      <description>声明
+本页面提供下载链接均来自其发布官网，如本站不慎侵犯你的版权请联系我们，本站将及时处理，并撤下相关内容！
+  免费商用的中文字体  在版权意识日益增长的今天，侵犯版权的成本也大大增加，尤其是在商业领域，一旦侵权可能就会面临“律师函警告”，随之而来的将是巨大的经济损失，故在创作过程中避免侵权尤为重要。在字体方面，使用一些免费商用的字体是个较好的规避上述问题的办法。
+   字体名称 提供组织 支持语言 获取字体     思源黑体 Google,Adobe CN/EN/TWHK/JP/KR 官网  下载   思源宋体 Google,Adobe CN/EN/TWHK/JP/KR 官网  下载   阿里巴巴普惠体 阿里巴巴 CN/EN 官网  下载   站酷庆科黄油体 ZCOOL CN/EN 官网  下载   站酷文艺体 ZCOOL CN/EN 官网  下载   站酷小薇logo体 ZCOOL CN/EN 官网  下载   站酷酷黑体 ZCOOL CN/EN 官网  下载   站酷意大利体 ZCOOL EN 官网  下载   站酷快乐体 ZCOOL CN/EN 官网  下载   站酷高端黑体 ZCOOL CN/EN 官网  下载     ▫️ 以上提供的页面及下载地址均为官方性质，请放心访问下载。  免费商用的英文字体页面     站名 具体页面地址     1001fonts https://www.</description>
     </item>
     
     <item>
@@ -92,7 +108,7 @@ Clover Configurator 下载
       <guid>https://blog.eyecus.com/docs/web/hugo/</guid>
       <description>HUGO搭建网站简易教程 Hugo是由Go语言实现的静态网站生成器，简单、易用、高效、易扩展、快速部署。
 Hugo官网 Hugo主题 Hugo中文 Hugo仓库
-     本站即为Hugo博客框架搭建，使用了Hugo-Book主题。  第1步 安装Hugo框架  首先根据自己的系统参照下述方法进行安装。 macOS 🔥   macOS操作系统下直接使用Homebrew安装，在终端中输入如下代码：
+     本站即为Hugo博客框架搭建，使用了Hugo-Book主题。  第1步 安装Hugo框架   首先根据自己的系统参照下述方法进行安装。 macOS 🔥   macOS操作系统下直接使用Homebrew安装，在终端中输入如下代码：
 brew install hugo   注意 执行此操作前请确保macOS安装有Homebrew 。    Windows   在Hugo Releases 下载最新发布对应操作系统的ZIP，将所有内容提取到C:\Hugo\bin目录中，包含可执行文件hugo.exe、LICENSE和README.md。
  然后将Hugo添加到Windows的PATH设置中。
  右键单击开始按钮 单击系统 单击左侧的高级系统设置 单击底部的环境变量...按钮 在用户变量部分中找到以PATH开头的行（PATH全部大写） 双击PATH 单击新建…按钮 键入C:\Hugo\bin，完成输入后按Enter 在每个窗口中单击确定退出    Linux   Linux操作系统下直接使用Homebrew安装，在终端中输入如下代码:
