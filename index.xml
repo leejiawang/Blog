@@ -27,7 +27,7 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/docs/navigation/tips/</guid>
-      <description>Win10如何关闭系统自动更新？  为了避免在重要时刻被Windows更新打断，合理的安排更新时间。看看关掉烦人的Win10自动更新。
+      <description>如何关闭Win10系统自动更新？  为了避免在重要时刻被Windows更新打断，合理的安排更新时间。看看关掉烦人的Win10自动更新。
  步骤速览
  快捷键WIN+R调出运行工具，输入组策略命令services.msc，点击确定; 在服务中找到Windows Update选项，双击; 在“启动类型”下选择“禁用”，并点击确定。  注意 由于方法涉及使用运用组策略，故Windows10家庭版可能不适用。   点击阅读详细图解 ...   快捷键WIN+R调出运行工具，输入组策略命令services.msc，点击确定。
   在服务中找到Windows Update选项，双击。
@@ -92,7 +92,7 @@ Clover Configurator 下载
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/docs/web/html/</guid>
-      <description>HTML5 笔记  HTML称为超文本标记语言，是一种标识性的语言。它包括一系列标签，通过这些标签可以将网络上的文档格式统一，使分散的Internet资源连接为一个逻辑整体，下图为HTML基本框架示意图。默认文件名  index.html  graph LR Bootstrap-.-id2((CSS)); id2((CSS)) --- id1((HTML)) id3((JS)) --- id1((HTML)) id1((HTML)) -- head head -- title head -- meta id1((HTML)) -- body subgraph body -- h1,h2... body -- p,a p,a -- strong,em body -- ol,ul ol,ul -- li body -- tr tr -- th end  简单介绍  &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; &amp;lt;title&amp;gt;eyecus&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;hello world！&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;hello &amp;lt;a&amp;gt;eyecus&amp;lt;/a&amp;gt;！&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;1.</description>
+      <description>HTML5 笔记  HTML称为超文本标记语言，是一种标识性的语言。它包括一系列标签，通过这些标签可以将网络上的文档格式统一，使分散的Internet资源连接为一个逻辑整体，下图为HTML基本框架示意图。默认文件名  index.html  graph LR Bootstrap-.-id2((CSS)); id2((CSS)) --- id1((HTML)) id3((JS)) --- id1((HTML)) id1((HTML)) -- head head -- title head -- meta id1((HTML)) -- body subgraph body -- h1,h2... body -- p,a p,a -- strong,em body -- ol,ul ol,ul -- li body -- tr tr -- th end  简单介绍  &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;eyecus&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;hello world！&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;hello &amp;lt;a&amp;gt;eyecus&amp;lt;/a&amp;gt;！&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;1.</description>
     </item>
     
     <item>
