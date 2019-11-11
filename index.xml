@@ -5,7 +5,6 @@
     <link>https://blog.eyecus.com/</link>
     <description>Recent content in BLOG on eyecus</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.eyecus.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,6 +19,23 @@
 本教程需要 macOS 系统环境，如果没有 macOS 设备可使用PC安装macOS虚拟机操作。另外由于电脑配置不同，安装过程可能出现各种问题，后续驱动需进行针对性安装。本教程仅供参考。
  Hackintosh 简易安装教程 第1步 制作系统安装盘   通过AppStore下载 macOS 官方镜像文件，或者从其他途径下载 Mojave.app 并拖入应用程序文件夹 使用磁盘管理工具格式化U盘为GUID分区格式Mac OS Extended（日志式），单击抹掉U盘  根据自己的系统参照下述方法进系统安装U盘的制作 UniBeast 👈   直接使用 UniBeast 开始制作，引导过程根据设备情况选择，默认选择如下图所示   macOS 终端   使用终端制作系统安装U盘，以安装 macOS Mojave 系统为例，输入如下代码并等待制作完成
 sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/Mojave --applicationpath /Applications/Install\ macOS\ Mojave.app --nointeraction   注意 根据自己实际情况修改代码内容，此代码适用于系统版本为 Mojave ，U盘名称为 Mojave。       第2步 安装原始系统引导   提示</description>
+    </item>
+    
+    <item>
+      <title>技巧</title>
+      <link>https://blog.eyecus.com/docs/navigation/tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/docs/navigation/tips/</guid>
+      <description>Win10如何关闭系统自动更新？  为了避免在重要时刻被Windows更新打断，合理的安排更新时间。看看关掉烦人的Win10自动更新。
+ 步骤速览
+ 快捷键WIN+R调出运行工具，输入组策略命令services.msc，点击确定; 在服务中找到Windows Update选项，双击; 在“启动类型”下选择“禁用”，并点击确定。  注意 由于方法涉及使用运用组策略，故Windows10家庭版可能不适用。   点击阅读详细图解 ...   快捷键WIN+R调出运行工具，输入组策略命令services.msc，点击确定。
+  在服务中找到Windows Update选项，双击。
+  在启动类型下选择禁用，并点击确定。
+       如何禁用Windows Defender Service？  微软推出的Windows10操作系统自带了Windows Defender防病毒程序，给予了电脑一定的反病毒攻击的能力，与此同时也给用户带来了一些困扰。一些用户希望能够关闭这个功能，看看应该如何操作吧。
+ 步骤速览
+ 使用快捷键WIN+R调出运行工具，输入组策略命令gpedit.msc，点击确定。 进入组策略后按照如下路径找到对应项： 计算机配置/管理模板/Windows组件/Windows Defender防病毒程序/关闭Windows Defender防病毒程序。 双击关闭Windows Defender防病毒程序，在弹出的窗口中选择已启用，点击确定，退出组策略编辑器。 在任务栏空白处点击鼠标右键，打开任务管理器，点击启动选项卡，右键单击Windows Defender将其禁用。 完成上述操作后重启计算机。  提示 点击了解什么是Windows Defender Service？   点击阅读详细图解 ...   使用快捷键WIN+R调出运行工具，输入组策略命令gpedit.msc，点击确定。
+  进入组策略后按照如下路径找到关闭Windows Defender防病毒程序：</description>
     </item>
     
     <item>
@@ -92,15 +108,6 @@ Clover Configurator 下载
     </item>
     
     <item>
-      <title>文章清单</title>
-      <link>https://blog.eyecus.com/docs/navigation/posts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/docs/navigation/posts/</guid>
-      <description>  文章清单  如何禁用WindowsDefenderService 如何隐藏文件资源管理器中的快速启动 如何关闭Win10系统自动更新  &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp 👨🏻‍💻 持续更新中...  </description>
-    </item>
-    
-    <item>
       <title>Hugo建站</title>
       <link>https://blog.eyecus.com/docs/web/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -143,33 +150,6 @@ font-family: &#39;Roboto&#39;, sans-serif; font-family: &#39;Noto Sans SC&#39;, 
       <guid>https://blog.eyecus.com/docs/design/emoji/</guid>
       <description>本页面所提供得Emoji表情清单用于快速复制使用。   Emoji 表情清单 绘文字（日语：絵文字/えもじ emoji）是日本在无线通信中所使用的视觉情感符号，绘指图画，文字指的则是字符，可用来代表多种表情，如笑脸表示笑、蛋糕表示食物等。在中国大陆，emoji通常叫做“小黄脸”，或者直称emoji。在NTTDoCoMo的i-mode系统电话系统中，绘文字的尺寸是12x12 像素，在传送时，一个图形有2个字节。Unicode编码为E63E到E757，而在Shift-JIS编码则是从F89F到F9FC。基本的绘文字共有176个符号，在C-HTML4.0的编程语言中，则另增添了76个情感符号。最早由栗田穰崇（Shigetaka Kurita）创作，并在日本网络及手机用户中流行。自苹果公司发布的iOS 5输入法中加入了emoji后，这种表情符号开始席卷全球，目前emoji已被大多数现代计算机系统所兼容的Unicode编码采纳，普遍应用于各种手机短信和社交网络中。本段摘自百度百科
  面部表情 Smileys 😀 😁 😂 🤣 😃 😄 😅 😆 😉 😊 😋 😎 😍 😘 🥰 😗 😙 😚 ☺️ 🙂 🤗 🤩 🤔 🤨 😐 😑 😶 🙄 😏 😣 😥 😮 🤐 😯 😪 😫 😴 😌 😛 😜 😝 🤤 😒 😓 😔 😕 🙃 🤑 😲 ☹️ 🙁 😖 😞 😟 😤 😢 😭 😦 😧 😨 😩 🤯 😬 😰 😱 🥵 🥶 😳 🤪 😵 😡 😠 🤬 😷 🤒 🤕 🤢 🤮 🤧 😇 🤠 🤡 🥳 🥴 🥺 🤥 🤫 🤭 🧐 🤓 😈 👿 👹 👺 💀 👻 👽 🤖 💩 😺 😸 😹 😻 😼 😽 🙀 😿 😾</description>
-    </item>
-    
-    <item>
-      <title>如何隐藏文件资源管理器中的快速启动？</title>
-      <link>https://blog.eyecus.com/posts/%E5%A6%82%E4%BD%95%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E7%9A%84%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8/</link>
-      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/posts/%E5%A6%82%E4%BD%95%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E7%9A%84%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8/</guid>
-      <description>&lt;p&gt;&lt;code&gt;Windows10给用户的文件资源管理器中带来了一些文件夹的快速启动，但有些人觉得这并没有带来什么便利，反而喜欢以前简洁的感觉，下面来看看应该如何操作吧将其隐藏。&lt;/code&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Win10系统如何关闭自动更新？</title>
-      <link>https://blog.eyecus.com/posts/win10%E7%B3%BB%E7%BB%9F%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</link>
-      <pubDate>Mon, 01 Apr 2019 00:30:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/posts/win10%E7%B3%BB%E7%BB%9F%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</guid>
-      <description>&lt;p&gt;&lt;code&gt;为了避免在重要时刻被Windows更新打断，合理的安排更新时间。看看关掉烦人的Win10自动更新。&lt;/code&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>如何禁用Windows Defender Service？</title>
-      <link>https://blog.eyecus.com/posts/%E5%A6%82%E4%BD%95%E7%A6%81%E7%94%A8windows-defender-service/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/posts/%E5%A6%82%E4%BD%95%E7%A6%81%E7%94%A8windows-defender-service/</guid>
-      <description>&lt;p&gt;&lt;code&gt;微软推出的Windows10操作系统自带了Windows Defender防病毒程序，给予了电脑一定的反病毒攻击的能力，与此同时也给用户带来了一些困扰。一些用户希望能够关闭这个功能，看看应该如何操作吧。&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

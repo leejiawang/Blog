@@ -3,13 +3,20 @@
 
 <head>
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="如何隐藏文件资源管理器中的快速启动？" />
-<meta property="og:description" content="Windows10给用户的文件资源管理器中带来了一些文件夹的快速启动，但有些人觉得这并没有带来什么便利，反而喜欢以前简洁的感觉，下面来看看应该如何操作吧将其隐藏。" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="技巧" />
+<meta property="og:description" content="Win10如何关闭系统自动更新？  为了避免在重要时刻被Windows更新打断，合理的安排更新时间。看看关掉烦人的Win10自动更新。
+ 步骤速览
+ 快捷键WIN&#43;R调出运行工具，输入组策略命令services.msc，点击确定; 在服务中找到Windows Update选项，双击; 在“启动类型”下选择“禁用”，并点击确定。  注意 由于方法涉及使用运用组策略，故Windows10家庭版可能不适用。   点击阅读详细图解 ...   快捷键WIN&#43;R调出运行工具，输入组策略命令services.msc，点击确定。
+  在服务中找到Windows Update选项，双击。
+  在启动类型下选择禁用，并点击确定。
+       如何禁用Windows Defender Service？  微软推出的Windows10操作系统自带了Windows Defender防病毒程序，给予了电脑一定的反病毒攻击的能力，与此同时也给用户带来了一些困扰。一些用户希望能够关闭这个功能，看看应该如何操作吧。
+ 步骤速览
+ 使用快捷键WIN&#43;R调出运行工具，输入组策略命令gpedit.msc，点击确定。 进入组策略后按照如下路径找到对应项： 计算机配置/管理模板/Windows组件/Windows Defender防病毒程序/关闭Windows Defender防病毒程序。 双击关闭Windows Defender防病毒程序，在弹出的窗口中选择已启用，点击确定，退出组策略编辑器。 在任务栏空白处点击鼠标右键，打开任务管理器，点击启动选项卡，右键单击Windows Defender将其禁用。 完成上述操作后重启计算机。  提示 点击了解什么是Windows Defender Service？   点击阅读详细图解 ...   使用快捷键WIN&#43;R调出运行工具，输入组策略命令gpedit.msc，点击确定。
+  进入组策略后按照如下路径找到关闭Windows Defender防病毒程序：" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.eyecus.com/posts/%E5%A6%82%E4%BD%95%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E7%9A%84%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8/" />
-<meta property="article:published_time" content="2019-04-02T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-04-02T00:00:00+00:00" />
-<title> 視由 | 如何隐藏文件资源管理器中的快速启动？ </title>
+<meta property="og:url" content="https://blog.eyecus.com/docs/navigation/tips/" />
+
+<title> 視由 | 技巧 </title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou|Oxygen+Mono|Noto+Sans+SC:400,500|Roboto:400|B612|Warnes&display=swap" rel="stylesheet">
@@ -18,7 +25,7 @@
 <link rel="stylesheet" href="/book.min.4ce533fe8eb38dca90de9b7c9efecf1de1d93160adbe9ebf4ca30363881d83cf.css" integrity="sha256-TOUz/o6zjcqQ3pt8nv7PHeHZMWCtvp6/TKMDY4gdg88=">
 
 
-<script defer src="/search.min.8e989f80982ebaa1577fb34f0f653c3416f4291de6b8b0608ee88c34a7ec78d0.js" integrity="sha256-jpifgJguuqFXf7NPD2U8NBb0KR3muLBgjuiMNKfseNA="></script>
+<script defer src="/search.min.06846e5fdd32ca593c4f462ff7333d009e3dc4408ac48d396543965211ef6861.js" integrity="sha256-BoRuX90yylk8T0Yv9zM9AJ49xECKxI05ZUOWUhHvaGE="></script>
 
   <meta name="keywords" content="视由,视界事由,eyecus,博客,blog,世佳,黑苹果,eyecusIO,前端,eyecus.com,利隐客,利隐者,利隐创意,leeyin " />
 <meta name="description" content="视由(eyecusIO)是世佳的个人博客，主要分享日常学习过程中觉得有用的的所见所闻，博客内容主要涉及平面设计、前端开发、资源分享等。">
@@ -143,8 +150,8 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
       
         <li>
 
-  <a href="/docs/navigation/resource/" >
-      资源分享
+  <a href="/docs/navigation/tips/"  class="active">
+      技巧
   </a>
 
 </li>
@@ -153,8 +160,8 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
       
         <li>
 
-  <a href="/docs/navigation/posts/" >
-      文章清单
+  <a href="/docs/navigation/resource/" >
+      资源分享
   </a>
 
 </li>
@@ -404,27 +411,141 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
     </aside>
 
-    <div class="book-posts">
+    <div class="book-page">
       <header class="flex align-center justify-between book-header">
   <label for="menu-control">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
   </label>
-  <strong>如何隐藏文件资源管理器中的快速启动？</strong>
+  <strong>技巧</strong>
 </header>
 
       
+<article class="markdown">
 
-<header class="markdown">
-  <h1>如何隐藏文件资源管理器中的快速启动？</h1>
-  <h5>
-    <strong>Apr 2, 2019</strong>
-  </h5>
-</header>
-<article class="markdown"><p><code>Windows10给用户的文件资源管理器中带来了一些文件夹的快速启动，但有些人觉得这并没有带来什么便利，反而喜欢以前简洁的感觉，下面来看看应该如何操作吧将其隐藏。</code></p>
+<h2 id="i-class-fa-fa-tag-i-win10如何关闭系统自动更新"><strong><i class="fa fa-tag"></i> Win10如何关闭系统自动更新？</strong></h2>
 
-<p><img src="https://cdn.img.wenhairu.com/images/2019/11/07/AEacD.png" alt="如何隐藏文件资源管理器中的快速启动" /></p>
+<hr>
 
-<h2 id="步骤速览">步骤速览</h2>
+<p><code>为了避免在重要时刻被Windows更新打断，合理的安排更新时间。看看关掉烦人的Win10自动更新。</code></p>
+
+<p><i class="fa fa-check-square-o"></i> 步骤速览</p>
+
+<ul>
+<li>快捷键<code>WIN+R</code>调出运行工具，输入组策略命令<code>services.msc</code>，点击确定;</li>
+<li>在服务中找到<code>Windows Update</code>选项，双击;</li>
+<li>在“启动类型”下选择“禁用”，并点击确定。
+<blockquote class="book-hint warning">
+  <strong><i class="fa fa-exclamation-triangle"></i> 注意</strong>
+由于方法涉及使用运用组策略，故<code>Windows10家庭版</code>可能不适用。
+</blockquote>
+
+<div class="book-expand">
+  <label>
+    <div class="book-expand-head flex justify-between">
+      <span>点击阅读详细图解</span>
+      <span>...</span>
+    </div>
+    <input type="checkbox" class="hidden" />
+    <div class="book-expand-content markdown-inner">
+      <p><img src="https://cdn.img.wenhairu.com/images/2019/11/07/AEMBU.png" alt="Win10系统如何关闭自动更新" /></p>
+
+<blockquote>
+<p>快捷键<code>WIN+R</code>调出运行工具，输入组策略命令<code>services.msc</code>，点击确定。</p>
+</blockquote>
+
+<p><img src="https://cdn.img.wenhairu.com/images/2019/11/07/AE73G.png" alt="Win10系统如何关闭自动更新" /></p>
+
+<blockquote>
+<p>在服务中找到<code>Windows Update</code>选项，双击。</p>
+</blockquote>
+
+<p><img src="https://cdn.img.wenhairu.com/images/2019/11/07/AEcfv.png" alt="Win10系统如何关闭自动更新" /></p>
+
+<blockquote>
+<p>在<code>启动类型</code>下选择<code>禁用</code>，并点击确定。</p>
+</blockquote>
+
+<p><img src="https://cdn.img.wenhairu.com/images/2019/11/07/AEgQ0.png" alt="Win10系统如何关闭自动更新" /></p>
+
+    </div>
+  </label>
+</div>
+</li>
+</ul>
+
+<h2 id="i-class-fa-fa-tag-i-如何禁用windows-defender-service"><strong><i class="fa fa-tag"></i> 如何禁用Windows Defender Service？</strong></h2>
+
+<hr>
+
+<p><code>微软推出的Windows10操作系统自带了Windows Defender防病毒程序，给予了电脑一定的反病毒攻击的能力，与此同时也给用户带来了一些困扰。一些用户希望能够关闭这个功能，看看应该如何操作吧。</code></p>
+
+<p><i class="fa fa-check-square-o"></i> 步骤速览</p>
+
+<ul>
+<li>使用快捷键<code>WIN+R</code>调出运行工具，输入组策略命令<code>gpedit.msc</code>，点击确定。</li>
+<li>进入组策略后按照如下路径找到对应项：
+<code>计算机配置/管理模板/Windows组件/Windows Defender防病毒程序/关闭Windows Defender防病毒程序。</code></li>
+<li>双击<code>关闭Windows Defender防病毒程序</code>，在弹出的窗口中选择<code>已启用</code>，点击<code>确定</code>，退出组策略编辑器。</li>
+<li>在任务栏空白处点击鼠标右键，打开任务管理器，点击<code>启动选项卡</code>，右键单击<code>Windows Defender</code>将其禁用。</li>
+<li>完成上述操作后重启计算机。</br>
+<blockquote class="book-hint info">
+  <strong><i class="fa fa-exclamation-circle"></i> 提示</strong>  点击了解什么是<a href="https://www.microsoft.com/zh-cn/windows/comprehensive-security">Windows Defender Service</a>？
+</blockquote>
+
+<div class="book-expand">
+  <label>
+    <div class="book-expand-head flex justify-between">
+      <span>点击阅读详细图解</span>
+      <span>...</span>
+    </div>
+    <input type="checkbox" class="hidden" />
+    <div class="book-expand-content markdown-inner">
+      <blockquote>
+<p>使用快捷键<code>WIN+R</code>调出运行工具，输入组策略命令<code>gpedit.msc</code>，点击确定。</p>
+</blockquote>
+
+<p><img src="https://cdn.img.wenhairu.com/images/2019/11/07/AEy1N.png" alt="如何禁用Windows Defender Service" /></p>
+
+<blockquote>
+<p>进入组策略后按照如下路径找到<code>关闭Windows Defender防病毒程序</code>：</p>
+
+<pre><code>计算机配置/管理模板/Windows组件/Windows Defender防病毒程序/关闭Windows Defender防病毒程序。
+</code></pre>
+</blockquote>
+
+<p><img src="https://cdn.img.wenhairu.com/images/2019/11/07/AEH4B.png" alt="如何禁用Windows Defender Service" /></p>
+
+<blockquote>
+<p>双击<code>关闭Windows Defender防病毒程序</code>，在弹出的窗口中选择<code>已启用</code>，点击<code>确定</code>，退出组策略编辑器。</p>
+</blockquote>
+
+<p><img src="https://cdn.img.wenhairu.com/images/2019/11/07/AEQhn.png" alt="如何禁用Windows Defender Service" /></p>
+
+<blockquote>
+<p>在任务栏空白处点击鼠标右键，打开<code>任务管理器</code>，点击<code>启动</code>选项卡，右键单击<code>Windows Defender</code>将其禁用。</p>
+</blockquote>
+
+<p><img src="https://cdn.img.wenhairu.com/images/2019/11/07/AEkEA.png" alt="如何禁用Windows Defender Service" /></p>
+
+<p><img src="https://cdn.img.wenhairu.com/images/2019/11/07/AEocT.png" alt="如何禁用Windows Defender Service" /></p>
+
+<blockquote>
+<p>完成上述操作后重启计算机</p>
+</blockquote>
+
+    </div>
+  </label>
+</div>
+</li>
+</ul>
+
+<h2 id="i-class-fa-fa-tag-i-如何隐藏文件资源管理器中的快速启动"><strong><i class="fa fa-tag"></i> 如何隐藏文件资源管理器中的快速启动？</strong></h2>
+
+<hr>
+
+<p><code>Windows10给用户的文件资源管理器中带来了一些文件夹的快速启动，但有些人觉得这并没有带来什么便利，反而喜欢以前简洁的感觉，下面来看看应该如何操作吧将其隐藏。</code></p>
+
+<p><i class="fa fa-check-square-o"></i> 步骤速览</p>
 
 <ul>
 <li>使用快捷键<code>WIN+R</code>调出运行工具，输入组策略命令<code>REGEDIT</code>，点击<code>确定</code>；</li>
@@ -443,10 +564,16 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
 <li><p>备份注册表，备份完成之后将灰框中的六项右键删除掉，这六项就是对应的这台电脑中的六个文件夹；</p></li>
 
-<li><p>删除完后重启资源管理器。</p></li>
-</ul>
-
-<h2 id="详细图解">详细图解</h2>
+<li><p>删除完后重启资源管理器。
+<div class="book-expand">
+  <label>
+    <div class="book-expand-head flex justify-between">
+      <span>点击阅读详细图解</span>
+      <span>...</span>
+    </div>
+    <input type="checkbox" class="hidden" />
+    <div class="book-expand-content markdown-inner">
+      <p><img src="https://cdn.img.wenhairu.com/images/2019/11/07/AEacD.png" alt="如何隐藏文件资源管理器中的快速启动" /></p>
 
 <blockquote>
 <p>使用快捷键<code>WIN+R</code>调出运行工具，输入组策略命令<code>REGEDIT</code>，点击<code>确定</code>。</p>
@@ -481,15 +608,20 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
 </blockquote>
 
-
 <p><img src="https://cdn.img.wenhairu.com/images/2019/11/07/AEpes.png" alt="如何隐藏文件资源管理器中的快速启动" /></p>
 
 <blockquote>
 <p>删除完后重启资源管理器。</p>
 </blockquote>
 
-<p><img src="https://cdn.img.wenhairu.com/images/2019/11/07/AEnAR.png" alt="如何隐藏文件资源管理器中的快速启动" />
-​​</p></article>
+<p><img src="https://cdn.img.wenhairu.com/images/2019/11/07/AEnAR.png" alt="如何隐藏文件资源管理器中的快速启动" /></p>
+
+    </div>
+  </label>
+</div>
+</p></li>
+</ul>
+</article>
 
       <div align="center">  
 <h5>MIT Licensed | Copyright © 2019 <strong>世佳</strong></h5>
@@ -506,8 +638,9 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <ul>
 <li>
 <ul>
-<li><a href="#步骤速览">步骤速览</a></li>
-<li><a href="#详细图解">详细图解</a></li>
+<li><a href="#i-class-fa-fa-tag-i-win10如何关闭系统自动更新"><strong><i class="fa fa-tag"></i> Win10如何关闭系统自动更新？</strong></a></li>
+<li><a href="#i-class-fa-fa-tag-i-如何禁用windows-defender-service"><strong><i class="fa fa-tag"></i> 如何禁用Windows Defender Service？</strong></a></li>
+<li><a href="#i-class-fa-fa-tag-i-如何隐藏文件资源管理器中的快速启动"><strong><i class="fa fa-tag"></i> 如何隐藏文件资源管理器中的快速启动？</strong></a></li>
 </ul></li>
 </ul>
 </nav>
