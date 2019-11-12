@@ -15,8 +15,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/docs/web/html/</guid>
-      <description>HTML5 笔记 HTML称为超文本标记语言，是一种标识性的语言。它包括一系列标签，通过这些标签可以将网络上的文档格式统一，使分散的Internet资源连接为一个逻辑整体，下图为HTML基本框架示意图。默认文件名  index.html
-graph LR Bootstrap-.-id2((CSS)); id2((CSS)) --- id1((HTML)) id3((JS)) --- id1((HTML)) id1((HTML)) -- head head -- title head -- meta id1((HTML)) -- body subgraph body -- h1,h2... body -- p,a p,a -- strong,em body -- ol,ul ol,ul -- li body -- tr tr -- th end  简单介绍  &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;eyecus&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;hello world！&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;hello &amp;lt;a&amp;gt;eyecus&amp;lt;/a&amp;gt;！&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;1.XXXX&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;2.XXXX&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;3.</description>
+      <description>HTML5 笔记 HTML 称为超文本标记语言，是一种标识性的语言。它包括一系列标签，通过这些标签可以将网络上的文档格式统一，使分散的 Internet 资源连接为一个逻辑整体，下图为HTML基本框架示意图。  默认文件名  index.html  graph LR Bootstrap-.-id2((CSS)); id2((CSS)) --- id1((HTML)) id3((JS)) --- id1((HTML)) id1((HTML)) -- head head -- title head -- meta id1((HTML)) -- body subgraph body -- h1,h2... body -- p,a p,a -- strong,em body -- ol,ul ol,ul -- li body -- tr tr -- th end   简单介绍  &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;eyecus&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;hello world！&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;hello &amp;lt;a&amp;gt;eyecus&amp;lt;/a&amp;gt;！&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;1.</description>
     </item>
     
     <item>
@@ -25,7 +24,7 @@ graph LR Bootstrap-.-id2((CSS)); id2((CSS)) --- id1((HTML)) id3((JS)) --- id1((H
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/docs/web/hugo/</guid>
-      <description>HUGO 搭建网站简易教程 Hugo是由Go语言实现的静态网站生成器，简单、易用、高效、易扩展、快速部署。
+      <description>HUGO 建站简易教程 Hugo是由Go语言实现的静态网站生成器，简单、易用、高效、易扩展、快速部署。
 Hugo官网 Hugo主题 Hugo中文 Hugo仓库
      本站即为 Hugo 博客框架搭建，使用了 Hugo-Book 主题。  第1步 安装Hugo框架   首先根据自己的系统参照下述方法进行安装。 macOS 🔥   macOS操作系统下直接使用Homebrew安装，在终端中输入如下代码：
 brew install hugo   注意 执行此操作前请确保macOS安装有Homebrew 。    Windows   在Hugo Releases 下载最新发布对应操作系统的ZIP，将所有内容提取到C:\Hugo\bin目录中，包含可执行文件hugo.exe、LICENSE和README.md。
@@ -40,7 +39,7 @@ brew install hugo   注意 执行此操作前请确保linux安装有Homebrew 。
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/docs/web/hexo/</guid>
-      <description>HEXO 搭建网站简易教程 Hexo是一款快速、简洁且高效的博客框架，具有超快速度、支持 Markdown、一键部署、丰富的插件和可扩展性等特点。
+      <description>HEXO 建站简易教程 Hexo是一款快速、简洁且高效的博客框架，具有超快速度、支持 Markdown、一键部署、丰富的插件和可扩展性等特点。
 Hexo官网 Hexo主题 Hexo中文 Hexo仓库
     第1步 安装Hugo框架   注意
  安装 Hugo 之前要确保设备装有Git 和Node.js (建议安装最新版本)。
@@ -60,9 +59,7 @@ sudo hexo init   提示</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/docs/web/webfonts/</guid>
-      <description>  Google Fonts 的使用   首先进入Google Fonts 官网，然后在网页中选择自己需要一个或多个的字体，点击字体左上角的加号。
-&amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css?family=Noto+Sans+SC|Roboto&amp;amp;display=swap&amp;quot; rel=&amp;quot;stylesheet&amp;quot;&amp;gt;   点击网页右下角，在弹出框中有两处代码，将第一处代码放置在Html文件的&amp;lt;head&amp;gt;标签中，第二处代码用于CSS文件中定义字体。
-font-family: &#39;Roboto&#39;, sans-serif; font-family: &#39;Noto Sans SC&#39;, sans-serif;    </description>
+      <description>  Google Fonts 的使用   首先进入Google Fonts 官网，然后在网页中选择自己需要一个或多个的字体，点击字体左上角的加号。 &amp;lt;link href=&amp;#34;https://fonts.googleapis.com/css?family=Noto+Sans+SC|Roboto&amp;amp;display=swap&amp;#34; rel=&amp;#34;stylesheet&amp;#34;&amp;gt;   点击网页右下角，在弹出框中有两处代码，将第一处代码放置在Html文件的&amp;lt;head&amp;gt;标签中，第二处代码用于CSS文件中定义字体。 font-family: &amp;#39;Roboto&amp;#39;, sans-serif; font-family: &amp;#39;Noto Sans SC&amp;#39;, sans-serif;   </description>
     </item>
     
   </channel>
