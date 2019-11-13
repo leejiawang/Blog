@@ -16,12 +16,13 @@
       
       <guid>https://blog.eyecus.com/docs/navigation/tips/</guid>
       <description>如何关闭Win10系统自动更新？  为了避免在重要时刻被Windows更新打断，合理的安排更新时间。看看关掉烦人的Win10自动更新。  步骤速览
- 快捷键WIN+R调出运行工具，输入组策略命令services.msc，点击确定; 在服务中找到Windows Update选项，双击; 在“启动类型”下选择“禁用”，并点击确定。  注意 由于方法涉及使用运用组策略，故Windows10家庭版可能不适用。   点击阅读详细图解 ...   快捷键WIN+R调出运行工具，输入组策略命令services.msc，点击确定。
+ 快捷键WIN+R调出运行工具，输入组策略命令services.msc，点击确定; 在服务中找到Windows Update选项，双击; 在“启动类型”下选择“禁用”，并点击确定。  点击阅读详细图解 ...   快捷键WIN+R调出运行工具，输入组策略命令services.msc，点击确定。
   在服务中找到Windows Update选项，双击。
   在启动类型下选择禁用，并点击确定。
-       如何禁用Windows Defender Service？  微软推出的Windows10操作系统自带了Windows Defender防病毒程序，给予了电脑一定的反病毒攻击的能力，与此同时也给用户带来了一些困扰。一些用户希望能够关闭这个功能，看看应该如何操作吧。  步骤速览
- 使用快捷键WIN+R调出运行工具，输入组策略命令gpedit.msc，点击确定。 进入组策略后按照如下路径找到对应项： 计算机配置/管理模板/Windows组件/Windows Defender防病毒程序/关闭Windows Defender防病毒程序。 双击关闭Windows Defender防病毒程序，在弹出的窗口中选择已启用，点击确定，退出组策略编辑器。 在任务栏空白处点击鼠标右键，打开任务管理器，点击启动选项卡，右键单击Windows Defender将其禁用。 完成上述操作后重启计算机。  提示 点击了解什么是 Windows Defender Service ？   点击阅读详细图解 ...   使用快捷键WIN+R调出运行工具，输入组策略命令gpedit.msc，点击确定。
-  进入组策略后按照如下路径找到关闭Windows Defender防病毒程序：</description>
+     注意 由于方法涉及使用运用组策略，故Windows10家庭版可能不适用。     如何禁用Windows Defender Service？  微软推出的Windows10操作系统自带了Windows Defender防病毒程序，给予了电脑一定的反病毒攻击的能力，与此同时也给用户带来了一些困扰。一些用户希望能够关闭这个功能，看看应该如何操作吧。  步骤速览
+ 使用快捷键WIN+R调出运行工具，输入组策略命令gpedit.msc，点击确定。 进入组策略后按照如下路径找到对应项： 计算机配置/管理模板/Windows组件/Windows Defender防病毒程序/关闭Windows Defender防病毒程序。 双击关闭Windows Defender防病毒程序，在弹出的窗口中选择已启用，点击确定，退出组策略编辑器。 在任务栏空白处点击鼠标右键，打开任务管理器，点击启动选项卡，右键单击Windows Defender将其禁用。 完成上述操作后重启计算机。  点击阅读详细图解 ...   使用快捷键WIN+R调出运行工具，输入组策略命令gpedit.msc，点击确定。
+  进入组策略后按照如下路径找到关闭Windows Defender防病毒程序：
+计算机配置/管理模板/Windows组件/Windows Defender防病毒程序/关闭Windows Defender防病毒程序。    双击关闭Windows Defender防病毒程序，在弹出的窗口中选择已启用，点击确定，退出组策略编辑器。</description>
     </item>
     
     <item>

@@ -17,7 +17,7 @@
       <guid>https://blog.eyecus.com/docs/hackintosh/install/</guid>
       <description>注意
 本教程需要 macOS 系统环境，如果没有 macOS 设备可使用PC安装macOS虚拟机操作。另外由于电脑配置不同，安装过程可能出现各种问题，后续驱动需进行针对性安装。本教程仅供参考。
- Hackintosh 简易安装教程 第1步 制作系统安装盘   通过AppStore下载 macOS 官方镜像文件，或者从其他途径下载 Mojave.app 并拖入应用程序文件夹 使用磁盘管理工具格式化U盘为GUID分区格式Mac OS Extended（日志式），单击抹掉U盘  根据自己的系统参照下述方法进系统安装U盘的制作 UniBeast 👈   直接使用  UniBeast 开始制作，引导过程根据设备情况选择，默认选择如下图所示   macOS 终端   使用终端制作系统安装U盘，以安装 macOS Mojave 系统为例，输入如下代码并等待制作完成
+ Hackintosh 简易安装教程 第1步 制作系统安装盘   通过AppStore下载macOS镜像文件，或从其他途径下载 Mojave.app 并拖入应用程序文件夹。 使用磁盘管理工具格式化U盘为GUID分区格式Mac OS Extended（日志式），单击抹掉U盘。  根据自己的系统参照下述方法进系统安装U盘的制作 UniBeast 👈   直接使用  UniBeast 开始制作，引导过程根据设备情况选择，默认选择如下图所示:   macOS 终端   使用终端制作安装U盘，以安装 macOS Mojave 系统为例，输入如下代码并等待制作完成。
 sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/Mojave --applicationpath /Applications/Install\ macOS\ Mojave.app --nointeraction   注意 根据自己实际情况修改代码内容，此代码适用于系统版本为 Mojave ，U盘名称为 Mojave。       第2步 安装原始系统引导   提示</description>
     </item>
     
@@ -28,12 +28,13 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
       
       <guid>https://blog.eyecus.com/docs/navigation/tips/</guid>
       <description>如何关闭Win10系统自动更新？  为了避免在重要时刻被Windows更新打断，合理的安排更新时间。看看关掉烦人的Win10自动更新。  步骤速览
- 快捷键WIN+R调出运行工具，输入组策略命令services.msc，点击确定; 在服务中找到Windows Update选项，双击; 在“启动类型”下选择“禁用”，并点击确定。  注意 由于方法涉及使用运用组策略，故Windows10家庭版可能不适用。   点击阅读详细图解 ...   快捷键WIN+R调出运行工具，输入组策略命令services.msc，点击确定。
+ 快捷键WIN+R调出运行工具，输入组策略命令services.msc，点击确定; 在服务中找到Windows Update选项，双击; 在“启动类型”下选择“禁用”，并点击确定。  点击阅读详细图解 ...   快捷键WIN+R调出运行工具，输入组策略命令services.msc，点击确定。
   在服务中找到Windows Update选项，双击。
   在启动类型下选择禁用，并点击确定。
-       如何禁用Windows Defender Service？  微软推出的Windows10操作系统自带了Windows Defender防病毒程序，给予了电脑一定的反病毒攻击的能力，与此同时也给用户带来了一些困扰。一些用户希望能够关闭这个功能，看看应该如何操作吧。  步骤速览
- 使用快捷键WIN+R调出运行工具，输入组策略命令gpedit.msc，点击确定。 进入组策略后按照如下路径找到对应项： 计算机配置/管理模板/Windows组件/Windows Defender防病毒程序/关闭Windows Defender防病毒程序。 双击关闭Windows Defender防病毒程序，在弹出的窗口中选择已启用，点击确定，退出组策略编辑器。 在任务栏空白处点击鼠标右键，打开任务管理器，点击启动选项卡，右键单击Windows Defender将其禁用。 完成上述操作后重启计算机。  提示 点击了解什么是 Windows Defender Service ？   点击阅读详细图解 ...   使用快捷键WIN+R调出运行工具，输入组策略命令gpedit.msc，点击确定。
-  进入组策略后按照如下路径找到关闭Windows Defender防病毒程序：</description>
+     注意 由于方法涉及使用运用组策略，故Windows10家庭版可能不适用。     如何禁用Windows Defender Service？  微软推出的Windows10操作系统自带了Windows Defender防病毒程序，给予了电脑一定的反病毒攻击的能力，与此同时也给用户带来了一些困扰。一些用户希望能够关闭这个功能，看看应该如何操作吧。  步骤速览
+ 使用快捷键WIN+R调出运行工具，输入组策略命令gpedit.msc，点击确定。 进入组策略后按照如下路径找到对应项： 计算机配置/管理模板/Windows组件/Windows Defender防病毒程序/关闭Windows Defender防病毒程序。 双击关闭Windows Defender防病毒程序，在弹出的窗口中选择已启用，点击确定，退出组策略编辑器。 在任务栏空白处点击鼠标右键，打开任务管理器，点击启动选项卡，右键单击Windows Defender将其禁用。 完成上述操作后重启计算机。  点击阅读详细图解 ...   使用快捷键WIN+R调出运行工具，输入组策略命令gpedit.msc，点击确定。
+  进入组策略后按照如下路径找到关闭Windows Defender防病毒程序：
+计算机配置/管理模板/Windows组件/Windows Defender防病毒程序/关闭Windows Defender防病毒程序。    双击关闭Windows Defender防病毒程序，在弹出的窗口中选择已启用，点击确定，退出组策略编辑器。</description>
     </item>
     
     <item>
@@ -93,7 +94,7 @@ Clover Configurator 下载
       <guid>https://blog.eyecus.com/docs/design/fonts/</guid>
       <description>声明
 本页面提供下载链接均来自其发布官网，如本站不慎侵犯你的版权请 联系 我们，本站将及时处理，并撤下相关内容！
-  免费商用的中文字体  在版权意识日益增长的今天，侵犯版权的成本也大大增加，尤其是在商业领域，一旦侵权可能就会面临“律师函警告”，随之而来的将是巨大的经济损失，故在创作过程中避免侵权尤为重要。在字体方面，使用一些免费商用的字体是个较好的规避上述问题的办法。    字体名称 提供组织 支持语言 获取字体     思源黑体 Google,Adobe CN/EN/TWHK/JP/KR 官网  下载   思源宋体 Google,Adobe CN/EN/TWHK/JP/KR 官网  下载   阿里巴巴普惠体 阿里巴巴 CN/EN 官网  下载   站酷庆科黄油体 ZCOOL CN/EN 官网  下载   站酷文艺体 ZCOOL CN/EN 官网  下载   站酷小薇logo体 ZCOOL CN/EN 官网  下载   站酷酷黑体 ZCOOL CN/EN 官网  下载   站酷意大利体 ZCOOL EN 官网  下载   站酷快乐体 ZCOOL CN/EN 官网  下载   站酷高端黑体 ZCOOL CN/EN 官网  下载     ▫️ 以上提供的页面及下载地址均为官方性质，请放心访问下载。  免费商用的英文字体页面     站名 具体页面地址     1001fonts https://www.</description>
+  免费商用的中文字体  在版权意识日益增长的今天，侵犯版权的成本也大大增加，尤其是在商业领域，一旦侵权可能就会面临“律师函警告”，随之而来的将是巨大的经济损失，故在创作过程中避免侵权尤为重要。在字体方面，使用一些免费商用的字体是个较好的规避上述问题的办法。    字体名称 提供组织 支持语言 获取字体     思源黑体 Google,Adobe CN/EN/TWHK/JP/KR 官网  下载   思源宋体 Google,Adobe CN/EN/TWHK/JP/KR 官网  下载   阿里巴巴普惠体 阿里巴巴 CN/EN 官网  下载   站酷庆科黄油体 ZCOOL CN/EN 官网  下载   站酷文艺体 ZCOOL CN/EN 官网  下载   站酷小薇logo体 ZCOOL CN/EN 官网  下载   站酷酷黑体 ZCOOL CN/EN 官网  下载   站酷意大利体 ZCOOL EN 官网  下载   站酷快乐体 ZCOOL CN/EN 官网  下载   站酷高端黑体 ZCOOL CN/EN 官网  下载     以上提供的页面及下载地址均为官方性质，请放心访问下载。  免费商用的英文字体页面     站名 具体页面地址     1001fonts https://www.</description>
     </item>
     
     <item>
@@ -102,7 +103,7 @@ Clover Configurator 下载
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/docs/web/html/</guid>
-      <description>HTML5 笔记 HTML 称为超文本标记语言，是一种标识性的语言。它包括一系列标签，通过这些标签可以将网络上的文档格式统一，使分散的 Internet 资源连接为一个逻辑整体，下图为HTML基本框架示意图。  默认文件名  index.html  graph LR Bootstrap-.-id2((CSS)); id2((CSS)) --- id1((HTML)) id3((JS)) --- id1((HTML)) id1((HTML)) -- head head -- title head -- meta id1((HTML)) -- body subgraph body -- h1,h2... body -- p,a p,a -- strong,em body -- ol,ul ol,ul -- li body -- tr tr -- th end   简单介绍  &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;eyecus&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;hello world！&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;hello &amp;lt;a&amp;gt;eyecus&amp;lt;/a&amp;gt;！&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;1.</description>
+      <description>HTML5 笔记 HTML 称为超文本标记语言，是一种标识性的语言。它包括一系列标签，通过这些标签可以将网络上的文档格式统一，使分散的 Internet 资源连接为一个逻辑整体，下图为HTML基本框架示意图。  默认文件名  index.html  graph LR Bootstrap-.-id2((CSS)); id2((CSS)) --- id1((HTML)) id3((JS)) --- id1((HTML)) id1((HTML)) -- head head -- title head -- meta id1((HTML)) -- body subgraph body -- h1,h2... body -- p,a p,a -- strong,em body -- ol,ul ol,ul -- li body -- tr tr -- th end  简单介绍  &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;eyecus&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;hello world！&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;hello &amp;lt;a&amp;gt;eyecus&amp;lt;/a&amp;gt;！&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;1.</description>
     </item>
     
     <item>
@@ -126,7 +127,7 @@ brew install hugo   注意 执行此操作前请确保linux安装有  Homebrew �
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/docs/about/links/</guid>
-      <description>友情链接  本页面旨在聚集志同道合的小伙伴，欢迎与我取得联系。     站名 站点描述     程序羊 CodeSheep 分享 务实、能看懂、读者可复现 的原创文章   心谭博客 专注于前端方向与可视化领域的博客   利隐客 leeyiner Find what you want      /** * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/ /* var disqus_config = function () { this.</description>
+      <description>友情链接  本页面旨在聚集志同道合的小伙伴，欢迎与我取得 联系。     站名 站点描述     程序羊 CodeSheep 分享 务实、能看懂、读者可复现 的原创文章   心谭博客 专注于前端方向与可视化领域的博客   利隐客 leeyiner Find what you want      /** * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/ /* var disqus_config = function () { this.</description>
     </item>
     
     <item>
@@ -155,7 +156,7 @@ mkdir test cd test  在终端中输入如下代码下载Hexo文件：</descripti
       
       <guid>https://blog.eyecus.com/docs/design/emoji/</guid>
       <description>本页面所提供得Emoji表情清单用于快速复制使用。   Emoji 表情清单 绘文字（日语：絵文字/えもじ emoji）是日本在无线通信中所使用的视觉情感符号，绘指图画，文字指的则是字符，可用来代表多种表情，如笑脸表示笑、蛋糕表示食物等。在中国大陆，emoji通常叫做“小黄脸”，或者直称emoji。在NTTDoCoMo的i-mode系统电话系统中，绘文字的尺寸是12x12 像素，在传送时，一个图形有2个字节。Unicode编码为E63E到E757，而在Shift-JIS编码则是从F89F到F9FC。基本的绘文字共有176个符号，在C-HTML4.0的编程语言中，则另增添了76个情感符号。最早由栗田穰崇（Shigetaka Kurita）创作，并在日本网络及手机用户中流行。自苹果公司发布的iOS 5输入法中加入了emoji后，这种表情符号开始席卷全球，目前emoji已被大多数现代计算机系统所兼容的Unicode编码采纳，普遍应用于各种手机短信和社交网络中。本段摘自百度百科
- 面部表情 Smileys 😀 😁 😂 🤣 😃 😄 😅 😆 😉 😊 😋 😎 😍 😘 🥰 😗 😙 😚 ☺️ 🙂 🤗 🤩 🤔 🤨 😐 😑 😶 🙄 😏 😣 😥 😮 🤐 😯 😪 😫 😴 😌 😛 😜 😝 🤤 😒 😓 😔 😕 🙃 🤑 😲 ☹️ 🙁 😖 😞 😟 😤 😢 😭 😦 😧 😨 😩 🤯 😬 😰 😱 🥵 🥶 😳 🤪 😵 😡 😠 🤬 😷 🤒 🤕 🤢 🤮 🤧 😇 🤠 🤡 🥳 🥴 🥺 🤥 🤫 🤭 🧐 🤓 😈 👿 👹 👺 💀 👻 👽 🤖 💩 😺 😸 😹 😻 😼 😽 🙀 😿 😾</description>
+面部表情 Smileys  😀 😁 😂 🤣 😃 😄 😅 😆 😉 😊 😋 😎 😍 😘 🥰 😗 😙 😚 ☺️ 🙂 🤗 🤩 🤔 🤨 😐 😑 😶 🙄 😏 😣 😥 😮 🤐 😯 😪 😫 😴 😌 😛 😜 😝 🤤 😒 😓 😔 😕 🙃 🤑 😲 ☹️ 🙁 😖 😞 😟 😤 😢 😭 😦 😧 😨 😩 🤯 😬 😰 😱 🥵 🥶 😳 🤪 😵 😡 😠 🤬 😷 🤒 🤕 🤢 🤮 🤧 😇 🤠 🤡 🥳 🥴 🥺 🤥 🤫 🤭 🧐 🤓 😈 👿 👹 👺 💀 👻 👽 🤖 💩 😺 😸 😹 😻 😼 😽 🙀 😿 😾</description>
     </item>
     
     <item>
@@ -164,7 +165,7 @@ mkdir test cd test  在终端中输入如下代码下载Hexo文件：</descripti
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/docs/web/webfonts/</guid>
-      <description>  Google Fonts 的使用   首先进入Google Fonts 官网，然后在网页中选择自己需要一个或多个的字体，点击字体左上角的加号。 &amp;lt;link href=&amp;#34;https://fonts.googleapis.com/css?family=Noto+Sans+SC|Roboto&amp;amp;display=swap&amp;#34; rel=&amp;#34;stylesheet&amp;#34;&amp;gt;   点击网页右下角，在弹出框中有两处代码，将第一处代码放置在Html文件的&amp;lt;head&amp;gt;标签中，第二处代码用于CSS文件中定义字体。 font-family: &amp;#39;Roboto&amp;#39;, sans-serif; font-family: &amp;#39;Noto Sans SC&amp;#39;, sans-serif;   </description>
+      <description>  Google Fonts 的使用   首先进入 Google Fonts  官网，然后选择自己需要一个或多个的字体，点击字体左上角加号。 &amp;lt;link href=&amp;#34;https://fonts.googleapis.com/css?family=Noto+Sans+SC|Roboto&amp;amp;display=swap&amp;#34; rel=&amp;#34;stylesheet&amp;#34;&amp;gt;   点击网页右下角，在弹出框中有两处代码，将第一处代码放置在Html文件的&amp;lt;head&amp;gt;标签中，第二处代码用于CSS文件中定义字体。 font-family: &amp;#39;Roboto&amp;#39;, sans-serif; font-family: &amp;#39;Noto Sans SC&amp;#39;, sans-serif;   </description>
     </item>
     
   </channel>
