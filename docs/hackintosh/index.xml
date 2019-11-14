@@ -35,7 +35,7 @@ UniBeast 官网下载
 使用UniBeast需要你具备macOS操作环境，且系统语言切换成English才能运行。
    Clover EFI bootloader Clover EFI bootloader为UEFI系统引导安装工具，是最为核心的工具之一。
 Clover EFI 下载 
-      Clover Configurator MultiBeast是由 mackie100projects 提供的用于编辑Clover EFI配置文件的工具，利用图形界面大大降低了配置Clover EFI的门槛。
+      Clover Configurator Clover Configurator是由 mackie100projects 提供的用于编辑Clover EFI配置文件的工具，利用图形界面大大降低了配置Clover EFI的门槛。
 Clover Configurator 下载 
      注意</description>
     </item>
