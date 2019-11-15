@@ -15,7 +15,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/docs/navigation/tips/</guid>
-      <description>如何关闭Win10系统自动更新？  为了避免在重要时刻被Windows更新打断，合理的安排更新时间。看看关掉烦人的Win10自动更新。  步骤速览
+      <description>Windwos 操作技巧  如何关闭Win10系统自动更新？  为了避免在重要时刻被Windows更新打断，合理的安排更新时间。看看关掉烦人的Win10自动更新。  步骤速览
  快捷键WIN+R调出运行工具，输入组策略命令services.msc，点击确定; 在服务中找到Windows Update选项，双击; 在“启动类型”下选择“禁用”，并点击确定。  点击阅读详细图解 ...   快捷键WIN+R调出运行工具，输入组策略命令services.msc，点击确定。
   在服务中找到Windows Update选项，双击。
   在启动类型下选择禁用，并点击确定。
