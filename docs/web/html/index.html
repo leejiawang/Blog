@@ -14,10 +14,10 @@
 <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Noto+Sans+SC:400,500|Noto+Serif+SC:500|Roboto:400|B612&display=swap" rel="stylesheet">
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="/book.min.f2f22b847c4c8fd2618d98acafd2f54fc3b826c907947c0b10c0e7c7f99d79b3.css" integrity="sha256-8vIrhHxMj9JhjZisr9L1T8O4JskHlHwLEMDnx/mdebM=">
+<link rel="stylesheet" href="/book.min.3223bcb9964baae65188e934330c39d76260516b90d76b9d5029bef344f7a94f.css" integrity="sha256-MiO8uZZLquZRiOk0Mww512JgUWuQ12udUCm&#43;80T3qU8=">
 
 
-<script defer src="/search.min.9e2995cd54370543d4fe21345986bac9bbd1d7f329f79dd895f9f6bb4ceeb478.js" integrity="sha256-nimVzVQ3BUPU/iE0WYa6ybvR1/Mp953Ylfn2u0zutHg="></script>
+<script defer src="/search.min.bd34a11462e59d5eddca7e32c399e1572be714a617411dd7e4a5456a3914911c.js" integrity="sha256-vTShFGLlnV7dyn4yw5nhVyvnFKYXQR3X5KVFajkUkRw="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -460,7 +460,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <div class="comment"> HTML 称为超文本标记语言，是一种标识性的语言。它包括一系列标签，通过这些标签可以将网络上的文档格式统一，使分散的 Internet 资源连接为一个逻辑整体，下图为HTML基本框架示意图。</div>
 
 <ul>
-<li>默认文件名 <span><b><i class="fa fa-file-code-o"></i> index.html</b></span></li>
+<li><strong>默认文件名</strong> <span><b><i class="fa fa-file-code-o"></i> index.html</b></span></li>
 </ul>
 
 <div align="center"> 
@@ -681,7 +681,7 @@ end
 <div class="comment">层叠样式表 Cascading Style Sheets 是一种用来表现HTML或XML等文件样式的计算机语言。不仅可以静态地修饰网页，还可以配合各种脚本语言动态地对网页各元素进行格式化。</div>
 
 <ul>
-<li>默认文件名 <span><b><i class="fa fa-file-code-o"></i> style.css</b></span></li>
+<li><strong>默认文件名</strong> <span><b><i class="fa fa-file-code-o"></i> style.css</b></span></li>
 </ul>
 
 <div align="center"> 
@@ -712,8 +712,8 @@ graph LR
   
   <div class="flex-even markdown-inner">
     <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">p</span> {
-   <span style="color:#66d9ef">color</span>:<span style="color:#66d9ef">red</span>;
-   <span style="color:#66d9ef">text-align</span>:<span style="color:#66d9ef">center</span>;
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">red</span>;
+  <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">center</span>;
 }</code></pre></div>
   </div>
   
@@ -733,7 +733,43 @@ graph LR
 
 <p><img src="https://cdn.img.wenhairu.com/images/2019/11/09/Aa5ZB.png" width="400"></p>
 
-<h2 id="文本属性">文本属性</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">nav-link</span> {
+  <span style="color:#66d9ef">padding-right</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">margin-top</span>: <span style="color:#ae81ff">-15</span><span style="color:#66d9ef">px</span>;
+}</code></pre></div>
+
+<table>
+<thead>
+<tr>
+<th align="left">标签名</th>
+<th align="left">功能</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Margin <code>外边距</code></td>
+<td align="left">清除边框外的区域，外边距是透明的。</td>
+</tr>
+
+<tr>
+<td align="left">Border <code>边框</code></td>
+<td align="left">围绕在内边距和内容外的边框。</td>
+</tr>
+
+<tr>
+<td align="left">Padding <code>内边框</code></td>
+<td align="left">清除内容周围的区域，内边距是透明的。</td>
+</tr>
+
+<tr>
+<td align="left">Content <code>内容</code></td>
+<td align="left">盒子的内容，显示文本和图像。</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="文本样式">文本样式</h2>
 
 <table>
 <thead>
@@ -819,7 +855,95 @@ graph LR
 </tbody>
 </table>
 
-<h2 id="背景属性">背景属性</h2>
+<h2 id="字体样式">字体样式</h2>
+
+<div align="left">  
+<img src="https://cdn.img.wenhairu.com/images/2019/11/10/Aanjn.png" width="280">
+</div>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">body</span> {
+  <span style="color:#66d9ef">font-family</span>: <span style="color:#e6db74">&#39;Times New Roman&#39;</span>, <span style="color:#66d9ef">sans-serif</span>;
+}</code></pre></div>
+
+<table>
+<thead>
+<tr>
+<th align="left">属性</th>
+<th align="left">功能描述</th>
+<th align="left">值举例</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">font-family</td>
+<td align="left">字体系列</td>
+<td align="left"><code>&quot;Times New Roman&quot;(字体名)</code> </br><code>sans-serif(无衬线字体)</code> </br> <code>serif(衬线字体)</code></td>
+</tr>
+
+<tr>
+<td align="left">font-style</td>
+<td align="left">字体样式</td>
+<td align="left"><code>normal(正常)</code> </br><code>italic(斜体)</code></br> <code>oblique(倾斜)</code></td>
+</tr>
+
+<tr>
+<td align="left">font-size</td>
+<td align="left">字体大小</td>
+<td align="left"><code>40px(数值)</code></br> <code>2.5em(数值,px/16=em)</code></br> <code>100%(百分数,body属性值*100%)</code></td>
+</tr>
+
+<tr>
+<td align="left">font-weight</td>
+<td align="left">字体粗细</td>
+<td align="left"><code>200(整百分数)</code></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="链接样式">链接样式</h2>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">a</span>:<span style="color:#a6e22e">hover</span> {
+  <span style="color:#66d9ef">text-decoration</span>: <span style="color:#66d9ef">underline</span>;
+  <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#666666</span>;
+}</code></pre></div>
+
+<table>
+<thead>
+<tr>
+<th align="left">标签名</th>
+<th align="left">功能描述</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">:link</td>
+<td align="left">正常，未访问过的链接</td>
+</tr>
+
+<tr>
+<td align="left">:visited</td>
+<td align="left">已访问过的链接</td>
+</tr>
+
+<tr>
+<td align="left">:hover</td>
+<td align="left">鼠标放在链接上</td>
+</tr>
+
+<tr>
+<td align="left">:active</td>
+<td align="left">链接被点击时</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="背景样式">背景样式</h2>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">body</span> {
+  <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#ffffff</span>;
+}</code></pre></div>
 
 <table>
 <thead>
@@ -863,53 +987,6 @@ graph LR
 </tbody>
 </table>
 
-<ul>
-<li>背景属性简写为<code>background</code>，值得写法如下:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">body</span> {<span style="color:#66d9ef">background</span>:<span style="color:#ae81ff">#ffffff</span> url(<span style="color:#e6db74">&#39;img_tree.png&#39;</span>) <span style="color:#66d9ef">no-repeat</span> <span style="color:#66d9ef">right</span> <span style="color:#66d9ef">top</span>;}</code></pre></div></li>
-</ul>
-
-<h2 id="字体属性">字体属性</h2>
-
-<div align="left">  
-<img src="https://cdn.img.wenhairu.com/images/2019/11/10/Aanjn.png" width="280">
-</div>
-
-<table>
-<thead>
-<tr>
-<th align="left">属性</th>
-<th align="left">功能描述</th>
-<th align="left">值举例</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="left">font-family</td>
-<td align="left">字体系列</td>
-<td align="left"><code>&quot;Times New Roman&quot;(字体名)</code> </br><code>sans-serif(无衬线字体)</code> </br> <code>serif(衬线字体)</code></td>
-</tr>
-
-<tr>
-<td align="left">font-style</td>
-<td align="left">字体样式</td>
-<td align="left"><code>normal(正常)</code> </br><code>italic(斜体)</code></br> <code>oblique(倾斜)</code></td>
-</tr>
-
-<tr>
-<td align="left">font-size</td>
-<td align="left">字体大小</td>
-<td align="left"><code>40px(数值)</code></br> <code>2.5em(数值,px/16=em)</code></br> <code>100%(百分数,body属性值*100%)</code></td>
-</tr>
-
-<tr>
-<td align="left">font-weight</td>
-<td align="left">字体粗细</td>
-<td align="left"><code>200(整百分数)</code></td>
-</tr>
-</tbody>
-</table>
-
 <h2 id="常用功能-1">常用功能</h2>
 
 <ul>
@@ -930,21 +1007,20 @@ graph LR
 <div class="comment"> Bootstrap 是一套流行的前端框架，轻松构建对移动设备很友好的响应式网站。内置了大量常用界面设计组件，大大简化了建站的过程。</div>
 
 <ul>
-<li>框架官网：<a href="https://getbootstrap.com/"><strong>getbootstrap.com <i class="fa fa-external-link"></i></strong></a></li>
+<li><strong>框架官网：</strong> <a href="https://getbootstrap.com/"><strong>getbootstrap.com <i class="fa fa-external-link"></i></strong></a></li>
 </ul>
 
 <h2 id="加载框架">加载框架</h2>
 
-<ul>
-<li><p><strong>CSS：</strong>复制如下代码到<code>HTML</code>的<code>&lt;head&gt;</code>标签。
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">&lt;</span><span style="color:#f92672">link</span> <span style="color:#f92672">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#f92672">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css&#34;</span> <span style="color:#f92672">integrity</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO&#34;</span> <span style="color:#f92672">crossorigin</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;anonymous&#34;</span><span style="color:#f92672">&gt;</span></code></pre></div></p></li>
+<p><strong>CSS：</strong>复制如下代码到<code>HTML</code>的<code>&lt;head&gt;</code>标签。
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">&lt;</span><span style="color:#f92672">link</span> <span style="color:#f92672">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#f92672">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css&#34;</span> <span style="color:#f92672">integrity</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO&#34;</span> <span style="color:#f92672">crossorigin</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;anonymous&#34;</span><span style="color:#f92672">&gt;</span></code></pre></div></p>
 
-<li><p><strong>JS：</strong>复制如下代码到<code>HTML</code>的<code>&lt;/body&gt;</code>标签之前。
+<p><strong>JS：</strong>复制如下代码到<code>HTML</code>的<code>&lt;/body&gt;</code>标签之前。
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://code.jquery.com/jquery-3.3.1.slim.min.js&#34;</span> <span style="color:#a6e22e">integrity</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo&#34;</span> <span style="color:#a6e22e">crossorigin</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;anonymous&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
 &lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js&#34;</span> <span style="color:#a6e22e">integrity</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49&#34;</span> <span style="color:#a6e22e">crossorigin</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;anonymous&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
-&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js&#34;</span> <span style="color:#a6e22e">integrity</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy&#34;</span> <span style="color:#a6e22e">crossorigin</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;anonymous&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;</code></pre></div></p></li>
+&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js&#34;</span> <span style="color:#a6e22e">integrity</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy&#34;</span> <span style="color:#a6e22e">crossorigin</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;anonymous&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;</code></pre></div></p>
 
-<li><p><strong>简单 Bootstrap 实例</strong>
+<p><strong>简单 Bootstrap 实例</strong>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
 &lt;<span style="color:#f92672">html</span>&gt;
 &lt;<span style="color:#f92672">head</span>&gt;
@@ -959,17 +1035,14 @@ graph LR
   &lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js&#34;</span> <span style="color:#a6e22e">integrity</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49&#34;</span> <span style="color:#a6e22e">crossorigin</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;anonymous&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
   &lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js&#34;</span> <span style="color:#a6e22e">integrity</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy&#34;</span> <span style="color:#a6e22e">crossorigin</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;anonymous&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
 &lt;/<span style="color:#f92672">body</span>&gt;
-&lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div></p></li>
-</ul>
+&lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div></p>
 
 <h2 id="容器">容器</h2>
 
-<ul>
-<li>容器是<code>Bootstrap</code>中最基本的布局基础。会自动根据屏幕大小来选择合适的宽度。
+<p>容器是<code>Bootstrap</code>中最基本的布局基础。会自动根据屏幕大小来选择合适的宽度。
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container&#34;</span>&gt;
   XXXX
-&lt;/<span style="color:#f92672">div</span>&gt;</code></pre></div></li>
-</ul>
+&lt;/<span style="color:#f92672">div</span>&gt;</code></pre></div></p>
 
 <table>
 <thead>
@@ -997,25 +1070,21 @@ graph LR
 
 <h2 id="响应式断点">响应式断点</h2>
 
-<ul>
-<li>响应式断点指使用少量媒体查询为布局和界面创建合理的断点，以此动态调节显示界面尺寸。
+<p>响应式断点指使用少量媒体查询为布局和界面创建合理的断点，以此动态调节显示界面尺寸。
 <blockquote class="book-hint info">
   <strong><i class="fa fa-exclamation-circle"></i> 提示</strong> 下述代码中具体尺寸更具需要进行更改。
 </blockquote>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">@<span style="color:#66d9ef">media</span> <span style="color:#f92672">(</span><span style="color:#f92672">min-width</span><span style="color:#f92672">:</span> <span style="color:#f92672">576px</span><span style="color:#f92672">)</span> <span style="color:#f92672">and</span> <span style="color:#f92672">(</span><span style="color:#f92672">max-width</span><span style="color:#f92672">:</span> <span style="color:#f92672">767</span>.<span style="color:#a6e22e">98px</span><span style="color:#f92672">)</span> {  }
 @<span style="color:#66d9ef">media</span> <span style="color:#f92672">(</span><span style="color:#f92672">min-width</span><span style="color:#f92672">:</span> <span style="color:#f92672">768px</span><span style="color:#f92672">)</span> <span style="color:#f92672">and</span> <span style="color:#f92672">(</span><span style="color:#f92672">max-width</span><span style="color:#f92672">:</span> <span style="color:#f92672">991</span>.<span style="color:#a6e22e">98px</span><span style="color:#f92672">)</span> {  }
-@<span style="color:#66d9ef">media</span> <span style="color:#f92672">(</span><span style="color:#f92672">min-width</span><span style="color:#f92672">:</span> <span style="color:#f92672">992px</span><span style="color:#f92672">)</span> <span style="color:#f92672">and</span> <span style="color:#f92672">(</span><span style="color:#f92672">max-width</span><span style="color:#f92672">:</span> <span style="color:#f92672">1199</span>.<span style="color:#a6e22e">98px</span><span style="color:#f92672">)</span> {  }</code></pre></div></li>
-</ul>
+@<span style="color:#66d9ef">media</span> <span style="color:#f92672">(</span><span style="color:#f92672">min-width</span><span style="color:#f92672">:</span> <span style="color:#f92672">992px</span><span style="color:#f92672">)</span> <span style="color:#f92672">and</span> <span style="color:#f92672">(</span><span style="color:#f92672">max-width</span><span style="color:#f92672">:</span> <span style="color:#f92672">1199</span>.<span style="color:#a6e22e">98px</span><span style="color:#f92672">)</span> {  }</code></pre></div></p>
 
 <h2 id="层叠覆盖关系">层叠覆盖关系</h2>
 
-<ul>
-<li><code>Z-index</code>值用于正确地分层，确然各个元素的层叠覆盖关系。
+<p><code>Z-index</code>值用于正确地分层，确然各个元素的层叠覆盖关系。
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">XXXX</span> {
   <span style="color:#66d9ef">z-index</span>: X;
-}</code></pre></div></li>
-</ul>
+}</code></pre></div></p>
 
 <div>&nbsp</div>
 
@@ -1025,15 +1094,9 @@ graph LR
 
 <div class="comment"> JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。</div>
 
-<ul>
-<li>默认文件名 <span><b><i class="fa fa-file-code-o"></i> min.js</b></span></li>
-</ul>
-
 <h2 id="简单介绍-1">简单介绍</h2>
 
-<ul>
-<li><strong>JavaScript 实例</strong></li>
-</ul>
+<p><strong>JavaScript 实例</strong></p>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
 &lt;<span style="color:#f92672">html</span>&gt;
@@ -1081,9 +1144,10 @@ Copyright © 2019 世佳
 <ul>
 <li><a href="#常用格式">常用格式</a></li>
 <li><a href="#标准盒子模型">标准盒子模型</a></li>
-<li><a href="#文本属性">文本属性</a></li>
-<li><a href="#背景属性">背景属性</a></li>
-<li><a href="#字体属性">字体属性</a></li>
+<li><a href="#文本样式">文本样式</a></li>
+<li><a href="#字体样式">字体样式</a></li>
+<li><a href="#链接样式">链接样式</a></li>
+<li><a href="#背景样式">背景样式</a></li>
 <li><a href="#常用功能-1">常用功能</a></li>
 </ul></li>
 <li><a href="#i-class-fa-fa-tags-i-bootstrap4-笔记"><strong><i class="fa fa-tags"></i> Bootstrap4 笔记</strong></a>
