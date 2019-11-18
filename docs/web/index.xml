@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>eyecus</title>
+    <title>Web on eyecus</title>
     <link>https://blog.eyecus.com/docs/web/</link>
-    <description>Recent content on eyecus</description>
+    <description>Recent content in Web on eyecus</description>
     <generator>Hugo -- gohugo.io</generator>
     
 	<atom:link href="https://blog.eyecus.com/docs/web/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>前端基础</title>
+      <title>静态网页</title>
       <link>https://blog.eyecus.com/docs/web/html/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -68,6 +68,16 @@ npm install -g hexo-cli   提示
 hexo -v  第2步 生成网站 首先新建并进入博客文件夹test在终端中输入如下代码：
 mkdir test cd test  在终端中输入如下代码下载Hexo文件：
 sudo hexo init   提示</description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>https://blog.eyecus.com/docs/web/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/docs/web/javascript/</guid>
+      <description>  JavaScript 笔记 JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。 简单介绍 JavaScript 实例
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;script&amp;gt; function myFunction() { document.getElementById(&amp;#34;demo&amp;#34;).innerHTML = &amp;#34;2&amp;#34;; } &amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h2&amp;gt;简单计算&amp;lt;/h2&amp;gt; &amp;lt;p id=&amp;#34;demo&amp;#34;&amp;gt;1+1=？。&amp;lt;/p&amp;gt; &amp;lt;button type=&amp;#34;button&amp;#34; onclick=&amp;#34;myFunction()&amp;#34;&amp;gt;计算&amp;lt;/button&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; &amp;nbsp 👨🏻‍💻 持续更新中...  </description>
     </item>
     
     <item>
