@@ -3,21 +3,21 @@
 
 <head>
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="静态网页" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="前端基础" />
 <meta property="og:description" content="HTML5 笔记 HTML 称为超文本标记语言，是一种标识性的语言。它包括一系列标签，通过这些标签可以将网络上的文档格式统一，使分散的 Internet 资源连接为一个逻辑整体，下图为HTML基本框架示意图。  默认文件名  index.html   graph LR Bootstrap-.-id2((CSS)); id2((CSS)) --- id1((HTML)) id3((JS)) --- id1((HTML)) id1((HTML)) -- head head -- title head -- meta id1((HTML)) -- body subgraph body -- h1,h2... body -- p,a p,a -- strong,em body -- ol,ul ol,ul -- li body -- tr tr -- th end  简单介绍 &lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;meta charset=&#34;utf-8&#34;&gt; &lt;title&gt;eyecus&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;h1&gt;hello world！&lt;/h1&gt; &lt;p&gt;hello &lt;a&gt;eyecus&lt;/a&gt;！&lt;/p&gt; &lt;ul&gt; &lt;li&gt;1." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.eyecus.com/docs/web/html/" />
 
-<title> 視由 | 静态网页 </title>
+<title> 視由 | 前端基础 </title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Noto+Sans+SC:400,500|Noto+Serif+SC:500|Roboto:400|B612&display=swap" rel="stylesheet">
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="/book.min.fc6d6da1e2319c5e69b123ad16e7db2a54bc5dd1eb77f551f4209c6e92d97def.css" integrity="sha256-/G1toeIxnF5psSOtFufbKlS8XdHrd/VR9CCcbpLZfe8=">
+<link rel="stylesheet" href="/book.min.c31e69f1084da53f0b148d8a8c7fdc73576536264e319208a94cc4f56a70c792.css" integrity="sha256-wx5p8QhNpT8LFI2KjH/cc1dlNiZOMZIIqUzE9Wpwx5I=">
 
 
-<script defer src="/search.min.f6143213c0d9a44248e3a72a2d5ce8db94790f86cac7d02a470a1535918a41b9.js" integrity="sha256-9hQyE8DZpEJI46cqLVzo25R5D4bKx9AqRwoVNZGKQbk="></script>
+<script defer src="/search.min.9cf50911a811e3c084143c5402a81d17964f8450225087c912a48e6d88ef48c6.js" integrity="sha256-nPUJEagR48CEFDxUAqgdF5ZPhFAiUIfJEqSObYjvSMY="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -35,15 +35,14 @@ if (!doNotTrack) {
 </head>
 
 <body>
-      
-<header class="site-header">
-  <nav class="site-navi">
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="flex container">
 
-  <label for="menu-control" class="flex align-center justify-between book-header">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
-  </label>
+    <aside class="book-menu fixed">
+      <nav>
 
-    <div class="site-title"><a href="/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"height="30px" viewBox="0 0 400 82" enable-background="new 0 0 400 82" xml:space="preserve">  <image id="image0" width="400" height="82" x="0" y="0"
+<a href="/">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"height="32px" viewBox="0 0 400 82" enable-background="new 0 0 400 82" xml:space="preserve">  <image id="image0" width="400" height="82" x="0" y="0"
     href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAABSCAMAAABNNnL1AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
 AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAjVBMVEX////h4eHh4eHh4eHh
 4eHh4eHh4eHh4eEwld0wld0wld0wld0wld0wld0wld0Eu50Eu50Eu50Eu50Eu50Eu50Eu50Eu50E
@@ -97,16 +96,8 @@ jyawdV3zevxVwF5I45/39agE5P66xw8CtmYtk26Pvwz1ozQeP4qzX/P+KmAf0vD4QQx9GetXofJN
 OI+/g60vY/0qQFLoQ/rvwIdf83p4eHj8/+J/R8/zlGvNLfwAAAAldEVYdGRhdGU6Y3JlYXRlADIw
 MTktMTAtMzBUMTE6MzA6MjkrMDg6MDApnUl+AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE5LTEwLTMw
 VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
-</svg></a></div>
-    
-  </nav>
-</header>
-<div style="margin-top: 54px;">  
-  <input type="checkbox" class="hidden" id="menu-control" />
-  <main class="flex container">
-
-    <aside class="book-menu fixed">
-      <nav>
+</svg>
+</a>
 
 
 <div class="book-search">
@@ -163,7 +154,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
         <li>
 
   <a href="/docs/web/html/"  class="active">
-      静态网页
+      前端基础
   </a>
 
 </li>
@@ -464,6 +455,13 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
     </aside>
 
     <div class="book-page">
+      <header class="flex align-center justify-between book-header">
+  <label for="menu-control">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+  </label>
+  <strong>前端基础</strong>
+</header>
+
       
 <article class="markdown">
 
@@ -741,45 +739,76 @@ graph LR
 </div>
 
 
-<h2 id="标准盒子模型">标准盒子模型</h2>
+<h2 id="盒子模型">盒子模型</h2>
 
 <p><img src="https://cdn.img.wenhairu.com/images/2019/11/09/Aa5ZB.png" width="400"></p>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">nav-link</span> {
-  <span style="color:#66d9ef">padding-right</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
-  <span style="color:#66d9ef">margin-top</span>: <span style="color:#ae81ff">-15</span><span style="color:#66d9ef">px</span>;
-}</code></pre></div>
 
 <table>
 <thead>
 <tr>
 <th align="left">标签名</th>
-<th align="left">功能</th>
+<th align="left">名称</th>
+<th align="left">描述</th>
 </tr>
 </thead>
 
 <tbody>
 <tr>
-<td align="left">Margin <code>外边距</code></td>
+<td align="left">margin</td>
+<td align="left">外边距</td>
 <td align="left">清除边框外的区域，外边距是透明的。</td>
 </tr>
 
 <tr>
-<td align="left">Border <code>边框</code></td>
+<td align="left">border</td>
+<td align="left">边框</td>
 <td align="left">围绕在内边距和内容外的边框。</td>
 </tr>
 
 <tr>
-<td align="left">Padding <code>内边框</code></td>
+<td align="left">padding</td>
+<td align="left">内边框</td>
 <td align="left">清除内容周围的区域，内边距是透明的。</td>
 </tr>
 
 <tr>
-<td align="left">Content <code>内容</code></td>
+<td align="left">content</td>
+<td align="left">内容</td>
 <td align="left">盒子的内容，显示文本和图像。</td>
+</tr>
+
+<tr>
+<td align="left">top</td>
+<td align="left">顶部</td>
+<td align="left">用于确定方向。</td>
+</tr>
+
+<tr>
+<td align="left">bottom</td>
+<td align="left">底部</td>
+<td align="left">用于确定方向。</td>
+</tr>
+
+<tr>
+<td align="left">left</td>
+<td align="left">左边</td>
+<td align="left">用于确定方向。</td>
+</tr>
+
+<tr>
+<td align="left">right</td>
+<td align="left">右边</td>
+<td align="left">用于确定方向。</td>
 </tr>
 </tbody>
 </table>
+
+<p>可在属性后添加上述标签用于确定属性应用的区域，语法见下方实例：</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">p</span> {
+  <span style="color:#66d9ef">padding-right</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">margin-top</span>: <span style="color:#ae81ff">-15</span><span style="color:#66d9ef">px</span>;
+}</code></pre></div>
 
 <h2 id="文本样式">文本样式</h2>
 
@@ -999,6 +1028,103 @@ graph LR
 </tbody>
 </table>
 
+<h2 id="阴影样式">阴影样式</h2>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">nav</span> {
+  <span style="color:#66d9ef">box-shadow</span>: <span style="color:#66d9ef">inset</span> <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">-10</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">3</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">#666666</span>;
+}</code></pre></div>
+
+<table>
+<thead>
+<tr>
+<th align="left">属性</th>
+<th align="left">功能描述</th>
+<th align="left">值举例</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">inset</td>
+<td align="left">内阴影</td>
+<td align="left"><code>inset(内阴影)</code></td>
+</tr>
+
+<tr>
+<td align="left">h-shadow</td>
+<td align="left">水平方向偏移</td>
+<td align="left"><code>10px(数值)</code></td>
+</tr>
+
+<tr>
+<td align="left">v-shadow</td>
+<td align="left">水平方向偏移</td>
+<td align="left"><code>-10px(数值)</code></td>
+</tr>
+
+<tr>
+<td align="left">blur</td>
+<td align="left">模糊距离</td>
+<td align="left"><code>3px(数值)</code></td>
+</tr>
+
+<tr>
+<td align="left">spread</td>
+<td align="left">阴影尺寸</td>
+<td align="left"><code>1px(数值)</code></td>
+</tr>
+
+<tr>
+<td align="left">color</td>
+<td align="left">阴影颜色</td>
+<td align="left"><code>#666666(颜色代码)</code></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="边框样式">边框样式</h2>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">p</span> {
+  <span style="color:#66d9ef">border</span>: <span style="color:#ae81ff">3</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#ae81ff">#666666</span>;
+  <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">50</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">30</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">3</span><span style="color:#66d9ef">px</span>;
+}</code></pre></div>
+
+<table>
+<thead>
+<tr>
+<th align="left">属性</th>
+<th align="left">功能描述</th>
+<th align="left">值举例</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">border-width</td>
+<td align="left">边框宽度</td>
+<td align="left"><code>3px(数值)</code></td>
+</tr>
+
+<tr>
+<td align="left">border-style</td>
+<td align="left">边框样式</td>
+<td align="left"><code>solid(实线)</code> </br><code>none(无边框)</code> </br><code>double(双线)</code> </br><code>dashed(虚线)</code> </br><code>dotted(点划线)</code></td>
+</tr>
+
+<tr>
+<td align="left">border-color</td>
+<td align="left">边框颜色</td>
+<td align="left"><code>#666666(颜色代码)</code></td>
+</tr>
+
+<tr>
+<td align="left">border-radius</td>
+<td align="left">倒圆角</td>
+<td align="left"><code>15px 50px 30px 3px</code></br><code>(数值 左上 右上 右下 左下)</code></td>
+</tr>
+</tbody>
+</table>
+
 <h2 id="常用功能-1">常用功能</h2>
 
 <ul>
@@ -1114,6 +1240,7 @@ Copyright © 2019 世佳
     
   
 
+
   <aside class="book-toc level-2 fixed">
     <nav id="TableOfContents">
 <ul>
@@ -1126,11 +1253,13 @@ Copyright © 2019 世佳
 <li><a href="#i-class-fa-fa-tags-i-css-笔记"><strong><i class="fa fa-tags"></i> CSS 笔记</strong></a>
 <ul>
 <li><a href="#常用格式">常用格式</a></li>
-<li><a href="#标准盒子模型">标准盒子模型</a></li>
+<li><a href="#盒子模型">盒子模型</a></li>
 <li><a href="#文本样式">文本样式</a></li>
 <li><a href="#字体样式">字体样式</a></li>
 <li><a href="#链接样式">链接样式</a></li>
 <li><a href="#背景样式">背景样式</a></li>
+<li><a href="#阴影样式">阴影样式</a></li>
+<li><a href="#边框样式">边框样式</a></li>
 <li><a href="#常用功能-1">常用功能</a></li>
 </ul></li>
 <li><a href="#i-class-fa-fa-tags-i-bootstrap4-笔记"><strong><i class="fa fa-tags"></i> Bootstrap4 笔记</strong></a>
