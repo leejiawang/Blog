@@ -24,16 +24,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/docs/web/vuepress/</guid>
-      <description>Vuepress 建站教程 Vuepress是一款 Vue 驱动的静态网站生成器，具有简洁至上、高性能、一键部署等特点。
-相关站点：Vuepress官网、Vuepress仓库、Vuepress模板。
-    第1步 安装 Vuepress 框架 首先新建并进入博客文件夹test在终端中输入如下代码：
+      <description>Vuepress 建站教程 相关站点：Vuepress官网、Vuepress仓库、Vuepress模板。 Vuepress 是一款 Vue 驱动的静态网站生成器，具有简洁至上、高性能、一键部署等特点。      第1步 安装 Vuepress 框架 首先新建并进入博客文件夹test在终端中输入如下代码：
 mkdir test cd test   提示
 命令中test是所创建的网站文件夹名称，由用户自定义，以下网站名均由test代指。
  yarn 安装 可使用 yarn 或者 npm 进行安装，但推荐使用 yarn 安装 ，因为 yarn 更稳定，出错几率更少，在终端内输入如下命令全局安装 Vuepress。
 yarn global add vuepress  npm 安装 在终端内输入如下命令全局安装 Vuepress。
 npm install -g vuepress  由于国内可能会有网络受限的问题，使用npm会出现安装极慢或者安装失败，可以用cnpm替代。使用如下命令安装cnpm:
-npm install -g cnpm --registry=https://registry.npm.taobao.org  npm install -g vuepress 然后使用cnpm替换命令中的npm，例如使用cnpm install -g hexo-cli全局安装 vuepress。
- 注意</description>
+npm install -g cnpm --registry=https://registry.npm.taobao.org  npm install -g vuepress 然后使用cnpm替换命令中的npm，例如使用cnpm install -g hexo-cli全局安装 vuepress。</description>
     </item>
     
     <item>
@@ -42,9 +39,7 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org  npm install -g v
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/docs/web/hugo/</guid>
-      <description>HUGO 建站教程 Hugo 是由Go语言实现的 静态网站生成器，简单、易用、高效、易扩展、快速部署。
-相关站点： Hugo官网、Hugo主题、Hugo中文、Hugo仓库。
-     本站即为 Hugo 博客框架搭建，使用了 Hugo-Book 主题。  第1步 安装Hugo框架 首先根据自己的系统参照下述方法进行安装。 macOS 🔥  macOS操作系统下直接使用Homebrew安装，在终端中输入如下代码：
+      <description>HUGO 建站教程 相关站点： Hugo官网、Hugo主题、Hugo中文、Hugo仓库。 Hugo 是由Go语言实现的 静态网站生成器，简单、易用、高效、易扩展、快速部署。       本站即为 Hugo 博客框架搭建，使用了 Hugo-Book 主题。  第1步 安装Hugo框架 首先根据自己的系统参照下述方法进行安装。 macOS 🔥  macOS操作系统下直接使用Homebrew安装，在终端中输入如下代码：
 brew install hugo   注意 执行此操作前请确保macOS安装有  Homebrew。   Windows  在 Hugo Releases  下载最新发布对应操作系统的ZIP，将所有内容提取到C:\Hugo\bin目录中，包含可执行文件hugo.exe、LICENSE和README.md。然后将Hugo添加到Windows的PATH设置中。
  右键单击开始按钮 单击系统 单击左侧的高级系统设置 单击底部的环境变量...按钮 在用户变量部分中找到以PATH开头的行（PATH全部大写） 双击PATH 单击新建…按钮 键入C:\Hugo\bin，完成输入后按Enter 在每个窗口中单击确定退出   Linux  Linux操作系统下直接使用Homebrew安装，在终端中输入如下代码:
 brew install hugo   注意 执行此操作前请确保linux安装有  Homebrew 。   OpenBSD  OpenBSD通过pkg_add添加Hugo的软件包：</description>
@@ -56,9 +51,8 @@ brew install hugo   注意 执行此操作前请确保linux安装有  Homebrew �
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/docs/web/hexo/</guid>
-      <description>HEXO 建站教程 Hexo是一款快速、简洁且高效的博客框架，具有超快速度、支持 Markdown、一键部署、丰富的插件和可扩展性等特点。
-相关站点： Hexo官网、Hexo主题、Hexo中文、Hexo仓库。
-    第1步 安装 Hexo 框架  注意
+      <description>HEXO 建站教程 相关站点： Hexo官网、Hexo主题、Hexo中文、Hexo仓库。
+Hexo 是一款快速、简洁且高效的 博客框架，具有超快速度、支持 Markdown、一键部署、丰富的插件和可扩展性等特点。      第1步 安装 Hexo 框架  注意
 安装 Hugo 之前要确保设备装有  Git 和  Node.js(建议安装最新版本)。
 执行安装操作前 macOS 用户终端输入sudo su命令并密码获取系统权限，Windows 用户以管理员身份运行CMD获取系统权限。
  使用 npm 安装 Hexo，在终端输入如下命令。
@@ -76,7 +70,7 @@ sudo hexo init   提示</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/docs/web/javascript/</guid>
-      <description>  JavaScript 笔记 JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。 简单介绍 JavaScript 实例
+      <description> JavaScript 笔记 JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。 简单介绍 JavaScript 实例
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;script&amp;gt; function myFunction() { document.getElementById(&amp;#34;demo&amp;#34;).innerHTML = &amp;#34;2&amp;#34;; } &amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h2&amp;gt;简单计算&amp;lt;/h2&amp;gt; &amp;lt;p id=&amp;#34;demo&amp;#34;&amp;gt;1+1=？。&amp;lt;/p&amp;gt; &amp;lt;button type=&amp;#34;button&amp;#34; onclick=&amp;#34;myFunction()&amp;#34;&amp;gt;计算&amp;lt;/button&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; &amp;nbsp 👨🏻‍💻 持续更新中...  </description>
     </item>
     
@@ -105,7 +99,7 @@ sudo hexo init   提示</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/docs/web/webfonts/</guid>
-      <description>  Google Fonts 的使用 首先进入 Google Fonts  官网，然后选择自己需要一个或多个的字体，点击字体左上角加号。 &amp;lt;link href=&amp;#34;https://fonts.googleapis.com/css?family=Noto+Sans+SC|Roboto&amp;amp;display=swap&amp;#34; rel=&amp;#34;stylesheet&amp;#34;&amp;gt;
+      <description> Google Fonts 的使用 首先进入 Google Fonts  官网，然后选择自己需要一个或多个的字体，点击字体左上角加号。 &amp;lt;link href=&amp;#34;https://fonts.googleapis.com/css?family=Noto+Sans+SC|Roboto&amp;amp;display=swap&amp;#34; rel=&amp;#34;stylesheet&amp;#34;&amp;gt;
 点击网页右下角，在弹出框中有两处代码，将第一处代码放置在Html文件的&amp;lt;head&amp;gt;标签中，第二处代码用于CSS文件中定义字体。 font-family: &amp;#39;Roboto&amp;#39;, sans-serif; font-family: &amp;#39;Noto Sans SC&amp;#39;, sans-serif; </description>
     </item>
     
