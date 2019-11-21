@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>系统更新 on eyecus</title>
+    <link>https://blog.eyecus.com/tags/%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0/</link>
+    <description>Recent content in 系统更新 on eyecus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://blog.eyecus.com/tags/%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>关闭 Win10 系统的自动更新</title>
+      <link>https://blog.eyecus.com/posts/win-tips-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/posts/win-tips-1/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+为了避免在重要时刻被 Windows 更新打断，合理的安排更新时间。关掉烦人的 Win10 自动更新。
+&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

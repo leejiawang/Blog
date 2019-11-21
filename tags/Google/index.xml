@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google on eyecus</title>
+    <link>https://blog.eyecus.com/tags/Google/</link>
+    <description>Recent content in Google on eyecus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://blog.eyecus.com/tags/Google/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Fonts 在线调用</title>
+      <link>https://blog.eyecus.com/posts/googlefonts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/posts/googlefonts/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+在线调用字体，省去本地字体管理。Google Fonts 中所有字体都是免费和开源的，任何项目的任何人都可以免费调用。
+&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

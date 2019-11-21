@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eyecus</title>
+    <link>https://blog.eyecus.com/hackintosh/</link>
+    <description>Recent content on eyecus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://blog.eyecus.com/hackintosh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>安装指导</title>
+      <link>https://blog.eyecus.com/hackintosh/install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/hackintosh/install/</guid>
+      <description>注意
+本教程需要 macOS 系统环境，如果没有 macOS 设备可使用PC安装macOS虚拟机操作。另外由于电脑配置不同，安装过程可能出现各种问题，后续驱动需进行针对性安装。本教程仅供参考。
+ 黑苹果系统简易安装教程 第1步 制作系统安装盘 通过 AppStore 下载macOS镜像文件，或从其他途径下载 Mojave.app 并拖入应用程序文件夹。 使用磁盘管理工具格式化U盘为GUID分区格式Mac OS Extended（日志式），单击抹掉U盘。 使用 UniBeast 制作 直接使用 UniBeast 开始制作，引导过程根据设备情况选择，默认选择如下图所示:
+使用 macOS 终端制作 使用终端制作安装U盘，以安装 macOS Mojave 系统为例，输入如下代码并等待制作完成，据自己实际情况修改代码内容，此代码适用于系统版本为 Mojave ，U盘名称为 Mojave。
+sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/Mojave --applicationpath /Applications/Install\ macOS\ Mojave.app --nointeraction  第2步 安装原始系统引导  提示
+通过 UniBeast 制作的系统安装U盘会自带基础引导程序，可跳过此步骤。
+ 使用macOS操作环境下载并安装 Clover EFI bootloader 程序，注意安装时选择正确的安装位置。
+第3步 安装系统 将制作好的系统安装U盘插入待安装的设备，重启进入BIOS并调整下表中的选项（如果有）。然后选择系统安装U盘为启动首选项，按F10保存设置并重启设备。
+ 提示
+进入BIOS台式机可使用按键 Del，笔记本一般使用 F2 F12 F11 Esc。</description>
+    </item>
+    
+    <item>
+      <title>工具下载</title>
+      <link>https://blog.eyecus.com/hackintosh/file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/hackintosh/file/</guid>
+      <description>安装黑苹果的工具  VMware Workstation Pro Workstation Pro 是由 VMware 提供的虚拟机工具，用于在PC上搭建macOS系统环境。
+VMware 官网下载 
+     UniBeast UniBeast 是由 tonymacx86 提供的苹果安装U盘制作工具，一键式制作，方便易用。
+UniBeast 官网下载 
+     注意
+使用UniBeast需要你具备macOS操作环境，且系统语言切换成English才能运行。
+  Clover EFI bootloader Clover EFI bootloader为UEFI系统引导安装工具，是最为核心的工具之一。
+Clover EFI 下载 
+     Clover Configurator Clover Configurator 是由 mackie100projects 提供的用于编辑Clover EFI配置文件的工具，利用图形界面大大降低了配置Clover EFI的门槛。
+Clover Configurator 下载 
+     注意</description>
+    </item>
+    
+  </channel>
+</rss>

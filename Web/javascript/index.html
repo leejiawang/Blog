@@ -3,12 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="Docs" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://blog.eyecus.com/docs/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="JavaScript" />
+<meta property="og:description" content=" JavaScript 笔记 JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。 简单介绍 JavaScript 实例
+&lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;script&gt; function myFunction() { document.getElementById(&#34;demo&#34;).innerHTML = &#34;2&#34;; } &lt;/script&gt; &lt;/head&gt; &lt;body&gt; &lt;h2&gt;简单计算&lt;/h2&gt; &lt;p id=&#34;demo&#34;&gt;1&#43;1=？。&lt;/p&gt; &lt;button type=&#34;button&#34; onclick=&#34;myFunction()&#34;&gt;计算&lt;/button&gt; &lt;/body&gt; &lt;/html&gt; &nbsp 👨🏻‍💻 持续更新中...  " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.eyecus.com/Web/javascript/" />
 
-<title> 視由 › Docs </title>
+<title> 視由 › JavaScript </title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Noto+Sans+SC:400,500|Noto+Serif+SC:500|Roboto:400|B612&display=swap" rel="stylesheet">
@@ -29,7 +30,6 @@ if (!doNotTrack) {
 }
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
-<link rel="alternate" type="application/rss+xml" href="https://blog.eyecus.com/docs/index.xml" title="eyecus" />
 
   <meta name="keywords" content="视由,视界事由,eyecus,博客,blog,世佳,黑苹果,eyecusIO,前端,eyecus.com,利隐客,利隐者,利隐创意,leeyin " />
 <meta name="description" content="视由(eyecusIO)是世佳的个人博客，主要分享日常学习过程中觉得有用的的所见所闻，博客内容主要涉及平面设计、前端开发、资源分享等。">
@@ -122,7 +122,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
 <ul>
 <li><a href="/Web/html/">前端基础</a></li>
-<li><a href="/Web/javascript/">JavaScript</a></li>
+<li><a href="/Web/javascript/"class=active>JavaScript</a></li>
 <li><a href="/Web/vuepress/">Vuepress</a></li>
 <li><a href="/Web/hugo/">Hugo</a></li>
 <li><a href="/Web/hexo/">hexo</a></li>
@@ -183,11 +183,42 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
   <label for="menu-control">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
   </label>
-  <strong>視由 › Docs</strong>
+  <strong>視由 › JavaScript</strong>
 </header>
 
       
-<article class="markdown pagew"></article>
+<article class="markdown pagew">
+
+<h1 id="javascript-笔记"><strong>JavaScript 笔记</strong></h1>
+
+<div class="comment"> JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。</div>
+
+<h2 id="简单介绍">简单介绍</h2>
+
+<p><strong>JavaScript 实例</strong></p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+&lt;<span style="color:#f92672">html</span>&gt;
+&lt;<span style="color:#f92672">head</span>&gt;
+    &lt;<span style="color:#f92672">script</span>&gt;
+        <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">myFunction</span>() {
+            document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;demo&#34;</span>).<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;2&#34;</span>;
+        }
+    &lt;/<span style="color:#f92672">script</span>&gt;
+&lt;/<span style="color:#f92672">head</span>&gt;
+&lt;<span style="color:#f92672">body</span>&gt;
+    &lt;<span style="color:#f92672">h2</span>&gt;简单计算&lt;/<span style="color:#f92672">h2</span>&gt;
+    &lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;demo&#34;</span>&gt;1+1=？。&lt;/<span style="color:#f92672">p</span>&gt;
+    &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span> <span style="color:#a6e22e">onclick</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;myFunction()&#34;</span>&gt;计算&lt;/<span style="color:#f92672">button</span>&gt;
+&lt;/<span style="color:#f92672">body</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div>
+
+<div>&nbsp</div>
+
+<div align="center">  
+<h3>👨🏻‍💻 持续更新中...</h3>
+</div>
+</article>
 
       <div class="fooder-text">  
 Copyright © 2019 世佳
@@ -197,6 +228,25 @@ Copyright © 2019 世佳
 
     
   
+
+
+  <aside class="book-toc level-2 fixed">
+
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#javascript-笔记"><strong>JavaScript 笔记</strong></a>
+<ul>
+<li><a href="#简单介绍">简单介绍</a></li>
+</ul></li>
+</ul>
+</nav>
+
+  	<div class="toc-text">
+		<h3><i class="fa fa-qq"></i> 群聊讨论</h3>
+		<img src="https://cdn.img.wenhairu.com/images/2019/11/07/AEKGI.png" width=120 height=120 />
+	</div>
+
+  </aside>
 
 
 

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on eyecus</title>
+    <link>https://blog.eyecus.com/Web/</link>
+    <description>Recent content in Web on eyecus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://blog.eyecus.com/Web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>前端基础</title>
+      <link>https://blog.eyecus.com/Web/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/Web/html/</guid>
+      <description>HTML5 笔记 HTML 称为超文本标记语言，是一种标识性的语言。它包括一系列标签，通过这些标签可以将网络上的文档格式统一，使分散的 Internet 资源连接为一个逻辑整体，下图为HTML基本框架示意图。 graph LR Bootstrap-.-id2((CSS)); id2((CSS)) --- id1((HTML)) id3((JS)) --- id1((HTML)) id1((HTML)) -- head head -- title head -- meta id1((HTML)) -- body subgraph body -- h1,h2... body -- p,a p,a -- strong,em body -- ol,ul ol,ul -- li body -- tr tr -- th end  简单介绍 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;eyecus&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;hello world！&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;hello &amp;lt;a&amp;gt;eyecus&amp;lt;/a&amp;gt;！&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;1.XXXX&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;2.XXXX&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;3.</description>
+    </item>
+    
+    <item>
+      <title>Vuepress</title>
+      <link>https://blog.eyecus.com/Web/vuepress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/Web/vuepress/</guid>
+      <description>Vuepress 建站教程 相关站点：Vuepress官网、Vuepress仓库、Vuepress模板。 Vuepress 是一款 Vue 驱动的静态网站生成器，具有简洁至上、高性能、一键部署等特点。      第1步 安装 Vuepress 框架 首先新建并进入博客文件夹test在终端中输入如下代码：
+mkdir test cd test   提示
+命令中test是所创建的网站文件夹名称，由用户自定义，以下网站名均由test代指。
+ yarn 安装 可使用 yarn 或者 npm 进行安装，但推荐使用 yarn 安装 ，因为 yarn 更稳定，出错几率更少，在终端内输入如下命令全局安装 Vuepress。
+yarn global add vuepress  npm 安装 在终端内输入如下命令全局安装 Vuepress。
+npm install -g vuepress  由于国内可能会有网络受限的问题，使用npm会出现安装极慢或者安装失败，可以用cnpm替代。使用如下命令安装cnpm:
+npm install -g cnpm --registry=https://registry.npm.taobao.org  npm install -g vuepress 然后使用cnpm替换命令中的npm，例如使用cnpm install -g hexo-cli全局安装 vuepress。</description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://blog.eyecus.com/Web/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/Web/hugo/</guid>
+      <description>HUGO 建站教程 相关站点： Hugo官网、Hugo主题、Hugo中文、Hugo仓库。 Hugo 是由Go语言实现的 静态网站生成器，简单、易用、高效、易扩展、快速部署。       本站即为 Hugo 博客框架搭建，使用了 Hugo-Book 主题。  第1步 安装Hugo框架 首先根据自己的系统参照下述方法进行安装。 macOS 🔥  macOS操作系统下直接使用Homebrew安装，在终端中输入如下代码：
+brew install hugo   注意 执行此操作前请确保macOS安装有  Homebrew。   Windows  在 Hugo Releases  下载最新发布对应操作系统的ZIP，将所有内容提取到C:\Hugo\bin目录中，包含可执行文件hugo.exe、LICENSE和README.md。然后将Hugo添加到Windows的PATH设置中。
+ 右键单击开始按钮 单击系统 单击左侧的高级系统设置 单击底部的环境变量...按钮 在用户变量部分中找到以PATH开头的行（PATH全部大写） 双击PATH 单击新建…按钮 键入C:\Hugo\bin，完成输入后按Enter 在每个窗口中单击确定退出   Linux  Linux操作系统下直接使用Homebrew安装，在终端中输入如下代码:
+brew install hugo   注意 执行此操作前请确保linux安装有  Homebrew 。   OpenBSD  OpenBSD通过pkg_add添加Hugo的软件包：</description>
+    </item>
+    
+    <item>
+      <title>Hexo</title>
+      <link>https://blog.eyecus.com/Web/hexo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/Web/hexo/</guid>
+      <description>HEXO 建站教程 相关站点： Hexo官网、Hexo主题、Hexo中文、Hexo仓库。
+Hexo 是一款快速、简洁且高效的 博客框架，具有超快速度、支持 Markdown、一键部署、丰富的插件和可扩展性等特点。      第1步 安装 Hexo 框架  注意
+安装 Hugo 之前要确保设备装有  Git 和  Node.js(建议安装最新版本)。
+执行安装操作前 macOS 用户终端输入sudo su命令并密码获取系统权限，Windows 用户以管理员身份运行CMD获取系统权限。
+ 使用 npm 安装 Hexo，在终端输入如下命令。
+npm install -g hexo-cli   提示
+由于国内可能会有网络受限的问题，使用npm会出现安装极慢或者安装失败，可以用cnpm替代。安装cnpm终端输入npm install -g cnpm --registry=https://registry.npm.taobao.org，然后使用cnpm替换命令中的npm，例如：使用cnpm install -g hexo-cli安装Hexo。
+ 安装完后，在终端中输入如下代码验证安装。
+hexo -v  第2步 生成网站 首先新建并进入博客文件夹test在终端中输入如下代码：
+mkdir test cd test  在终端中输入如下代码下载Hexo文件：
+sudo hexo init   提示</description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>https://blog.eyecus.com/Web/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/Web/javascript/</guid>
+      <description> JavaScript 笔记 JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。 简单介绍 JavaScript 实例
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;script&amp;gt; function myFunction() { document.getElementById(&amp;#34;demo&amp;#34;).innerHTML = &amp;#34;2&amp;#34;; } &amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h2&amp;gt;简单计算&amp;lt;/h2&amp;gt; &amp;lt;p id=&amp;#34;demo&amp;#34;&amp;gt;1+1=？。&amp;lt;/p&amp;gt; &amp;lt;button type=&amp;#34;button&amp;#34; onclick=&amp;#34;myFunction()&amp;#34;&amp;gt;计算&amp;lt;/button&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; &amp;nbsp 👨🏻‍💻 持续更新中...  </description>
+    </item>
+    
+  </channel>
+</rss>

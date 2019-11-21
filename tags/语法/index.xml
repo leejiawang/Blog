@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>语法 on eyecus</title>
+    <link>https://blog.eyecus.com/tags/%E8%AF%AD%E6%B3%95/</link>
+    <description>Recent content in 语法 on eyecus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://blog.eyecus.com/tags/%E8%AF%AD%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown 基础语法</title>
+      <link>https://blog.eyecus.com/posts/markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/posts/markdown/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+Markdown 是一种轻量级标记语言，她轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，语法也极其简单易学。
+&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
