@@ -19,11 +19,19 @@
   </url>
   
   <url>
+    <loc>https://blog.eyecus.com/website/</loc>
+  </url>
+  
+  <url>
     <loc>https://blog.eyecus.com/hackintosh/file/</loc>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/posts/colors/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/software/</loc>
   </url>
   
   <url>
@@ -36,10 +44,6 @@
   
   <url>
     <loc>https://blog.eyecus.com/posts/emoji/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blog.eyecus.com/resource/</loc>
   </url>
   
   <url>
@@ -95,6 +99,14 @@
   </url>
   
   <url>
+    <loc>https://blog.eyecus.com/tags/Adobe/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/tags/Autodesk/</loc>
+  </url>
+  
+  <url>
     <loc>https://blog.eyecus.com/categories/</loc>
   </url>
   
@@ -139,11 +151,19 @@
   </url>
   
   <url>
+    <loc>https://blog.eyecus.com/tags/%E4%B8%8B%E8%BD%BD/</loc>
+  </url>
+  
+  <url>
     <loc>https://blog.eyecus.com/tags/%E5%9F%BA%E7%A1%80/</loc>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/%E5%AD%97%E4%BD%93/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/tags/%E6%8E%A8%E8%8D%90/</loc>
   </url>
   
   <url>
@@ -167,6 +187,10 @@
   </url>
   
   <url>
+    <loc>https://blog.eyecus.com/tags/%E7%BD%91%E7%AB%99/</loc>
+  </url>
+  
+  <url>
     <loc>https://blog.eyecus.com/tags/%E8%A1%A8%E6%83%85/</loc>
   </url>
   
@@ -184,6 +208,10 @@
   
   <url>
     <loc>https://blog.eyecus.com/tags/%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/tags/%E8%BD%AF%E4%BB%B6/</loc>
   </url>
   
 </urlset>

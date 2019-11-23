@@ -61,6 +61,17 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
     </item>
     
     <item>
+      <title>实用网站推荐</title>
+      <link>https://blog.eyecus.com/website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/website/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+在搜索引擎搜索软件时，一不小心会被带伪装效果的广告链接所骗，下载到不安全带有木马的程序，对电脑伤极大，本文提供一个找软件公司官方的便捷导航及一些我用着还不错的相对而言还不错的下载网站。
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>工具下载</title>
       <link>https://blog.eyecus.com/hackintosh/file/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -91,6 +102,17 @@ Clover Configurator 下载
     </item>
     
     <item>
+      <title>部分软件下载链接</title>
+      <link>https://blog.eyecus.com/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/software/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+由于国内下载软件的环境对新手小白并不友好，经常容易受到误导下载到绑定了各种恶意软件的安装包，一不小心就容易对电脑造成危害，所以列出部分常用软件下载链接，供大家下载。
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>前端基础</title>
       <link>https://blog.eyecus.com/Web/html/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -108,17 +130,6 @@ Clover Configurator 下载
       <description>&lt;div class=&#34;comment&#34;&gt;
 绘文字是日本在无线通信中所使用的视觉情感符号，绘指图画，文字指的则是字符，可用来代表多种表情，本页面所提供得 Emoji 表情清单用于快速复制使用。
 &lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>资源分享</title>
-      <link>https://blog.eyecus.com/resource/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/resource/</guid>
-      <description>声明
-本页面提供的链接均来自其发布官网，且仅提供软件的下载链接，不含任何破解内容，仅供学习和研究，不得用于任何商业用途 ，如不慎侵犯你的版权请与我们取得 联系 ，本站将及时处理，并撤下相关内容！
-  页面推荐 在搜索引擎搜索软件时，一不小心会被带伪装效果的广告链接所骗，下载到不安全带有木马的程序，对电脑伤极大，本文提供一个找软件公司官方的便捷导航及一些我用着还不错的相对而言还不错的下载网站。  部分著名软件企业官网    组织名称 代表产品 主营领域 公司主页     Adobe Photoshop, After Effects 创意 adobe.com   Autodesk AutoCAD, 3ds Max, Maya 工程 autodesk.com   Microsoft Windwos, Office 效率 microsoft.com   Corel CorelDraw, 会声会影 创意 corel.com   WinRAR WinRAR 压缩 winrar.com   vmware Workstation Pro 虚拟机 vmware.com   TeamViewer TeamViewer 远程控制 teamviewer.</description>
     </item>
     
     <item>

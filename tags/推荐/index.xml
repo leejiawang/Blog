@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>推荐 on eyecus</title>
+    <link>https://blog.eyecus.com/tags/%E6%8E%A8%E8%8D%90/</link>
+    <description>Recent content in 推荐 on eyecus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://blog.eyecus.com/tags/%E6%8E%A8%E8%8D%90/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>实用网站推荐</title>
+      <link>https://blog.eyecus.com/website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/website/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+在搜索引擎搜索软件时，一不小心会被带伪装效果的广告链接所骗，下载到不安全带有木马的程序，对电脑伤极大，本文提供一个找软件公司官方的便捷导航及一些我用着还不错的相对而言还不错的下载网站。
+&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
