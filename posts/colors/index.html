@@ -3,31 +3,23 @@
 
 <head>
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="色彩基础" />
-<meta property="og:description" content="  了解色彩 色彩的表示 Color code  颜色名称表示 最直观的表示方法就是用颜色的英文名直接表示，但能表示的颜色数量有限  格式形如：blue
- RGB 十进制“函数”表示 光学三原色红绿蓝(RGB)，通过调整三种颜色的占比表示颜色，每种颜色从低到高用数字0至256表示 格式形如：rgba(0,0,255,0.5)
- HLS 十进制“函数”表示 通过色相、亮度、饱和度 这三个参数也能表示颜色 格式形如：hls(204,62%,40%)
- HEX 十六进制数字表示 将RGB十进制转换为十六进制代码，以#号开头，后面分别为R、G、B的16位进制数 格式形如：#0000ff
-  维基百科了解更多
-  色彩空间 Color space 色彩空间（Color space）是对色彩的组织方式。借助色彩空间和针对物理设备的测试，可以得到色彩的固定模拟和数字表示。色彩空间可以只通过任意挑选一些颜色来定义，也可以是基于严谨的数学定义。 摘自维基百科
- Adobe RGB （网络上最常用）
- sRGB （标准红绿蓝色彩空间）
- CMYK （常用于彩色印刷）
- Lab （常用来描述人眼可见的所有颜色）
-     SVG 中的 X11 颜色清单  推荐查色页面    站名 站点描述     aTool在线工具  在线颜色选择器、 RGB颜色查询转换   Color Picker 在线颜色选择器、RGB颜色查询转换   w3schools HTML 颜色选择器    " />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="色彩基础概念" />
+<meta property="og:description" content="
+色彩对设计至关重要，能直接影响项目的第一观感。不同的动物所看到的颜色是不同的，不同的人所感受到的颜色也是不同的，故这其实算是个“玄学问题”，但了解一些色彩的基本原理和 Web 设计规则是很有必要的。
+" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.eyecus.com/design/colors/" />
+<meta property="og:url" content="https://blog.eyecus.com/posts/colors/" />
 
-<title> 視由 › 色彩基础 </title>
+<title> 視由 › 色彩基础概念 </title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Noto+Sans+SC:400,500|Noto+Serif+SC:500|Roboto:400|B612&display=swap" rel="stylesheet">
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="/book.min.72f5a024a434bb80e44a6a40cce910943cbc76cc28d59a9c17c42e9bd5dd919d.css" integrity="sha256-cvWgJKQ0u4DkSmpAzOkQlDy8dswo1ZqcF8Qum9XdkZ0=">
+<link rel="stylesheet" href="/book.min.b40db4bc051a6c989eb944c2bdd471a1657b9d28a91dcab442692cb5f1ac338f.css" integrity="sha256-tA20vAUabJieuUTCvdRxoWV7nSipHcq0QmkstfGsM48=">
 
 
-<script defer src="/search.min.d0cba6c10877afa0051865b04bf7d861c18dd9564fc598588b04b8fbdd374b74.js" integrity="sha256-0MumwQh3r6AFGGWwS/fYYcGN2VZPxZhYiwS4&#43;903S3Q="></script>
+<script defer src="/search.min.47f128995f12c19dcbe4b86e21a2e6b015c0b513a38bc9506f18d5c4c724c1a5.js" integrity="sha256-R/EomV8SwZ3L5LhuIaLmsBXAtROji8lQbxjVxMckwaU="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -140,8 +132,8 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <li><p><strong>Design</strong></p>
 
 <ul>
-<li><a href="/design/colors/"class=active>色彩基础</a></li>
-<li><a href="/design/fonts/">免费字体</a></li>
+<li><a href="/posts/colors/"class=active>色彩基础</a></li>
+<li><a href="/posts/fonts/">免费字体</a></li>
 </ul></li>
 
 <li><p><strong>Hackintosh</strong></p>
@@ -187,20 +179,47 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
     </aside>
 
-    <div class="book-page">
+    <div class="book-posts">
       <header class="flex align-center justify-between book-header">
   <label for="menu-control">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
   </label>
-  <strong>視由 › 色彩基础</strong>
+  <strong>視由 › 色彩基础概念</strong>
 </header>
 
       
-<article class="markdown pagew">
 
-<h1 id="i-class-fa-fa-tags-i-了解色彩"><strong><i class="fa fa-tags"></i> 了解色彩</strong></h1>
+<header class="markdown pagew">
+  <h1>色彩基础概念</h1>
 
-<h2 id="色彩的表示-color-code"><strong>色彩的表示 Color code</strong></h2>
+<ul id="tags">
+  
+  
+    <li id="categories"><a href="https://blog.eyecus.com/categories/%E6%96%87%E6%A1%A3">文档</a> </li>
+  
+  
+
+  
+  
+    <li> <a href="https://blog.eyecus.com/tags/%E8%AE%BE%E8%AE%A1">设计</a> </li>
+  
+    <li> <a href="https://blog.eyecus.com/tags/Color">Color</a> </li>
+  
+    <li> <a href="https://blog.eyecus.com/tags/%E5%9F%BA%E7%A1%80">基础</a> </li>
+  
+    <li> <a href="https://blog.eyecus.com/tags/Web">Web</a> </li>
+  
+  
+
+  
+</ul>
+
+</header>
+<article class="markdown pagew"><div class="comment">
+色彩对设计至关重要，能直接影响项目的第一观感。不同的动物所看到的颜色是不同的，不同的人所感受到的颜色也是不同的，故这其实算是个“玄学问题”，但了解一些色彩的基本原理和 Web 设计规则是很有必要的。
+</div>
+
+<h2 id="色彩的表示"><strong>色彩的表示</strong></h2>
 
 <ul>
 <li><p><strong>颜色名称表示</strong> </br>最直观的表示方法就是用颜色的英文名直接表示，但能表示的颜色数量有限 </br><i class="fa fa-file-code-o"></i> 格式形如：<code>blue</code></p></li>
@@ -214,7 +233,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <li><p><a href="https://zh.wikipedia.org/wiki/%E7%BD%91%E9%A1%B5%E9%A2%9C%E8%89%B2"><strong><i class="fa fa-wikipedia-w"></i> 维基百科了解更多</strong></a></p></li>
 </ul>
 
-<h2 id="色彩空间-color-space"><strong>色彩空间 Color space</strong></h2>
+<h2 id="色彩空间"><strong>色彩空间</strong></h2>
 
 <div class="book-columns flex flex-wrap">
   
@@ -270,8 +289,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <td align="left">HTML 颜色选择器</td>
 </tr>
 </tbody>
-</table>
-</article>
+</table></article>
 
       <div class="fooder-text">  
 Copyright © 2019 世佳
@@ -287,10 +305,10 @@ Copyright © 2019 世佳
 
     <nav id="TableOfContents">
 <ul>
-<li><a href="#i-class-fa-fa-tags-i-了解色彩"><strong><i class="fa fa-tags"></i> 了解色彩</strong></a>
+<li>
 <ul>
-<li><a href="#色彩的表示-color-code"><strong>色彩的表示 Color code</strong></a></li>
-<li><a href="#色彩空间-color-space"><strong>色彩空间 Color space</strong></a></li>
+<li><a href="#色彩的表示"><strong>色彩的表示</strong></a></li>
+<li><a href="#色彩空间"><strong>色彩空间</strong></a></li>
 <li><a href="#svg-中的-x11-颜色清单"><strong>SVG 中的 X11 颜色清单</strong></a></li>
 <li><a href="#i-class-fa-fa-globe-i-推荐查色页面"><strong><i class="fa fa-globe"></i> 推荐查色页面</strong></a></li>
 </ul></li>
@@ -303,7 +321,6 @@ Copyright © 2019 世佳
 	</div>
 
   </aside>
-
 
 
 
