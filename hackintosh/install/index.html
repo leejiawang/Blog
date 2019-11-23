@@ -3,30 +3,22 @@
 
 <head>
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="安装指导" />
-<meta property="og:description" content="注意
-本教程需要 macOS 系统环境，如果没有 macOS 设备可使用PC安装macOS虚拟机操作。另外由于电脑配置不同，安装过程可能出现各种问题，后续驱动需进行针对性安装。本教程仅供参考。
- 黑苹果系统简易安装教程 第1步 制作系统安装盘 通过 AppStore 下载macOS镜像文件，或从其他途径下载 Mojave.app 并拖入应用程序文件夹。 使用磁盘管理工具格式化U盘为GUID分区格式Mac OS Extended（日志式），单击抹掉U盘。 使用 UniBeast 制作 直接使用 UniBeast 开始制作，引导过程根据设备情况选择，默认选择如下图所示:
-使用 macOS 终端制作 使用终端制作安装U盘，以安装 macOS Mojave 系统为例，输入如下代码并等待制作完成，据自己实际情况修改代码内容，此代码适用于系统版本为 Mojave ，U盘名称为 Mojave。
-sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/Mojave --applicationpath /Applications/Install\ macOS\ Mojave.app --nointeraction  第2步 安装原始系统引导  提示
-通过 UniBeast 制作的系统安装U盘会自带基础引导程序，可跳过此步骤。
- 使用macOS操作环境下载并安装 Clover EFI bootloader 程序，注意安装时选择正确的安装位置。
-第3步 安装系统 将制作好的系统安装U盘插入待安装的设备，重启进入BIOS并调整下表中的选项（如果有）。然后选择系统安装U盘为启动首选项，按F10保存设置并重启设备。
- 提示
-进入BIOS台式机可使用按键 Del，笔记本一般使用 F2 F12 F11 Esc。" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="黑苹果系统简易安装教程" />
+<meta property="og:description" content=" 非苹果设备却使用 苹果操作系统 的设备，被称为黑苹果 Hackintosh，本教程简易的描述了安装黑苹果系统的步骤，并提供了一些相关工具以及驱动文件的下载链接，希望能给大家安装带来帮助。
+" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.eyecus.com/hackintosh/install/" />
 
-<title> 視由 › 安装指导 </title>
+<title> 視由 › 黑苹果系统简易安装教程 </title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Noto+Sans+SC:400,500|Noto+Serif+SC:500|Roboto:400|B612&display=swap" rel="stylesheet">
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="/book.min.9bd22e9aa8cfb5bb4a2c7bc959976cb62e660b8091d26b5206d375e433f5548b.css" integrity="sha256-m9IumqjPtbtKLHvJWZdsti5mC4CR0mtSBtN15DP1VIs=">
+<link rel="stylesheet" href="/book.min.31c2dff8f8bf0ef7a2cb752e56651f167f25a6b5f3729a81e408d560c9d5ef2f.css" integrity="sha256-McLf&#43;Pi/Dveiy3UuVmUfFn8lprXzcpqB5AjVYMnV7y8=">
 
 
-<script defer src="/search.min.061bb5cb044a00649494a01f19db86156843360500b89c1a23f1aab84fd212bd.js" integrity="sha256-Bhu1ywRKAGSUlKAfGduGFWhDNgUAuJwaI/GquE/SEr0="></script>
+<script defer src="/search.min.0075d965a26e6bb9261ee83aba765d43b5a19f743891af92e499d1e0cb04ed07.js" integrity="sha256-AHXZZaJua7kmHug6unZdQ7Whn3Q4ka&#43;S5JnR4MsE7Qc="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -139,8 +131,8 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <li><p><strong>Design</strong></p>
 
 <ul>
-<li><a href="/posts/colors/">色彩基础</a></li>
-<li><a href="/posts/fonts/">免费字体</a></li>
+<li><a href="/design/colors/">色彩基础</a></li>
+<li><a href="/design/fonts/">免费字体</a></li>
 </ul></li>
 
 <li><p><strong>Hackintosh</strong></p>
@@ -161,7 +153,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
 <ul>
 <li><a href="/about/">关于本站</a></li>
-<li><a href="/about/links/">友链</a></li>
+<li><a href="/links/">友链</a></li>
 </ul></li>
 </ul>
 
@@ -186,16 +178,38 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
     </aside>
 
-    <div class="book-page">
+    <div class="book-posts">
       <header class="flex align-center justify-between book-header">
   <label for="menu-control">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
   </label>
-  <strong>視由 › 安装指导</strong>
+  <strong>視由 › 黑苹果系统简易安装教程</strong>
 </header>
 
       
-<article class="markdown pagew">
+
+<header class="markdown pagew">
+  <h1>黑苹果系统简易安装教程</h1>
+
+<ul id="tags">
+  
+  
+    <li id="categories"><a href="https://blog.eyecus.com/categories/%E6%95%99%E7%A8%8B">教程</a> </li>
+  
+  
+
+  
+  
+    <li> <a href="https://blog.eyecus.com/tags/Hackintosh">Hackintosh</a> </li>
+  
+  
+
+  
+</ul>
+
+</header>
+<article class="markdown pagew"><div class="comment"> 非苹果设备却使用 <strong>苹果操作系统</strong> 的设备，被称为黑苹果 Hackintosh，本教程简易的描述了安装黑苹果系统的步骤，并提供了一些相关工具以及驱动文件的下载链接，希望能给大家安装带来帮助。
+</div>
 
 <blockquote class="book-hint warning">
   <p><strong><i class="fa fa-exclamation-triangle"></i> 注意</strong></p>
@@ -204,8 +218,6 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
 </blockquote>
 
-
-<h1 id="黑苹果系统简易安装教程"><strong>黑苹果系统简易安装教程</strong></h1>
 
 <p><img src="https://www.tonymacx86.com/attachments/mojave-dark-png.354912/" alt="macOS" /></p>
 
@@ -462,8 +474,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
 <p><img src="https://cdn.img.wenhairu.com/images/2019/11/10/AaSXU.png" alt="VideoProc" /></p>
 
-<div>&nbsp</div>
-</article>
+<div>&nbsp</div></article>
 
       <div class="fooder-text">  
 Copyright © 2019 世佳
@@ -479,7 +490,7 @@ Copyright © 2019 世佳
 
     <nav id="TableOfContents">
 <ul>
-<li><a href="#黑苹果系统简易安装教程"><strong>黑苹果系统简易安装教程</strong></a>
+<li>
 <ul>
 <li><a href="#第1步-制作系统安装盘">第1步 制作系统安装盘</a>
 <ul>
@@ -502,7 +513,6 @@ Copyright © 2019 世佳
 	</div>
 
   </aside>
-
 
 
 

@@ -3,23 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.eyecus.com/posts/googlefonts/</loc>
+    <loc>https://blog.eyecus.com/Web/googlefonts/</loc>
   </url>
   
   <url>
-    <loc>https://blog.eyecus.com/posts/markdown/</loc>
+    <loc>https://blog.eyecus.com/Web/hexo/</loc>
   </url>
   
   <url>
-    <loc>https://blog.eyecus.com/hackintosh/install/</loc>
+    <loc>https://blog.eyecus.com/Web/hugo/</loc>
   </url>
   
   <url>
-    <loc>https://blog.eyecus.com/posts/fonts/</loc>
+    <loc>https://blog.eyecus.com/Web/javascript/</loc>
   </url>
   
   <url>
-    <loc>https://blog.eyecus.com/website/</loc>
+    <loc>https://blog.eyecus.com/Web/markdown/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/Web/vuepress/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/Web/html/</loc>
   </url>
   
   <url>
@@ -27,7 +35,19 @@
   </url>
   
   <url>
-    <loc>https://blog.eyecus.com/posts/colors/</loc>
+    <loc>https://blog.eyecus.com/hackintosh/install/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/design/fonts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/website/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/design/colors/</loc>
   </url>
   
   <url>
@@ -39,11 +59,7 @@
   </url>
   
   <url>
-    <loc>https://blog.eyecus.com/Web/html/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blog.eyecus.com/posts/emoji/</loc>
+    <loc>https://blog.eyecus.com/design/emoji/</loc>
   </url>
   
   <url>
@@ -51,27 +67,11 @@
   </url>
   
   <url>
-    <loc>https://blog.eyecus.com/Web/vuepress/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blog.eyecus.com/Web/hugo/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blog.eyecus.com/about/links/</loc>
+    <loc>https://blog.eyecus.com/links/</loc>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/hackintosh/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blog.eyecus.com/Web/hexo/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blog.eyecus.com/Web/javascript/</loc>
   </url>
   
   <url>
@@ -95,15 +95,19 @@
   </url>
   
   <url>
-    <loc>https://blog.eyecus.com/posts/</loc>
-  </url>
-  
-  <url>
     <loc>https://blog.eyecus.com/tags/Adobe/</loc>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/Autodesk/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/tags/Blog/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/tags/Bootstrap/</loc>
   </url>
   
   <url>
@@ -115,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://blog.eyecus.com/tags/Defender/</loc>
+    <loc>https://blog.eyecus.com/tags/CSS/</loc>
   </url>
   
   <url>
@@ -123,15 +127,35 @@
   </url>
   
   <url>
-    <loc>https://blog.eyecus.com/tags/emoji/</loc>
-  </url>
-  
-  <url>
     <loc>https://blog.eyecus.com/tags/Google/</loc>
   </url>
   
   <url>
+    <loc>https://blog.eyecus.com/tags/Hackintosh/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/tags/Hexo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/tags/Html/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/tags/Hugo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/tags/JavaScript/</loc>
+  </url>
+  
+  <url>
     <loc>https://blog.eyecus.com/tags/Markdown/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/posts/</loc>
   </url>
   
   <url>
@@ -140,6 +164,10 @@
   
   <url>
     <loc>https://blog.eyecus.com/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/tags/Vuepress/</loc>
   </url>
   
   <url>
@@ -163,6 +191,10 @@
   </url>
   
   <url>
+    <loc>https://blog.eyecus.com/tags/%E5%BB%BA%E7%AB%99/</loc>
+  </url>
+  
+  <url>
     <loc>https://blog.eyecus.com/tags/%E6%8E%A8%E8%8D%90/</loc>
   </url>
   
@@ -179,11 +211,7 @@
   </url>
   
   <url>
-    <loc>https://blog.eyecus.com/tags/%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blog.eyecus.com/tags/%E7%BB%98%E6%96%87%E5%AD%97/</loc>
+    <loc>https://blog.eyecus.com/categories/%E7%AC%94%E8%AE%B0/</loc>
   </url>
   
   <url>
@@ -199,15 +227,7 @@
   </url>
   
   <url>
-    <loc>https://blog.eyecus.com/tags/%E8%AF%AD%E6%B3%95/</loc>
-  </url>
-  
-  <url>
     <loc>https://blog.eyecus.com/categories/%E8%B5%84%E6%BA%90/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blog.eyecus.com/tags/%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8/</loc>
   </url>
   
   <url>

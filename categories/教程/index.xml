@@ -11,12 +11,55 @@
     
     <item>
       <title>Google Fonts 在线调用</title>
-      <link>https://blog.eyecus.com/posts/googlefonts/</link>
+      <link>https://blog.eyecus.com/Web/googlefonts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/posts/googlefonts/</guid>
+      <guid>https://blog.eyecus.com/Web/googlefonts/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 在线调用字体，省去本地字体管理。Google Fonts 中所有字体都是免费和开源的，任何项目的任何人都可以免费调用。
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>HEXO 建站教程</title>
+      <link>https://blog.eyecus.com/Web/hexo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/Web/hexo/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+&lt;strong&gt;Hexo&lt;/strong&gt; 是一款快速、简洁且高效的 &lt;strong&gt;博客框架&lt;/strong&gt;，具有超快速度、支持 Markdown、一键部署、丰富的插件和可扩展性等特点。
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>HUGO 建站教程</title>
+      <link>https://blog.eyecus.com/Web/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/Web/hugo/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+&lt;strong&gt;Hugo&lt;/strong&gt; 是由Go语言实现的 &lt;strong&gt;静态网站生成器&lt;/strong&gt;，简单、易用、高效、易扩展、快速部署。
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Vuepress 建站教程</title>
+      <link>https://blog.eyecus.com/Web/vuepress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/Web/vuepress/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+&lt;strong&gt;Vuepress&lt;/strong&gt; 是一款 &lt;strong&gt;Vue 驱动的静态网站生成器&lt;/strong&gt;，具有简洁至上、高性能、一键部署等特点。
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>黑苹果系统简易安装教程</title>
+      <link>https://blog.eyecus.com/hackintosh/install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/hackintosh/install/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt; 非苹果设备却使用 &lt;strong&gt;苹果操作系统&lt;/strong&gt; 的设备，被称为黑苹果 Hackintosh，本教程简易的描述了安装黑苹果系统的步骤，并提供了一些相关工具以及驱动文件的下载链接，希望能给大家安装带来帮助。
 &lt;/div&gt;</description>
     </item>
     

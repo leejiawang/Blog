@@ -11,50 +11,103 @@
     
     <item>
       <title>Google Fonts 在线调用</title>
-      <link>https://blog.eyecus.com/posts/googlefonts/</link>
+      <link>https://blog.eyecus.com/Web/googlefonts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/posts/googlefonts/</guid>
+      <guid>https://blog.eyecus.com/Web/googlefonts/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 在线调用字体，省去本地字体管理。Google Fonts 中所有字体都是免费和开源的，任何项目的任何人都可以免费调用。
 &lt;/div&gt;</description>
     </item>
     
     <item>
-      <title>Markdown 基础语法</title>
-      <link>https://blog.eyecus.com/posts/markdown/</link>
+      <title>HEXO 建站教程</title>
+      <link>https://blog.eyecus.com/Web/hexo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/posts/markdown/</guid>
+      <guid>https://blog.eyecus.com/Web/hexo/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+&lt;strong&gt;Hexo&lt;/strong&gt; 是一款快速、简洁且高效的 &lt;strong&gt;博客框架&lt;/strong&gt;，具有超快速度、支持 Markdown、一键部署、丰富的插件和可扩展性等特点。
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>HUGO 建站教程</title>
+      <link>https://blog.eyecus.com/Web/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/Web/hugo/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+&lt;strong&gt;Hugo&lt;/strong&gt; 是由Go语言实现的 &lt;strong&gt;静态网站生成器&lt;/strong&gt;，简单、易用、高效、易扩展、快速部署。
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>JavaScript 学习笔记</title>
+      <link>https://blog.eyecus.com/Web/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/Web/javascript/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt; JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。本页记录一些能实现一定功能的实例。&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown 基础语法</title>
+      <link>https://blog.eyecus.com/Web/markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/Web/markdown/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 Markdown 是一种轻量级标记语言，她轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，语法也极其简单易学。
 &lt;/div&gt;</description>
     </item>
     
     <item>
-      <title>安装指导</title>
+      <title>Vuepress 建站教程</title>
+      <link>https://blog.eyecus.com/Web/vuepress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/Web/vuepress/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+&lt;strong&gt;Vuepress&lt;/strong&gt; 是一款 &lt;strong&gt;Vue 驱动的静态网站生成器&lt;/strong&gt;，具有简洁至上、高性能、一键部署等特点。
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>前端基础学习笔记</title>
+      <link>https://blog.eyecus.com/Web/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/Web/html/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt; &lt;strong&gt;前端&lt;/strong&gt; 和后端是描述进程开始和结束的通用词汇。前端作用于采集输入信息，后端进行处理。计算机程序的界面样式，视觉呈现属于前端。本页主要记录我学习 Html 和 CSS 过程中觉得实用的笔记。&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>黑苹果安装相关工具下载链接</title>
+      <link>https://blog.eyecus.com/hackintosh/file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/hackintosh/file/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt; 安装黑苹果不难，难的是后期上驱动及系统功能优化，本页提供了一些相关工具以及驱动文件的下载链接，希望能给大家安装带来帮助。
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>黑苹果系统简易安装教程</title>
       <link>https://blog.eyecus.com/hackintosh/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/hackintosh/install/</guid>
-      <description>注意
-本教程需要 macOS 系统环境，如果没有 macOS 设备可使用PC安装macOS虚拟机操作。另外由于电脑配置不同，安装过程可能出现各种问题，后续驱动需进行针对性安装。本教程仅供参考。
- 黑苹果系统简易安装教程 第1步 制作系统安装盘 通过 AppStore 下载macOS镜像文件，或从其他途径下载 Mojave.app 并拖入应用程序文件夹。 使用磁盘管理工具格式化U盘为GUID分区格式Mac OS Extended（日志式），单击抹掉U盘。 使用 UniBeast 制作 直接使用 UniBeast 开始制作，引导过程根据设备情况选择，默认选择如下图所示:
-使用 macOS 终端制作 使用终端制作安装U盘，以安装 macOS Mojave 系统为例，输入如下代码并等待制作完成，据自己实际情况修改代码内容，此代码适用于系统版本为 Mojave ，U盘名称为 Mojave。
-sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/Mojave --applicationpath /Applications/Install\ macOS\ Mojave.app --nointeraction  第2步 安装原始系统引导  提示
-通过 UniBeast 制作的系统安装U盘会自带基础引导程序，可跳过此步骤。
- 使用macOS操作环境下载并安装 Clover EFI bootloader 程序，注意安装时选择正确的安装位置。
-第3步 安装系统 将制作好的系统安装U盘插入待安装的设备，重启进入BIOS并调整下表中的选项（如果有）。然后选择系统安装U盘为启动首选项，按F10保存设置并重启设备。
- 提示
-进入BIOS台式机可使用按键 Del，笔记本一般使用 F2 F12 F11 Esc。</description>
+      <description>&lt;div class=&#34;comment&#34;&gt; 非苹果设备却使用 &lt;strong&gt;苹果操作系统&lt;/strong&gt; 的设备，被称为黑苹果 Hackintosh，本教程简易的描述了安装黑苹果系统的步骤，并提供了一些相关工具以及驱动文件的下载链接，希望能给大家安装带来帮助。
+&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>免费商用字体</title>
-      <link>https://blog.eyecus.com/posts/fonts/</link>
+      <link>https://blog.eyecus.com/design/fonts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/posts/fonts/</guid>
+      <guid>https://blog.eyecus.com/design/fonts/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 在版权意识日益增长的今天，侵犯版权的成本也大大增加，尤其是在商业领域，一旦侵权可能就会面临“律师函警告”，随之而来的将是巨大的经济损失，故在创作过程中避免侵权尤为重要。在字体方面，使用一些免费商用的字体是个较好的规避上述问题的办法。
 &lt;/div&gt;</description>
@@ -72,30 +125,11 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
     </item>
     
     <item>
-      <title>工具下载</title>
-      <link>https://blog.eyecus.com/hackintosh/file/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/hackintosh/file/</guid>
-      <description>安装黑苹果的工具  VMware Workstation Pro Workstation Pro 是由 VMware 提供的虚拟机工具，用于在PC上搭建macOS系统环境。
-VMware 官网下载 
-     UniBeast UniBeast 是由 tonymacx86 提供的苹果安装U盘制作工具，一键式制作，方便易用。
-UniBeast 官网下载 
-     注意
-使用UniBeast需要你具备macOS操作环境，且系统语言切换成English才能运行。
-  Clover EFI bootloader Clover EFI bootloader为UEFI系统引导安装工具，是最为核心的工具之一。
-Clover EFI 下载 
-     Clover Configurator Clover Configurator 是由 mackie100projects 提供的用于编辑Clover EFI配置文件的工具，利用图形界面大大降低了配置Clover EFI的门槛。
-Clover Configurator 下载 
-     注意</description>
-    </item>
-    
-    <item>
       <title>色彩基础概念</title>
-      <link>https://blog.eyecus.com/posts/colors/</link>
+      <link>https://blog.eyecus.com/design/colors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/posts/colors/</guid>
+      <guid>https://blog.eyecus.com/design/colors/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 色彩对设计至关重要，能直接影响项目的第一观感。不同的动物所看到的颜色是不同的，不同的人所感受到的颜色也是不同的，故这其实算是个“玄学问题”，但了解一些色彩的基本原理和 Web 设计规则是很有必要的。
 &lt;/div&gt;</description>
@@ -113,88 +147,14 @@ Clover Configurator 下载
     </item>
     
     <item>
-      <title>前端基础</title>
-      <link>https://blog.eyecus.com/Web/html/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/Web/html/</guid>
-      <description>HTML5 笔记 HTML 称为超文本标记语言，是一种标识性的语言。它包括一系列标签，通过这些标签可以将网络上的文档格式统一，使分散的 Internet 资源连接为一个逻辑整体，下图为HTML基本框架示意图。 graph LR Bootstrap-.-id2((CSS)); id2((CSS)) --- id1((HTML)) id3((JS)) --- id1((HTML)) id1((HTML)) -- head head -- title head -- meta id1((HTML)) -- body subgraph body -- h1,h2... body -- p,a p,a -- strong,em body -- ol,ul ol,ul -- li body -- tr tr -- th end  简单介绍 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;eyecus&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;hello world！&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;hello &amp;lt;a&amp;gt;eyecus&amp;lt;/a&amp;gt;！&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;1.XXXX&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;2.XXXX&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;3.</description>
-    </item>
-    
-    <item>
       <title>绘文字清单</title>
-      <link>https://blog.eyecus.com/posts/emoji/</link>
+      <link>https://blog.eyecus.com/design/emoji/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/posts/emoji/</guid>
+      <guid>https://blog.eyecus.com/design/emoji/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 绘文字是日本在无线通信中所使用的视觉情感符号，绘指图画，文字指的则是字符，可用来代表多种表情，本页面所提供得 Emoji 表情清单用于快速复制使用。
 &lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Vuepress</title>
-      <link>https://blog.eyecus.com/Web/vuepress/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/Web/vuepress/</guid>
-      <description>Vuepress 建站教程 相关站点：Vuepress官网、Vuepress仓库、Vuepress模板。 Vuepress 是一款 Vue 驱动的静态网站生成器，具有简洁至上、高性能、一键部署等特点。      第1步 安装 Vuepress 框架 首先新建并进入博客文件夹test在终端中输入如下代码：
-mkdir test cd test   提示
-命令中test是所创建的网站文件夹名称，由用户自定义，以下网站名均由test代指。
- yarn 安装 可使用 yarn 或者 npm 进行安装，但推荐使用 yarn 安装 ，因为 yarn 更稳定，出错几率更少，在终端内输入如下命令全局安装 Vuepress。
-yarn global add vuepress  npm 安装 在终端内输入如下命令全局安装 Vuepress。
-npm install -g vuepress  由于国内可能会有网络受限的问题，使用npm会出现安装极慢或者安装失败，可以用cnpm替代。使用如下命令安装cnpm:
-npm install -g cnpm --registry=https://registry.npm.taobao.org  npm install -g vuepress 然后使用cnpm替换命令中的npm，例如使用cnpm install -g hexo-cli全局安装 vuepress。</description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://blog.eyecus.com/Web/hugo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/Web/hugo/</guid>
-      <description>HUGO 建站教程 相关站点： Hugo官网、Hugo主题、Hugo中文、Hugo仓库。 Hugo 是由Go语言实现的 静态网站生成器，简单、易用、高效、易扩展、快速部署。       本站即为 Hugo 博客框架搭建，使用了 Hugo-Book 主题。  第1步 安装Hugo框架 首先根据自己的系统参照下述方法进行安装。 macOS 🔥  macOS操作系统下直接使用Homebrew安装，在终端中输入如下代码：
-brew install hugo   注意 执行此操作前请确保macOS安装有  Homebrew。   Windows  在 Hugo Releases  下载最新发布对应操作系统的ZIP，将所有内容提取到C:\Hugo\bin目录中，包含可执行文件hugo.exe、LICENSE和README.md。然后将Hugo添加到Windows的PATH设置中。
- 右键单击开始按钮 单击系统 单击左侧的高级系统设置 单击底部的环境变量...按钮 在用户变量部分中找到以PATH开头的行（PATH全部大写） 双击PATH 单击新建…按钮 键入C:\Hugo\bin，完成输入后按Enter 在每个窗口中单击确定退出   Linux  Linux操作系统下直接使用Homebrew安装，在终端中输入如下代码:
-brew install hugo   注意 执行此操作前请确保linux安装有  Homebrew 。   OpenBSD  OpenBSD通过pkg_add添加Hugo的软件包：</description>
-    </item>
-    
-    <item>
-      <title>友链</title>
-      <link>https://blog.eyecus.com/about/links/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/about/links/</guid>
-      <description>友情链接  本页面旨在聚集志同道合的小伙伴，欢迎与我取得 联系。     站名 站点描述     程序羊 CodeSheep 分享 务实、能看懂、读者可复现 的原创文章   心谭博客 专注于前端方向与可视化领域的博客   利隐客 leeyiner Find what you want      /** * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/ /* var disqus_config = function () { this.</description>
-    </item>
-    
-    <item>
-      <title>Hexo</title>
-      <link>https://blog.eyecus.com/Web/hexo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/Web/hexo/</guid>
-      <description>HEXO 建站教程 相关站点： Hexo官网、Hexo主题、Hexo中文、Hexo仓库。
-Hexo 是一款快速、简洁且高效的 博客框架，具有超快速度、支持 Markdown、一键部署、丰富的插件和可扩展性等特点。      第1步 安装 Hexo 框架  注意
-安装 Hugo 之前要确保设备装有  Git 和  Node.js(建议安装最新版本)。
-执行安装操作前 macOS 用户终端输入sudo su命令并密码获取系统权限，Windows 用户以管理员身份运行CMD获取系统权限。
- 使用 npm 安装 Hexo，在终端输入如下命令。
-npm install -g hexo-cli   提示
-由于国内可能会有网络受限的问题，使用npm会出现安装极慢或者安装失败，可以用cnpm替代。安装cnpm终端输入npm install -g cnpm --registry=https://registry.npm.taobao.org，然后使用cnpm替换命令中的npm，例如：使用cnpm install -g hexo-cli安装Hexo。
- 安装完后，在终端中输入如下代码验证安装。
-hexo -v  第2步 生成网站 首先新建并进入博客文件夹test在终端中输入如下代码：
-mkdir test cd test  在终端中输入如下代码下载Hexo文件：
-sudo hexo init   提示</description>
-    </item>
-    
-    <item>
-      <title>JavaScript</title>
-      <link>https://blog.eyecus.com/Web/javascript/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/Web/javascript/</guid>
-      <description> JavaScript 笔记 JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。 简单介绍 JavaScript 实例
-&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;script&amp;gt; function myFunction() { document.getElementById(&amp;#34;demo&amp;#34;).innerHTML = &amp;#34;2&amp;#34;; } &amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h2&amp;gt;简单计算&amp;lt;/h2&amp;gt; &amp;lt;p id=&amp;#34;demo&amp;#34;&amp;gt;1+1=？。&amp;lt;/p&amp;gt; &amp;lt;button type=&amp;#34;button&amp;#34; onclick=&amp;#34;myFunction()&amp;#34;&amp;gt;计算&amp;lt;/button&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; &amp;nbsp 👨🏻‍💻 持续更新中...  </description>
     </item>
     
     <item>

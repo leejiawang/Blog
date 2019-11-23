@@ -11,32 +11,83 @@
     
     <item>
       <title>Google Fonts 在线调用</title>
-      <link>https://blog.eyecus.com/posts/googlefonts/</link>
+      <link>https://blog.eyecus.com/Web/googlefonts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/posts/googlefonts/</guid>
+      <guid>https://blog.eyecus.com/Web/googlefonts/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 在线调用字体，省去本地字体管理。Google Fonts 中所有字体都是免费和开源的，任何项目的任何人都可以免费调用。
 &lt;/div&gt;</description>
     </item>
     
     <item>
-      <title>Markdown 基础语法</title>
-      <link>https://blog.eyecus.com/posts/markdown/</link>
+      <title>HEXO 建站教程</title>
+      <link>https://blog.eyecus.com/Web/hexo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/posts/markdown/</guid>
+      <guid>https://blog.eyecus.com/Web/hexo/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+&lt;strong&gt;Hexo&lt;/strong&gt; 是一款快速、简洁且高效的 &lt;strong&gt;博客框架&lt;/strong&gt;，具有超快速度、支持 Markdown、一键部署、丰富的插件和可扩展性等特点。
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>HUGO 建站教程</title>
+      <link>https://blog.eyecus.com/Web/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/Web/hugo/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+&lt;strong&gt;Hugo&lt;/strong&gt; 是由Go语言实现的 &lt;strong&gt;静态网站生成器&lt;/strong&gt;，简单、易用、高效、易扩展、快速部署。
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>JavaScript 学习笔记</title>
+      <link>https://blog.eyecus.com/Web/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/Web/javascript/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt; JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。本页记录一些能实现一定功能的实例。&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown 基础语法</title>
+      <link>https://blog.eyecus.com/Web/markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/Web/markdown/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 Markdown 是一种轻量级标记语言，她轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，语法也极其简单易学。
 &lt;/div&gt;</description>
     </item>
     
     <item>
-      <title>免费商用字体</title>
-      <link>https://blog.eyecus.com/posts/fonts/</link>
+      <title>Vuepress 建站教程</title>
+      <link>https://blog.eyecus.com/Web/vuepress/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/posts/fonts/</guid>
+      <guid>https://blog.eyecus.com/Web/vuepress/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+&lt;strong&gt;Vuepress&lt;/strong&gt; 是一款 &lt;strong&gt;Vue 驱动的静态网站生成器&lt;/strong&gt;，具有简洁至上、高性能、一键部署等特点。
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>前端基础学习笔记</title>
+      <link>https://blog.eyecus.com/Web/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/Web/html/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt; &lt;strong&gt;前端&lt;/strong&gt; 和后端是描述进程开始和结束的通用词汇。前端作用于采集输入信息，后端进行处理。计算机程序的界面样式，视觉呈现属于前端。本页主要记录我学习 Html 和 CSS 过程中觉得实用的笔记。&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>免费商用字体</title>
+      <link>https://blog.eyecus.com/design/fonts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/design/fonts/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 在版权意识日益增长的今天，侵犯版权的成本也大大增加，尤其是在商业领域，一旦侵权可能就会面临“律师函警告”，随之而来的将是巨大的经济损失，故在创作过程中避免侵权尤为重要。在字体方面，使用一些免费商用的字体是个较好的规避上述问题的办法。
 &lt;/div&gt;</description>
@@ -55,10 +106,10 @@ Markdown 是一种轻量级标记语言，她轻量化、易读易写特性，�
     
     <item>
       <title>色彩基础概念</title>
-      <link>https://blog.eyecus.com/posts/colors/</link>
+      <link>https://blog.eyecus.com/design/colors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/posts/colors/</guid>
+      <guid>https://blog.eyecus.com/design/colors/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 色彩对设计至关重要，能直接影响项目的第一观感。不同的动物所看到的颜色是不同的，不同的人所感受到的颜色也是不同的，故这其实算是个“玄学问题”，但了解一些色彩的基本原理和 Web 设计规则是很有必要的。
 &lt;/div&gt;</description>
@@ -77,10 +128,10 @@ Markdown 是一种轻量级标记语言，她轻量化、易读易写特性，�
     
     <item>
       <title>绘文字清单</title>
-      <link>https://blog.eyecus.com/posts/emoji/</link>
+      <link>https://blog.eyecus.com/design/emoji/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/posts/emoji/</guid>
+      <guid>https://blog.eyecus.com/design/emoji/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 绘文字是日本在无线通信中所使用的视觉情感符号，绘指图画，文字指的则是字符，可用来代表多种表情，本页面所提供得 Emoji 表情清单用于快速复制使用。
 &lt;/div&gt;</description>
