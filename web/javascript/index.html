@@ -255,105 +255,105 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <h2 id="顶部线形加载进度条">顶部线形加载进度条</h2>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://cdn.bootcss.com/pace/1.0.2/pace.min.js&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
-&lt;<span style="color:#f92672">script</span>&gt;    
-{    
-<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getElementsByClass</span>(<span style="color:#a6e22e">key</span>){    
-<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">arr</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Array();    
-<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">tags</span><span style="color:#f92672">=</span>document.<span style="color:#a6e22e">getElementsByTagName</span>(<span style="color:#e6db74">&#34;*&#34;</span>);    
-    <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">i</span><span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;<span style="color:#a6e22e">i</span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">tags</span>.<span style="color:#a6e22e">length</span>;<span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>){    
-        <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">tags</span>[<span style="color:#a6e22e">i</span>].<span style="color:#a6e22e">className</span>.<span style="color:#a6e22e">match</span>(<span style="color:#66d9ef">new</span> RegExp(<span style="color:#e6db74">&#39;(\\s|^)&#39;</span><span style="color:#f92672">+</span><span style="color:#a6e22e">key</span><span style="color:#f92672">+</span><span style="color:#e6db74">&#39;(\\s|$)&#39;</span>))){    
-            <span style="color:#a6e22e">arr</span>.<span style="color:#a6e22e">push</span>(<span style="color:#a6e22e">tags</span>[<span style="color:#a6e22e">i</span>]);    
-        }    
-    }    
-<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">arr</span>;    
-}    
-<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">timer</span> <span style="color:#f92672">=</span> window.<span style="color:#a6e22e">setInterval</span>(<span style="color:#66d9ef">function</span>(){    
-    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">el</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">getElementsByClass</span>(<span style="color:#e6db74">&#39;pace&#39;</span>);    
-    <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">length</span><span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0</span>){    
-        <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;div&#39;</span>);    
-        <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">setAttribute</span>(<span style="color:#e6db74">&#39;class&#39;</span>, <span style="color:#e6db74">&#39;spinner&#39;</span>);    
-        <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">b</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;div&#39;</span>);    
-        <span style="color:#a6e22e">b</span>.<span style="color:#a6e22e">setAttribute</span>(<span style="color:#e6db74">&#39;class&#39;</span>, <span style="color:#e6db74">&#39;spinner-icon&#39;</span>);    
-        <span style="color:#a6e22e">el</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">a</span>);    
-        <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">b</span>);    
-        window.<span style="color:#a6e22e">clearInterval</span>(<span style="color:#a6e22e">timer</span>);    
-    }    
-}, <span style="color:#ae81ff">3</span>);    
-}    
-&lt;/<span style="color:#f92672">script</span>&gt;    
-&lt;<span style="color:#f92672">style</span>&gt;    
-.<span style="color:#a6e22e">pace</span> .<span style="color:#a6e22e">spinner</span> {    
-<span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">fixed</span>;    
-<span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;    
-<span style="color:#66d9ef">right</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;    
-<span style="color:#66d9ef">z-index</span>: <span style="color:#ae81ff">2000</span>;    
-<span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">block</span>;    
-}    
-.<span style="color:#a6e22e">pace</span> .<span style="color:#a6e22e">spinner-icon</span> {    
-<span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">18</span><span style="color:#66d9ef">px</span>;    
-<span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">18</span><span style="color:#66d9ef">px</span>;    
-<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">box-sizing</span>: <span style="color:#66d9ef">border-box</span>;    
-<span style="color:#66d9ef">box-sizing</span>: <span style="color:#66d9ef">border-box</span>;    
-<span style="color:#66d9ef">border</span>: <span style="color:#66d9ef">solid</span> <span style="color:#ae81ff">2</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">transparent</span>;    
-<span style="color:#66d9ef">border-top-color</span>: <span style="color:#ae81ff">#2299dd</span>;    
-<span style="color:#66d9ef">border-left-color</span>: <span style="color:#ae81ff">#2299dd</span>;    
-<span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span>;    
-<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">animation</span>: nprogress-spinner <span style="color:#ae81ff">.4</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">linear</span> <span style="color:#66d9ef">infinite</span>;    
-<span style="color:#66d9ef">animation</span>: nprogress-spinner <span style="color:#ae81ff">.4</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">linear</span> <span style="color:#66d9ef">infinite</span>;    
-}    
-@<span style="color:#66d9ef">-webkit-keyframes</span> <span style="color:#f92672">nprogress-spinner</span> {    
-<span style="color:#f92672">0</span><span style="color:#f92672">%</span> {    
-<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">0</span><span style="color:#66d9ef">deg</span>);    
-<span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">0</span><span style="color:#66d9ef">deg</span>);    
-}    
-<span style="color:#f92672">100</span><span style="color:#f92672">%</span> {    
-<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">360</span><span style="color:#66d9ef">deg</span>);    
-<span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">360</span><span style="color:#66d9ef">deg</span>);    
-}    
-}    
-@<span style="color:#66d9ef">keyframes</span> <span style="color:#f92672">nprogress-spinner</span> {    
-<span style="color:#f92672">0</span><span style="color:#f92672">%</span> {    
-<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">0</span><span style="color:#66d9ef">deg</span>);    
-<span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">0</span><span style="color:#66d9ef">deg</span>);    
-}    
-<span style="color:#f92672">100</span><span style="color:#f92672">%</span> {    
-<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">360</span><span style="color:#66d9ef">deg</span>);    
-<span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">360</span><span style="color:#66d9ef">deg</span>);    
-}    
-}    
-@<span style="color:#66d9ef">keyframes</span> <span style="color:#f92672">fadeOut</span> {    
-<span style="color:#f92672">from</span> {    
-<span style="color:#66d9ef">opacity</span>: <span style="color:#ae81ff">1</span>;    
-}    
-<span style="color:#f92672">to</span> {    
-<span style="color:#66d9ef">opacity</span>: <span style="color:#ae81ff">0</span>;    
-}    
-}    
-.<span style="color:#a6e22e">pace</span> {    
-<span style="color:#66d9ef">-webkit-</span>pointer-events: <span style="color:#66d9ef">none</span>;    
-pointer-events: <span style="color:#66d9ef">none</span>;    
-<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">user-select</span>: <span style="color:#66d9ef">none</span>;    
-<span style="color:#66d9ef">-moz-</span><span style="color:#66d9ef">user-select</span>: <span style="color:#66d9ef">none</span>;    
-<span style="color:#66d9ef">user-select</span>: <span style="color:#66d9ef">none</span>;    
-<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transition</span>: <span style="color:#66d9ef">opacity</span> <span style="color:#ae81ff">0.8</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">ease</span><span style="color:#f92672">-</span>in-out;    
-<span style="color:#66d9ef">-moz-</span><span style="color:#66d9ef">transition</span>: <span style="color:#66d9ef">opacity</span> <span style="color:#ae81ff">0.8</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">ease</span><span style="color:#f92672">-</span>in-out;    
-<span style="color:#66d9ef">-o-</span><span style="color:#66d9ef">transition</span>: <span style="color:#66d9ef">opacity</span> <span style="color:#ae81ff">0.8</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">ease</span><span style="color:#f92672">-</span>in-out;    
-<span style="color:#66d9ef">transition</span>: <span style="color:#66d9ef">opacity</span> <span style="color:#ae81ff">0.8</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">ease</span><span style="color:#f92672">-</span>in-out;    
-}    
-.<span style="color:#a6e22e">pace-inactive</span> {    
-<span style="color:#66d9ef">opacity</span>:<span style="color:#ae81ff">0</span>;    
-<span style="color:#66d9ef">filter</span>: <span style="color:#a6e22e">alpha</span>(opacity<span style="color:#960050;background-color:#1e0010">=</span><span style="color:#ae81ff">0</span>);    
-}    
-.<span style="color:#a6e22e">pace</span> .<span style="color:#a6e22e">pace-progress</span> {    
-<span style="color:#66d9ef">background</span>: <span style="color:#ae81ff">#2299dd</span>;    
-<span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">fixed</span>;    
-<span style="color:#66d9ef">z-index</span>: <span style="color:#ae81ff">2000</span>;    
-<span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">0</span>;    
-<span style="color:#66d9ef">right</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;    
-<span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;    
-<span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">3</span><span style="color:#66d9ef">px</span>;    
-<span style="color:#66d9ef">box-shadow</span>: <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">3</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">#2299dd</span>;    
-}    
+&lt;<span style="color:#f92672">script</span>&gt;
+{
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getElementsByClass</span>(<span style="color:#a6e22e">key</span>){
+<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">arr</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Array();
+<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">tags</span><span style="color:#f92672">=</span>document.<span style="color:#a6e22e">getElementsByTagName</span>(<span style="color:#e6db74">&#34;*&#34;</span>);
+    <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">i</span><span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;<span style="color:#a6e22e">i</span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">tags</span>.<span style="color:#a6e22e">length</span>;<span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>){
+        <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">tags</span>[<span style="color:#a6e22e">i</span>].<span style="color:#a6e22e">className</span>.<span style="color:#a6e22e">match</span>(<span style="color:#66d9ef">new</span> RegExp(<span style="color:#e6db74">&#39;(\\s|^)&#39;</span><span style="color:#f92672">+</span><span style="color:#a6e22e">key</span><span style="color:#f92672">+</span><span style="color:#e6db74">&#39;(\\s|$)&#39;</span>))){
+            <span style="color:#a6e22e">arr</span>.<span style="color:#a6e22e">push</span>(<span style="color:#a6e22e">tags</span>[<span style="color:#a6e22e">i</span>]);
+        }
+    }
+<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">arr</span>;
+}
+<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">timer</span> <span style="color:#f92672">=</span> window.<span style="color:#a6e22e">setInterval</span>(<span style="color:#66d9ef">function</span>(){
+    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">el</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">getElementsByClass</span>(<span style="color:#e6db74">&#39;pace&#39;</span>);
+    <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">length</span><span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0</span>){
+        <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;div&#39;</span>);
+        <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">setAttribute</span>(<span style="color:#e6db74">&#39;class&#39;</span>, <span style="color:#e6db74">&#39;spinner&#39;</span>);
+        <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">b</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;div&#39;</span>);
+        <span style="color:#a6e22e">b</span>.<span style="color:#a6e22e">setAttribute</span>(<span style="color:#e6db74">&#39;class&#39;</span>, <span style="color:#e6db74">&#39;spinner-icon&#39;</span>);
+        <span style="color:#a6e22e">el</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">a</span>);
+        <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">b</span>);
+        window.<span style="color:#a6e22e">clearInterval</span>(<span style="color:#a6e22e">timer</span>);
+    }
+}, <span style="color:#ae81ff">3</span>);
+}
+&lt;/<span style="color:#f92672">script</span>&gt;
+&lt;<span style="color:#f92672">style</span>&gt;
+.<span style="color:#a6e22e">pace</span> .<span style="color:#a6e22e">spinner</span> {
+<span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">fixed</span>;
+<span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+<span style="color:#66d9ef">right</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+<span style="color:#66d9ef">z-index</span>: <span style="color:#ae81ff">2000</span>;
+<span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">block</span>;
+}
+.<span style="color:#a6e22e">pace</span> .<span style="color:#a6e22e">spinner-icon</span> {
+<span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">18</span><span style="color:#66d9ef">px</span>;
+<span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">18</span><span style="color:#66d9ef">px</span>;
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">box-sizing</span>: <span style="color:#66d9ef">border-box</span>;
+<span style="color:#66d9ef">box-sizing</span>: <span style="color:#66d9ef">border-box</span>;
+<span style="color:#66d9ef">border</span>: <span style="color:#66d9ef">solid</span> <span style="color:#ae81ff">2</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">transparent</span>;
+<span style="color:#66d9ef">border-top-color</span>: <span style="color:#ae81ff">#2299dd</span>;
+<span style="color:#66d9ef">border-left-color</span>: <span style="color:#ae81ff">#2299dd</span>;
+<span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span>;
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">animation</span>: nprogress-spinner <span style="color:#ae81ff">.4</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">linear</span> <span style="color:#66d9ef">infinite</span>;
+<span style="color:#66d9ef">animation</span>: nprogress-spinner <span style="color:#ae81ff">.4</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">linear</span> <span style="color:#66d9ef">infinite</span>;
+}
+@<span style="color:#66d9ef">-webkit-keyframes</span> <span style="color:#f92672">nprogress-spinner</span> {
+<span style="color:#f92672">0</span><span style="color:#f92672">%</span> {
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">0</span><span style="color:#66d9ef">deg</span>);
+<span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">0</span><span style="color:#66d9ef">deg</span>);
+}
+<span style="color:#f92672">100</span><span style="color:#f92672">%</span> {
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">360</span><span style="color:#66d9ef">deg</span>);
+<span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">360</span><span style="color:#66d9ef">deg</span>);
+}
+}
+@<span style="color:#66d9ef">keyframes</span> <span style="color:#f92672">nprogress-spinner</span> {
+<span style="color:#f92672">0</span><span style="color:#f92672">%</span> {
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">0</span><span style="color:#66d9ef">deg</span>);
+<span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">0</span><span style="color:#66d9ef">deg</span>);
+}
+<span style="color:#f92672">100</span><span style="color:#f92672">%</span> {
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">360</span><span style="color:#66d9ef">deg</span>);
+<span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">360</span><span style="color:#66d9ef">deg</span>);
+}
+}
+@<span style="color:#66d9ef">keyframes</span> <span style="color:#f92672">fadeOut</span> {
+<span style="color:#f92672">from</span> {
+<span style="color:#66d9ef">opacity</span>: <span style="color:#ae81ff">1</span>;
+}
+<span style="color:#f92672">to</span> {
+<span style="color:#66d9ef">opacity</span>: <span style="color:#ae81ff">0</span>;
+}
+}
+.<span style="color:#a6e22e">pace</span> {
+<span style="color:#66d9ef">-webkit-</span>pointer-events: <span style="color:#66d9ef">none</span>;
+pointer-events: <span style="color:#66d9ef">none</span>;
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">user-select</span>: <span style="color:#66d9ef">none</span>;
+<span style="color:#66d9ef">-moz-</span><span style="color:#66d9ef">user-select</span>: <span style="color:#66d9ef">none</span>;
+<span style="color:#66d9ef">user-select</span>: <span style="color:#66d9ef">none</span>;
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transition</span>: <span style="color:#66d9ef">opacity</span> <span style="color:#ae81ff">0.8</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">ease</span><span style="color:#f92672">-</span>in-out;
+<span style="color:#66d9ef">-moz-</span><span style="color:#66d9ef">transition</span>: <span style="color:#66d9ef">opacity</span> <span style="color:#ae81ff">0.8</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">ease</span><span style="color:#f92672">-</span>in-out;
+<span style="color:#66d9ef">-o-</span><span style="color:#66d9ef">transition</span>: <span style="color:#66d9ef">opacity</span> <span style="color:#ae81ff">0.8</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">ease</span><span style="color:#f92672">-</span>in-out;
+<span style="color:#66d9ef">transition</span>: <span style="color:#66d9ef">opacity</span> <span style="color:#ae81ff">0.8</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">ease</span><span style="color:#f92672">-</span>in-out;
+}
+.<span style="color:#a6e22e">pace-inactive</span> {
+<span style="color:#66d9ef">opacity</span>:<span style="color:#ae81ff">0</span>;
+<span style="color:#66d9ef">filter</span>: <span style="color:#a6e22e">alpha</span>(opacity<span style="color:#960050;background-color:#1e0010">=</span><span style="color:#ae81ff">0</span>);
+}
+.<span style="color:#a6e22e">pace</span> .<span style="color:#a6e22e">pace-progress</span> {
+<span style="color:#66d9ef">background</span>: <span style="color:#ae81ff">#2299dd</span>;
+<span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">fixed</span>;
+<span style="color:#66d9ef">z-index</span>: <span style="color:#ae81ff">2000</span>;
+<span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">0</span>;
+<span style="color:#66d9ef">right</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+<span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+<span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">3</span><span style="color:#66d9ef">px</span>;
+<span style="color:#66d9ef">box-shadow</span>: <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">3</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">#2299dd</span>;
+}
 &lt;/<span style="color:#f92672">style</span>&gt;</code></pre></div>
 
 <div>&nbsp</div>
@@ -396,32 +396,32 @@ Copyright © 2019 世佳
 
   </main>
 
-  <script src="http://cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>    
-<script>    
-{    
-function getElementsByClass(key){    
-var arr = new Array();    
-var tags=document.getElementsByTagName("*");    
-    for(var i=0;i<tags.length;i++){    
-        if(tags[i].className.match(new RegExp('(\\s|^)'+key+'(\\s|$)'))){    
-            arr.push(tags[i]);    
-        }    
-    }    
-return arr;    
-}    
-var timer = window.setInterval(function(){    
-    var el = getElementsByClass('pace');    
-    if(el.length>0){    
-        var a = document.createElement('div');    
-        a.setAttribute('class', 'spinner');    
-        var b = document.createElement('div');    
-        b.setAttribute('class', 'spinner-icon');    
-        el[0].appendChild(a);    
-        a.appendChild(b);    
-        window.clearInterval(timer);    
-    }    
-}, 3);    
-}    
+  <script src="http://cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<script>
+{
+function getElementsByClass(key){
+var arr = new Array();
+var tags=document.getElementsByTagName("*");
+    for(var i=0;i<tags.length;i++){
+        if(tags[i].className.match(new RegExp('(\\s|^)'+key+'(\\s|$)'))){
+            arr.push(tags[i]);
+        }
+    }
+return arr;
+}
+var timer = window.setInterval(function(){
+    var el = getElementsByClass('pace');
+    if(el.length>0){
+        var a = document.createElement('div');
+        a.setAttribute('class', 'spinner');
+        var b = document.createElement('div');
+        b.setAttribute('class', 'spinner-icon');
+        el[0].appendChild(a);
+        a.appendChild(b);
+        window.clearInterval(timer);
+    }
+}, 3);
+}
 </script>
 </body>
 

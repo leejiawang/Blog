@@ -40,32 +40,32 @@ if (!doNotTrack) {
     <h1>404 Not Found</h1>
   </main>
 
-  <script src="http://cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>    
-<script>    
-{    
-function getElementsByClass(key){    
-var arr = new Array();    
-var tags=document.getElementsByTagName("*");    
-    for(var i=0;i<tags.length;i++){    
-        if(tags[i].className.match(new RegExp('(\\s|^)'+key+'(\\s|$)'))){    
-            arr.push(tags[i]);    
-        }    
-    }    
-return arr;    
-}    
-var timer = window.setInterval(function(){    
-    var el = getElementsByClass('pace');    
-    if(el.length>0){    
-        var a = document.createElement('div');    
-        a.setAttribute('class', 'spinner');    
-        var b = document.createElement('div');    
-        b.setAttribute('class', 'spinner-icon');    
-        el[0].appendChild(a);    
-        a.appendChild(b);    
-        window.clearInterval(timer);    
-    }    
-}, 3);    
-}    
+  <script src="http://cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<script>
+{
+function getElementsByClass(key){
+var arr = new Array();
+var tags=document.getElementsByTagName("*");
+    for(var i=0;i<tags.length;i++){
+        if(tags[i].className.match(new RegExp('(\\s|^)'+key+'(\\s|$)'))){
+            arr.push(tags[i]);
+        }
+    }
+return arr;
+}
+var timer = window.setInterval(function(){
+    var el = getElementsByClass('pace');
+    if(el.length>0){
+        var a = document.createElement('div');
+        a.setAttribute('class', 'spinner');
+        var b = document.createElement('div');
+        b.setAttribute('class', 'spinner-icon');
+        el[0].appendChild(a);
+        a.appendChild(b);
+        window.clearInterval(timer);
+    }
+}, 3);
+}
 </script>
   
 <script type="application/javascript">
