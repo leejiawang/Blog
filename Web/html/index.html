@@ -14,10 +14,10 @@
 <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Noto+Sans+SC:400,500|Noto+Serif+SC:500|Roboto:400|B612&display=swap" rel="stylesheet">
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="/book.min.31c2dff8f8bf0ef7a2cb752e56651f167f25a6b5f3729a81e408d560c9d5ef2f.css" integrity="sha256-McLf&#43;Pi/Dveiy3UuVmUfFn8lprXzcpqB5AjVYMnV7y8=">
+<link rel="stylesheet" href="/book.min.33cd5f64495c27f694a3243c133d7658b3b9b85e31fa8468afe9b7ab66f46077.css" integrity="sha256-M81fZElcJ/aUoyQ8Ez12WLO5uF4x&#43;oRor&#43;m3q2b0YHc=">
 
 
-<script defer src="/search.min.0075d965a26e6bb9261ee83aba765d43b5a19f743891af92e499d1e0cb04ed07.js" integrity="sha256-AHXZZaJua7kmHug6unZdQ7Whn3Q4ka&#43;S5JnR4MsE7Qc="></script>
+<script defer src="/search.min.9c28365ae23e9c6f511d4ab7486bbd725c118fc1b1ae21bab6d13d30ea604f8c.js" integrity="sha256-nCg2WuI&#43;nG9RHUq3SGu9clwRj8GxriG6ttE9MOpgT4w="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -111,7 +111,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
 
 
-<div class="menu-text">
+<div class="menu-text" style="padding-bottom: 50px;">
 
 
 
@@ -889,6 +889,28 @@ graph LR
 </tbody>
 </table>
 
+<h2 id="滚动条样式">滚动条样式</h2>
+
+<p><strong>禁用竖向滚动条</strong>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">body</span> {<span style="color:#66d9ef">overflow</span>:<span style="color:#66d9ef">scroll</span>;
+<span style="color:#66d9ef">overflow-y</span>:<span style="color:#66d9ef">hidden</span>;}</code></pre></div></p>
+
+<p><strong>自定义滚动条</strong>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">body</span>::<span style="color:#a6e22e">-webkit-scrollbar</span> {
+  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">4</span><span style="color:#66d9ef">px</span>; 
+  <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">4</span><span style="color:#66d9ef">px</span>;
+}
+<span style="color:#f92672">body</span>::<span style="color:#a6e22e">-webkit-scrollbar-thumb</span> {
+  <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">box-shadow</span>: <span style="color:#66d9ef">inset</span> <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span> rgba(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0.2</span>);
+  <span style="color:#66d9ef">background</span>: <span style="color:#ae81ff">#666</span>;
+}
+<span style="color:#f92672">body</span>::<span style="color:#a6e22e">-webkit-scrollbar-track</span> {
+  <span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">box-shadow</span>: <span style="color:#66d9ef">inset</span> <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span> rgba(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0.2</span>);
+  <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">background</span>: <span style="color:#ae81ff">#FFF</span>;
+}</code></pre></div></p>
+
 <h2 id="常用功能-1">常用功能</h2>
 
 <ul>
@@ -1022,6 +1044,7 @@ Copyright © 2019 世佳
 <li><a href="#背景样式">背景样式</a></li>
 <li><a href="#阴影样式">阴影样式</a></li>
 <li><a href="#边框样式">边框样式</a></li>
+<li><a href="#滚动条样式">滚动条样式</a></li>
 <li><a href="#常用功能-1">常用功能</a></li>
 </ul></li>
 <li><a href="#i-class-fa-fa-tag-i-bootstrap4-笔记"><strong><i class="fa fa-tag"></i> Bootstrap4 笔记</strong></a>
