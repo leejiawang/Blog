@@ -11,10 +11,10 @@
     
     <item>
       <title>Vuepress 建站教程</title>
-      <link>https://blog.eyecus.com/Web/vuepress/</link>
+      <link>https://blog.eyecus.com/web/vuepress/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/Web/vuepress/</guid>
+      <guid>https://blog.eyecus.com/web/vuepress/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 &lt;strong&gt;Vuepress&lt;/strong&gt; 是一款 &lt;strong&gt;Vue 驱动的静态网站生成器&lt;/strong&gt;，具有简洁至上、高性能、一键部署等特点。
 &lt;/div&gt;</description>

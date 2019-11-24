@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="JavaScript 学习笔记" />
-<meta property="og:description" content=" JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。本页记录一些能实现一定功能的实例。" />
+<meta property="og:description" content=" JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。本页 转载记录 一些能实现一定功能的实例。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.eyecus.com/Web/javascript/" />
+<meta property="og:url" content="https://blog.eyecus.com/web/javascript/" />
 
 <title> 視由 › JavaScript 学习笔记 </title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
@@ -14,10 +14,10 @@
 <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Noto+Sans+SC:400,500,600|Roboto|B612&display=swap" rel="stylesheet">
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="/book.min.c98a016881aff5d78e0c88178b41c33a8d973a6b16e0535eccdf553a53694366.css" integrity="sha256-yYoBaIGv9deODIgXi0HDOo2XOmsW4FNezN9VOlNpQ2Y=">
+<link rel="stylesheet" href="/book.min.45ecb78103648f294099acd9588263c96441095daf14994ebe33cb1700f3190b.css" integrity="sha256-Rey3gQNkjylAmazZWIJjyWRBCV2vFJlOvjPLFwDzGQs=">
 
 
-<script defer src="/search.min.395afeba4ac6c690e5070a3ec4b81df059138552b2868f4bfd9fcebdd040f6a1.js" integrity="sha256-OVr&#43;ukrGxpDlBwo&#43;xLgd8FkThVKyho9L/Z/OvdBA9qE="></script>
+<script defer src="/search.min.c9bdc6f9ba559af9bfe8b7737c79e0605f7c61f55bc3c8e842eb7115e23e53db.js" integrity="sha256-yb3G&#43;bpVmvm/6LdzfHngYF98YfVbw8joQutxFeI&#43;U9s="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -33,6 +33,117 @@ if (!doNotTrack) {
   <meta name="keywords" content="视由,视界事由,eyecus,博客,blog,世佳,黑苹果,eyecusIO,前端,eyecus.com,利隐客,利隐者,利隐创意,leeyin " />
 <meta name="description" content="视由(eyecusIO)是世佳的个人博客，主要分享日常学习过程中觉得有用的的所见所闻，博客内容主要涉及平面设计、前端开发、资源分享等。">
 
+  <script src="http://cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>    
+
+<script>    
+{    
+function getElementsByClass(key){    
+var arr = new Array();    
+var tags=document.getElementsByTagName("*");    
+    for(var i=0;i<tags.length;i++){    
+        if(tags[i].className.match(new RegExp('(\\s|^)'+key+'(\\s|$)'))){    
+            arr.push(tags[i]);    
+        }    
+    }    
+return arr;    
+}    
+var timer = window.setInterval(function(){    
+    var el = getElementsByClass('pace');    
+    if(el.length>0){    
+        var a = document.createElement('div');    
+        a.setAttribute('class', 'spinner');    
+        var b = document.createElement('div');    
+        b.setAttribute('class', 'spinner-icon');    
+        el[0].appendChild(a);    
+        a.appendChild(b);    
+        window.clearInterval(timer);    
+    }    
+}, 3);    
+}    
+</script>    
+<style>
+
+.pace .spinner {
+    position: fixed;    
+    top: 15px;    
+    right: 15px;    
+    z-index: 2000;    
+    display: block;    
+}    
+
+.pace .spinner-icon {
+    width: 18px;    
+    height: 18px;    
+    -webkit-box-sizing: border-box;    
+    box-sizing: border-box;    
+    border: solid 2px transparent;    
+    border-top-color: #2299dd;    
+    border-left-color: #2299dd;    
+    border-radius: 50%;    
+    -webkit-animation: nprogress-spinner .4s linear infinite;    
+    animation: nprogress-spinner .4s linear infinite;    
+}    
+
+@-webkit-keyframes nprogress-spinner {    
+    0% {    
+        -webkit-transform: rotate(0deg);    
+        transform: rotate(0deg);    
+    }    
+    100% {    
+        -webkit-transform: rotate(360deg);    
+        transform: rotate(360deg);    
+    }    
+}    
+
+@keyframes nprogress-spinner {    
+    0% {    
+        -webkit-transform: rotate(0deg);    
+        transform: rotate(0deg);    
+    }    
+    100% {    
+        -webkit-transform: rotate(360deg);    
+        transform: rotate(360deg);    
+    }    
+}    
+
+@keyframes fadeOut {    
+    from {    
+        opacity: 1;    
+    }    
+    to {    
+    opacity: 0;    
+    }    
+}
+
+.pace {
+    -webkit-pointer-events: none;    
+    pointer-events: none;    
+    -webkit-user-select: none;    
+    -moz-user-select: none;    
+    user-select: none;    
+    -webkit-transition: opacity 0.5s ease-in-out;    
+    -moz-transition: opacity 0.5s ease-in-out;    
+    -o-transition: opacity 0.5s ease-in-out;    
+    transition: opacity 0.5s ease-in-out;
+}
+
+.pace-inactive {    
+    opacity:0;    
+    filter: alpha(opacity=0);
+}
+
+.pace .pace-progress {    
+    background: #5aa6f2;
+    position: fixed;    
+    z-index: 2000;    
+    top: 0;    
+    right: 100%;    
+    width: 100%;    
+    height: 3px;    
+    box-shadow: 0 0 50px #97bee4;    
+}
+
+</style>
 </head>
 
 <body>
@@ -120,11 +231,11 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <li><p><strong>Web</strong></p>
 
 <ul>
-<li><a href="/Web/html/">前端基础</a></li>
-<li><a href="/Web/javascript/"class=active>JavaScript</a></li>
-<li><a href="/Web/vuepress/">Vuepress</a></li>
-<li><a href="/Web/hugo/">Hugo</a></li>
-<li><a href="/Web/hexo/">hexo</a></li>
+<li><a href="/web/html/">前端基础</a></li>
+<li><a href="/web/javascript/"class=active>JavaScript</a></li>
+<li><a href="/web/vuepress/">Vuepress</a></li>
+<li><a href="/web/hugo/">Hugo</a></li>
+<li><a href="/web/hexo/">hexo</a></li>
 </ul></li>
 
 <li><p><strong>Design</strong></p>
@@ -209,7 +320,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 </ul>
 
 </header>
-<article class="markdown pagew"><div class="comment"> JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。本页记录一些能实现一定功能的实例。</div>
+<article class="markdown pagew"><div class="comment"> JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。本页 <strong>转载记录</strong> 一些能实现一定功能的实例。</div>
 
 <h2 id="点击按钮替换文本">点击按钮替换文本</h2>
 
@@ -252,6 +363,110 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
     }
   &lt;/<span style="color:#f92672">script</span>&gt;</code></pre></div>
 
+<h2 id="顶部线形加载进度条">顶部线形加载进度条</h2>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://cdn.bootcss.com/pace/1.0.2/pace.min.js&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
+&lt;<span style="color:#f92672">script</span>&gt;    
+{    
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getElementsByClass</span>(<span style="color:#a6e22e">key</span>){    
+<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">arr</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Array();    
+<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">tags</span><span style="color:#f92672">=</span>document.<span style="color:#a6e22e">getElementsByTagName</span>(<span style="color:#e6db74">&#34;*&#34;</span>);    
+    <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">i</span><span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;<span style="color:#a6e22e">i</span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">tags</span>.<span style="color:#a6e22e">length</span>;<span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>){    
+        <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">tags</span>[<span style="color:#a6e22e">i</span>].<span style="color:#a6e22e">className</span>.<span style="color:#a6e22e">match</span>(<span style="color:#66d9ef">new</span> RegExp(<span style="color:#e6db74">&#39;(\\s|^)&#39;</span><span style="color:#f92672">+</span><span style="color:#a6e22e">key</span><span style="color:#f92672">+</span><span style="color:#e6db74">&#39;(\\s|$)&#39;</span>))){    
+            <span style="color:#a6e22e">arr</span>.<span style="color:#a6e22e">push</span>(<span style="color:#a6e22e">tags</span>[<span style="color:#a6e22e">i</span>]);    
+        }    
+    }    
+<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">arr</span>;    
+}    
+<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">timer</span> <span style="color:#f92672">=</span> window.<span style="color:#a6e22e">setInterval</span>(<span style="color:#66d9ef">function</span>(){    
+    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">el</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">getElementsByClass</span>(<span style="color:#e6db74">&#39;pace&#39;</span>);    
+    <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">length</span><span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0</span>){    
+        <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;div&#39;</span>);    
+        <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">setAttribute</span>(<span style="color:#e6db74">&#39;class&#39;</span>, <span style="color:#e6db74">&#39;spinner&#39;</span>);    
+        <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">b</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;div&#39;</span>);    
+        <span style="color:#a6e22e">b</span>.<span style="color:#a6e22e">setAttribute</span>(<span style="color:#e6db74">&#39;class&#39;</span>, <span style="color:#e6db74">&#39;spinner-icon&#39;</span>);    
+        <span style="color:#a6e22e">el</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">a</span>);    
+        <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">b</span>);    
+        window.<span style="color:#a6e22e">clearInterval</span>(<span style="color:#a6e22e">timer</span>);    
+    }    
+}, <span style="color:#ae81ff">3</span>);    
+}    
+&lt;/<span style="color:#f92672">script</span>&gt;    
+&lt;<span style="color:#f92672">style</span>&gt;    
+.<span style="color:#a6e22e">pace</span> .<span style="color:#a6e22e">spinner</span> {    
+<span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">fixed</span>;    
+<span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;    
+<span style="color:#66d9ef">right</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;    
+<span style="color:#66d9ef">z-index</span>: <span style="color:#ae81ff">2000</span>;    
+<span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">block</span>;    
+}    
+.<span style="color:#a6e22e">pace</span> .<span style="color:#a6e22e">spinner-icon</span> {    
+<span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">18</span><span style="color:#66d9ef">px</span>;    
+<span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">18</span><span style="color:#66d9ef">px</span>;    
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">box-sizing</span>: <span style="color:#66d9ef">border-box</span>;    
+<span style="color:#66d9ef">box-sizing</span>: <span style="color:#66d9ef">border-box</span>;    
+<span style="color:#66d9ef">border</span>: <span style="color:#66d9ef">solid</span> <span style="color:#ae81ff">2</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">transparent</span>;    
+<span style="color:#66d9ef">border-top-color</span>: <span style="color:#ae81ff">#2299dd</span>;    
+<span style="color:#66d9ef">border-left-color</span>: <span style="color:#ae81ff">#2299dd</span>;    
+<span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span>;    
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">animation</span>: nprogress-spinner <span style="color:#ae81ff">.4</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">linear</span> <span style="color:#66d9ef">infinite</span>;    
+<span style="color:#66d9ef">animation</span>: nprogress-spinner <span style="color:#ae81ff">.4</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">linear</span> <span style="color:#66d9ef">infinite</span>;    
+}    
+@<span style="color:#66d9ef">-webkit-keyframes</span> <span style="color:#f92672">nprogress-spinner</span> {    
+<span style="color:#f92672">0</span><span style="color:#f92672">%</span> {    
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">0</span><span style="color:#66d9ef">deg</span>);    
+<span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">0</span><span style="color:#66d9ef">deg</span>);    
+}    
+<span style="color:#f92672">100</span><span style="color:#f92672">%</span> {    
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">360</span><span style="color:#66d9ef">deg</span>);    
+<span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">360</span><span style="color:#66d9ef">deg</span>);    
+}    
+}    
+@<span style="color:#66d9ef">keyframes</span> <span style="color:#f92672">nprogress-spinner</span> {    
+<span style="color:#f92672">0</span><span style="color:#f92672">%</span> {    
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">0</span><span style="color:#66d9ef">deg</span>);    
+<span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">0</span><span style="color:#66d9ef">deg</span>);    
+}    
+<span style="color:#f92672">100</span><span style="color:#f92672">%</span> {    
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">360</span><span style="color:#66d9ef">deg</span>);    
+<span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">360</span><span style="color:#66d9ef">deg</span>);    
+}    
+}    
+@<span style="color:#66d9ef">keyframes</span> <span style="color:#f92672">fadeOut</span> {    
+<span style="color:#f92672">from</span> {    
+<span style="color:#66d9ef">opacity</span>: <span style="color:#ae81ff">1</span>;    
+}    
+<span style="color:#f92672">to</span> {    
+<span style="color:#66d9ef">opacity</span>: <span style="color:#ae81ff">0</span>;    
+}    
+}    
+.<span style="color:#a6e22e">pace</span> {    
+<span style="color:#66d9ef">-webkit-</span>pointer-events: <span style="color:#66d9ef">none</span>;    
+pointer-events: <span style="color:#66d9ef">none</span>;    
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">user-select</span>: <span style="color:#66d9ef">none</span>;    
+<span style="color:#66d9ef">-moz-</span><span style="color:#66d9ef">user-select</span>: <span style="color:#66d9ef">none</span>;    
+<span style="color:#66d9ef">user-select</span>: <span style="color:#66d9ef">none</span>;    
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transition</span>: <span style="color:#66d9ef">opacity</span> <span style="color:#ae81ff">0.8</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">ease</span><span style="color:#f92672">-</span>in-out;    
+<span style="color:#66d9ef">-moz-</span><span style="color:#66d9ef">transition</span>: <span style="color:#66d9ef">opacity</span> <span style="color:#ae81ff">0.8</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">ease</span><span style="color:#f92672">-</span>in-out;    
+<span style="color:#66d9ef">-o-</span><span style="color:#66d9ef">transition</span>: <span style="color:#66d9ef">opacity</span> <span style="color:#ae81ff">0.8</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">ease</span><span style="color:#f92672">-</span>in-out;    
+<span style="color:#66d9ef">transition</span>: <span style="color:#66d9ef">opacity</span> <span style="color:#ae81ff">0.8</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">ease</span><span style="color:#f92672">-</span>in-out;    
+}    
+.<span style="color:#a6e22e">pace-inactive</span> {    
+<span style="color:#66d9ef">opacity</span>:<span style="color:#ae81ff">0</span>;    
+<span style="color:#66d9ef">filter</span>: <span style="color:#a6e22e">alpha</span>(opacity<span style="color:#960050;background-color:#1e0010">=</span><span style="color:#ae81ff">0</span>);    
+}    
+.<span style="color:#a6e22e">pace</span> .<span style="color:#a6e22e">pace-progress</span> {    
+<span style="color:#66d9ef">background</span>: <span style="color:#ae81ff">#2299dd</span>;    
+<span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">fixed</span>;    
+<span style="color:#66d9ef">z-index</span>: <span style="color:#ae81ff">2000</span>;    
+<span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">0</span>;    
+<span style="color:#66d9ef">right</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;    
+<span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;    
+<span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">3</span><span style="color:#66d9ef">px</span>;    
+<span style="color:#66d9ef">box-shadow</span>: <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">3</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">#2299dd</span>;    
+}    
+&lt;/<span style="color:#f92672">style</span>&gt;</code></pre></div>
+
 <div>&nbsp</div>
 
 <div align="center">  
@@ -276,6 +491,7 @@ Copyright © 2019 世佳
 <ul>
 <li><a href="#点击按钮替换文本">点击按钮替换文本</a></li>
 <li><a href="#点击按钮复制文本">点击按钮复制文本</a></li>
+<li><a href="#顶部线形加载进度条">顶部线形加载进度条</a></li>
 </ul></li>
 </ul>
 </nav>

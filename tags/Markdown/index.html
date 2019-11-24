@@ -14,10 +14,10 @@
 <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Noto+Sans+SC:400,500,600|Roboto|B612&display=swap" rel="stylesheet">
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="/book.min.c98a016881aff5d78e0c88178b41c33a8d973a6b16e0535eccdf553a53694366.css" integrity="sha256-yYoBaIGv9deODIgXi0HDOo2XOmsW4FNezN9VOlNpQ2Y=">
+<link rel="stylesheet" href="/book.min.45ecb78103648f294099acd9588263c96441095daf14994ebe33cb1700f3190b.css" integrity="sha256-Rey3gQNkjylAmazZWIJjyWRBCV2vFJlOvjPLFwDzGQs=">
 
 
-<script defer src="/search.min.395afeba4ac6c690e5070a3ec4b81df059138552b2868f4bfd9fcebdd040f6a1.js" integrity="sha256-OVr&#43;ukrGxpDlBwo&#43;xLgd8FkThVKyho9L/Z/OvdBA9qE="></script>
+<script defer src="/search.min.c9bdc6f9ba559af9bfe8b7737c79e0605f7c61f55bc3c8e842eb7115e23e53db.js" integrity="sha256-yb3G&#43;bpVmvm/6LdzfHngYF98YfVbw8joQutxFeI&#43;U9s="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -34,6 +34,117 @@ if (!doNotTrack) {
   <meta name="keywords" content="视由,视界事由,eyecus,博客,blog,世佳,黑苹果,eyecusIO,前端,eyecus.com,利隐客,利隐者,利隐创意,leeyin " />
 <meta name="description" content="视由(eyecusIO)是世佳的个人博客，主要分享日常学习过程中觉得有用的的所见所闻，博客内容主要涉及平面设计、前端开发、资源分享等。">
 
+  <script src="http://cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>    
+
+<script>    
+{    
+function getElementsByClass(key){    
+var arr = new Array();    
+var tags=document.getElementsByTagName("*");    
+    for(var i=0;i<tags.length;i++){    
+        if(tags[i].className.match(new RegExp('(\\s|^)'+key+'(\\s|$)'))){    
+            arr.push(tags[i]);    
+        }    
+    }    
+return arr;    
+}    
+var timer = window.setInterval(function(){    
+    var el = getElementsByClass('pace');    
+    if(el.length>0){    
+        var a = document.createElement('div');    
+        a.setAttribute('class', 'spinner');    
+        var b = document.createElement('div');    
+        b.setAttribute('class', 'spinner-icon');    
+        el[0].appendChild(a);    
+        a.appendChild(b);    
+        window.clearInterval(timer);    
+    }    
+}, 3);    
+}    
+</script>    
+<style>
+
+.pace .spinner {
+    position: fixed;    
+    top: 15px;    
+    right: 15px;    
+    z-index: 2000;    
+    display: block;    
+}    
+
+.pace .spinner-icon {
+    width: 18px;    
+    height: 18px;    
+    -webkit-box-sizing: border-box;    
+    box-sizing: border-box;    
+    border: solid 2px transparent;    
+    border-top-color: #2299dd;    
+    border-left-color: #2299dd;    
+    border-radius: 50%;    
+    -webkit-animation: nprogress-spinner .4s linear infinite;    
+    animation: nprogress-spinner .4s linear infinite;    
+}    
+
+@-webkit-keyframes nprogress-spinner {    
+    0% {    
+        -webkit-transform: rotate(0deg);    
+        transform: rotate(0deg);    
+    }    
+    100% {    
+        -webkit-transform: rotate(360deg);    
+        transform: rotate(360deg);    
+    }    
+}    
+
+@keyframes nprogress-spinner {    
+    0% {    
+        -webkit-transform: rotate(0deg);    
+        transform: rotate(0deg);    
+    }    
+    100% {    
+        -webkit-transform: rotate(360deg);    
+        transform: rotate(360deg);    
+    }    
+}    
+
+@keyframes fadeOut {    
+    from {    
+        opacity: 1;    
+    }    
+    to {    
+    opacity: 0;    
+    }    
+}
+
+.pace {
+    -webkit-pointer-events: none;    
+    pointer-events: none;    
+    -webkit-user-select: none;    
+    -moz-user-select: none;    
+    user-select: none;    
+    -webkit-transition: opacity 0.5s ease-in-out;    
+    -moz-transition: opacity 0.5s ease-in-out;    
+    -o-transition: opacity 0.5s ease-in-out;    
+    transition: opacity 0.5s ease-in-out;
+}
+
+.pace-inactive {    
+    opacity:0;    
+    filter: alpha(opacity=0);
+}
+
+.pace .pace-progress {    
+    background: #5aa6f2;
+    position: fixed;    
+    z-index: 2000;    
+    top: 0;    
+    right: 100%;    
+    width: 100%;    
+    height: 3px;    
+    box-shadow: 0 0 50px #97bee4;    
+}
+
+</style>
 </head>
 
 <body>
@@ -120,11 +231,11 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <li><p><strong>Web</strong></p>
 
 <ul>
-<li><a href="/Web/html/">前端基础</a></li>
-<li><a href="/Web/javascript/">JavaScript</a></li>
-<li><a href="/Web/vuepress/">Vuepress</a></li>
-<li><a href="/Web/hugo/">Hugo</a></li>
-<li><a href="/Web/hexo/">hexo</a></li>
+<li><a href="/web/html/">前端基础</a></li>
+<li><a href="/web/javascript/">JavaScript</a></li>
+<li><a href="/web/vuepress/">Vuepress</a></li>
+<li><a href="/web/hugo/">Hugo</a></li>
+<li><a href="/web/hexo/">hexo</a></li>
 </ul></li>
 
 <li><p><strong>Design</strong></p>
@@ -201,11 +312,11 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
     <li>
         <hr>  
         <div class="post-list-title">
-            <i class="fa fa-cube"></i>&nbsp<a href="https://blog.eyecus.com/Web/markdown/"> Markdown 基础语法</a>
+            <i class="fa fa-cube"></i>&nbsp<a href="https://blog.eyecus.com/web/markdown/"> Markdown 基础语法</a>
         </div>
         <p><div class="comment">
 Markdown 是一种轻量级标记语言，她轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，语法也极其简单易学。
-</div><a class="more-btn" style="margin-left: 15px" href="/Web/markdown/"><i class="fa fa-paper-plane-o"></i> 阅读全文</a>
+</div><a class="more-btn" style="margin-left: 15px" href="/web/markdown/"><i class="fa fa-paper-plane-o"></i> 阅读全文</a>
         </p>
     </li>
     

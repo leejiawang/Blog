@@ -11,10 +11,10 @@
     
     <item>
       <title>Google Fonts 在线调用</title>
-      <link>https://blog.eyecus.com/Web/googlefonts/</link>
+      <link>https://blog.eyecus.com/web/googlefonts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/Web/googlefonts/</guid>
+      <guid>https://blog.eyecus.com/web/googlefonts/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 在线调用字体，省去本地字体管理。Google Fonts 中所有字体都是免费和开源的，任何项目的任何人都可以免费调用。
 &lt;/div&gt;</description>
@@ -22,10 +22,10 @@
     
     <item>
       <title>HEXO 建站教程</title>
-      <link>https://blog.eyecus.com/Web/hexo/</link>
+      <link>https://blog.eyecus.com/web/hexo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/Web/hexo/</guid>
+      <guid>https://blog.eyecus.com/web/hexo/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 &lt;strong&gt;Hexo&lt;/strong&gt; 是一款快速、简洁且高效的 &lt;strong&gt;博客框架&lt;/strong&gt;，具有超快速度、支持 Markdown、一键部署、丰富的插件和可扩展性等特点。
 &lt;/div&gt;</description>
@@ -33,10 +33,10 @@
     
     <item>
       <title>HUGO 建站教程</title>
-      <link>https://blog.eyecus.com/Web/hugo/</link>
+      <link>https://blog.eyecus.com/web/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/Web/hugo/</guid>
+      <guid>https://blog.eyecus.com/web/hugo/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 &lt;strong&gt;Hugo&lt;/strong&gt; 是由Go语言实现的 &lt;strong&gt;静态网站生成器&lt;/strong&gt;，简单、易用、高效、易扩展、快速部署。
 &lt;/div&gt;</description>
@@ -44,19 +44,19 @@
     
     <item>
       <title>JavaScript 学习笔记</title>
-      <link>https://blog.eyecus.com/Web/javascript/</link>
+      <link>https://blog.eyecus.com/web/javascript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/Web/javascript/</guid>
-      <description>&lt;div class=&#34;comment&#34;&gt; JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。本页记录一些能实现一定功能的实例。&lt;/div&gt;</description>
+      <guid>https://blog.eyecus.com/web/javascript/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt; JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。本页 &lt;strong&gt;转载记录&lt;/strong&gt; 一些能实现一定功能的实例。&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Markdown 基础语法</title>
-      <link>https://blog.eyecus.com/Web/markdown/</link>
+      <link>https://blog.eyecus.com/web/markdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/Web/markdown/</guid>
+      <guid>https://blog.eyecus.com/web/markdown/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 Markdown 是一种轻量级标记语言，她轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，语法也极其简单易学。
 &lt;/div&gt;</description>
@@ -64,10 +64,10 @@ Markdown 是一种轻量级标记语言，她轻量化、易读易写特性，�
     
     <item>
       <title>Vuepress 建站教程</title>
-      <link>https://blog.eyecus.com/Web/vuepress/</link>
+      <link>https://blog.eyecus.com/web/vuepress/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/Web/vuepress/</guid>
+      <guid>https://blog.eyecus.com/web/vuepress/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 &lt;strong&gt;Vuepress&lt;/strong&gt; 是一款 &lt;strong&gt;Vue 驱动的静态网站生成器&lt;/strong&gt;，具有简洁至上、高性能、一键部署等特点。
 &lt;/div&gt;</description>
@@ -75,10 +75,10 @@ Markdown 是一种轻量级标记语言，她轻量化、易读易写特性，�
     
     <item>
       <title>前端基础学习笔记</title>
-      <link>https://blog.eyecus.com/Web/html/</link>
+      <link>https://blog.eyecus.com/web/html/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/Web/html/</guid>
+      <guid>https://blog.eyecus.com/web/html/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt; &lt;strong&gt;前端&lt;/strong&gt; 和后端是描述进程开始和结束的通用词汇。前端作用于采集输入信息，后端进行处理。计算机程序的界面样式，视觉呈现属于前端。本页主要记录我学习 Html 和 CSS 过程中觉得实用的笔记。&lt;/div&gt;</description>
     </item>
     
