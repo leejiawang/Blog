@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="HEXO 建站教程" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="HEXO 建站教程"><meta property="og:title" content="HEXO 建站教程" />
 <meta property="og:description" content="
 Hexo 是一款快速、简洁且高效的 博客框架，具有超快速度、支持 Markdown、一键部署、丰富的插件和可扩展性等特点。
 " />
@@ -13,24 +14,31 @@ Hexo 是一款快速、简洁且高效的 博客框架，具有超快速度、�
 <title> 視由 › HEXO 建站教程 </title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
-<link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Noto+Sans+SC:400,500,600|Roboto|B612&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Noto+Sans+SC|B612&display=swap" rel="stylesheet">
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="/book.min.8dc96b799d4381d4058b49772b1db538154ab93ab5de2a9f3c0346744a85643c.css" integrity="sha256-jclreZ1DgdQFi0l3Kx21OBVKuTq13iqfPANGdEqFZDw=">
 
 
-<script defer src="/search.min.c9bdc6f9ba559af9bfe8b7737c79e0605f7c61f55bc3c8e842eb7115e23e53db.js" integrity="sha256-yb3G&#43;bpVmvm/6LdzfHngYF98YfVbw8joQutxFeI&#43;U9s="></script>
+<link rel="stylesheet" href="/book.min.d185079960fb29f1c984bf4f918f9b2e3fac965d3dd41ff4687de3b1175c0fdc.css" integrity="sha256-0YUHmWD7KfHJhL9PkY&#43;bLj&#43;sll091B/0aH3jsRdcD9w=">
+
+
+<script defer src="/en.search.min.0519519b15ac07e20b2ffd55ec4f495ec2b0f9f6cd4470ddce55b198ba4c2356.js" integrity="sha256-BRlRmxWsB&#43;ILL/1V7E9JXsKw&#43;fbNRHDdzlWxmLpMI1Y="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', ' UA-151512526-1 ', 'auto');
+	ga('create', 'UA-151512526-1', 'auto');
 	
 	ga('send', 'pageview');
 }
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
 
   <meta name="keywords" content="视由,视界事由,eyecus,博客,blog,世佳,黑苹果,eyecusIO,前端,eyecus.com,利隐客,利隐者,利隐创意,leeyin " />
 <meta name="description" content="视由(eyecusIO)是世佳的个人博客，主要分享日常学习过程中觉得有用的的所见所闻，博客内容主要涉及平面设计、前端开发、资源分享等。">
@@ -44,8 +52,7 @@ if (!doNotTrack) {
     <aside class="book-menu fixed">
       <nav>
 
-<a href="/">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"height="32px" viewBox="0 0 400 82" enable-background="new 0 0 400 82" xml:space="preserve">  <image id="image0" width="400" height="82" x="0" y="0"
+<a href="/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"height="32px" viewBox="0 0 400 82" enable-background="new 0 0 400 82" xml:space="preserve">  <image id="image0" width="400" height="82" x="0" y="0"
     href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAABSCAMAAABNNnL1AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
 AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAjVBMVEX////h4eHh4eHh4eHh
 4eHh4eHh4eHh4eEwld0wld0wld0wld0wld0wld0wld0Eu50Eu50Eu50Eu50Eu50Eu50Eu50Eu50E
@@ -99,26 +106,23 @@ jyawdV3zevxVwF5I45/39agE5P66xw8CtmYtk26Pvwz1ozQeP4qzX/P+KmAf0vD4QQx9GetXofJN
 OI+/g60vY/0qQFLoQ/rvwIdf83p4eHj8/+J/R8/zlGvNLfwAAAAldEVYdGRhdGU6Y3JlYXRlADIw
 MTktMTAtMzBUMTE6MzA6MjkrMDg6MDApnUl+AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE5LTEwLTMw
 VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
-</svg>
-</a>
+</svg></a>
 
 
 <div class="book-search">
-  <input type="text" placeholder="  站内搜索" id="book-search-input" maxlength="64" />
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" />
   <div class="book-search-spinner spinner hidden"></div>
   <ul id="book-search-results"></ul>
 </div>
 
 
 
+	<div class="menu-text" style="padding-bottom: 50px;">
 
+	
 
-<div class="menu-text" style="padding-bottom: 50px;">
-
-
-
-
-    <ul>
+	
+	    <ul>
 <li><p><strong>Web</strong></p>
 
 <ul>
@@ -159,11 +163,46 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 </ul>
 
 
+	
+
+	
+	
+	
+
+
+  
+
+  
 
 
 
+<div class="eyecus-languages-btn" style="padding-top: 30px">
+  <ul>
+    <li class="flex">
+      <i class="fa fa-globe"></i>&nbsp简体中文
+    </li> 
+  </ul>
+
+  <ul class="eyecus-languages-btn-list">
+    
+    <li class="">
+      <a href="https://blog.eyecus.com/cn/" class="flex">
+        <i class="fa fa-globe"></i>&nbspEnglish
+      </a>
+    </li>
+    
+    <li class="active">
+      <a href="https://blog.eyecus.com/" class="flex">
+        <i class="fa fa-globe"></i>&nbsp简体中文
+      </a>
+    </li>
+    
+  </ul>
 
 </div>
+
+
+	</div>
 </nav>
 
 
@@ -187,35 +226,37 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
   <div class="home-nav-title">視由 › HEXO 建站教程</div>
 </header>
 
+
       
 
-<header class="markdown pagew">
-  <h1>HEXO 建站教程</h1>
 
-<ul id="tags">
+<div class="eyecus-width-740">
+	<div class="eyecus-post-title">HEXO 建站教程</div>
+
+
+<ul class="eyecus-head-btn">
   
   
-    <li id="categories"><a href="https://blog.eyecus.com/categories/%E6%95%99%E7%A8%8B">教程</a> </li>
+    <li id="eyecus-categories-btn" class="gray-btn"><a href="https://blog.eyecus.com/categories/%E6%95%99%E7%A8%8B">教程</a> </li>
   
   
 
   
   
-    <li> <a href="https://blog.eyecus.com/tags/%E5%BB%BA%E7%AB%99">建站</a> </li>
+    <li id="eyecus-tags-btn" class="gray-btn"> <a href="https://blog.eyecus.com/tags/%E5%BB%BA%E7%AB%99">建站</a> </li>
   
-    <li> <a href="https://blog.eyecus.com/tags/Blog">Blog</a> </li>
+    <li id="eyecus-tags-btn" class="gray-btn"> <a href="https://blog.eyecus.com/tags/Blog">Blog</a> </li>
   
-    <li> <a href="https://blog.eyecus.com/tags/Web">Web</a> </li>
+    <li id="eyecus-tags-btn" class="gray-btn"> <a href="https://blog.eyecus.com/tags/Web">Web</a> </li>
   
-    <li> <a href="https://blog.eyecus.com/tags/Hexo">Hexo</a> </li>
+    <li id="eyecus-tags-btn" class="gray-btn"> <a href="https://blog.eyecus.com/tags/Hexo">Hexo</a> </li>
   
   
 
   
 </ul>
 
-</header>
-<article class="markdown pagew"><div class="comment">
+<article class="markdown"><div class="comment">
 <strong>Hexo</strong> 是一款快速、简洁且高效的 <strong>博客框架</strong>，具有超快速度、支持 Markdown、一键部署、丰富的插件和可扩展性等特点。
 </div>
 
@@ -445,19 +486,19 @@ branch: master
 </code></pre>
 
 <p>浏览器输入<code>http://XXX.github.io</code>实现远程访问。</p></article>
+</div>
 
-      <div class="fooder-text">  
+      
+      
+      <div class="eyecus-fooder-text">  
 Copyright © 2019 世佳
 </div>
-      
     </div>
 
     
   
 
-
-  <aside class="book-toc level-2 fixed">
-
+  <aside class="book-toc levels-2 fixed">
     <nav id="TableOfContents">
 <ul>
 <li>
@@ -472,45 +513,13 @@ Copyright © 2019 世佳
 </ul></li>
 </ul>
 </nav>
-
-  	<div class="toc-text">
-		<h3><i class="fa fa-qq"></i> 群聊讨论</h3>
-		<img src="https://cdn.img.wenhairu.com/images/2019/11/07/AEKGI.png" width=120 height=120 />
-	</div>
-
   </aside>
 
 
 
   </main>
 
-  <script src="http://cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
-<script>
-{
-function getElementsByClass(key){
-var arr = new Array();
-var tags=document.getElementsByTagName("*");
-    for(var i=0;i<tags.length;i++){
-        if(tags[i].className.match(new RegExp('(\\s|^)'+key+'(\\s|$)'))){
-            arr.push(tags[i]);
-        }
-    }
-return arr;
-}
-var timer = window.setInterval(function(){
-    var el = getElementsByClass('pace');
-    if(el.length>0){
-        var a = document.createElement('div');
-        a.setAttribute('class', 'spinner');
-        var b = document.createElement('div');
-        b.setAttribute('class', 'spinner-icon');
-        el[0].appendChild(a);
-        a.appendChild(b);
-        window.clearInterval(timer);
-    }
-}, 3);
-}
-</script>
+  
 </body>
 
 </html>
