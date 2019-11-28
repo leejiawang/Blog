@@ -5,25 +5,37 @@
     <link>https://blog.eyecus.com/</link>
     <description>Recent content on eyecus</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 28 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.eyecus.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Google Fonts 在线调用</title>
-      <link>https://blog.eyecus.com/web/googlefonts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>详解 CSS 页面布局</title>
+      <link>https://blog.eyecus.com/web/basic-box-model/</link>
+      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/web/googlefonts/</guid>
+      <guid>https://blog.eyecus.com/web/basic-box-model/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
-在线调用字体，省去本地字体管理。Google Fonts 中所有字体都是免费和开源的，任何项目的任何人都可以免费调用。
+在网页排版的过程中，浏览器的渲染器根据“盒子模型”将每个元素表示为矩形框，通过 CSS 来确定这些框的大小、位置、颜色、边框风格、阴影等特性。本文详细介绍了盒子模型的应用，让你实现随心所欲的网页布局。
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Vuepress 建站教程</title>
+      <link>https://blog.eyecus.com/web/vuepress/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/web/vuepress/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+&lt;strong&gt;Vuepress&lt;/strong&gt; 是一款 &lt;strong&gt;Vue 驱动的静态网站生成器&lt;/strong&gt;，具有简洁至上、高性能、一键部署等特点。
 &lt;/div&gt;</description>
     </item>
     
     <item>
       <title>HEXO 建站教程</title>
       <link>https://blog.eyecus.com/web/hexo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/web/hexo/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
@@ -34,42 +46,11 @@
     <item>
       <title>HUGO 建站教程</title>
       <link>https://blog.eyecus.com/web/hugo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/web/hugo/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 &lt;strong&gt;Hugo&lt;/strong&gt; 是由Go语言实现的 &lt;strong&gt;静态网站生成器&lt;/strong&gt;，简单、易用、高效、易扩展、快速部署。
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>JavaScript 学习笔记</title>
-      <link>https://blog.eyecus.com/web/javascript/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/web/javascript/</guid>
-      <description>&lt;div class=&#34;comment&#34;&gt; JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。本页 &lt;strong&gt;转载记录&lt;/strong&gt; 一些能实现一定功能的实例。&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Markdown 基础语法</title>
-      <link>https://blog.eyecus.com/web/markdown/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/web/markdown/</guid>
-      <description>&lt;div class=&#34;comment&#34;&gt;
-Markdown 是一种轻量级标记语言，她轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，语法也极其简单易学。
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Vuepress 建站教程</title>
-      <link>https://blog.eyecus.com/web/vuepress/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/web/vuepress/</guid>
-      <description>&lt;div class=&#34;comment&#34;&gt;
-&lt;strong&gt;Vuepress&lt;/strong&gt; 是一款 &lt;strong&gt;Vue 驱动的静态网站生成器&lt;/strong&gt;，具有简洁至上、高性能、一键部署等特点。
 &lt;/div&gt;</description>
     </item>
     
@@ -80,17 +61,6 @@ Markdown 是一种轻量级标记语言，她轻量化、易读易写特性，�
       
       <guid>https://blog.eyecus.com/web/html/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt; &lt;strong&gt;前端&lt;/strong&gt; 的作用于采集输入信息，后端进行处理。计算机程序的界面样式，视觉呈现属于前端。本页主要记录我学习 Html 和 CSS 过程中觉得实用的笔记。&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>详解 CSS 页面布局</title>
-      <link>https://blog.eyecus.com/basic-box-model/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/basic-box-model/</guid>
-      <description>&lt;div class=&#34;comment&#34;&gt;
-在网页排版的过程中，浏览器的渲染器根据“盒子模型”将每个元素表示为矩形框，通过 CSS 来确定这些框的大小、位置、颜色、边框风格、阴影等特性。本文详细介绍了盒子模型的应用，让你实现随心所欲的网页布局。
-&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -124,6 +94,28 @@ Markdown 是一种轻量级标记语言，她轻量化、易读易写特性，�
     </item>
     
     <item>
+      <title>Google Fonts 在线调用</title>
+      <link>https://blog.eyecus.com/web/googlefonts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/web/googlefonts/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+在线调用字体，省去本地字体管理。Google Fonts 中所有字体都是免费和开源的，任何项目的任何人都可以免费调用。
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown 基础语法</title>
+      <link>https://blog.eyecus.com/web/markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/web/markdown/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+Markdown 是一种轻量级标记语言，她轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，语法也极其简单易学。
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>免费商用字体</title>
       <link>https://blog.eyecus.com/design/fonts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -136,10 +128,10 @@ Markdown 是一种轻量级标记语言，她轻量化、易读易写特性，�
     
     <item>
       <title>实用网站推荐</title>
-      <link>https://blog.eyecus.com/website/</link>
+      <link>https://blog.eyecus.com/resources/website/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/website/</guid>
+      <guid>https://blog.eyecus.com/resources/website/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 在搜索引擎搜索软件时，一不小心会被带伪装效果的广告链接所骗，下载到不安全带有木马的程序，对电脑伤极大，本文提供一个找软件公司官方的便捷导航及一些我用着还不错的相对而言还不错的下载网站。
 &lt;/div&gt;</description>
@@ -158,13 +150,22 @@ Markdown 是一种轻量级标记语言，她轻量化、易读易写特性，�
     
     <item>
       <title>部分软件下载链接</title>
-      <link>https://blog.eyecus.com/software/</link>
+      <link>https://blog.eyecus.com/resources/software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.eyecus.com/software/</guid>
+      <guid>https://blog.eyecus.com/resources/software/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 由于国内下载软件的环境对新手小白并不友好，经常容易受到误导下载到绑定了各种恶意软件的安装包，一不小心就容易对电脑造成危害，所以列出部分常用软件下载链接，供大家下载。
 &lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>JavaScript 学习笔记</title>
+      <link>https://blog.eyecus.com/web/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/web/javascript/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt; JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。本页 &lt;strong&gt;转载记录&lt;/strong&gt; 一些能实现一定功能的实例。&lt;/div&gt;</description>
     </item>
     
     <item>

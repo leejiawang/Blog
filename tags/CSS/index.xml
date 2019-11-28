@@ -5,9 +5,21 @@
     <link>https://blog.eyecus.com/tags/CSS/</link>
     <description>Recent content in CSS on eyecus</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 28 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.eyecus.com/tags/CSS/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>详解 CSS 页面布局</title>
+      <link>https://blog.eyecus.com/web/basic-box-model/</link>
+      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/web/basic-box-model/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+在网页排版的过程中，浏览器的渲染器根据“盒子模型”将每个元素表示为矩形框，通过 CSS 来确定这些框的大小、位置、颜色、边框风格、阴影等特性。本文详细介绍了盒子模型的应用，让你实现随心所欲的网页布局。
+&lt;/div&gt;</description>
+    </item>
     
     <item>
       <title>前端基础学习笔记</title>
@@ -16,17 +28,6 @@
       
       <guid>https://blog.eyecus.com/web/html/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt; &lt;strong&gt;前端&lt;/strong&gt; 的作用于采集输入信息，后端进行处理。计算机程序的界面样式，视觉呈现属于前端。本页主要记录我学习 Html 和 CSS 过程中觉得实用的笔记。&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>详解 CSS 页面布局</title>
-      <link>https://blog.eyecus.com/basic-box-model/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/basic-box-model/</guid>
-      <description>&lt;div class=&#34;comment&#34;&gt;
-在网页排版的过程中，浏览器的渲染器根据“盒子模型”将每个元素表示为矩形框，通过 CSS 来确定这些框的大小、位置、颜色、边框风格、阴影等特性。本文详细介绍了盒子模型的应用，让你实现随心所欲的网页布局。
-&lt;/div&gt;</description>
     </item>
     
   </channel>
