@@ -15,10 +15,10 @@
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
 
-<link rel="stylesheet" href="/book.min.25690b0c3d47d72635bc01b41187340919b30ecc849f01896a262712e27a0708.css" integrity="sha256-JWkLDD1H1yY1vAG0EYc0CRmzDsyEnwGJaiYnEuJ6Bwg=">
+<link rel="stylesheet" href="/book.min.4db324c4a65282d94008e769d862e1e39c4a01050e9f9724535bbb2ccc376cb2.css" integrity="sha256-TbMkxKZSgtlACOdp2GLh45xKAQUOn5ckU1u7LMw3bLI=">
 
 
-<script defer src="/en.search.min.fe880266af81a0ae979d50bbbadb66c31fc8204f205f1236cfcd29c859f732c4.js" integrity="sha256-/ogCZq&#43;BoK6XnVC7uttmwx/IIE8gXxI2z80pyFn3MsQ="></script>
+<script defer src="/en.search.min.1274216939091c73899d00e57d674041411561acef4555b22e68648ca3e3adc9.js" integrity="sha256-EnQhaTkJHHOJnQDlfWdAQUEVYazvRVWyLmhkjKPjrck="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -142,6 +142,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <li><p><strong>Others</strong></p>
 
 <ul>
+<li><a href="/go/">视由Go</a></li>
 <li><a href="/posts/">文章清单</a></li>
 <li><a href="/categories/%E8%B5%84%E6%BA%90/">资源分享</a></li>
 </ul></li>
@@ -902,6 +903,28 @@ graph LR
 <p><i class="fa fa-plus-circle"></i> 禁止浏览器为被激活的输入框添加边框
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">*</span>:<span style="color:#a6e22e">focus</span> {
   <span style="color:#66d9ef">outline</span>: <span style="color:#66d9ef">none</span>;
+}</code></pre></div></p>
+
+<p><i class="fa fa-plus-circle"></i> 载入本地字体
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">@<span style="color:#66d9ef">font-face</span> {
+  <span style="color:#f92672">font-family</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#39;Awesome Font&#39;</span><span style="color:#f92672">;</span>
+  <span style="color:#f92672">font-style</span><span style="color:#f92672">:</span> <span style="color:#f92672">normal</span><span style="color:#f92672">;</span>
+  <span style="color:#f92672">font-weight</span><span style="color:#f92672">:</span> <span style="color:#f92672">400</span><span style="color:#f92672">;</span>
+  <span style="color:#f92672">src</span><span style="color:#f92672">:</span> <span style="color:#f92672">local</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;Awesome Font&#39;</span><span style="color:#f92672">),</span>
+       <span style="color:#f92672">url</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;/fonts/awesome.woff2&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">format</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;woff2&#39;</span><span style="color:#f92672">),</span>
+       <span style="color:#f92672">url</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;/fonts/awesome.woff&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">format</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;woff&#39;</span><span style="color:#f92672">),</span>
+       <span style="color:#f92672">url</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;/fonts/awesome.ttf&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">format</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;truetype&#39;</span><span style="color:#f92672">),</span>
+       <span style="color:#f92672">url</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;/fonts/awesome.eot&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">format</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;embedded-opentype&#39;</span><span style="color:#f92672">);</span>
+}
+@<span style="color:#66d9ef">font-face</span> {
+  <span style="color:#f92672">font-family</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#39;Awesome Font&#39;</span><span style="color:#f92672">;</span>
+  <span style="color:#f92672">font-style</span><span style="color:#f92672">:</span> <span style="color:#f92672">italic</span><span style="color:#f92672">;</span>
+  <span style="color:#f92672">font-weight</span><span style="color:#f92672">:</span> <span style="color:#f92672">400</span><span style="color:#f92672">;</span>
+  <span style="color:#f92672">src</span><span style="color:#f92672">:</span> <span style="color:#f92672">local</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;Awesome Font Italic&#39;</span><span style="color:#f92672">),</span>
+       <span style="color:#f92672">url</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;/fonts/awesome-i.woff2&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">format</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;woff2&#39;</span><span style="color:#f92672">),</span>
+       <span style="color:#f92672">url</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;/fonts/awesome-i.woff&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">format</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;woff&#39;</span><span style="color:#f92672">),</span>
+       <span style="color:#f92672">url</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;/fonts/awesome-i.ttf&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">format</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;truetype&#39;</span><span style="color:#f92672">),</span>
+       <span style="color:#f92672">url</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;/fonts/awesome-i.eot&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">format</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;embedded-opentype&#39;</span><span style="color:#f92672">);</span>
 }</code></pre></div></p>
 
 <div>&nbsp</div>

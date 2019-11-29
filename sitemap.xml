@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>https://blog.eyecus.com/hackintosh/install/</loc>
+    <lastmod>2019-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.eyecus.com/web/hugo/</loc>
     <lastmod>2019-09-02T00:00:00+00:00</lastmod>
   </url>
@@ -32,10 +37,6 @@
   
   <url>
     <loc>https://blog.eyecus.com/docs/hackintosh/install/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blog.eyecus.com/hackintosh/install/</loc>
   </url>
   
   <url>
@@ -89,6 +90,7 @@
   
   <url>
     <loc>https://blog.eyecus.com/hackintosh/</loc>
+    <lastmod>2019-09-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -163,8 +165,17 @@
   </url>
   
   <url>
+    <loc>https://blog.eyecus.com/tags/Hackintosh/</loc>
+    <lastmod>2019-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.eyecus.com/tags/Hugo/</loc>
     <lastmod>2019-09-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/go/</loc>
   </url>
   
   <url>
@@ -197,10 +208,6 @@
   
   <url>
     <loc>https://blog.eyecus.com/tags/Google/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blog.eyecus.com/tags/Hackintosh/</loc>
   </url>
   
   <url>
