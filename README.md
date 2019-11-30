@@ -1,4 +1,4 @@
-![eyecusio](https://github.com/leejiawang/Blog/blob/master/eyecusio.jpg)
+![eyecusio](https://ws1.sinaimg.cn/thumbnail/d6175481ly1g9geh52lfxj21hd0vy44r.jpg)
 
 [![Hugo](https://img.shields.io/badge/hugo-0.55-blue.svg)](https://gohugo.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
