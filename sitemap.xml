@@ -85,6 +85,10 @@
   </url>
   
   <url>
+    <loc>https://blog.eyecus.com/go/</loc>
+  </url>
+  
+  <url>
     <loc>https://blog.eyecus.com/links/</loc>
   </url>
   
@@ -172,10 +176,6 @@
   <url>
     <loc>https://blog.eyecus.com/tags/Hugo/</loc>
     <lastmod>2019-09-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.eyecus.com/go/</loc>
   </url>
   
   <url>
