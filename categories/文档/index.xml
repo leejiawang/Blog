@@ -10,6 +10,17 @@
     
     
     <item>
+      <title>Git 基础语法</title>
+      <link>https://blog.eyecus.com/web/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/web/git/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+Git是一个免费开源的分布式版本控制系统，旨在快速高效地处理从小型到大型项目的所有内容。具有廉价的本地分支，方便的暂存区域和多个工作流等功能。
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>Markdown 基础语法</title>
       <link>https://blog.eyecus.com/web/markdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

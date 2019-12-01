@@ -4,13 +4,14 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Hackintosh"><meta property="og:title" content="" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://blog.eyecus.com/hackintosh/" />
+<meta name="description" content="Git 基础语法"><meta property="og:title" content="Git 基础语法" />
+<meta property="og:description" content="
+Git是一个免费开源的分布式版本控制系统，旨在快速高效地处理从小型到大型项目的所有内容。具有廉价的本地分支，方便的暂存区域和多个工作流等功能。
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.eyecus.com/web/git/" />
 
-<meta property="og:updated_time" content="2019-09-15T00:00:00+00:00" />
-<title> 視由 › Hackintosh </title>
+<title> 視由 › Git 基础语法 </title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -176,16 +177,89 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
     </aside>
 
-    <div class="book-page">
+    <div class="book-posts">
       <header class="flex align-center justify-between book-header">
   <label for="menu-control">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
   </label>
-  <div class="home-nav-title">視由 › Hackintosh</div>
+  <div class="home-nav-title">視由 › Git 基础语法</div>
 </header>
 
       
-<article class="markdown eyecus-width-740"></article>
+
+
+<div class="eyecus-width-740">
+	<div class="eyecus-post-title">Git 基础语法</div>
+
+<ul class="eyecus-head-btn">
+  
+  
+    <li id="eyecus-categories-btn" class="gray-btn"><a href="https://blog.eyecus.com/categories/%E6%96%87%E6%A1%A3">文档</a> </li>
+  
+  
+
+  
+  
+    <li id="eyecus-tags-btn" class="gray-btn"> <a href="https://blog.eyecus.com/tags/Git">Git</a> </li>
+  
+    <li id="eyecus-tags-btn" class="gray-btn"> <a href="https://blog.eyecus.com/tags/Web">Web</a> </li>
+  
+  
+
+  
+</ul>
+
+<article class="markdown"><div class="comment">
+Git是一个免费开源的分布式版本控制系统，旨在快速高效地处理从小型到大型项目的所有内容。具有廉价的本地分支，方便的暂存区域和多个工作流等功能。
+</div>
+
+<p><img src="https://git-scm.com/images/branching-illustration@2x.png" width="400px"></p>
+
+<blockquote>
+<p><strong><i class="fa fa-codepen"></i> 相关站点</strong>
+<div>
+    <a class="eyecus-more-btn" href="https://git-scm.com/">Git 官网</a>
+    <a class="eyecus-more-btn" href="https://www.runoob.com/git/git-tutorial.html">Git 教程</a>
+    <a class="eyecus-more-btn" href="https://github.com/git">Git 仓库</a>
+</div></p>
+</blockquote>
+
+<h2 id="i-class-fa-fa-chevron-right-i-git-全局设置"><i class="fa fa-chevron-right"></i> Git 全局设置</h2>
+
+<pre><code>git config --global user.name &quot;XXX&quot;
+git config --global user.email &quot;XXX@gmail.com&quot;
+</code></pre>
+
+<h2 id="i-class-fa-fa-chevron-right-i-创建一个新仓库"><i class="fa fa-chevron-right"></i> 创建一个新仓库</h2>
+
+<pre><code>git clone git@gitlab.com:XXX/XXXX.git
+cd XXX
+touch README.md
+git add README.md
+git commit -m &quot;add README&quot;
+git push -u origin master
+</code></pre>
+
+<h2 id="i-class-fa-fa-chevron-right-i-推送现有文件夹"><i class="fa fa-chevron-right"></i> 推送现有文件夹</h2>
+
+<pre><code>cd XXXX
+git init
+git remote add origin git@github.com:XXX/XXXX.git
+git add .
+git commit -m &quot;XXXX&quot;
+git push -u origin master
+</code></pre>
+
+<h2 id="i-class-fa-fa-chevron-right-i-推送现有的-git-仓库"><i class="fa fa-chevron-right"></i> 推送现有的 Git 仓库</h2>
+
+<pre><code>cd XXXX
+git remote rename origin old-origin
+git remote add origin git@github.com:XXX/XXXX.git
+git push -u origin --all
+git push -u origin --tags
+</code></pre></article>
+
+</div>
 
       
       
@@ -196,6 +270,20 @@ Copyright © 2019 世佳
 
     
   
+
+  <aside class="book-toc levels-2 fixed">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#i-class-fa-fa-chevron-right-i-git-全局设置"><i class="fa fa-chevron-right"></i> Git 全局设置</a></li>
+<li><a href="#i-class-fa-fa-chevron-right-i-创建一个新仓库"><i class="fa fa-chevron-right"></i> 创建一个新仓库</a></li>
+<li><a href="#i-class-fa-fa-chevron-right-i-推送现有文件夹"><i class="fa fa-chevron-right"></i> 推送现有文件夹</a></li>
+<li><a href="#i-class-fa-fa-chevron-right-i-推送现有的-git-仓库"><i class="fa fa-chevron-right"></i> 推送现有的 Git 仓库</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
 
 
 
