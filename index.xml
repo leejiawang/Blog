@@ -5,7 +5,7 @@
     <link>https://blog.eyecus.com/</link>
     <description>Recent content on eyecus</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 28 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.eyecus.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -74,12 +74,23 @@
     </item>
     
     <item>
-      <title>黑苹果安装相关工具下载链接</title>
+      <title>黑苹果安装相关工具</title>
       <link>https://blog.eyecus.com/hackintosh/file/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/hackintosh/file/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt; 安装黑苹果不难，难的是后期上驱动及系统功能优化，本页提供了一些相关工具以及驱动文件的下载链接，希望能给大家安装带来帮助。
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>浅谈网页设计</title>
+      <link>https://blog.eyecus.com/design/web-design/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/design/web-design/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+谈一谈我在网页设计过程中的一些经验与小技巧。
 &lt;/div&gt;</description>
     </item>
     
@@ -117,17 +128,6 @@ Markdown 是一种轻量级标记语言，她轻量化、易读易写特性，�
     </item>
     
     <item>
-      <title>免费商用字体</title>
-      <link>https://blog.eyecus.com/design/fonts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/design/fonts/</guid>
-      <description>&lt;div class=&#34;comment&#34;&gt;
-在版权意识日益增长的今天，侵犯版权的成本也大大增加，尤其是在商业领域，一旦侵权可能就会面临“律师函警告”，随之而来的将是巨大的经济损失，故在创作过程中避免侵权尤为重要。在字体方面，使用一些免费商用的字体是个较好的规避上述问题的办法。
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
       <title>实用网站推荐</title>
       <link>https://blog.eyecus.com/resources/website/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -146,6 +146,17 @@ Markdown 是一种轻量级标记语言，她轻量化、易读易写特性，�
       <guid>https://blog.eyecus.com/design/colors/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 色彩对设计至关重要，能直接影响项目的第一观感。不同的动物所看到的颜色是不同的，不同的人所感受到的颜色也是不同的，故这其实算是个“玄学问题”，但了解一些色彩的基本原理和 Web 设计规则是很有必要的。
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>设计资源</title>
+      <link>https://blog.eyecus.com/resources/design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/resources/design/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+网络设计资源总结、分享，希望能给大家提供便利。
 &lt;/div&gt;</description>
     </item>
     

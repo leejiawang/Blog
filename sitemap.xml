@@ -36,6 +36,11 @@
   </url>
   
   <url>
+    <loc>https://blog.eyecus.com/design/web-design/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.eyecus.com/web/git/</loc>
   </url>
   
@@ -48,15 +53,15 @@
   </url>
   
   <url>
-    <loc>https://blog.eyecus.com/design/fonts/</loc>
-  </url>
-  
-  <url>
     <loc>https://blog.eyecus.com/resources/website/</loc>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/design/colors/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/resources/design/</loc>
   </url>
   
   <url>
@@ -78,6 +83,7 @@
   
   <url>
     <loc>https://blog.eyecus.com/design/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -115,31 +121,51 @@
   
   <url>
     <loc>https://blog.eyecus.com/</loc>
-    <lastmod>2019-11-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/categories/</loc>
-    <lastmod>2019-11-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eyecus.com/tags/CSS/</loc>
-    <lastmod>2019-11-28T00:00:00+00:00</lastmod>
+    <loc>https://blog.eyecus.com/tags/Color/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/tags/Design/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/</loc>
-    <lastmod>2019-11-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/Web/</loc>
-    <lastmod>2019-11-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/tags/%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/tags/%E5%AD%97%E4%BD%93/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/categories/%E6%96%87%E7%AB%A0/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/tags/CSS/</loc>
     <lastmod>2019-11-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -195,14 +221,6 @@
   </url>
   
   <url>
-    <loc>https://blog.eyecus.com/tags/Color/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blog.eyecus.com/tags/Design/</loc>
-  </url>
-  
-  <url>
     <loc>https://blog.eyecus.com/tags/Git/</loc>
   </url>
   
@@ -232,14 +250,6 @@
   
   <url>
     <loc>https://blog.eyecus.com/tags/%E4%B8%8B%E8%BD%BD/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blog.eyecus.com/tags/%E5%9F%BA%E7%A1%80/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blog.eyecus.com/tags/%E5%AD%97%E4%BD%93/</loc>
   </url>
   
   <url>
