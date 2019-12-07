@@ -179,6 +179,11 @@
   </url>
   
   <url>
+    <loc>https://blog.eyecus.com/tags/Markdown/</loc>
+    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.eyecus.com/tags/Vuepress/</loc>
     <lastmod>2019-10-09T00:00:00+00:00</lastmod>
   </url>
@@ -242,10 +247,6 @@
   
   <url>
     <loc>https://blog.eyecus.com/tags/JavaScript/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blog.eyecus.com/tags/Markdown/</loc>
   </url>
   
   <url>
