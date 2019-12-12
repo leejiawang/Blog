@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.eyecus.com/web/basic-box-model/</loc>
-    <lastmod>2019-11-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.eyecus.com/web/vuepress/</loc>
     <lastmod>2019-10-09T00:00:00+00:00</lastmod>
   </url>
@@ -36,7 +31,7 @@
   </url>
   
   <url>
-    <loc>https://blog.eyecus.com/design/web-design/</loc>
+    <loc>https://blog.eyecus.com/web/web-design/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -74,7 +69,7 @@
   
   <url>
     <loc>https://blog.eyecus.com/web/</loc>
-    <lastmod>2019-11-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -87,7 +82,6 @@
   
   <url>
     <loc>https://blog.eyecus.com/design/</loc>
-    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -169,11 +163,6 @@
   </url>
   
   <url>
-    <loc>https://blog.eyecus.com/tags/CSS/</loc>
-    <lastmod>2019-11-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.eyecus.com/tags/Blog/</loc>
     <lastmod>2019-10-09T00:00:00+00:00</lastmod>
   </url>
@@ -231,6 +220,10 @@
   
   <url>
     <loc>https://blog.eyecus.com/tags/Brand/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/tags/CSS/</loc>
   </url>
   
   <url>
