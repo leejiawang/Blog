@@ -13,7 +13,7 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 
-<link rel="stylesheet" href="/book.min.f476da1d1a52ac2ea3a3d3fe0dfaf1ecaec0daa917fb9d9db7284fe5a5ddb3e0.css" integrity="sha256-9HbaHRpSrC6jo9P&#43;Dfrx7K7A2qkX&#43;52dtyhP5aXds&#43;A=">
+<link rel="stylesheet" href="/book.min.6894d58bbfbe89ec6dfa2f43c80b84df1a956f701d7dde45e5275ed85379fede.css" integrity="sha256-aJTVi7&#43;&#43;iext&#43;i9DyAuE3xqVb3Adfd5F5Sde2FN5/t4=">
 
 
   
@@ -281,9 +281,38 @@ Copyright © 2019 世佳
 </ul></li>
 </ul>
 </nav>
-    <a href="javascript:scroll(0,0)" class="eyecus-blue-btn" style=" position:fixed;  bottom:80px; right:55px;">
+    <a href="javascript:scroll(0,0)" class="eyecus-blue-btn" style=" position:fixed;  bottom:80px; right:30px;">
 		<strong>返回页首 <i class="fa fa-arrow-up"></i></strong>
 	</a>
+	<div class="eyecus-blue-btn eyecus-share-btn"  style="position:fixed;  bottom:80px; right:125px;">
+      <div id="copyButton" onclick="disp_alert()">
+		<strong>复制 <i class="fa fa-share-alt"></i></strong>
+        <input id="copyText" style="opacity: 0; position:fixed;  bottom:0px; right:-300px;" type="text" class="tool-tip"/>
+      </div>
+
+	<script type="text/javascript">
+		document.getElementById("copyButton").addEventListener("click", copyToClipboard);
+		    
+		let currentUrl = window.location;
+		let copyTextContainer = document.getElementById("copyText");
+
+		function copyToClipboard(){
+		    copyTextContainer.value = currentUrl
+		    copyTextContainer.focus();
+		    copyTextContainer.select();
+		    document.execCommand("copy");
+
+		    setTimeout(function(){
+		         toolTip.style.removeProperty('animation-name');
+		    }, 2000);
+		}
+		function disp_alert()
+		{
+		alert("本页地址复制成功")
+		}
+	</script>
+    </div>
+
   </aside>
 
 
