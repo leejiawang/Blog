@@ -5,29 +5,16 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<meta name="keywords" content="Html, CSS, Bootstrap, 视由, 视界事由, eyecus, 博客, blog">
+	<meta name="keywords" content="Html, CSS, Bootstrap, JavaScript, 盒子模型, 视由, 视界事由, eyecus, 博客, blog">
 
-<meta name="description" property="og:description" content="前端的作用于采集输入信息，后端进行处理。计算机程序的界面样式，视觉呈现属于前端。本页主要记录我学习 Html 和 CSS 过程中觉得实用的笔记。">
+<meta name="description" property="og:description" content="前端的作用于采集输入信息，后端进行处理。计算机程序的界面样式，视觉呈现属于前端。本页主要记录我学习 Html、CSS 以及 JavaScript 过程中觉得实用的笔记。">
 
 <title> 视由 › 前端基础学习笔记 </title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 
-<link rel="stylesheet" href="/book.min.2aa70e083a3c3c31ca4695eb82c6b488b4ea548633944096aedfb363051e571c.css" integrity="sha256-KqcOCDo8PDHKRpXrgsa0iLTqVIYzlECWrt&#43;zYwUeVxw=">
+<link rel="stylesheet" href="/book.min.f476da1d1a52ac2ea3a3d3fe0dfaf1ecaec0daa917fb9d9db7284fe5a5ddb3e0.css" integrity="sha256-9HbaHRpSrC6jo9P&#43;Dfrx7K7A2qkX&#43;52dtyhP5aXds&#43;A=">
 
-
-<script defer src="/search.min.16d7a652a3570bcd69653c7ab97c1807d0489e9d8231a39ff042e9ebcb7f2d48.js" integrity="sha256-FtemUqNXC81pZTx6uXwYB9BInp2CMaOf8ELp68t/LUg="></script>
-
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-151512526-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
 
   
 
@@ -116,7 +103,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
 <ul>
 <li><a href="/web/html/"class=active>前端基础</a></li>
-<li><a href="/web/javascript/">JavaScript</a></li>
+<li><a href="/web/web-design/">网页设计</a></li>
 <li><a href="/web/vuepress/">Vuepress</a></li>
 <li><a href="/web/hugo/">Hugo</a></li>
 <li><a href="/web/hexo/">hexo</a></li>
@@ -125,9 +112,9 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <li><p><a href="/tags/Design/"><strong>Design</strong></a></p>
 
 <ul>
-<li><a href="/web/web-design/">网页设计</a></li>
 <li><a href="/design/eyecus/">品牌规范</a></li>
 <li><a href="/resources/design/">设计资源</a></li>
+<li><a href="/design/emoji/">绘文字表</a></li>
 </ul></li>
 
 <li><p><a href="/tags/Hackintosh/"><strong>Hackintosh</strong></a></p>
@@ -205,6 +192,8 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
   
     <li id="eyecus-tags-btn" class="gray-btn"> <a href="https://blog.eyecus.com/tags/Bootstrap">Bootstrap</a> </li>
   
+    <li id="eyecus-tags-btn" class="gray-btn"> <a href="https://blog.eyecus.com/tags/JavaScript">JavaScript</a> </li>
+  
   
 
   
@@ -281,6 +270,13 @@ end
 <code>&lt;body&gt;</code>：包含了可见的页面内容</br>
 <code>&lt;h1&gt;</code>：一级标题标签</br>
 <code>&lt;p&gt;</code>：段落标签</br></p>
+
+<h2 id="网站信息">网站信息</h2>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;author&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;世佳&#34;</span>&gt;
+&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;copyright&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&amp;copy; 2019 eyecus.&#34;</span>&gt;
+&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;keywords&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;世佳,视由,eyecus&#34;</span>&gt;
+&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;date&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;2019-09-01T00:00:00+00:00&#34;</span>&gt;</code></pre></div>
 
 <h2 id="文本格式标签">文本格式标签</h2>
 
@@ -457,14 +453,9 @@ graph LR
 
 <h2 id="盒子模型">盒子模型</h2>
 
-<p><img src="http://q27wxxeo3.bkt.clouddn.com/box-cn.png" width="400"></p>
+<p><img src="http://q27wxxeo3.bkt.clouddn.com/box-cn.png" width="400px"></p>
 
-<p>可在属性后添加上述标签用于确定属性应用的区域，语法见下方实例：</p>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">p</span> {
-  <span style="color:#66d9ef">padding-right</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
-  <span style="color:#66d9ef">margin-top</span>: <span style="color:#ae81ff">-15</span><span style="color:#66d9ef">px</span>;
-}</code></pre></div>
+<p>上图是一个标准盒子模型的示意图，可以看出每个盒子由四个区域组成，由里到外依次是内容、内边框、边框和外边框。</p>
 
 <table>
 <thead>
@@ -525,6 +516,325 @@ graph LR
 </tr>
 </tbody>
 </table>
+
+<h3 id="内容-content">内容 content</h3>
+
+<p>内容区域装着元素想要展示的的基本内容，可以是文本、图片、视频等，可通过调整所装的内容尺寸来改变内容区域的尺寸。下列插入两个 <code>90px</code> 宽,<code>60px</code> 高的方块。</p>
+
+<div align="center">
+  <div style="display: flex; width: 180px; height: 60px; padding-top: 10px;">
+    <div style="width: 90px; height: 60px; background: #eee; padding-top: 15px; color: #666"><strong>A</strong></div>
+    <div style="width: 90px; height: 60px; background: #ddd; padding-top: 15px; color: #666"><strong>B</strong></div>
+  </div>
+</div>
+
+<h3 id="内边框-cpadding">内边框 cpadding</h3>
+
+<p>内边框算是内容的拓展，负责给内容排开周围的区域的其他元素，常用作“留白”。可通过 <code>padding-top</code>、<code>padding-right</code>、<code>padding-bottom</code>、<code>padding-left</code>、<code>padding</code>来控制内边框的粗细。</p>
+
+<p>我们发现两个方块默认情况下紧贴在一起，可以通过增加内边框使他们看起来更协调。绿色区域仅为表示内边框，实际默认为透明。</p>
+
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">box</span> {
+  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+}</code></pre></div>
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <div align="center" style="padding-top: 20px">
+<div style="display: flex; width: 220px; height: 80px; background: #d9ead3;">
+  <div style="padding: 10px;">
+    <div style="width: 90px; height: 60px; background: #eee; padding-top: 15px; color: #666"><strong>A</strong></div>
+  </div>
+  <div style="padding: 10px;">
+    <div style="width: 90px; height: 60px; background: #ddd; padding-top: 15px; color: #666"><strong>B</strong></div>
+  </div>
+</div></div>
+  </div>
+  
+</div>
+
+
+<p>你还可以使用 <code>padding</code> 属性，一次性输入多个数值来调整四周的内边框，或者在后面增加方位来单独调整特定方位。
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">box</span> {
+  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">30</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">40</span><span style="color:#66d9ef">px</span>;
+}</code></pre></div>
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <div align="center" style="padding-top: 20px">
+<div style="display: flex; width: 150px; height: 90px; background: #d9ead3;">
+  <div style="padding: 10px 20px 30px 40px;">
+    <div style="width: 90px; height: 60px; background: #eee; padding-top: 15px; color: #666"><strong>A</strong></div>
+  </div>
+</div></div>
+  </div>
+  
+</div>
+</p>
+
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">box</span> {
+  <span style="color:#66d9ef">padding-top</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+}</code></pre></div>
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <div align="center" style="padding-top: 20px">
+<div style="display: flex; width: 90px; height: 70px; background: #d9ead3;">
+  <div style="padding-top: 10px;">
+    <div style="width: 90px; height: 60px; background: #eee; padding-top: 15px; color: #666"><strong>A</strong></div>
+  </div>
+</div></div>
+  </div>
+  
+</div>
+
+
+<h3 id="边框-border">边框 border</h3>
+
+<p>边框算是内边框的拓展，是盒子模型实质上的边界，可通过 <code>border-width</code>来控制边框粗细，同样在后面增加方位可以单独调整特定方位。也可给定线形: <code>solid</code>(实线) <code>none</code>(无边框) <code>double</code>(双线) <code>dashed</code>(虚线) <code>dotted</code>(点划线)来控制边框风格。</p>
+
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">box</span> {
+  <span style="color:#66d9ef">border</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#ae81ff">#ced4da</span>;
+}</code></pre></div>
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <div align="center" style="padding-top: 20px">
+  <div style="width: 110px; height: 80px; background: #eee; padding-top: 15px; color: #666; border: 10px solid #ced4da;"><strong>A</strong></div>
+</div>
+  </div>
+  
+</div>
+
+
+<h3 id="外边框-margin">外边框 margin</h3>
+
+<p>外边框算是边框的拓展，它其实已经不算做该元素的范围，可通过 <code>margin-width</code>来控制边框粗细，同样在后面增加方位可以单独调整特定方位。</p>
+
+<p>不同元素的外边框是可以重叠的，可对比下图与内边框图观察两方块交界处的宽度来理解它们的不同之处。
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">box</span> {
+  <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+}</code></pre></div>
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <div align="center" style="padding-top: 20px">
+<div style="display: flex; width: 210px; height: 80px; background: #fce5cd;">
+  <div style="margin: 10px;">
+    <div style="width: 90px; height: 60px; background: #eee; padding-top: 15px; color: #666"><strong>A</strong></div>
+  </div>
+  <div style="margin: 10px 10px 10px 0px;">
+    <div style="width: 90px; height: 60px; background: #ddd; padding-top: 15px; color: #666"><strong>B</strong></div>
+  </div>
+</div></div>
+  </div>
+  
+</div>
+</p>
+
+<h3 id="位置属性-position">位置属性 Position</h3>
+
+<p>进行 CSS 布局前，还得了解 <code>position</code> 位置属性，它用于确定元素的定位方式，选择合适的定位方式能快速实现布局需求。</p>
+
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">box</span>{
+  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>;
+  <span style="color:#66d9ef">left</span>: <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">30</span><span style="color:#66d9ef">px</span>;
+}</code></pre></div>
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <table>
+<thead>
+<tr>
+<th align="left">属性</th>
+<th align="left">描述</th>
+<th align="left">值举例</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">position</td>
+<td align="left">位置</td>
+<td align="left"><code>static(静态)</code></br><code>relative(相对定位)</code></br><code>fixed(固定定位)</code></br><code>absolute(绝对定位)</code></br><code>sticky(粘性定位)</code></td>
+</tr>
+</tbody>
+</table>
+  </div>
+  
+</div>
+
+
+<h3 id="浮动属性-float">浮动属性 Float</h3>
+
+<p>在布局过程中，有事需要两个元素处于同一行，这时就要用到 <code>float</code> 和 <code>clear</code> 属性，它用于确定元素是否浮动。</p>
+
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">box</span>{
+  <span style="color:#66d9ef">float</span>: <span style="color:#66d9ef">left</span>;
+}</code></pre></div>
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <table>
+<thead>
+<tr>
+<th align="left">属性</th>
+<th align="left">描述</th>
+<th align="left">值举例</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">float</td>
+<td align="left">浮动</td>
+<td align="left"><code>left(左侧浮动)</code></br><code>right(右侧浮动)</code></br><code>none(取消浮动)</code></td>
+</tr>
+
+<tr>
+<td align="left">clear</td>
+<td align="left">取消浮动</td>
+<td align="left"><code>left(取消左侧浮动)</code></br><code>right(取消右侧浮动)</code></br><code>both(取消两侧浮动)</code></br><code>none(允许浮动)</code></td>
+</tr>
+</tbody>
+</table>
+  </div>
+  
+</div>
+
+
+<h2 id="弹性布局">弹性布局</h2>
+
+<p><img src="http://q27wxxeo3.bkt.clouddn.com/flex.png" width="550px"></p>
+
+<p>Flex 是 Flexible Box（弹性布局）的缩写，给盒子指定 Flex 属性能大大提升布局时的灵活性。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">box</span>{
+  <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">flex</span>;
+}</code></pre></div>
+
+<h3 id="容器属性-container">容器属性 container</h3>
+
+<p>使用 Flex 布局的盒子称作 Flex容器，简称 <strong>容器 (container)</strong>。它所包含的全部子元素被称作 Flex项目，简称 <strong>项目 (item)</strong>。容器具有以下属性：</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">属性</th>
+<th align="left">描述</th>
+<th align="left">值举例</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">flex-direction</td>
+<td align="left">轴线方向</td>
+<td align="left"><code>row(水平左至右)</code></br><code>row-reverse(水平右至左)</code></br><code>column(垂直上至下)</code></br><code>column-reverse(垂直下至上)</code></td>
+</tr>
+
+<tr>
+<td align="left">flex-wrap</td>
+<td align="left">换行</td>
+<td align="left"><code>nowrap(不换行)</code></br><code>wrap(上至下换行)</code></br><code>wrap-reverse(下至上换行)</code></td>
+</tr>
+
+<tr>
+<td align="left">flex-flow</td>
+<td align="left">主轴方向</td>
+<td align="left"><code>row(水平左至右)</code></br><code>row-reverse(水平右至左)</code></br><code>column(垂直上至下)</code></br><code>column-reverse(垂直下至上)</code></td>
+</tr>
+
+<tr>
+<td align="left">justify-content</td>
+<td align="left">水平对齐</td>
+<td align="left"><code>flex-start(左对齐)</code></br><code>flex-end(右对齐)</code></br><code>center(居中)</code></br><code>space-between(两端对齐)</code></br><code>space-around(等间距)</code></td>
+</tr>
+
+<tr>
+<td align="left">align-items</td>
+<td align="left">垂直对齐</td>
+<td align="left"><code>flex-start(上对齐)</code></br><code>flex-end(下对齐)</code></br><code>center(居中)</code></br><code>baseline(文本基线对齐)</code></br><code>stretch(占满高度)</code></td>
+</tr>
+
+<tr>
+<td align="left">align-content</td>
+<td align="left">轴线对齐</td>
+<td align="left"><code>flex-start(上对齐)</code></br><code>flex-end(下对齐)</code></br><code>center(居中)</code></br><code>space-between(两端对齐)</code></br><code>space-around(等间距)</code></br><code>stretch(占满高度)</code></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="项目属性-item">项目属性 item</h3>
+
+<table>
+<thead>
+<tr>
+<th align="left">属性</th>
+<th align="left">描述</th>
+<th align="left">值举例</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">order</td>
+<td align="left">排序</td>
+<td align="left"><code>0(数字,小数靠前)</code></td>
+</tr>
+
+<tr>
+<td align="left">flex-grow</td>
+<td align="left">放大比例</td>
+<td align="left"><code>0(数字,按比例分配空间)</code></td>
+</tr>
+
+<tr>
+<td align="left">flex-shrink</td>
+<td align="left">缩小比例</td>
+<td align="left"><code>1(数字,按比例分配空间)</code></td>
+</tr>
+
+<tr>
+<td align="left">flex-basis</td>
+<td align="left">主轴空间</td>
+<td align="left"><code>auto(自动)</code> <code>100px(尺寸)</code></td>
+</tr>
+
+<tr>
+<td align="left">align-self</td>
+<td align="left">特例对齐</td>
+<td align="left"><code>flex-start(上对齐)</code></br><code>flex-end(下对齐)</code></br><code>center(居中)</code></br><code>baseline(文本基线对齐)</code></br><code>stretch(占满高度)</code></td>
+</tr>
+</tbody>
+</table>
+
+<p>项目属性中的 <code>flex-grow</code>、<code>flex-shrink</code> 和 <code>flex-basis</code>可以简写为 <code>flex</code>，写法如下：
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">item</span> {
+  <span style="color:#66d9ef">flex</span>: <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">100</span><span style="color:#66d9ef">px</span>;
+}</code></pre></div></p>
 
 <h2 id="文本样式">文本样式</h2>
 
@@ -1024,6 +1334,155 @@ graph LR
   <span style="color:#66d9ef">z-index</span>: X;
 }</code></pre></div></p>
 
+<h1 id="i-class-fa-fa-chevron-right-i-javascript-笔记"><strong><i class="fa fa-chevron-right"></i> JavaScript 笔记</strong></h1>
+
+<div class="comment"> JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。本页 <strong>转载记录</strong> 一些能实现一定功能的实例。</div>
+
+<h2 id="点击按钮替换文本">点击按钮替换文本</h2>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+&lt;<span style="color:#f92672">html</span>&gt;
+&lt;<span style="color:#f92672">head</span>&gt;
+    &lt;<span style="color:#f92672">script</span>&gt;
+        <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">myFunction</span>() {
+            document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;demo&#34;</span>).<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;2&#34;</span>;
+        }
+    &lt;/<span style="color:#f92672">script</span>&gt;
+&lt;/<span style="color:#f92672">head</span>&gt;
+&lt;<span style="color:#f92672">body</span>&gt;
+    &lt;<span style="color:#f92672">h2</span>&gt;简单计算&lt;/<span style="color:#f92672">h2</span>&gt;
+    &lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;demo&#34;</span>&gt;1+1=？。&lt;/<span style="color:#f92672">p</span>&gt;
+    &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span> <span style="color:#a6e22e">onclick</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;myFunction()&#34;</span>&gt;计算&lt;/<span style="color:#f92672">button</span>&gt;
+&lt;/<span style="color:#f92672">body</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div>
+
+<h2 id="点击按钮复制文本">点击按钮复制文本</h2>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">style</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/css&#34;</span>&gt;
+   .<span style="color:#a6e22e">wrapper</span> {<span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">relative</span>;}
+   #input {<span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>;<span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">0</span>;<span style="color:#66d9ef">left</span>: <span style="color:#ae81ff">0</span>;<span style="color:#66d9ef">opacity</span>: <span style="color:#ae81ff">0</span>;<span style="color:#66d9ef">z-index</span>: <span style="color:#ae81ff">-10</span>;}
+&lt;/<span style="color:#f92672">style</span>&gt;
+
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;wrapper&#34;</span>&gt;
+   &lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text&#34;</span>&gt;需要复制的文本&lt;/<span style="color:#f92672">p</span>&gt;
+   &lt;<span style="color:#f92672">textarea</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;input&#34;</span>&gt;&lt;/<span style="color:#f92672">textarea</span>&gt;
+   &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">onclick</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;copyText()&#34;</span>&gt;按钮显示文本&lt;/<span style="color:#f92672">button</span>&gt;
+
+  &lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/javascript&#34;</span>&gt;
+    <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">copyText</span>() {
+      <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">text</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;text&#34;</span>).<span style="color:#a6e22e">innerText</span>;
+      <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">input</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;input&#34;</span>);
+      <span style="color:#a6e22e">input</span>.<span style="color:#a6e22e">value</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">text</span>;
+      <span style="color:#a6e22e">input</span>.<span style="color:#a6e22e">select</span>(); 
+      document.<span style="color:#a6e22e">execCommand</span>(<span style="color:#e6db74">&#34;copy&#34;</span>);
+      <span style="color:#a6e22e">alert</span>(<span style="color:#e6db74">&#34;点击后弹出消息框文本&#34;</span>);
+    }
+  &lt;/<span style="color:#f92672">script</span>&gt;</code></pre></div>
+
+<h2 id="顶部线形加载进度条">顶部线形加载进度条</h2>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://cdn.bootcss.com/pace/1.0.2/pace.min.js&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
+&lt;<span style="color:#f92672">script</span>&gt;
+{
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getElementsByClass</span>(<span style="color:#a6e22e">key</span>){
+<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">arr</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Array();
+<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">tags</span><span style="color:#f92672">=</span>document.<span style="color:#a6e22e">getElementsByTagName</span>(<span style="color:#e6db74">&#34;*&#34;</span>);
+    <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">i</span><span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;<span style="color:#a6e22e">i</span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">tags</span>.<span style="color:#a6e22e">length</span>;<span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>){
+        <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">tags</span>[<span style="color:#a6e22e">i</span>].<span style="color:#a6e22e">className</span>.<span style="color:#a6e22e">match</span>(<span style="color:#66d9ef">new</span> RegExp(<span style="color:#e6db74">&#39;(\\s|^)&#39;</span><span style="color:#f92672">+</span><span style="color:#a6e22e">key</span><span style="color:#f92672">+</span><span style="color:#e6db74">&#39;(\\s|$)&#39;</span>))){
+            <span style="color:#a6e22e">arr</span>.<span style="color:#a6e22e">push</span>(<span style="color:#a6e22e">tags</span>[<span style="color:#a6e22e">i</span>]);
+        }
+    }
+<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">arr</span>;
+}
+<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">timer</span> <span style="color:#f92672">=</span> window.<span style="color:#a6e22e">setInterval</span>(<span style="color:#66d9ef">function</span>(){
+    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">el</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">getElementsByClass</span>(<span style="color:#e6db74">&#39;pace&#39;</span>);
+    <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">length</span><span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0</span>){
+        <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;div&#39;</span>);
+        <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">setAttribute</span>(<span style="color:#e6db74">&#39;class&#39;</span>, <span style="color:#e6db74">&#39;spinner&#39;</span>);
+        <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">b</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;div&#39;</span>);
+        <span style="color:#a6e22e">b</span>.<span style="color:#a6e22e">setAttribute</span>(<span style="color:#e6db74">&#39;class&#39;</span>, <span style="color:#e6db74">&#39;spinner-icon&#39;</span>);
+        <span style="color:#a6e22e">el</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">a</span>);
+        <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">b</span>);
+        window.<span style="color:#a6e22e">clearInterval</span>(<span style="color:#a6e22e">timer</span>);
+    }
+}, <span style="color:#ae81ff">3</span>);
+}
+&lt;/<span style="color:#f92672">script</span>&gt;
+&lt;<span style="color:#f92672">style</span>&gt;
+.<span style="color:#a6e22e">pace</span> .<span style="color:#a6e22e">spinner</span> {
+<span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">fixed</span>;
+<span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+<span style="color:#66d9ef">right</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+<span style="color:#66d9ef">z-index</span>: <span style="color:#ae81ff">2000</span>;
+<span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">block</span>;
+}
+.<span style="color:#a6e22e">pace</span> .<span style="color:#a6e22e">spinner-icon</span> {
+<span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">18</span><span style="color:#66d9ef">px</span>;
+<span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">18</span><span style="color:#66d9ef">px</span>;
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">box-sizing</span>: <span style="color:#66d9ef">border-box</span>;
+<span style="color:#66d9ef">box-sizing</span>: <span style="color:#66d9ef">border-box</span>;
+<span style="color:#66d9ef">border</span>: <span style="color:#66d9ef">solid</span> <span style="color:#ae81ff">2</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">transparent</span>;
+<span style="color:#66d9ef">border-top-color</span>: <span style="color:#ae81ff">#2299dd</span>;
+<span style="color:#66d9ef">border-left-color</span>: <span style="color:#ae81ff">#2299dd</span>;
+<span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span>;
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">animation</span>: nprogress-spinner <span style="color:#ae81ff">.4</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">linear</span> <span style="color:#66d9ef">infinite</span>;
+<span style="color:#66d9ef">animation</span>: nprogress-spinner <span style="color:#ae81ff">.4</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">linear</span> <span style="color:#66d9ef">infinite</span>;
+}
+@<span style="color:#66d9ef">-webkit-keyframes</span> <span style="color:#f92672">nprogress-spinner</span> {
+<span style="color:#f92672">0</span><span style="color:#f92672">%</span> {
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">0</span><span style="color:#66d9ef">deg</span>);
+<span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">0</span><span style="color:#66d9ef">deg</span>);
+}
+<span style="color:#f92672">100</span><span style="color:#f92672">%</span> {
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">360</span><span style="color:#66d9ef">deg</span>);
+<span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">360</span><span style="color:#66d9ef">deg</span>);
+}
+}
+@<span style="color:#66d9ef">keyframes</span> <span style="color:#f92672">nprogress-spinner</span> {
+<span style="color:#f92672">0</span><span style="color:#f92672">%</span> {
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">0</span><span style="color:#66d9ef">deg</span>);
+<span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">0</span><span style="color:#66d9ef">deg</span>);
+}
+<span style="color:#f92672">100</span><span style="color:#f92672">%</span> {
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">360</span><span style="color:#66d9ef">deg</span>);
+<span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">360</span><span style="color:#66d9ef">deg</span>);
+}
+}
+@<span style="color:#66d9ef">keyframes</span> <span style="color:#f92672">fadeOut</span> {
+<span style="color:#f92672">from</span> {
+<span style="color:#66d9ef">opacity</span>: <span style="color:#ae81ff">1</span>;
+}
+<span style="color:#f92672">to</span> {
+<span style="color:#66d9ef">opacity</span>: <span style="color:#ae81ff">0</span>;
+}
+}
+.<span style="color:#a6e22e">pace</span> {
+<span style="color:#66d9ef">-webkit-</span>pointer-events: <span style="color:#66d9ef">none</span>;
+pointer-events: <span style="color:#66d9ef">none</span>;
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">user-select</span>: <span style="color:#66d9ef">none</span>;
+<span style="color:#66d9ef">-moz-</span><span style="color:#66d9ef">user-select</span>: <span style="color:#66d9ef">none</span>;
+<span style="color:#66d9ef">user-select</span>: <span style="color:#66d9ef">none</span>;
+<span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transition</span>: <span style="color:#66d9ef">opacity</span> <span style="color:#ae81ff">0.8</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">ease</span><span style="color:#f92672">-</span>in-out;
+<span style="color:#66d9ef">-moz-</span><span style="color:#66d9ef">transition</span>: <span style="color:#66d9ef">opacity</span> <span style="color:#ae81ff">0.8</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">ease</span><span style="color:#f92672">-</span>in-out;
+<span style="color:#66d9ef">-o-</span><span style="color:#66d9ef">transition</span>: <span style="color:#66d9ef">opacity</span> <span style="color:#ae81ff">0.8</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">ease</span><span style="color:#f92672">-</span>in-out;
+<span style="color:#66d9ef">transition</span>: <span style="color:#66d9ef">opacity</span> <span style="color:#ae81ff">0.8</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">ease</span><span style="color:#f92672">-</span>in-out;
+}
+.<span style="color:#a6e22e">pace-inactive</span> {
+<span style="color:#66d9ef">opacity</span>:<span style="color:#ae81ff">0</span>;
+<span style="color:#66d9ef">filter</span>: <span style="color:#a6e22e">alpha</span>(opacity<span style="color:#960050;background-color:#1e0010">=</span><span style="color:#ae81ff">0</span>);
+}
+.<span style="color:#a6e22e">pace</span> .<span style="color:#a6e22e">pace-progress</span> {
+<span style="color:#66d9ef">background</span>: <span style="color:#ae81ff">#2299dd</span>;
+<span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">fixed</span>;
+<span style="color:#66d9ef">z-index</span>: <span style="color:#ae81ff">2000</span>;
+<span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">0</span>;
+<span style="color:#66d9ef">right</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+<span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+<span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">3</span><span style="color:#66d9ef">px</span>;
+<span style="color:#66d9ef">box-shadow</span>: <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">3</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">#2299dd</span>;
+}
+&lt;/<span style="color:#f92672">style</span>&gt;</code></pre></div>
+
 <div>&nbsp</div>
 
 <div align="center">  
@@ -1034,6 +1493,20 @@ graph LR
 
       
       
+
+<script defer src="/search.min.61000e1dc5702619905f1025e89c4946bc5c23b88793749f6795bfbb2714158e.js" integrity="sha256-YQAOHcVwJhmQXxAl6JxJRrxcI7iHk3SfZ5W/uycUFY4="></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-151512526-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
       <div class="eyecus-fooder-text">  
 Copyright © 2019 世佳
 </div>
@@ -1048,6 +1521,7 @@ Copyright © 2019 世佳
 <li><a href="#i-class-fa-fa-chevron-right-i-html5-笔记"><strong><i class="fa fa-chevron-right"></i> Html5 笔记</strong></a>
 <ul>
 <li><a href="#简单介绍">简单介绍</a></li>
+<li><a href="#网站信息">网站信息</a></li>
 <li><a href="#文本格式标签">文本格式标签</a></li>
 <li><a href="#常见属性">常见属性</a></li>
 <li><a href="#常用功能">常用功能</a></li>
@@ -1055,7 +1529,20 @@ Copyright © 2019 世佳
 <li><a href="#i-class-fa-fa-chevron-right-i-css-笔记"><strong><i class="fa fa-chevron-right"></i> CSS 笔记</strong></a>
 <ul>
 <li><a href="#常用格式">常用格式</a></li>
-<li><a href="#盒子模型">盒子模型</a></li>
+<li><a href="#盒子模型">盒子模型</a>
+<ul>
+<li><a href="#内容-content">内容 content</a></li>
+<li><a href="#内边框-cpadding">内边框 cpadding</a></li>
+<li><a href="#边框-border">边框 border</a></li>
+<li><a href="#外边框-margin">外边框 margin</a></li>
+<li><a href="#位置属性-position">位置属性 Position</a></li>
+<li><a href="#浮动属性-float">浮动属性 Float</a></li>
+</ul></li>
+<li><a href="#弹性布局">弹性布局</a>
+<ul>
+<li><a href="#容器属性-container">容器属性 container</a></li>
+<li><a href="#项目属性-item">项目属性 item</a></li>
+</ul></li>
 <li><a href="#文本样式">文本样式</a></li>
 <li><a href="#字体样式">字体样式</a></li>
 <li><a href="#链接样式">链接样式</a></li>
@@ -1071,6 +1558,12 @@ Copyright © 2019 世佳
 <li><a href="#容器">容器</a></li>
 <li><a href="#响应式断点">响应式断点</a></li>
 <li><a href="#层叠覆盖关系">层叠覆盖关系</a></li>
+</ul></li>
+<li><a href="#i-class-fa-fa-chevron-right-i-javascript-笔记"><strong><i class="fa fa-chevron-right"></i> JavaScript 笔记</strong></a>
+<ul>
+<li><a href="#点击按钮替换文本">点击按钮替换文本</a></li>
+<li><a href="#点击按钮复制文本">点击按钮复制文本</a></li>
+<li><a href="#顶部线形加载进度条">顶部线形加载进度条</a></li>
 </ul></li>
 </ul>
 </nav>

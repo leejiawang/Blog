@@ -18,14 +18,5 @@
       <description>&lt;div class=&#34;comment&#34;&gt; &lt;strong&gt;前端&lt;/strong&gt; 的作用于采集输入信息，后端进行处理。计算机程序的界面样式，视觉呈现属于前端。本页主要记录我学习 Html 和 CSS 过程中觉得实用的笔记。&lt;/div&gt;</description>
     </item>
     
-    <item>
-      <title>JavaScript 学习笔记</title>
-      <link>https://blog.eyecus.com/web/javascript/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/web/javascript/</guid>
-      <description>&lt;div class=&#34;comment&#34;&gt; JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。本页 &lt;strong&gt;转载记录&lt;/strong&gt; 一些能实现一定功能的实例。&lt;/div&gt;</description>
-    </item>
-    
   </channel>
 </rss>

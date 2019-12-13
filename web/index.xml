@@ -53,13 +53,13 @@
     </item>
     
     <item>
-      <title>浅谈网页设计</title>
+      <title>浅谈网页设计与开发</title>
       <link>https://blog.eyecus.com/web/web-design/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blog.eyecus.com/web/web-design/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
-谈一谈我在网页设计过程中的一些经验与小技巧。
+谈一谈我在网页设计过程中的一些经验与小技巧。分享在网页排版、设计的过程中经常遇到的问题的一些解决办法。推荐在掌握了前端基础后阅读。
 &lt;/div&gt;</description>
     </item>
     
@@ -94,15 +94,6 @@ Git是一个免费开源的分布式版本控制系统，旨在快速高效地�
       <description>&lt;div class=&#34;comment&#34;&gt;
 Markdown 是一种轻量级标记语言，她轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，语法也极其简单易学。
 &lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>JavaScript 学习笔记</title>
-      <link>https://blog.eyecus.com/web/javascript/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/web/javascript/</guid>
-      <description>&lt;div class=&#34;comment&#34;&gt; JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。本页 &lt;strong&gt;转载记录&lt;/strong&gt; 一些能实现一定功能的实例。&lt;/div&gt;</description>
     </item>
     
   </channel>
