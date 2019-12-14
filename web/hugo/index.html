@@ -13,11 +13,10 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 
-<link rel="stylesheet" href="/book.min.6894d58bbfbe89ec6dfa2f43c80b84df1a956f701d7dde45e5275ed85379fede.css" integrity="sha256-aJTVi7&#43;&#43;iext&#43;i9DyAuE3xqVb3Adfd5F5Sde2FN5/t4=">
+<link rel="stylesheet" href="/book.min.83d9c09479025277ae689c6575be9ca024a42cd50d4ebe4c77827b5768902608.css" integrity="sha256-g9nAlHkCUneuaJxldb6coCSkLNUNTr5Md4J7V2iQJgg=">
 
 
   
-
 </head>
 
 <body>
@@ -114,29 +113,27 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <ul>
 <li><a href="/design/eyecus/">品牌规范</a></li>
 <li><a href="/resources/design/">设计资源</a></li>
-<li><a href="/design/emoji/">绘文字表</a></li>
 </ul></li>
 
-<li><p><a href="/tags/Hackintosh/"><strong>Hackintosh</strong></a></p>
+<li><p><strong>Hackintosh</strong></p>
 
 <ul>
 <li><a href="/hackintosh/install/">安装指导</a></li>
-<li><a href="/hackintosh/file/">工具下载</a></li>
 </ul></li>
 
 <li><p><strong>Others</strong></p>
 
 <ul>
-<li><a href="/go/">WebGo</a></li>
 <li><a href="/posts/">综合清单</a></li>
-<li><a href="/categories/%E8%B5%84%E6%BA%90/">资源分享</a></li>
+<li><a href="/go/">站点推荐</a></li>
+<li><a href="/posts/windows-install/">系统安装</a></li>
+<li><a href="/resources/software/">软件下载</a></li>
 </ul></li>
 
 <li><p><strong>About</strong></p>
 
 <ul>
 <li><a href="/about/">关于本站</a></li>
-<li><a href="/links/">友链</a></li>
 </ul></li>
 </ul>
 
@@ -212,10 +209,10 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <blockquote>
 <p><strong><i class="fa fa-paperclip"></i> 相关站点</strong>
 <div>
-  <a class="eyecus-more-btn" href="https://gohugo.io">Hugo官网</a>
-  <a class="eyecus-more-btn" href="https://themes.gohugo.io">Hugo主题</a>
-  <a class="eyecus-more-btn" href="https://www.gohugo.org">Hugo中文</a>
-  <a class="eyecus-more-btn" href="https://github.com/gohugoio/hugo">Hugo仓库</a>
+    <a class="eyecus-more-btn" href="https://gohugo.io" target="_blank">Hugo官网</a>
+    <a class="eyecus-more-btn" href="https://themes.gohugo.io" target="_blank">Hugo主题</a>
+    <a class="eyecus-more-btn" href="https://www.gohugo.org" target="_blank">Hugo中文</a>
+    <a class="eyecus-more-btn" href="https://github.com/gohugoio/hugo" target="_blank">Hugo仓库</a>
 </div></p>
 </blockquote>
 
@@ -255,7 +252,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
     Windows
   </label>
   <div class="book-tabs-content markdown-inner">
-    在 <a href="https://github.com/gohugoio/hugo/releases"><strong>Hugo Releases <i class="fa fa-external-link"></i></strong></a> 下载最新发布对应操作系统的<code>ZIP</code>，将所有内容提取到<code>C:\Hugo\bin</code>目录中，包含可执行文件<code>hugo.exe</code>、<code>LICENSE</code>和<code>README.md</code>。然后将Hugo添加到Windows的<code>PATH</code>设置中。</p>
+    在 <a href="https://github.com/gohugoio/hugo/releases"><strong>Hugo Releases</strong></a> 下载最新发布对应操作系统的<code>ZIP</code>，将所有内容提取到<code>C:\Hugo\bin</code>目录中，包含可执行文件<code>hugo.exe</code>、<code>LICENSE</code>和<code>README.md</code>。然后将Hugo添加到Windows的<code>PATH</code>设置中。</p>
 
 <ul>
 <li>右键单击<code>开始</code>按钮</li>
@@ -304,7 +301,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
     源码安装
   </label>
   <div class="book-tabs-content markdown-inner">
-    <p>在 <a href="https://github.com/gohugoio/hugo/releases"><strong>Hugo Releases <i class="fa fa-external-link"></i></strong></a>下载对应操作系统的Hugo安装文件，执行安装。
+    <p>在 <a href="https://github.com/gohugoio/hugo/releases"><strong>Hugo Releases</strong></a>下载对应操作系统的Hugo安装文件，执行安装。
 <blockquote class="book-hint warning">
   <strong><i class="fa fa-exclamation-triangle"></i> 注意</strong>
 执行源码安装前请确保安装有 <a href="https://git-scm.com/"><strong><i class="fa fa-download"></i> Git</strong></a>、<a href="https://www.mercurial-scm.org/"><strong><i class="fa fa-download"></i> Mercurial</strong></a>、<a href="http://golang.org/"><strong><i class="fa fa-download"></i> Go</strong></a>。
@@ -353,8 +350,16 @@ go get -v github.com/spf13/hugo
 <pre><code>git init
 </code></pre>
 
-<p>在主题商店中选择自己喜欢的主题，查看其<code>Github</code>仓库地址，使用如下代码克隆主题至本地。
-  Hugo主题商店地址：<a href="https://themes.gohugo.io/"><strong>themes.gohugo.io <i class="fa fa-external-link"></i></strong></a>、<a href="https://www.gohugo.org/theme/"><strong>gohugo.org/theme <i class="fa fa-external-link"></i></strong></a></p>
+<p>在主题商店中选择自己喜欢的主题，查看其<code>Github</code>仓库地址，使用如下代码克隆主题至本地。</p>
+
+<blockquote>
+<p><strong><i class="fa fa-paperclip"></i>
+  Hugo 主题商店地址</strong>
+<div>
+  <a class="eyecus-more-btn" href="https://themes.gohugo.io/">Hugo 官方主题商店</a>
+  <a class="eyecus-more-btn" href="https://www.gohugo.org/theme/">Hugo 中文主题商店</a>
+</div></p>
+</blockquote>
 
 <pre><code>git clone https://github.com/XXXXX/XXXX themes/XXXX
 </code></pre>
@@ -407,7 +412,7 @@ draft: true
 <blockquote class="book-hint info">
   <p><strong><i class="fa fa-exclamation-circle"></i> 提示</strong></p>
 
-<p>浏览器访问 <a href="http://localhost:1313/"><strong>http://localhost:1313 <i class="fa fa-external-link"></i></strong></a> 预览效果。你可在预览的同时对网站进行编辑，网页将会实时展示修改后的效果，如果出现刷新问题可通过<code>Ctrl+R</code>进行强制刷新。</p>
+<p>浏览器访问 <a href="http://localhost:1313/"><strong>http://localhost:1313</strong></a> 预览效果。你可在预览的同时对网站进行编辑，网页将会实时展示修改后的效果，如果出现刷新问题可通过<code>Ctrl+R</code>进行强制刷新。</p>
 
 </blockquote>
 
@@ -792,9 +797,29 @@ Miseratus fonte Ditis conubia.</p>
 
 <hr>
   <div class="eyecus-post-fooder-text">
-    <div style="float: left"><i class="fa fa-calendar-check-o"></i> 发布时间：2019-09-02</div>
+    <div style="float: left"><i class="fa fa-calendar-check-o"></i> 发布时间: <span style="font-family: 'Roboto', sans-serif;">2019-09-02</span></div>
 
-    <div style="float: right">转载请注明出处并附上本文链接 <i class="fa fa-angle-right"></i></div>
+    <div style="float: right; cursor: pointer;"  id="copyButton" onclick="disp_alert()">
+      点击复制本页链接 <i class="fa fa-share-alt"></i></i>
+      <input id="copyText" style="opacity: 0; position:fixed;  bottom:0px; right:300px;" type="text" class="tool-tip"/>
+      <script type="text/javascript">
+        document.getElementById("copyButton").addEventListener("click", copyToClipboard);
+            
+        let currentUrl = window.location;
+        let copyTextContainer = document.getElementById("copyText");
+
+        function copyToClipboard(){
+            copyTextContainer.value = currentUrl
+            copyTextContainer.focus();
+            copyTextContainer.select();
+            document.execCommand("copy");
+        }
+        function disp_alert()
+        {
+        alert("本页链接已复制")
+        }
+      </script>
+    </div>
   </div>
 
 </div>
@@ -802,7 +827,7 @@ Miseratus fonte Ditis conubia.</p>
       
       
 
-<script defer src="/search.min.bee36659e1cf6ded54f8513cb2a5815cc28b5ad79d00f122802d147ca56b09ae.js" integrity="sha256-vuNmWeHPbe1U&#43;FE8sqWBXMKLWtedAPEigC0UfKVrCa4="></script>
+<script defer src="/search.min.ea26218fbd50c2740121528c42ed146027b0b694abb74e5c439ad8b66fe87a4c.js" integrity="sha256-6iYhj71QwnQBIVKMQu0UYCewtpSrt05cQ5rYtm/oekw="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -849,38 +874,9 @@ Copyright © 2019 世佳
 </ul></li>
 </ul>
 </nav>
-    <a href="javascript:scroll(0,0)" class="eyecus-blue-btn" style=" position:fixed;  bottom:80px; right:30px;">
+    <a href="javascript:scroll(0,0)" class="eyecus-blue-btn" style=" position:fixed;  bottom:80px; right:60px;">
 		<strong>返回页首 <i class="fa fa-arrow-up"></i></strong>
 	</a>
-	<div class="eyecus-blue-btn eyecus-share-btn"  style="position:fixed;  bottom:80px; right:125px;">
-      <div id="copyButton" onclick="disp_alert()">
-		<strong>复制 <i class="fa fa-share-alt"></i></strong>
-        <input id="copyText" style="opacity: 0; position:fixed;  bottom:0px; right:-300px;" type="text" class="tool-tip"/>
-      </div>
-
-	<script type="text/javascript">
-		document.getElementById("copyButton").addEventListener("click", copyToClipboard);
-		    
-		let currentUrl = window.location;
-		let copyTextContainer = document.getElementById("copyText");
-
-		function copyToClipboard(){
-		    copyTextContainer.value = currentUrl
-		    copyTextContainer.focus();
-		    copyTextContainer.select();
-		    document.execCommand("copy");
-
-		    setTimeout(function(){
-		         toolTip.style.removeProperty('animation-name');
-		    }, 2000);
-		}
-		function disp_alert()
-		{
-		alert("本页地址复制成功")
-		}
-	</script>
-    </div>
-
   </aside>
 
 

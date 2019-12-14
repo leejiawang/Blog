@@ -13,11 +13,10 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 
-<link rel="stylesheet" href="/book.min.6894d58bbfbe89ec6dfa2f43c80b84df1a956f701d7dde45e5275ed85379fede.css" integrity="sha256-aJTVi7&#43;&#43;iext&#43;i9DyAuE3xqVb3Adfd5F5Sde2FN5/t4=">
+<link rel="stylesheet" href="/book.min.83d9c09479025277ae689c6575be9ca024a42cd50d4ebe4c77827b5768902608.css" integrity="sha256-g9nAlHkCUneuaJxldb6coCSkLNUNTr5Md4J7V2iQJgg=">
 
 
   
-
 </head>
 
 <body>
@@ -114,29 +113,27 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <ul>
 <li><a href="/design/eyecus/">品牌规范</a></li>
 <li><a href="/resources/design/">设计资源</a></li>
-<li><a href="/design/emoji/">绘文字表</a></li>
 </ul></li>
 
-<li><p><a href="/tags/Hackintosh/"><strong>Hackintosh</strong></a></p>
+<li><p><strong>Hackintosh</strong></p>
 
 <ul>
 <li><a href="/hackintosh/install/">安装指导</a></li>
-<li><a href="/hackintosh/file/">工具下载</a></li>
 </ul></li>
 
 <li><p><strong>Others</strong></p>
 
 <ul>
-<li><a href="/go/">WebGo</a></li>
 <li><a href="/posts/">综合清单</a></li>
-<li><a href="/categories/%E8%B5%84%E6%BA%90/">资源分享</a></li>
+<li><a href="/go/">站点推荐</a></li>
+<li><a href="/posts/windows-install/">系统安装</a></li>
+<li><a href="/resources/software/">软件下载</a></li>
 </ul></li>
 
 <li><p><strong>About</strong></p>
 
 <ul>
 <li><a href="/about/">关于本站</a></li>
-<li><a href="/links/">友链</a></li>
 </ul></li>
 </ul>
 
@@ -212,10 +209,10 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <blockquote>
 <p><strong><i class="fa fa-paperclip"></i> 相关站点</strong>
 <div>
-    <a class="eyecus-more-btn" href="https://hexo.io/">Hexo官网</a>
-    <a class="eyecus-more-btn" href="https://hexo.io/themes/">Hexo主题</a>
-    <a class="eyecus-more-btn" href="https://hexo.io/zh-cn/">Hexo中文</a>
-    <a class="eyecus-more-btn" href="https://github.com/hexojs/hexo">Hexo仓库</a>
+    <a class="eyecus-more-btn" href="https://hexo.io/" target="_blank">Hexo官网</a>
+    <a class="eyecus-more-btn" href="https://hexo.io/themes/" target="_blank">Hexo主题</a>
+    <a class="eyecus-more-btn" href="https://hexo.io/zh-cn/" target="_blank">Hexo中文</a>
+    <a class="eyecus-more-btn" href="https://github.com/hexojs/hexo" target="_blank">Hexo仓库</a>
 </div></p>
 </blockquote>
 
@@ -282,7 +279,7 @@ cd test
 <pre><code>cd test
 </code></pre>
 
-<p>在 <a href="https://hexo.io/themes/"><strong>主题商店 <i class="fa fa-external-link"></i></strong></a> 中选择自己喜欢的主题，使用如代码代克隆主题至本地。</p>
+<p>在 <a href="https://hexo.io/themes/"><strong>主题商店</strong></a> 中选择自己喜欢的主题，使用如代码代克隆主题至本地。</p>
 
 <pre><code>git clone https://github.com/XXXXX/XXXX themes/XXXX
 </code></pre>
@@ -403,7 +400,7 @@ tags:
 
 <h2 id="第5步-运行网站">第5步 运行网站</h2>
 
-<p>在终端中输入如下代码生成网页。浏览器访问 <a href="http://localhost:4000"><strong>http://localhost:4000 <i class="fa fa-external-link"></i></strong></a> 预览效果，关闭预览使用组合键<code>Ctrl+C</code>退出当前命令。</p>
+<p>在终端中输入如下代码生成网页。浏览器访问 <a href="http://localhost:4000"><strong>http://localhost:4000</strong></a> 预览效果，关闭预览使用组合键<code>Ctrl+C</code>退出当前命令。</p>
 
 <pre><code>hexo s
 </code></pre>
@@ -442,9 +439,29 @@ branch: master
 
 <hr>
   <div class="eyecus-post-fooder-text">
-    <div style="float: left"><i class="fa fa-calendar-check-o"></i> 发布时间：2019-09-25</div>
+    <div style="float: left"><i class="fa fa-calendar-check-o"></i> 发布时间: <span style="font-family: 'Roboto', sans-serif;">2019-09-25</span></div>
 
-    <div style="float: right">转载请注明出处并附上本文链接 <i class="fa fa-angle-right"></i></div>
+    <div style="float: right; cursor: pointer;"  id="copyButton" onclick="disp_alert()">
+      点击复制本页链接 <i class="fa fa-share-alt"></i></i>
+      <input id="copyText" style="opacity: 0; position:fixed;  bottom:0px; right:300px;" type="text" class="tool-tip"/>
+      <script type="text/javascript">
+        document.getElementById("copyButton").addEventListener("click", copyToClipboard);
+            
+        let currentUrl = window.location;
+        let copyTextContainer = document.getElementById("copyText");
+
+        function copyToClipboard(){
+            copyTextContainer.value = currentUrl
+            copyTextContainer.focus();
+            copyTextContainer.select();
+            document.execCommand("copy");
+        }
+        function disp_alert()
+        {
+        alert("本页链接已复制")
+        }
+      </script>
+    </div>
   </div>
 
 </div>
@@ -452,7 +469,7 @@ branch: master
       
       
 
-<script defer src="/search.min.bee36659e1cf6ded54f8513cb2a5815cc28b5ad79d00f122802d147ca56b09ae.js" integrity="sha256-vuNmWeHPbe1U&#43;FE8sqWBXMKLWtedAPEigC0UfKVrCa4="></script>
+<script defer src="/search.min.ea26218fbd50c2740121528c42ed146027b0b694abb74e5c439ad8b66fe87a4c.js" integrity="sha256-6iYhj71QwnQBIVKMQu0UYCewtpSrt05cQ5rYtm/oekw="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -488,38 +505,9 @@ Copyright © 2019 世佳
 </ul></li>
 </ul>
 </nav>
-    <a href="javascript:scroll(0,0)" class="eyecus-blue-btn" style=" position:fixed;  bottom:80px; right:30px;">
+    <a href="javascript:scroll(0,0)" class="eyecus-blue-btn" style=" position:fixed;  bottom:80px; right:60px;">
 		<strong>返回页首 <i class="fa fa-arrow-up"></i></strong>
 	</a>
-	<div class="eyecus-blue-btn eyecus-share-btn"  style="position:fixed;  bottom:80px; right:125px;">
-      <div id="copyButton" onclick="disp_alert()">
-		<strong>复制 <i class="fa fa-share-alt"></i></strong>
-        <input id="copyText" style="opacity: 0; position:fixed;  bottom:0px; right:-300px;" type="text" class="tool-tip"/>
-      </div>
-
-	<script type="text/javascript">
-		document.getElementById("copyButton").addEventListener("click", copyToClipboard);
-		    
-		let currentUrl = window.location;
-		let copyTextContainer = document.getElementById("copyText");
-
-		function copyToClipboard(){
-		    copyTextContainer.value = currentUrl
-		    copyTextContainer.focus();
-		    copyTextContainer.select();
-		    document.execCommand("copy");
-
-		    setTimeout(function(){
-		         toolTip.style.removeProperty('animation-name');
-		    }, 2000);
-		}
-		function disp_alert()
-		{
-		alert("本页地址复制成功")
-		}
-	</script>
-    </div>
-
   </aside>
 
 

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>系统安装 on eyecus</title>
+    <link>https://blog.eyecus.com/tags/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/</link>
+    <description>Recent content in 系统安装 on eyecus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 14 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.eyecus.com/tags/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows 系统安装教程</title>
+      <link>https://blog.eyecus.com/posts/windows-install/</link>
+      <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/posts/windows-install/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+在用 Windows 系统的过程中操作不当经常会被“蓝屏伺候”，有时候系统自己修复不好，最简单粗暴的就是重装系统，只要不是硬件损坏几乎都能解决。本文带你掌握安装系统这项技能。
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>黑苹果系统简易安装教程</title>
+      <link>https://blog.eyecus.com/hackintosh/install/</link>
+      <pubDate>Sun, 15 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/hackintosh/install/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt; 非苹果设备却使用 &lt;strong&gt;苹果操作系统&lt;/strong&gt; 的设备，被称为黑苹果 Hackintosh，本教程简易的描述了安装黑苹果系统的步骤，并提供了一些相关工具以及驱动文件的下载链接，希望能给大家安装带来帮助。
+&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -13,11 +13,10 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 
-<link rel="stylesheet" href="/book.min.6894d58bbfbe89ec6dfa2f43c80b84df1a956f701d7dde45e5275ed85379fede.css" integrity="sha256-aJTVi7&#43;&#43;iext&#43;i9DyAuE3xqVb3Adfd5F5Sde2FN5/t4=">
+<link rel="stylesheet" href="/book.min.83d9c09479025277ae689c6575be9ca024a42cd50d4ebe4c77827b5768902608.css" integrity="sha256-g9nAlHkCUneuaJxldb6coCSkLNUNTr5Md4J7V2iQJgg=">
 
 
   
-
 </head>
 
 <body>
@@ -114,29 +113,27 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <ul>
 <li><a href="/design/eyecus/">品牌规范</a></li>
 <li><a href="/resources/design/">设计资源</a></li>
-<li><a href="/design/emoji/">绘文字表</a></li>
 </ul></li>
 
-<li><p><a href="/tags/Hackintosh/"><strong>Hackintosh</strong></a></p>
+<li><p><strong>Hackintosh</strong></p>
 
 <ul>
 <li><a href="/hackintosh/install/"class=active>安装指导</a></li>
-<li><a href="/hackintosh/file/">工具下载</a></li>
 </ul></li>
 
 <li><p><strong>Others</strong></p>
 
 <ul>
-<li><a href="/go/">WebGo</a></li>
 <li><a href="/posts/">综合清单</a></li>
-<li><a href="/categories/%E8%B5%84%E6%BA%90/">资源分享</a></li>
+<li><a href="/go/">站点推荐</a></li>
+<li><a href="/posts/windows-install/">系统安装</a></li>
+<li><a href="/resources/software/">软件下载</a></li>
 </ul></li>
 
 <li><p><strong>About</strong></p>
 
 <ul>
 <li><a href="/about/">关于本站</a></li>
-<li><a href="/links/">友链</a></li>
 </ul></li>
 </ul>
 
@@ -185,6 +182,10 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
   
   
     <li id="eyecus-tags-btn" class="gray-btn"> <a href="https://blog.eyecus.com/tags/Hackintosh">Hackintosh</a> </li>
+  
+    <li id="eyecus-tags-btn" class="gray-btn"> <a href="https://blog.eyecus.com/tags/%E6%93%8D%E4%BD%9C">操作</a> </li>
+  
+    <li id="eyecus-tags-btn" class="gray-btn"> <a href="https://blog.eyecus.com/tags/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85">系统安装</a> </li>
   
   
 
@@ -483,13 +484,167 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
 <p><img src="http://q27wxxeo3.bkt.clouddn.com/videoproc.png" alt="VideoProc" /></p>
 
-<div>&nbsp</div></article>
+<h1 id="hr"><hr></h1>
+
+<h2 id="黑苹果安装相关工具"><strong>黑苹果安装相关工具</strong></h2>
+
+<div class="comment"> 安装黑苹果不难，难的是后期上驱动及系统功能优化，本页提供了一些相关工具以及驱动文件的下载链接，希望能给大家安装带来帮助。
+</div>
+
+<h2 id="i-class-fa-fa-download-i-vmware-workstation-pro"><i class="fa fa-download"></i> VMware Workstation Pro</h2>
+
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <p><strong>Workstation Pro</strong> 是由 <a href="https://www.vmware.com/cn.html/"><strong>VMware</strong></a>  提供的<strong>虚拟机</strong>工具，用于在PC上搭建macOS系统环境。</p>
+
+<p><a class="eyecus-more-btn" href="https://my.vmware.com/cn/web/vmware/info/slug/desktop_end_user_computing/vmware_workstation_pro/15_0">VMware 官网下载</a></p>
+
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <div align="center"> 
+<img src="https://www.vmware.com/etc/clientlibs/vmwaredevapp/clientlib-nav-redesign/images/vm-logo.png" width=160 /></div>
+  </div>
+  
+</div>
+
+
+<h2 id="i-class-fa-fa-download-i-unibeast"><i class="fa fa-download"></i> UniBeast</h2>
+
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <p><strong>UniBeast</strong> 是由 <a href="https://www.tonymacx86.com/"><strong>tonymacx86</strong></a> 提供的<strong>苹果安装U盘制作工具</strong>，一键式制作，方便易用。</p>
+
+<p><a class="eyecus-more-btn" href="http://unibeast.com/" >UniBeast 官网下载</a></p>
+
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <div align="center"> 
+<img src="https://www.tonymacx86.com/images/downloads/unibeast3.png" width=130 /></div>
+  </div>
+  
+</div>
+
+
+<blockquote class="book-hint warning">
+  <p><strong><i class="fa fa-exclamation-triangle"></i> 注意</strong></p>
+
+<p>使用UniBeast需要你具备macOS操作环境，且系统语言切换成<code>English</code>才能运行。</p>
+
+</blockquote>
+
+
+<h2 id="i-class-fa-fa-download-i-clover-efi-bootloader"><i class="fa fa-download"></i> Clover EFI bootloader</h2>
+
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <p><strong>Clover EFI bootloader</strong>为<strong>UEFI系统引导</strong>安装工具，是最为核心的工具之一。</p>
+
+<p><a class="eyecus-more-btn" href="https://github.com/CloverHackyColor/CloverBootloader/releases" >Clover EFI 下载</a></p>
+
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <div align="center"> 
+<img src="https://a.fsdn.com/allura/p/cloverefiboot/icon?1561119533?&w=90" width=110 /></div>
+  </div>
+  
+</div>
+
+
+<h2 id="i-class-fa-fa-download-i-clover-configurator"><i class="fa fa-download"></i> Clover Configurator</h2>
+
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <p><strong>Clover Configurator</strong> 是由 <a href="https://mackie100projects.altervista.org/"><strong>mackie100projects</strong></a> 提供的<strong>用于编辑Clover EFI配置文件</strong>的工具，利用图形界面大大降低了配置Clover EFI的门槛。</p>
+
+<p><a class="eyecus-more-btn" href="https://mackie100projects.altervista.org/download-clover-configurator/" >Clover Configurator 下载</a></p>
+
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <div align="center"> 
+<img src="http://2.pic.pc6.com/thumb/up/2016-6/2016611631204315314_128_128.png" width=110 /></div>
+  </div>
+  
+</div>
+
+
+<blockquote class="book-hint warning">
+  <p><strong><i class="fa fa-exclamation-triangle"></i> 注意</strong></p>
+
+<p>使用Clover Configurator需要你具备macOS操作环境。</p>
+
+</blockquote>
+
+
+<h2 id="i-class-fa-fa-download-i-multibeast"><i class="fa fa-download"></i> MultiBeast</h2>
+
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <p><strong>MultiBeast</strong> 是由 <a href="https://www.tonymacx86.com/"><strong>tonymacx86</strong></a> 提供的<strong>苹果驱动安装工具</strong>，方便易用。</p>
+
+<p><a class="eyecus-more-btn" href="http://www.multibeast.com/" >MultiBeast 官网下载</a></p>
+
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <div align="center"> 
+<img src="https://www.tonymacx86.com/data/attachments/121/121805-d4862f5cdaaf88f11ebd6b6ad590f213.jpg" width=130 /></div>
+  </div>
+  
+</div>
+
+
+<h2 id="i-class-fa-fa-download-i-hackintool"><i class="fa fa-download"></i> Hackintool</h2>
+
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <p><strong>Hackintool</strong> 是由 <a href="https://github.com/headkaze/"><strong>headkaze</strong></a> 提供的<strong>苹果系统VRAM修补程序</strong>。</p>
+
+<p><a class="eyecus-more-btn" href="https://github.com/headkaze/Hackintool" >Hackintool 下载</a></p>
+
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <div align="center"> 
+<img src="https://www.insanelymac.com/forum/uploads/monthly_2019_03/Icon-256.thumb.png.0c39511ce9efe4bca32bf2ec3eda0d84.png" width=110 /></div>
+  </div>
+  
+</div></article>
 
 <hr>
   <div class="eyecus-post-fooder-text">
-    <div style="float: left"><i class="fa fa-calendar-check-o"></i> 发布时间：2019-09-15</div>
+    <div style="float: left"><i class="fa fa-calendar-check-o"></i> 发布时间: <span style="font-family: 'Roboto', sans-serif;">2019-09-15</span></div>
 
-    <div style="float: right">转载请注明出处并附上本文链接 <i class="fa fa-angle-right"></i></div>
+    <div style="float: right; cursor: pointer;"  id="copyButton" onclick="disp_alert()">
+      点击复制本页链接 <i class="fa fa-share-alt"></i></i>
+      <input id="copyText" style="opacity: 0; position:fixed;  bottom:0px; right:300px;" type="text" class="tool-tip"/>
+      <script type="text/javascript">
+        document.getElementById("copyButton").addEventListener("click", copyToClipboard);
+            
+        let currentUrl = window.location;
+        let copyTextContainer = document.getElementById("copyText");
+
+        function copyToClipboard(){
+            copyTextContainer.value = currentUrl
+            copyTextContainer.focus();
+            copyTextContainer.select();
+            document.execCommand("copy");
+        }
+        function disp_alert()
+        {
+        alert("本页链接已复制")
+        }
+      </script>
+    </div>
   </div>
 
 </div>
@@ -497,7 +652,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
       
       
 
-<script defer src="/search.min.bee36659e1cf6ded54f8513cb2a5815cc28b5ad79d00f122802d147ca56b09ae.js" integrity="sha256-vuNmWeHPbe1U&#43;FE8sqWBXMKLWtedAPEigC0UfKVrCa4="></script>
+<script defer src="/search.min.ea26218fbd50c2740121528c42ed146027b0b694abb74e5c439ad8b66fe87a4c.js" integrity="sha256-6iYhj71QwnQBIVKMQu0UYCewtpSrt05cQ5rYtm/oekw="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -535,40 +690,21 @@ Copyright © 2019 世佳
 <li><a href="#第6步-优化系统设置-选做">第6步 优化系统设置 (选做)</a></li>
 <li><a href="#第7步-性能测试">第7步 性能测试</a></li>
 </ul></li>
+<li><a href="#hr"><hr></a>
+<ul>
+<li><a href="#黑苹果安装相关工具"><strong>黑苹果安装相关工具</strong></a></li>
+<li><a href="#i-class-fa-fa-download-i-vmware-workstation-pro"><i class="fa fa-download"></i> VMware Workstation Pro</a></li>
+<li><a href="#i-class-fa-fa-download-i-unibeast"><i class="fa fa-download"></i> UniBeast</a></li>
+<li><a href="#i-class-fa-fa-download-i-clover-efi-bootloader"><i class="fa fa-download"></i> Clover EFI bootloader</a></li>
+<li><a href="#i-class-fa-fa-download-i-clover-configurator"><i class="fa fa-download"></i> Clover Configurator</a></li>
+<li><a href="#i-class-fa-fa-download-i-multibeast"><i class="fa fa-download"></i> MultiBeast</a></li>
+<li><a href="#i-class-fa-fa-download-i-hackintool"><i class="fa fa-download"></i> Hackintool</a></li>
+</ul></li>
 </ul>
 </nav>
-    <a href="javascript:scroll(0,0)" class="eyecus-blue-btn" style=" position:fixed;  bottom:80px; right:30px;">
+    <a href="javascript:scroll(0,0)" class="eyecus-blue-btn" style=" position:fixed;  bottom:80px; right:60px;">
 		<strong>返回页首 <i class="fa fa-arrow-up"></i></strong>
 	</a>
-	<div class="eyecus-blue-btn eyecus-share-btn"  style="position:fixed;  bottom:80px; right:125px;">
-      <div id="copyButton" onclick="disp_alert()">
-		<strong>复制 <i class="fa fa-share-alt"></i></strong>
-        <input id="copyText" style="opacity: 0; position:fixed;  bottom:0px; right:-300px;" type="text" class="tool-tip"/>
-      </div>
-
-	<script type="text/javascript">
-		document.getElementById("copyButton").addEventListener("click", copyToClipboard);
-		    
-		let currentUrl = window.location;
-		let copyTextContainer = document.getElementById("copyText");
-
-		function copyToClipboard(){
-		    copyTextContainer.value = currentUrl
-		    copyTextContainer.focus();
-		    copyTextContainer.select();
-		    document.execCommand("copy");
-
-		    setTimeout(function(){
-		         toolTip.style.removeProperty('animation-name');
-		    }, 2000);
-		}
-		function disp_alert()
-		{
-		alert("本页地址复制成功")
-		}
-	</script>
-    </div>
-
   </aside>
 
 

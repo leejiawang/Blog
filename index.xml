@@ -5,10 +5,21 @@
     <link>https://blog.eyecus.com/</link>
     <description>Recent content on eyecus</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 04 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.eyecus.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Windows 系统安装教程</title>
+      <link>https://blog.eyecus.com/posts/windows-install/</link>
+      <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.eyecus.com/posts/windows-install/</guid>
+      <description>&lt;div class=&#34;comment&#34;&gt;
+在用 Windows 系统的过程中操作不当经常会被“蓝屏伺候”，有时候系统自己修复不好，最简单粗暴的就是重装系统，只要不是硬件损坏几乎都能解决。本文带你掌握安装系统这项技能。
+&lt;/div&gt;</description>
+    </item>
     
     <item>
       <title>Vuepress 建站教程</title>
@@ -63,16 +74,6 @@
     </item>
     
     <item>
-      <title>黑苹果安装相关工具</title>
-      <link>https://blog.eyecus.com/hackintosh/file/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/hackintosh/file/</guid>
-      <description>&lt;div class=&#34;comment&#34;&gt; 安装黑苹果不难，难的是后期上驱动及系统功能优化，本页提供了一些相关工具以及驱动文件的下载链接，希望能给大家安装带来帮助。
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
       <title>浅谈网页设计与开发</title>
       <link>https://blog.eyecus.com/web/web-design/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
@@ -113,17 +114,6 @@ Git是一个免费开源的分布式版本控制系统，旨在快速高效地�
       <guid>https://blog.eyecus.com/web/markdown/</guid>
       <description>&lt;div class=&#34;comment&#34;&gt;
 Markdown 是一种轻量级标记语言，她轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，语法也极其简单易学。
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>实用网站推荐</title>
-      <link>https://blog.eyecus.com/resources/website/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.eyecus.com/resources/website/</guid>
-      <description>&lt;div class=&#34;comment&#34;&gt;
-在搜索引擎搜索软件时，一不小心会被带伪装效果的广告链接所骗，下载到不安全带有木马的程序，对电脑伤极大，本文提供一个找软件公司官方的便捷导航及一些我用着还不错的相对而言还不错的下载网站。
 &lt;/div&gt;</description>
     </item>
     
