@@ -179,6 +179,8 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
   
     <li id="eyecus-tags-btn" class="gray-btn"> <a href="https://blog.eyecus.com/tags/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85">系统安装</a> </li>
   
+    <li id="eyecus-tags-btn" class="gray-btn"> <a href="https://blog.eyecus.com/tags/%E4%B8%8B%E8%BD%BD">下载</a> </li>
+  
   
 
   
@@ -192,12 +194,26 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Windows_10_Logo.svg/2880px-Windows_10_Logo.svg.png" width=65% style="padding: 10px" />
 </div>
 
-<h2 id="第1步-获取系统安装镜像">第1步 获取系统安装镜像</h2>
+<h2 id="第1步-备份已有系统序列号">第1步 备份已有系统序列号</h2>
+
+<p>大部分品牌台式机以及笔记本都是出厂预装了正版系统的，个人消费产品一般预装的是 <code>Windows10 家庭版</code>，这样如果你想继续使用该序列号的话重装的系统也应为 Windows10 家庭版，只有版本对应序列号才能正常激活系统。</p>
+
+<p>如果你的设备已经装有激活的正版系统，可按照如下方式备份激活信息。</p>
+
+<h3 id="微软账户关联">微软账户关联</h3>
+
+<p>最简单直接的备份方式就是注册并在设备上登陆 <code>Microsoft 账户</code>，这样你的数字许可证就会与自己的账户关联起来。这样当你在该设备上重装系统后，登陆自己的微软账户，系统就会使用与微软账户关联的数字许可证自动激活。</p>
+
+<h3 id="使用第三方工具备份">使用第三方工具备份</h3>
+
+<p>可使用 <code>AIDA64</code> 查看并保存序列号，右侧菜单栏点击操作系统，中间内容区<code>产品密钥</code>后即是系统序列号。将其记录下来，待系统安装时输入以激活系统。</p>
+
+<h2 id="第2步-获取系统安装镜像">第2步 获取系统安装镜像</h2>
 
 <p><div class="book-columns flex flex-wrap">
   
   <div class="flex-even markdown-inner">
-    <p>大部分品牌台式机以及笔记本都是出厂预装了正版系统的，重装系统可从对应品牌官网的产品支持页面获取安装镜像。</p>
+    <p>大部分品牌台式机以及笔记本重装系统可从对应品牌官网的产品支持页面获取安装镜像。</p>
 
 <p>自配的组装机推荐安装原版系统，新买来的品牌电脑也推荐重装一次原版系统，这样使用过程中问题更少也更清洁。</p>
 
@@ -228,7 +244,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
 <p><img src="http://q27wxxeo3.bkt.clouddn.com/msdn-2.png" alt="msdn" /></p>
 
-<h2 id="第2步-制作-winpe-系统启动盘">第2步 制作 WinPE 系统启动盘</h2>
+<h2 id="第3步-制作-winpe-系统启动盘">第3步 制作 WinPE 系统启动盘</h2>
 
 <p>全网有很多 WinPE 系统制作工具，但有些工具存在强制锁主页以及预装软件的情况。</p>
 
@@ -266,7 +282,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 </div>
 </p>
 
-<h2 id="第3步-安装系统">第3步 安装系统</h2>
+<h2 id="第4步-安装系统">第4步 安装系统</h2>
 
 <p>将之前下载的原版安装镜像拷贝进制作好的 WinPE 系统启动盘，并插入待安装的设备，重启进入<code>BIOS</code>,选择<code>系统安装U盘</code>为启动<strong>首选项</strong>，按<code>F10</code>保存设置并重启设备。</p>
 
@@ -312,7 +328,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
       
       
 
-<script defer src="/search.min.074de3dcfb14fdc84ea8151d83a1f863fc1af8e6c9a79dba9dac7c6927c9a9a8.js" integrity="sha256-B03j3PsU/chOqBUdg6H4Y/wa&#43;ObJp526nax8aSfJqag="></script>
+<script defer src="/search.min.5155a2bd3a9796aa249c07fa225e1a5cb035de20a301a881f38b914ca922ec40.js" integrity="sha256-UVWivTqXlqoknAf6Il4aXLA13iCjAaiB84uRTKki7EA="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -339,9 +355,14 @@ if (!doNotTrack) {
 <ul>
 <li>
 <ul>
-<li><a href="#第1步-获取系统安装镜像">第1步 获取系统安装镜像</a></li>
-<li><a href="#第2步-制作-winpe-系统启动盘">第2步 制作 WinPE 系统启动盘</a></li>
-<li><a href="#第3步-安装系统">第3步 安装系统</a></li>
+<li><a href="#第1步-备份已有系统序列号">第1步 备份已有系统序列号</a>
+<ul>
+<li><a href="#微软账户关联">微软账户关联</a></li>
+<li><a href="#使用第三方工具备份">使用第三方工具备份</a></li>
+</ul></li>
+<li><a href="#第2步-获取系统安装镜像">第2步 获取系统安装镜像</a></li>
+<li><a href="#第3步-制作-winpe-系统启动盘">第3步 制作 WinPE 系统启动盘</a></li>
+<li><a href="#第4步-安装系统">第4步 安装系统</a></li>
 </ul></li>
 </ul>
 </nav>
