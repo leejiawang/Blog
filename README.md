@@ -1,4 +1,4 @@
-![eyecusio](https://ws1.sinaimg.cn/large/d6175481ly1g9gejpcjd9j21hd0vy44r.jpg)
+![eyecusio](http://storage.eyecus.com/cdn/eyecusio.jpg)
 
 [![Hugo](https://img.shields.io/badge/hugo-0.55-blue.svg)](https://gohugo.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
