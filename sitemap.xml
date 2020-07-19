@@ -122,139 +122,116 @@
   <url>
     <loc>https://blog.eyecus.com/categories/</loc>
     <lastmod>2019-12-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/posts/</loc>
     <lastmod>2019-12-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/</loc>
     <lastmod>2019-12-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/Windows/</loc>
     <lastmod>2019-12-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/%E4%B8%8B%E8%BD%BD/</loc>
     <lastmod>2019-12-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/%E6%93%8D%E4%BD%9C/</loc>
     <lastmod>2019-12-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2019-12-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/</loc>
     <lastmod>2019-12-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.eyecus.com/tags/CSS/</loc>
-    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/Color/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.eyecus.com/tags/CSS/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/Design/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/Html/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/Web/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/%E5%AD%97%E4%BD%93/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/categories/%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/Blog/</loc>
     <lastmod>2019-10-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/Markdown/</loc>
     <lastmod>2019-10-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/Vuepress/</loc>
     <lastmod>2019-10-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/%E5%BB%BA%E7%AB%99/</loc>
     <lastmod>2019-10-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/Hexo/</loc>
     <lastmod>2019-09-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/Hackintosh/</loc>
     <lastmod>2019-09-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/Hugo/</loc>
     <lastmod>2019-09-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -263,67 +240,54 @@
   
   <url>
     <loc>https://blog.eyecus.com/tags/Adobe/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/Autodesk/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/Bootstrap/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/Brand/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/Git/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/Google/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/JavaScript/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/categories/%E6%96%87%E6%A1%A3/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/%E7%A1%AC%E4%BB%B6/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/categories/%E7%AC%94%E8%AE%B0/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/%E7%AC%A6%E5%8F%B7/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/categories/%E8%B5%84%E6%BA%90/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.eyecus.com/tags/%E8%BD%AF%E4%BB%B6/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
