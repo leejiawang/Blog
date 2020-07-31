@@ -7,7 +7,7 @@
 
 <meta name="description" property="og:description" content="">
 
-<title> 视由 › Vuepress </title>
+<title> 视由 › macOS 常见问题解决办法 </title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 
@@ -20,6 +20,7 @@
 <body>
   <input type="checkbox" class="hidden" id="menu-control" />
   <main class="flex container">
+
     <aside class="book-menu fixed">
       <nav>
 
@@ -148,48 +149,75 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
     </aside>
 
     <div class="book-posts">
-    <header class="flex align-center justify-between book-header">
+      <header class="flex align-center justify-between book-header">
   <label for="menu-control">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
   </label>
-  <div class="home-nav-title">视由 › Vuepress</div>
+  <div class="home-nav-title">视由 › macOS 常见问题解决办法</div>
 </header>
 
-    
-    
+      
 
-<div class="eyecus-post-title eyecus-width-740">
-    <i class="fa fa-hashtag"></i> Vuepress
-</div>
-    
-    
-        
-    <article class="markdown eyecus-width-740">
-    <ul style="list-style: none; padding-left: 5px;">
-    
-    
-    <li>
-        <hr>  
-        <div class="eyecus-post-list-title">
-            <i class="fa fa-cube"></i>&nbsp<a href="https://blog.eyecus.com/web/vuepress/"> Vuepress 建站教程</a>
-        </div>
-        <p><div class="comment">
-<strong>Vuepress</strong> 是一款 <strong>Vue 驱动的静态网站生成器</strong>，具有简洁至上、高性能、一键部署等特点。
-</div><a class="eyecus-more-btn" style="margin-left: 15px" href="/web/vuepress/">阅读全文 <i class="fa fa-angle-right"></i></a>
-        </p>
-    </li>
-    
-    </ul>
-    </article>
 
-    
-    
-    
-    <div class="eyecus-fooder-text">  
-	Copyright © 2019-2020 世佳
+<div class="eyecus-width-740">
+	<div class="eyecus-post-title">macOS 常见问题解决办法</div>
+
+<ul class="eyecus-head-btn">
+  
+  
+    <li id="eyecus-categories-btn" class="gray-btn"><a href="https://blog.eyecus.com/categories/%E6%95%99%E7%A8%8B">教程</a> </li>
+  
+  
+
+  
+  
+    <li id="eyecus-tags-btn" class="gray-btn"> <a href="https://blog.eyecus.com/tags/macOS">macOS</a> </li>
+  
+    <li id="eyecus-tags-btn" class="gray-btn"> <a href="https://blog.eyecus.com/tags/%E6%93%8D%E4%BD%9C">操作</a> </li>
+  
+  
+
+  
+</ul>
+
+<article class="markdown"><div class="comment">
+对于刚接触 macOS 的用户来说，突如其来的各种弹窗警告会让他们措手不及，下面我就来介绍一下一些弹窗的解决措施。
 </div>
 
-    
+<h2 id="弹窗-xxx-is-damaged-and-can-t-be-opened-you-should-move-it-to-the-trash">弹窗 “XXX” is damaged and can’t be opened. You should move it to the Trash</h2>
+
+<h3 id="i-class-fa-fa-check-square-o-i-方法一"><i class="fa fa-check-square-o"></i> 方法一</h3>
+
+<p>依次打开 <code>System Preferences - Security &amp; Privacy</code> 并勾选下方的 <code>AnyWhere</code> 即可，如果没有 <code>AnyWhere</code> 选项，执行下述操作。</p>
+
+<p>打开终端并输入下列代码：</p>
+
+<pre><code>sudo spctl --master-disable
+</code></pre>
+
+<p>此时 <code>AnyWhere</code> 会出现，选择即可。</p>
+
+<blockquote class="book-hint info">
+  <p><strong><i class="fa fa-exclamation-triangle"></i> 提示</strong></p>
+
+<p>如果方法一执行完后，任然出现提示，则执行方法二。</p>
+
+</blockquote>
+
+
+<h3 id="i-class-fa-fa-check-square-o-i-方法二"><i class="fa fa-check-square-o"></i> 方法二</h3>
+
+<p>将需要打开的程序放入 <code>Applications</code> 文件夹中。</p>
+
+<p>打开终端并输入下列代码（其中 XXX 为程序名称）即可。</p>
+
+<pre><code>xattr -cr /Applications/XXX.app
+</code></pre></article>
+
+</div>
+
+      
+      
 
 <script defer src="/search.min.ad0a0c0b61be0f13b687ef211aa4751d3cd6e43ba224734902f00659a9dcdb6b.js" integrity="sha256-rQoMC2G&#43;DxO2h&#43;8hGqR1HTzW5DuiJHNJAvAGWanc22s="></script>
 
@@ -204,9 +232,39 @@ if (!doNotTrack) {
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
+      <div class="eyecus-fooder-text">  
+	Copyright © 2019-2020 世佳
+</div>
+
     </div>
 
-  </main>  
     
+  
+
+  <aside class="book-toc levels-2 fixed">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#弹窗-xxx-is-damaged-and-can-t-be-opened-you-should-move-it-to-the-trash">弹窗 “XXX” is damaged and can’t be opened. You should move it to the Trash</a>
+<ul>
+<li><a href="#i-class-fa-fa-check-square-o-i-方法一"><i class="fa fa-check-square-o"></i> 方法一</a></li>
+<li><a href="#i-class-fa-fa-check-square-o-i-方法二"><i class="fa fa-check-square-o"></i> 方法二</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    <a href="javascript:scroll(0,0)" class="eyecus-blue-btn" style=" position:fixed;  bottom:80px; right:62px;">
+		<strong>返回页首 <i class="fa fa-arrow-up"></i></strong>
+	</a>
+  </aside>
+
+
+
+
+  </main>
+
+  
 </body>
+
 </html>
