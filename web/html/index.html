@@ -191,9 +191,42 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
 <article class="markdown"><div class="comment"> <strong>前端</strong> 的作用于采集输入信息，后端进行处理。计算机程序的界面样式，视觉呈现属于前端。本页主要记录我学习 Html 和 CSS 过程中觉得实用的笔记。</div>
 
-<h1 id="i-class-fa-fa-chevron-right-i-html-笔记"><strong><i class="fa fa-chevron-right"></i> Html 笔记</strong></h1>
+<h1 id="i-class-fa-fa-chevron-right-i-html5-笔记"><strong><i class="fa fa-chevron-right"></i> Html5 笔记</strong></h1>
 
 <div class="comment"> HTML 称为超文本标记语言，是一种标识性的语言。它包括一系列标签，通过这些标签可以将网络上的文档格式统一，使分散的资源连接为一个逻辑整体，下图为HTML基本框架示意图。</div>
+
+<div align="center"> 
+
+
+<script src="/mermaid.min.js"></script>
+
+
+
+<p class="mermaid">
+  
+graph LR  
+  Bootstrap-.->id2((CSS));
+  id2((CSS)) --- id1((HTML))
+  id3((JS)) --- id1((HTML))
+  id1((HTML)) --> head
+    head --> title
+    head --> meta
+  id1((HTML)) --> body
+   subgraph 
+    body --> h1,h2...
+    body --> p,a
+    p,a --> strong,em  
+    body --> ol,ul
+    ol,ul --> li
+    body --> tr    
+    tr --> th 
+end
+
+</p>
+
+</div>
+
+<h2 id="简单介绍">简单介绍</h2>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
 &lt;<span style="color:#f92672">html</span>&gt;
@@ -362,6 +395,30 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 <h1 id="i-class-fa-fa-chevron-right-i-css-笔记"><strong><i class="fa fa-chevron-right"></i> CSS 笔记</strong></h1>
 
 <div class="comment">层叠样式表 Cascading Style Sheets 是一种用来表现HTML或XML等文件样式的计算机语言。不仅可以静态地修饰网页，还可以配合各种脚本语言动态地对网页各元素进行格式化。</div>
+
+<div align="center"> 
+
+
+<p class="mermaid">
+  
+graph LR  
+  Bootstrap-.->id1((CSS));
+  id2((HTML)) --- id1((CSS))
+  id3((JS)) --- id2((HTML))
+  id1((CSS)) --> 语法
+    语法 --> 属性
+    语法 --> 格式
+  id1((CSS)) --> 选择器
+    选择器 --> 派生选择器
+    选择器 --> ID选择器
+    选择器 --> 类选择器
+    选择器 --> 属性选择器
+
+</p>
+
+</div>
+
+<h2 id="常用格式">常用格式</h2>
 
 <div class="book-columns flex flex-wrap">
   
@@ -1296,289 +1353,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 
 <div class="comment"> JavaScript 作为 Web 浏览器的唯一编程语言，负责让网页“动”起来。它常用于构建具有动态功能的交互式网站。本页 <strong>转载记录</strong> 一些能实现一定功能的实例。</div>
 
-<h3 id="行内式写法">行内式写法</h3>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">body</span>&gt;
-  &lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span> <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Button&#34;</span> <span style="color:#a6e22e">onclick</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;alert(&#39;text&#39;)&#34;</span>&gt;
-&lt;/<span style="color:#f92672">body</span>&gt;</code></pre></div>
-
-<h3 id="内嵌式写法">内嵌式写法</h3>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">head</span>&gt;
-  &lt;<span style="color:#f92672">script</span>&gt;
-    <span style="color:#a6e22e">alert</span>(<span style="color:#e6db74">&#39;text&#39;</span>)
-  &lt;/<span style="color:#f92672">script</span>&gt;
-&lt;/<span style="color:#f92672">head</span>&gt;</code></pre></div>
-
-<h3 id="外部式写法">外部式写法</h3>
-
-<p>新建一个 <code>XXX.js</code> 文件，然后在 html 中引用它。
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">head</span>&gt;
-  &lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;XXX.js&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
-&lt;/<span style="color:#f92672">head</span>&gt;</code></pre></div></p>
-
-<h3 id="注释方法">注释方法</h3>
-
-<pre><code>// 单行注释  快捷键：ctrl + /
-
-/*
-多行注释  快捷键：shift + alt + a
-多行注释
-*/
-</code></pre>
-
-<h3 id="输入输出语句">输入输出语句</h3>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#75715e">// 输入框
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">prompt</span>(<span style="color:#e6db74">&#39;XXX&#39;</span>);
-<span style="color:#75715e">// 弹窗
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">alert</span>(<span style="color:#e6db74">&#39;XXX&#39;</span>);
-<span style="color:#75715e">// console 控制台输出
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;XXX&#39;</span>);
-</code></pre></div>
-
-<h2 id="变量">变量</h2>
-
-<p>变量是用于存放数据的 <code>容器</code>，是程序在设备内存中申请的一块存放数据的空间。</p>
-
-<ul>
-<li><p><strong>声明变量</strong>：<code>var XXX;</code>（声明名称是 XXX 的变量）</p></li>
-
-<li><p><strong>变量赋值</strong>：<code>XXX = XX;</code>（将 XXX 变量 赋值为 XX）</p></li>
-
-<li><p><strong>变量初始化</strong>：<code>var XXX ='XX';</code>（声明一个变量 XXX 并赋值为 XX）</p></li>
-</ul>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">myName</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">prompt</span>(<span style="color:#e6db74">&#39;请输入姓名&#39;</span>);
-<span style="color:#a6e22e">alert</span>(<span style="color:#a6e22e">myName</span>);
-</code></pre></div>
-
-<blockquote class="book-hint info">
-  <p><strong><i class="fa fa-exclamation-circle"></i> 提示</strong></p>
-
-<p>需要同时声明多个变量时可只写一个 <code>var</code>，变量间用逗号隔开。</p>
-
-</blockquote>
-
-
-<h3 id="变量命名规则">变量命名规则</h3>
-
-<p>变量名称由英语字母大小写 <code>A-Z,a-z</code>、数字 <code>0-9</code>、下划线 <code>_</code>、美元符号 <code>$</code> 组成。</p>
-
-<ul>
-<li>字母需区分大小写： <code>Name name</code></li>
-<li>不能以数字开头： <code>996ICU</code></li>
-<li>不能使用保留词： <code>var for</code></li>
-<li>使用有意义的英文单词： <code>mingzi -&gt; name</code></li>
-<li>遵循驼峰命名法： <code>myBlog</code></li>
-</ul>
-
-<h2 id="数据类型">数据类型</h2>
-
-<p>JavaSpript 的数据主要分为 <code>简单数据类型</code> 和 <code>复杂数据类型</code>。</p>
-
-<p><strong>简单数据类</strong></p>
-
-<table>
-<thead>
-<tr>
-<th align="left">类型</th>
-<th align="left">说明</th>
-<th align="left">默认值</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="left">Number</td>
-<td align="left">数字型，17、0.17</td>
-<td align="left">0</td>
-</tr>
-
-<tr>
-<td align="left">String</td>
-<td align="left">字符串类型，&rdquo;视由&rdquo;</td>
-<td align="left">&rdquo;&rdquo;</td>
-</tr>
-
-<tr>
-<td align="left">Boolean</td>
-<td align="left">布尔值类型，ture、false</td>
-<td align="left">false</td>
-</tr>
-
-<tr>
-<td align="left">Undefinend</td>
-<td align="left">未定义数据类型</td>
-<td align="left">undefinend</td>
-</tr>
-
-<tr>
-<td align="left">Null</td>
-<td align="left">空值</td>
-<td align="left">null</td>
-</tr>
-</tbody>
-</table>
-
-<h3 id="数字型-number">数字型 <code>Number</code></h3>
-
-<p>数字型可以是整数也可以是小数，同时支持各种进制表示，其中在数字前加 <code>0</code> 为八进制，加 <code>0x</code> 为十六进制。</p>
-
-<p>NaN 表示非数字，<code>isNaN()</code> 可用于判断是否为非数字，是则返回 <code>false</code>，反之返回 <code>true</code>。</p>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(isNaN(<span style="color:#ae81ff">0.17</span>)); <span style="color:#75715e">// 显示 falsh
-</span></code></pre></div>
-
-<h3 id="字符串型-string">字符串型 <code>String</code></h3>
-
-<p>字符串型使用引号包含表示，推荐使用单引号，当存在多个引号嵌套时使用 <code>外单内双</code> 或者 <code>内双外单</code>，需要实现其他功能可参考下列字符串转义符表。</p>
-
-<table>
-<thead>
-<tr>
-<th align="center">转义符</th>
-<th align="left">说明</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center">\n</td>
-<td align="left">换行符</td>
-</tr>
-
-<tr>
-<td align="center">\</td>
-<td align="left">斜杠</td>
-</tr>
-
-<tr>
-<td align="center">\&rsquo;</td>
-<td align="left">单引号</td>
-</tr>
-
-<tr>
-<td align="center">\&rdquo;</td>
-<td align="left">双引号</td>
-</tr>
-
-<tr>
-<td align="center">\t</td>
-<td align="left">缩进</td>
-</tr>
-
-<tr>
-<td align="center">\b</td>
-<td align="left">空格</td>
-</tr>
-</tbody>
-</table>
-
-<p>字符串的拼接使用加号 <code>+</code> 连接即可，任何数据类型与字符串型拼接都将变成字符串型。</p>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;视由&#39;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;文化&#39;</span>);   <span style="color:#75715e">// 显示 视由文化
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;视由&#39;</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">12</span>);   <span style="color:#75715e">// 显示 视由12
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;12&#39;</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">12</span>);   <span style="color:#75715e">// 显示 1212
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#ae81ff">12</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">12</span>);   <span style="color:#75715e">// 显示 24
-</span></code></pre></div>
-
-<h3 id="布尔型-boolean">布尔型 <code>Boolean</code></h3>
-
-<p>布尔型数据包括 <code>ture</code> 和 <code>false</code>，其中当参与加法运算时 <code>ture</code> 当 <code>1</code> 来看， <code>flase</code> 当 <code>0</code> 来看。</p>
-
-<h3 id="未定义数据类型-undefinend">未定义数据类型 <code>Undefinend</code></h3>
-
-<p>一个变量声明未赋值，则其类型为未定义数据类型。</p>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">X</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">undefinend</span>;
-<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;X&#39;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;视由&#39;</span>);   <span style="color:#75715e">// 显示 undefinend视由
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;X&#39;</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">12</span>);   <span style="color:#75715e">// 显示 NaN
-</span></code></pre></div>
-
-<h3 id="空值-nan">空值 <code>NaN</code></h3>
-
-<p>当变量的值为 null，则它的数据类型为空值。</p>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">X</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span>;
-<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;X&#39;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;视由&#39;</span>);   <span style="color:#75715e">// 显示 null视由
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;X&#39;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;12&#39;</span>);   <span style="color:#75715e">// 显示 12
-</span></code></pre></div>
-
-<h2 id="获取数据信息">获取数据信息</h2>
-
-<ul>
-<li>可以使用 <code>length</code> 函数获取字符串长度。</li>
-</ul>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">X</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;XXXXXX&#39;</span>;
-<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">X</span>.<span style="color:#a6e22e">length</span>);   <span style="color:#75715e">// 显示 6
-</span></code></pre></div>
-
-<ul>
-<li>可以使用 <code>typeof</code> 函数获取字符串长度。</li>
-</ul>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">X</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;XXXXXX&#39;</span>;
-<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#66d9ef">typeof</span> <span style="color:#a6e22e">X</span>);   <span style="color:#75715e">// 显示 string
-</span></code></pre></div>
-
-<h2 id="数据类型的转换">数据类型的转换</h2>
-
-<ul>
-<li>将数据转换为字符串型，下列三种方法均可，推荐使用方法三 <code>隐式转换</code>。</li>
-</ul>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">X</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">12</span>;
-<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(String(<span style="color:#a6e22e">X</span>));   <span style="color:#75715e">// 显示 12 (字符串型)
-</span></code></pre></div>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">X</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">12</span>;
-<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">Y</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">X</span>.<span style="color:#a6e22e">toString</span>();
-<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">Y</span>);   <span style="color:#75715e">// 显示 12 (字符串型)
-</span></code></pre></div>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">X</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">12</span>;
-<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">X</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;&#39;</span>);   <span style="color:#75715e">// 显示 12 (字符串型)
-</span></code></pre></div>
-
-<ul>
-<li>将数据转换为数值型，其中 <code>parseInt</code> 函数会将小数转换为向下取整的整数，推荐使用方法四 <code>隐式转换</code>。</li>
-</ul>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(parseInt(<span style="color:#e6db74">&#39;12&#39;</span>));   <span style="color:#75715e">// 显示 12 (数值型)
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(parseInt(<span style="color:#ae81ff">12.7</span>));   <span style="color:#75715e">// 显示 12 (数值型)
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(parseInt(<span style="color:#ae81ff">12</span><span style="color:#a6e22e">px</span>));   <span style="color:#75715e">// 显示 12 (数值型)
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(parseInt(<span style="color:#a6e22e">px12</span>));   <span style="color:#75715e">// 显示 NaN (空值)
-</span></code></pre></div>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(parseFloat(<span style="color:#e6db74">&#39;12&#39;</span>));   <span style="color:#75715e">// 显示 12 (数值型)
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(parseFloat(<span style="color:#ae81ff">12.7</span>));   <span style="color:#75715e">// 显示 12.7 (数值型)
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(parseFloat(<span style="color:#ae81ff">12</span><span style="color:#a6e22e">px</span>));   <span style="color:#75715e">// 显示 12 (数值型)
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(parseFloat(<span style="color:#a6e22e">px12</span>));   <span style="color:#75715e">// 显示 NaN (空值)
-</span></code></pre></div>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(Number(<span style="color:#e6db74">&#39;12&#39;</span>));   <span style="color:#75715e">// 显示 12 (数值型)
-</span></code></pre></div>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;12&#39;</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">0</span>);   <span style="color:#75715e">// 显示 12 (数值型)
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;12&#39;</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">1</span>);   <span style="color:#75715e">// 显示 12 (数值型)
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;17&#39;</span> <span style="color:#f92672">-</span> <span style="color:#e6db74">&#39;12&#39;</span>);   <span style="color:#75715e">// 显示 5 (数值型)
-</span></code></pre></div>
-
-<h2 id="部分实例">部分实例</h2>
-
-<h3 id="互换两个变量的值">互换两个变量的值</h3>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">temp</span>; <span style="color:#75715e">//临时变量
-</span><span style="color:#75715e"></span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">A</span>;
-<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">B</span>;
-<span style="color:#a6e22e">temp</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">A</span>;
-<span style="color:#a6e22e">A</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">B</span>;
-<span style="color:#a6e22e">B</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">temp</span>;
-</code></pre></div>
-
-<h3 id="点击按钮替换文本">点击按钮替换文本</h3>
+<h2 id="点击按钮替换文本">点击按钮替换文本</h2>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
 &lt;<span style="color:#f92672">html</span>&gt;
@@ -1596,7 +1371,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
 &lt;/<span style="color:#f92672">body</span>&gt;
 &lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div>
 
-<h3 id="点击按钮复制文本">点击按钮复制文本</h3>
+<h2 id="点击按钮复制文本">点击按钮复制文本</h2>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">style</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/css&#34;</span>&gt;
    .<span style="color:#a6e22e">wrapper</span> {<span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">relative</span>;}
@@ -1619,7 +1394,7 @@ VDExOjMwOjI5KzA4OjAwWMDxwgAAAABJRU5ErkJggg==" />
     }
   &lt;/<span style="color:#f92672">script</span>&gt;</code></pre></div>
 
-<h3 id="顶部线形加载进度条">顶部线形加载进度条</h3>
+<h2 id="顶部线形加载进度条">顶部线形加载进度条</h2>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://cdn.bootcss.com/pace/1.0.2/pace.min.js&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
 &lt;<span style="color:#f92672">script</span>&gt;
@@ -1723,13 +1498,6 @@ pointer-events: <span style="color:#66d9ef">none</span>;
 }
 &lt;/<span style="color:#f92672">style</span>&gt;</code></pre></div>
 
-<h2 id="参考资料"><strong>参考资料</strong></h2>
-
-<ol>
-<li><code>JavaScript从零基础入门到精通 http://yun.itheima.com/course/551.html</code></li>
-<li><code>维基百科 https://zh.wikipedia.org/</code></li>
-</ol>
-
 <div>&nbsp</div>
 
 <div align="center">  
@@ -1741,7 +1509,7 @@ pointer-events: <span style="color:#66d9ef">none</span>;
       
       
 
-<script defer src="/search.min.a6afc0e7690b43738024ff517bbbff134f196b003a47ecd7ba52e84ffeeb7c0c.js" integrity="sha256-pq/A52kLQ3OAJP9Re7v/E08ZawA6R&#43;zXulLoT/7rfAw="></script>
+<script defer src="/search.min.1836d4213e7af6fbaeefce67f69ce57fb01c827f2fdb48547e763dcfee3bdbcc.js" integrity="sha256-GDbUIT569vuu785n9pzlf7Acgn8v20hUfnY9z&#43;4728w="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -1766,8 +1534,9 @@ if (!doNotTrack) {
   <aside class="book-toc levels-2 fixed">
     <nav id="TableOfContents">
 <ul>
-<li><a href="#i-class-fa-fa-chevron-right-i-html-笔记"><strong><i class="fa fa-chevron-right"></i> Html 笔记</strong></a>
+<li><a href="#i-class-fa-fa-chevron-right-i-html5-笔记"><strong><i class="fa fa-chevron-right"></i> Html5 笔记</strong></a>
 <ul>
+<li><a href="#简单介绍">简单介绍</a></li>
 <li><a href="#网站信息">网站信息</a></li>
 <li><a href="#文本格式标签">文本格式标签</a></li>
 <li><a href="#常见属性">常见属性</a></li>
@@ -1775,6 +1544,7 @@ if (!doNotTrack) {
 </ul></li>
 <li><a href="#i-class-fa-fa-chevron-right-i-css-笔记"><strong><i class="fa fa-chevron-right"></i> CSS 笔记</strong></a>
 <ul>
+<li><a href="#常用格式">常用格式</a></li>
 <li><a href="#盒子模型">盒子模型</a>
 <ul>
 <li><a href="#内容-content">内容 content</a></li>
@@ -1811,36 +1581,9 @@ if (!doNotTrack) {
 </ul></li>
 <li><a href="#i-class-fa-fa-chevron-right-i-javascript-笔记"><strong><i class="fa fa-chevron-right"></i> JavaScript 笔记</strong></a>
 <ul>
-<li>
-<ul>
-<li><a href="#行内式写法">行内式写法</a></li>
-<li><a href="#内嵌式写法">内嵌式写法</a></li>
-<li><a href="#外部式写法">外部式写法</a></li>
-<li><a href="#注释方法">注释方法</a></li>
-<li><a href="#输入输出语句">输入输出语句</a></li>
-</ul></li>
-<li><a href="#变量">变量</a>
-<ul>
-<li><a href="#变量命名规则">变量命名规则</a></li>
-</ul></li>
-<li><a href="#数据类型">数据类型</a>
-<ul>
-<li><a href="#数字型-number">数字型 <code>Number</code></a></li>
-<li><a href="#字符串型-string">字符串型 <code>String</code></a></li>
-<li><a href="#布尔型-boolean">布尔型 <code>Boolean</code></a></li>
-<li><a href="#未定义数据类型-undefinend">未定义数据类型 <code>Undefinend</code></a></li>
-<li><a href="#空值-nan">空值 <code>NaN</code></a></li>
-</ul></li>
-<li><a href="#获取数据信息">获取数据信息</a></li>
-<li><a href="#数据类型的转换">数据类型的转换</a></li>
-<li><a href="#部分实例">部分实例</a>
-<ul>
-<li><a href="#互换两个变量的值">互换两个变量的值</a></li>
 <li><a href="#点击按钮替换文本">点击按钮替换文本</a></li>
 <li><a href="#点击按钮复制文本">点击按钮复制文本</a></li>
 <li><a href="#顶部线形加载进度条">顶部线形加载进度条</a></li>
-</ul></li>
-<li><a href="#参考资料"><strong>参考资料</strong></a></li>
 </ul></li>
 </ul>
 </nav>

@@ -851,6 +851,27 @@ Miseratus fonte Ditis conubia.</p>
 </code></pre></li>
 </ol>
 
+<h2 id="i-class-fa-fa-question-circle-i-安装过程中网络问题"><i class="fa fa-question-circle"></i> 安装过程中网络问题</h2>
+
+<ol>
+<li><p>在安装 <code>Hugo</code> 过程中终端出现如下提示，因网络问题出现中断，可尝试修改 <code>Host</code> 文件解决。</br>
+<code>curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection refused</code></p></li>
+
+<li><p>使用 <a href="https://www.ipaddress.com">IP地址查询网站</a> 查询需访问链接所对应的 IP地址。</p></li>
+
+<li><p>使用访达 <code>Go</code> 功能输入并进入路径 <code>/etc</code>，修改当中的 <code>Host</code> 文件，在末尾加上所查询到的 IP地址及网址。
+<blockquote class="book-hint info">
+  <p><strong><i class="fa fa-exclamation-circle"></i> 提示</strong></p>
+
+<p>如果修改 <code>Host</code> 文件时出现无权限的问题，将其复制到桌面，完成修改后替换原文件即可。</p>
+
+</blockquote>
+</p>
+
+<pre><code>199.232.28.133    raw.githubusercontent.com
+</code></pre></li>
+</ol>
+
 <h2 id="i-class-fa-fa-question-circle-i-卸载-hugo-框架"><i class="fa fa-question-circle"></i> 卸载 Hugo 框架</h2>
 
 <blockquote class="book-hint warning">
@@ -897,7 +918,7 @@ Miseratus fonte Ditis conubia.</p>
       
       
 
-<script defer src="/search.min.a6afc0e7690b43738024ff517bbbff134f196b003a47ecd7ba52e84ffeeb7c0c.js" integrity="sha256-pq/A52kLQ3OAJP9Re7v/E08ZawA6R&#43;zXulLoT/7rfAw="></script>
+<script defer src="/search.min.1836d4213e7af6fbaeefce67f69ce57fb01c827f2fdb48547e763dcfee3bdbcc.js" integrity="sha256-GDbUIT569vuu785n9pzlf7Acgn8v20hUfnY9z&#43;4728w="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -951,6 +972,7 @@ if (!doNotTrack) {
 <li><a href="#i-class-fa-fa-thumb-tack-i-替换方法"><i class="fa fa-thumb-tack"></i> 替换方法</a></li>
 <li><a href="#i-class-fa-fa-thumb-tack-i-降级方法"><i class="fa fa-thumb-tack"></i> 降级方法</a></li>
 </ul></li>
+<li><a href="#i-class-fa-fa-question-circle-i-安装过程中网络问题"><i class="fa fa-question-circle"></i> 安装过程中网络问题</a></li>
 <li><a href="#i-class-fa-fa-question-circle-i-卸载-hugo-框架"><i class="fa fa-question-circle"></i> 卸载 Hugo 框架</a></li>
 </ul></li>
 </ul>
