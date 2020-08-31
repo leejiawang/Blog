@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="keywords" content="网速, 互联网, 视由, 视界事由, eyecus, 博客, blog">
+
+<meta name="description" property="og:description" content="互联网上各种单位的意义以及它们之间存在的转换关系，KB/s,Kbps,MB/s...">
+
+<title> 视由 › 充斥互联网的各种单位 </title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.d615a98a05e5461c39ee41c2607a009f0980073b49bf8b4237e79be78c2ff5d9.css" integrity="sha256-1hWpigXlRhw57kHCYHoAnwmABztJv4tCN&#43;eb54wv9dk=">
+
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav>
+
+<a href="https://blog.eyecus.com/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"height="32px" viewBox="0 0 400 82" enable-background="new 0 0 400 82" xml:space="preserve">  <image id="image0" width="400" height="82" x="0" y="0"
+    href="data:image/png;base64,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" />
+</svg></a>
+
+	
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder=" 搜索本站" maxlength="64" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+	
+	<hr>
+	<div class="menu-text" style="padding-bottom: 50px;">
+
+	
+
+	
+	    <ul>
+<li><p><a href="/tags/Web/"><strong>Web</strong></a></p>
+
+<ul>
+<li><a href="/web/html/">前端笔记</a></li>
+<li><a href="/web/web-design/">网页设计</a></li>
+<li><a href="/web/vuepress/">Vuepress</a></li>
+<li><a href="/web/hugo/">Hugo</a></li>
+<li><a href="/web/hexo/">hexo</a></li>
+</ul></li>
+
+<li><p><a href="/tags/Design/"><strong>Design</strong></a></p>
+
+<ul>
+<li><a href="/design/eyecus/">品牌规范</a></li>
+<li><a href="/design/symbol/">符号清单</a></li>
+<li><a href="/design/tools/">取色工具</a></li>
+<li><a href="/resources/design/">设计资源</a><br /></li>
+</ul></li>
+
+<li><p><strong>Hackintosh</strong></p>
+
+<ul>
+<li><a href="/hackintosh/install/">安装指导</a></li>
+</ul></li>
+
+<li><p><strong>Others</strong></p>
+
+<ul>
+<li><a href="/posts/">综合清单</a></li>
+<li><a href="/posts/windows-install/">系统安装</a></li>
+<li><a href="/resources/software/">软件下载</a></li>
+<li><a href="/go/">WebGO</a></li>
+</ul></li>
+
+<li><p><strong>About</strong></p>
+
+<ul>
+<li><a href="/sitemap/">站点地图</a></li>
+<li><a href="/about/">关于本站</a></li>
+</ul></li>
+</ul>
+
+
+	
+
+	
+	
+	</div>
+</nav>
+
+
+    </aside>
+
+    <div class="book-posts">
+      <header class="flex align-center justify-between book-header">
+  <label for="menu-control">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+  </label>
+  <div class="home-nav-title">视由 › 充斥互联网的各种单位</div>
+</header>
+
+      
+
+
+<div class="eyecus-width-740">
+	<div class="eyecus-post-title">充斥互联网的各种单位</div>
+
+<ul class="eyecus-head-btn">
+  
+  
+    <li id="eyecus-categories-btn" class="gray-btn"><a href="https://blog.eyecus.com/categories/%E6%96%87%E6%A1%A3">文档</a> </li>
+  
+  
+
+  
+  
+    <li id="eyecus-tags-btn" class="gray-btn"> <a href="https://blog.eyecus.com/tags/Web">Web</a> </li>
+  
+    <li id="eyecus-tags-btn" class="gray-btn"> <a href="https://blog.eyecus.com/tags/%E5%9F%BA%E7%A1%80">基础</a> </li>
+  
+  
+
+  
+</ul>
+
+<article class="markdown"><div class="comment">
+在互联网上冲浪时，总能接触到各种单位，虽然很面熟，你真的知道它们所代表的含义吗。
+</div>
+
+<h2 id="容量单位">容量单位</h2>
+
+<p>要搞清楚它，首先得搞懂 B 和 b 的区别，其中大写 B 代表<strong>字节</strong>(byte)，小写 b 代表<strong>比特</strong>(bit)，1 字节等于 8 比特，即 <code>1B=8b</code>。</p>
+
+<p>其次还需搞懂 k 与 Ki 的区别，小写 k 表示千 (1000)、Ki 则表示二进制当中的千 (1024)。</p>
+
+<blockquote class="book-hint warning">
+  <p><strong><i class="fa fa-exclamation-circle"></i> 提示</strong></p>
+
+<p>实际使用过程中，一些场景明明是二进制转换却没用 Ki 表示，使人在阅读时产生混淆，故具体转换关系为 1000 还是 1024 需要视实际情况而定。</p>
+
+</blockquote>
+
+
+<table>
+<thead>
+<tr>
+<th align="left">单位</th>
+<th align="left">中文名</th>
+<th align="left">换算关系</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left"><code>b</code></td>
+<td align="left">比特</td>
+<td align="left">0.125B = 1b</td>
+</tr>
+
+<tr>
+<td align="left"><code>Kb</code></td>
+<td align="left">千比特</td>
+<td align="left">1000b = 1Kb</td>
+</tr>
+
+<tr>
+<td align="left"><code>Mb</code></td>
+<td align="left">兆比特</td>
+<td align="left">1000Kb = 1Mb</td>
+</tr>
+
+<tr>
+<td align="left"><code>Gb</code></td>
+<td align="left">吉比特</td>
+<td align="left">1000Mb = 1Gb</td>
+</tr>
+
+<tr>
+<td align="left"><code>Tb</code></td>
+<td align="left">太比特</td>
+<td align="left">1000Gb = 1Tb</td>
+</tr>
+
+<tr>
+<td align="left"><code>B</code></td>
+<td align="left">字节</td>
+<td align="left">8b = 1B</td>
+</tr>
+
+<tr>
+<td align="left"><code>KB</code></td>
+<td align="left">千字节</td>
+<td align="left">1000B = 1KB</td>
+</tr>
+
+<tr>
+<td align="left"><code>MB</code></td>
+<td align="left">兆字节</td>
+<td align="left">1000KB = 1Mb</td>
+</tr>
+
+<tr>
+<td align="left"><code>GB</code></td>
+<td align="left">吉字节</td>
+<td align="left">1000Mb = 1Gb</td>
+</tr>
+
+<tr>
+<td align="left"><code>TB</code></td>
+<td align="left">太字节</td>
+<td align="left">1000Gb = 1TB</td>
+</tr>
+
+<tr>
+<td align="left"><code>Kib</code></td>
+<td align="left">二进制千比特</td>
+<td align="left">1024 b = 1Kib</td>
+</tr>
+
+<tr>
+<td align="left"><code>Mib</code></td>
+<td align="left">二进制兆比特</td>
+<td align="left">1024 Kib = 1Mib</td>
+</tr>
+
+<tr>
+<td align="left"><code>Gib</code></td>
+<td align="left">二进制吉比特</td>
+<td align="left">1024 Mib = 1Gib</td>
+</tr>
+
+<tr>
+<td align="left"><code>Tib</code></td>
+<td align="left">二进制太比特</td>
+<td align="left">1024 Gib = 1Tib</td>
+</tr>
+
+<tr>
+<td align="left"><code>KiB</code></td>
+<td align="left">二进制千字节</td>
+<td align="left">1024 B = 1KiB</td>
+</tr>
+
+<tr>
+<td align="left"><code>MiB</code></td>
+<td align="left">二进制兆字节</td>
+<td align="left">1024 KiB = 1Mib</td>
+</tr>
+
+<tr>
+<td align="left"><code>GiB</code></td>
+<td align="left">二进制吉字节</td>
+<td align="left">1024 Mib = 1Gib</td>
+</tr>
+
+<tr>
+<td align="left"><code>TiB</code></td>
+<td align="left">二进制太字节</td>
+<td align="left">1024 Gib = 1TiB</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="码率单位">码率单位</h2>
+
+<blockquote>
+<p><strong>码率</strong>（数据传输速率）指在一个数据传送系统中，单位时间内通过设备比特、字符、块等的平均量。通常使用 B/s 或 b/s 两种复合式单位 <a href="https://zh.wikipedia.org/wiki/%E7%A0%81%E7%8E%87%E5%8D%95%E4%BD%8D"><code>摘自维基百科</code></a>。</p>
+</blockquote>
+
+<p>码率单位最常出现在传输速度上，比如网速、硬盘拷贝速度等。</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">单位</th>
+<th align="left">中文名</th>
+<th align="left">换算关系</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left"><code>b/s</code></td>
+<td align="left">比特每秒</td>
+<td align="left">0.125B/s = 1b/s</td>
+</tr>
+
+<tr>
+<td align="left"><code>Kb/s</code> <code>Kbps</code></td>
+<td align="left">千比特每秒</td>
+<td align="left">1000b/s = 1Kb/s</td>
+</tr>
+
+<tr>
+<td align="left"><code>Mb/s</code> <code>Mbps</code></td>
+<td align="left">兆比特每秒</td>
+<td align="left">1000Kb/s = 1Mb/s</td>
+</tr>
+
+<tr>
+<td align="left"><code>Gb/s</code> <code>Gbps</code></td>
+<td align="left">吉比特每秒</td>
+<td align="left">1000Mb/s = 1Gb/s</td>
+</tr>
+
+<tr>
+<td align="left"><code>Tb/s</code> <code>Tbps</code></td>
+<td align="left">太比特每秒</td>
+<td align="left">1000Gb/s = 1Tb/s</td>
+</tr>
+
+<tr>
+<td align="left"><code>B/s</code></td>
+<td align="left">字节每秒</td>
+<td align="left">8b/s = 1B/s</td>
+</tr>
+
+<tr>
+<td align="left"><code>KB/s</code></td>
+<td align="left">千字节每秒</td>
+<td align="left">1000B/s = 1KB/s</td>
+</tr>
+
+<tr>
+<td align="left"><code>MB/s</code></td>
+<td align="left">兆字节每秒</td>
+<td align="left">1000KB/s = 1Mb/s</td>
+</tr>
+
+<tr>
+<td align="left"><code>GB/s</code></td>
+<td align="left">吉字节每秒</td>
+<td align="left">1000Mb/s = 1Gb/s</td>
+</tr>
+
+<tr>
+<td align="left"><code>TB/s</code></td>
+<td align="left">太字节每秒</td>
+<td align="left">1000Gb/s = 1TB/s</td>
+</tr>
+
+<tr>
+<td align="left"><code>Kib/s</code> <code>Kibps</code></td>
+<td align="left">二进制千比特每秒</td>
+<td align="left">1024 b/s = 1 Kib/s</td>
+</tr>
+
+<tr>
+<td align="left"><code>Mib/s</code> <code>Mibps</code></td>
+<td align="left">二进制兆比特每秒</td>
+<td align="left">1024 Kib/s = 1 Mib/s</td>
+</tr>
+
+<tr>
+<td align="left"><code>Gib/s</code> <code>Gibps</code></td>
+<td align="left">二进制吉比特每秒</td>
+<td align="left">1024 Mib/s = 1 Gib/s</td>
+</tr>
+
+<tr>
+<td align="left"><code>Tib/s</code> <code>Tibps</code></td>
+<td align="left">二进制太比特每秒</td>
+<td align="left">1024 Gib/s = 1 Tib/s</td>
+</tr>
+
+<tr>
+<td align="left"><code>KiB/s</code></td>
+<td align="left">二进制千字节每秒</td>
+<td align="left">1024 B/s = 1 KiB/s</td>
+</tr>
+
+<tr>
+<td align="left"><code>MiB/s</code></td>
+<td align="left">二进制兆字节每秒</td>
+<td align="left">1024 KiB/s = 1 Mib/s</td>
+</tr>
+
+<tr>
+<td align="left"><code>GiB/s</code></td>
+<td align="left">二进制吉字节每秒</td>
+<td align="left">1024 Mib/s = 1 Gib/s</td>
+</tr>
+
+<tr>
+<td align="left"><code>TiB/s</code></td>
+<td align="left">二进制太字节每秒</td>
+<td align="left">1024 Gib/s = 1 TiB/s</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="单位转换工具">单位转换工具</h2>
+
+<p></br>
+<script language="JavaScript">
+function Compute()
+{
+var y = &ldquo;Z&rdquo;;
+if (document.frmBW.frmTxtbit.value != 0){
+    y = &ldquo;bit&rdquo;;
+}
+if (document.frmBW.frmTxtkilobit.value != 0){
+    y = &ldquo;kilobit&rdquo;;
+}
+if (document.frmBW.frmTxtmegabit.value != 0){
+    y = &ldquo;megabit&rdquo;;
+}
+if (document.frmBW.frmTxtbyte.value != 0){
+    y = &ldquo;Byte&rdquo;;
+}
+if (document.frmBW.frmTxtKilobyte.value != 0){
+    y = &ldquo;KiloByte&rdquo;;
+}
+if (document.frmBW.frmTxtMegabyte.value != 0){
+    y = &ldquo;MegaByte&rdquo;;
+}
+    switch (y) {
+        case &ldquo;bit&rdquo; :
+            document.frmBW.frmTxtkilobit.value = document.frmBW.frmTxtbit.value / 1024;<br />
+            document.frmBW.frmTxtmegabit.value = document.frmBW.frmTxtkilobit.value / 1024;
+            document.frmBW.frmTxtbyte.value = (document.frmBW.frmTxtkilobit.value / 8) * 1024;
+            document.frmBW.frmTxtKilobyte.value = document.frmBW.frmTxtkilobit.value / 8;
+            document.frmBW.frmTxtMegabyte.value = document.frmBW.frmTxtKilobyte.value / 1024;
+            break;
+        case &ldquo;kilobit&rdquo; :
+            document.frmBW.frmTxtbit.value = document.frmBW.frmTxtkilobit.value * 1024;
+            document.frmBW.frmTxtmegabit.value = document.frmBW.frmTxtkilobit.value / 1024;
+            document.frmBW.frmTxtbyte.value = document.frmBW.frmTxtbit.value / 8;
+            document.frmBW.frmTxtKilobyte.value = document.frmBW.frmTxtkilobit.value / 8;
+            document.frmBW.frmTxtMegabyte.value = document.frmBW.frmTxtKilobyte.value / 1024;
+            break;
+        case &ldquo;megabit&rdquo; :
+            document.frmBW.frmTxtbit.value = document.frmBW.frmTxtmegabit.value * 1048576;
+            document.frmBW.frmTxtkilobit.value = document.frmBW.frmTxtbit.value / 1024;
+            document.frmBW.frmTxtbyte.value = document.frmBW.frmTxtbit.value / 8;
+            document.frmBW.frmTxtKilobyte.value = document.frmBW.frmTxtkilobit.value / 8;
+            document.frmBW.frmTxtMegabyte.value = document.frmBW.frmTxtKilobyte.value  / 1024;
+            break;
+        case &ldquo;Byte&rdquo; :
+            document.frmBW.frmTxtbit.value = document.frmBW.frmTxtbyte.value * 8;
+            document.frmBW.frmTxtkilobit.value = document.frmBW.frmTxtbit.value / 1024;
+            document.frmBW.frmTxtmegabit.value = document.frmBW.frmTxtbit.value / 1048576;
+            document.frmBW.frmTxtKilobyte.value = document.frmBW.frmTxtbyte.value / 1024;
+            document.frmBW.frmTxtMegabyte.value = document.frmBW.frmTxtKilobyte.value / 1024;
+            break;
+        case &ldquo;KiloByte&rdquo; :
+            document.frmBW.frmTxtbyte.value = document.frmBW.frmTxtKilobyte.value * 1024;
+            document.frmBW.frmTxtbit.value = document.frmBW.frmTxtbyte.value * 8;
+            document.frmBW.frmTxtkilobit.value = document.frmBW.frmTxtbit.value / 1024;
+            document.frmBW.frmTxtmegabit.value = document.frmBW.frmTxtbit.value / 1048576;
+            document.frmBW.frmTxtMegabyte.value = document.frmBW.frmTxtKilobyte.value / 1024;
+            break;
+        case &ldquo;MegaByte&rdquo; :
+            document.frmBW.frmTxtbyte.value = document.frmBW.frmTxtMegabyte.value * 1048576;
+            document.frmBW.frmTxtbit.value = document.frmBW.frmTxtbyte.value * 8;
+            document.frmBW.frmTxtkilobit.value = document.frmBW.frmTxtbit.value / 1024;
+            document.frmBW.frmTxtmegabit.value = document.frmBW.frmTxtkilobit.value / 1024;
+            document.frmBW.frmTxtKilobyte.value = document.frmBW.frmTxtMegabyte.value * 1024;
+            break;
+    }
+}
+</script></p>
+
+<form name="frmBW">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bit (b):&nbsp;&nbsp;<input class="input" value="0" name="frmTxtbit">
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Byte(B):&nbsp;&nbsp;<input class="input" value="0" name="frmTxtbyte">
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kilobit (kb):&nbsp;&nbsp;<input class="input" value="0"name="frmTxtkilobit">
+</br>&nbsp;&nbsp;&nbsp;&nbsp;Kilobyte (KB):&nbsp;&nbsp;<input class="input" value="0" name="frmTxtKilobyte" style="margin-left:2px">
+</br>&nbsp;&nbsp;&nbsp;megabit (mb):&nbsp;&nbsp;<input class="input" value="0" name="frmTxtmegabit" style="margin-left:2px">
+</br>Megabyte (MB):&nbsp;&nbsp;<input class="input" value="0" name="frmTxtMegabyte">
+</br><hr><input class="button" onclick="Compute()" type="button" value="计算" style="margin-left:100px">
+<input class="button" type="reset" value="刷新">
+</form>
+
+<p></br></p>
+
+<form name="form_speed">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+bps:&nbsp;<input class="input" value="0" name="frmTxtbit">
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+B/s:&nbsp;<input class="input" value="0" name="frmTxtbyte">
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+kbps: &nbsp;<input class="input" value="0" name="frmTxtkilobit">
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+KB/s: &nbsp;<input class="input" value="0" name="frmTxtKilobyte" style="">
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+mbps:&nbsp;<input class="input" value="0" name="frmTxtmegabit">
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+MB/s:&nbsp;<input class="input" value="0" name="frmTxtMegabyte">
+<hr><input class="button" onclick="Compute_speed()" type="button" value="计算" style="margin-left:100px"> 
+<input class="button" type="reset" value="刷新"> 
+</form>
+
+<script language="JavaScript">
+var sizenum = 12;
+kps = new Array(sizenum);
+kps[1] = "1.6";
+kps[2] = "3.2";
+kps[3] = "3.8";
+kps[4] = "7.168";
+kps[5] = "8.192";
+kps[6] = "16.384";
+kps[7] = "80.00";
+kps[8] = "192.";
+kps[9] = "5592.";
+kps[10] = "19440.";
+kps[11] = "58320.";
+kps[12] = "77760.";
+
+function calc(factor) {
+        if ((document.grid.size.value == null) || (document.grid.size.length ==
+0)) {
+                document.grid.size.value = "";
+                alert("Please enter a file size");
+        };
+        var filesize = parseFloat(document.grid.size.value);
+        for (x = 1; x <= sizenum; x++) {
+                var filetime = (factor * filesize) / kps[x];
+
+                hourmod = filetime % 3600;
+                hour = Math.floor(filetime / 3600);
+                minute = Math.floor(hourmod / 60);
+                second = Math.floor(filetime % 60);
+                if (hour <= 9)
+                document.grid[x + "h"].value = "0" + hour;
+                                                                                                                                else
+                document.grid[x + "h"].value = hour;
+                                                                                                                                if (minute <= 9)
+                document.grid[x + "m"].value = "0" + minute;
+                                                                                                                                else
+                document.grid[x + "m"].value = minute;
+                if (second <= 9)
+                        document.grid[x + "s"].value = "0" + second;
+                else
+                document.grid[x + "s"].value = second;
+        };
+}
+
+
+function stat(x) {
+        window.status = x;
+        setTimeout(window.status="", 1500);
+}
+
+function go(x) {
+        location = x;
+}
+</script>
+
+<script language="JavaScript">
+<!--
+function Compute_speed()
+{
+var y = "Z";
+if (document.form_speed.frmTxtbit.value != 0){
+    y = "bit";
+} 
+if (document.form_speed.frmTxtkilobit.value != 0){
+    y = "kilobit";
+} 
+if (document.form_speed.frmTxtmegabit.value != 0){
+    y = "megabit";
+} 
+if (document.form_speed.frmTxtbyte.value != 0){
+    y = "Byte";
+}
+if (document.form_speed.frmTxtKilobyte.value != 0){
+    y = "KiloByte";
+}
+if (document.form_speed.frmTxtMegabyte.value != 0){
+    y = "MegaByte";
+}
+    switch (y) {
+        case "bit" :
+            document.form_speed.frmTxtkilobit.value = document.form_speed.frmTxtbit.value / 1024;           
+            document.form_speed.frmTxtmegabit.value = document.form_speed.frmTxtkilobit.value / 1024;
+            document.form_speed.frmTxtbyte.value = (document.form_speed.frmTxtkilobit.value / 8) * 1024;
+            document.form_speed.frmTxtKilobyte.value = document.form_speed.frmTxtkilobit.value / 8;
+            document.form_speed.frmTxtMegabyte.value = document.form_speed.frmTxtKilobyte.value / 1024;
+            break;
+        case "kilobit" :
+            document.form_speed.frmTxtbit.value = document.form_speed.frmTxtkilobit.value * 1024;
+            document.form_speed.frmTxtmegabit.value = document.form_speed.frmTxtkilobit.value / 1024;
+            document.form_speed.frmTxtbyte.value = document.form_speed.frmTxtbit.value / 8;
+            document.form_speed.frmTxtKilobyte.value = document.form_speed.frmTxtkilobit.value / 8;
+            document.form_speed.frmTxtMegabyte.value = document.form_speed.frmTxtKilobyte.value / 1024;
+            break;
+        case "megabit" :
+            document.form_speed.frmTxtbit.value = document.form_speed.frmTxtmegabit.value * 1048576;
+            document.form_speed.frmTxtkilobit.value = document.form_speed.frmTxtbit.value / 1024;
+            document.form_speed.frmTxtbyte.value = document.form_speed.frmTxtbit.value / 8;
+            document.form_speed.frmTxtKilobyte.value = document.form_speed.frmTxtkilobit.value / 8;
+            document.form_speed.frmTxtMegabyte.value = document.form_speed.frmTxtKilobyte.value  / 1024;
+            break;
+        case "Byte" :
+            document.form_speed.frmTxtbit.value = document.form_speed.frmTxtbyte.value * 8;
+            document.form_speed.frmTxtkilobit.value = document.form_speed.frmTxtbit.value / 1024;
+            document.form_speed.frmTxtmegabit.value = document.form_speed.frmTxtbit.value / 1048576;
+            document.form_speed.frmTxtKilobyte.value = document.form_speed.frmTxtbyte.value / 1024;
+            document.form_speed.frmTxtMegabyte.value = document.form_speed.frmTxtKilobyte.value / 1024;
+            break;
+        case "KiloByte" :
+            document.form_speed.frmTxtbyte.value = document.form_speed.frmTxtKilobyte.value * 1024;
+            document.form_speed.frmTxtbit.value = document.form_speed.frmTxtbyte.value * 8;
+            document.form_speed.frmTxtkilobit.value = document.form_speed.frmTxtbit.value / 1024;
+            document.form_speed.frmTxtmegabit.value = document.form_speed.frmTxtbit.value / 1048576;
+            document.form_speed.frmTxtMegabyte.value = document.form_speed.frmTxtKilobyte.value / 1024;
+            break;
+        case "MegaByte" :
+            document.form_speed.frmTxtbyte.value = document.form_speed.frmTxtMegabyte.value * 1048576;
+            document.form_speed.frmTxtbit.value = document.form_speed.frmTxtbyte.value * 8;
+            document.form_speed.frmTxtkilobit.value = document.form_speed.frmTxtbit.value / 1024;
+            document.form_speed.frmTxtmegabit.value = document.form_speed.frmTxtkilobit.value / 1024;
+            document.form_speed.frmTxtKilobyte.value = document.form_speed.frmTxtMegabyte.value * 1024;
+            break;
+    }
+}
+</script></article>
+
+</div>
+
+      
+      
+
+<script defer src="/search.min.121ded63cbcbe3bcbfcf1663682b12bc1cb63fb254abe0c302fbe78ca36eb433.js" integrity="sha256-Eh3tY8vL47y/zxZjaCsSvBy2P7JUq&#43;DDAvvnjKNutDM="></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-151512526-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+      <div class="eyecus-fooder-text">  
+	Copyright © 2019-2020 世佳
+</div>
+
+    </div>
+
+    
+  
+
+  <aside class="book-toc levels-2 fixed">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#容量单位">容量单位</a></li>
+<li><a href="#码率单位">码率单位</a></li>
+<li><a href="#单位转换工具">单位转换工具</a></li>
+</ul></li>
+</ul>
+</nav>
+    <a href="javascript:scroll(0,0)" class="eyecus-blue-btn" style=" position:fixed;  bottom:80px; right:62px;">
+		<strong>返回页首 <i class="fa fa-arrow-up"></i></strong>
+	</a>
+  </aside>
+
+
+
+
+  </main>
+
+  
+</body>
+
+</html>
